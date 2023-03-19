@@ -3,12 +3,18 @@ import sqlite3
 from aiogram import types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
+from data.config import chanel
+from loader import bot
+
+
+async def send_post(chat_id: int, message_id: int):
+    await bot.copy_message(chat_id=chat_id, from_chat_id=chanel, message_id=message_id)
+
 
 async def get_keyboard(message: types.Message, id: int):
     with sqlite3.connect('backend/ilmbot/db.sqlite3') as conn:
         c = conn.cursor()
 
-        # Retrieve the text of the category based on the id
         c.execute("SELECT text FROM category_categorybutton WHERE id = ?", (id,))
         result = c.fetchone()
 
@@ -18,7 +24,6 @@ async def get_keyboard(message: types.Message, id: int):
 
         category_text = result[0]
 
-        # Retrieve the subcategories based on the category_id
         c.execute("SELECT name, id FROM category_categorybutton WHERE parent_id = ?", (id,))
         results = c.fetchall()
 
@@ -39,7 +44,7 @@ async def get_keyboard(message: types.Message, id: int):
             keyboard_namaz.row(*row)
         keyboard_namaz.row(KeyboardButton('Orqaga'))
 
-        # Send the message with the subcategories keyboard
+
         await message.answer(category_text, reply_markup=keyboard_namaz)
 
 
