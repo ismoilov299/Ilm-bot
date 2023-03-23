@@ -7,10 +7,13 @@ from data.config import chanel
 from keyboards.inline.create import get_inline_keyboards
 from loader import dp, bot
 
+from aiogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+
+
 @dp.callback_query_handler(lambda callback_query: True)
 async def process_callback(callback_query: types.CallbackQuery):
     callback_data = callback_query.data
-
+    print(callback_data)
     if callback_data.isdigit():
         # category_id bilan post id ni olamiz
         category_id = int(callback_data)

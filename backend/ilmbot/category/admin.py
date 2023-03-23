@@ -13,7 +13,7 @@ class CategoryButtonAndmin(admin.ModelAdmin):
 
 @admin.register(CategoryRegion)
 class CategoryRegionAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+    list_display = ('id', 'name', 'bomdod','quyosh','peshin','asr','shom','xufton')
     search_fields = ('id', 'name')
     list_filter = ('id', 'name')
     save_on_top = True

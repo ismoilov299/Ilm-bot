@@ -19,9 +19,16 @@ class CategoryButton(models.Model):
 
 class CategoryRegion(models.Model):
     name = models.CharField(max_length=250, verbose_name='Name')
+    bomdod = models.CharField(max_length=250, verbose_name='bomdod', null=True, blank=True)
+    quyosh = models.CharField(max_length=250, verbose_name='quyosh', null=True, blank=True)
+    peshin = models.CharField(max_length=250, verbose_name='peshin', null=True, blank=True)
+    asr = models.CharField(max_length=250, verbose_name='asr', null=True, blank=True)
+    shom = models.CharField(max_length=250, verbose_name='shom', null=True, blank=True)
+    xufton = models.CharField(max_length=250, verbose_name='xufton', null=True, blank=True)
 
     def __str__(self):
         return f'{self.name}'
+        return f'{self.bomdod}'
 
     class Meta:
 
