@@ -62,11 +62,11 @@ async def prayer_times_callback_handler(callback_query: types.CallbackQuery):
     # Create a message with the selected prayer times
     message = f"Bugungi namoz vaqtlari {region_name}:\n\n" \
               f"🌌Bomdod: {prayer_times[0]}\n" \
-              f"Quyosh: {prayer_times[1]}\n" \
-              f"Peshin: {prayer_times[2]}\n" \
-              f"Asr: {prayer_times[3]}\n" \
-              f"Shom: {prayer_times[4]}\n" \
-              f"Xufton: {prayer_times[5]}\n"\
+              f"🌄Quyosh: {prayer_times[1]}\n" \
+              f"🌇Peshin: {prayer_times[2]}\n" \
+              f"🌆Asr: {prayer_times[3]}\n" \
+              f"🏙Shom: {prayer_times[4]}\n" \
+              f"🌃Xufton: {prayer_times[5]}\n"\
                 "Namoz vaqlari islom.uz saytidan olindi"
 
     inline_keyboard = InlineKeyboardMarkup()
@@ -154,9 +154,10 @@ def get_prayer_times(region_id):
     conn = sqlite3.connect('backend/ilmbot/db.sqlite3')
     c = conn.cursor()
     c.execute(f"SELECT bomdod, quyosh, peshin, asr, shom,xufton FROM category_categoryregion WHERE id={region_id}")
-    prayer_times = c.fetchone()
-    conn.close()
-    return prayer_times
+    results = c.fetchone()
+    print(f"get_prayer_times: region_id={region_id}, results={results}")
+    return results
+
 
 def get_subscribed_users():
     conn = sqlite3.connect('backend/ilmbot/db.sqlite3')

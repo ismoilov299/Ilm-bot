@@ -19,4 +19,3 @@ async def send_movie_oy(message: types.Message):
 @dp.message_handler(text='Bilol ibn Raboh')
 async def send_bilol(message: types.Message):
     await send_post(chat_id=message.from_user.id, message_id=1362)
-    # await bot.copy_message(chat_id=message.from_user.id, from_chat_id=chanel, message_id=1362)

@@ -57,29 +57,53 @@ async def api_namaz():
 
 
 
-# def update_prayer_times():
-#     conn = sqlite3.connect('backend/ilmbot/db.sqlite3')
-#
-#     cur = conn.cursor()
+def update_prayer_times():
+    conn = sqlite3.connect('backend/ilmbot/db.sqlite3')
 
-    # for city in ['Toshkent', 'Andijon', 'Buxoro', 'Guliston', 'Samarqand', 'Namangan', 'Navoiy', 'Jizzax', 'Nukus', 'Qarshi', 'Qo\'qon', 'Xiva', 'Marg\'ilon']:
-    #     namoz_vaqti = NamozVaqti(city)
-    #     print(city)
-    #
-    #     bomdod = namoz_vaqti.bomdod()
-    #     quyosh = namoz_vaqti.quyosh_chiqishi()
-    #     peshin = namoz_vaqti.peshin()
-    #     asr = namoz_vaqti.asr()
-    #     shom = namoz_vaqti.shom()
-    #     xufton = namoz_vaqti.xufton()
-    #
-    #     cur.execute(f"UPDATE category_categoryregion SET bomdod='{bomdod}', quyosh='{quyosh}', peshin='{peshin}', asr='{asr}', shom='{shom}', xufton='{xufton}' WHERE name='{city.replace('\'', '\'\'')}'")
-    #
-    #
-    #
-    #
-    # conn.commit()
-    # cur.close()
-    # conn.close()
+    cur = conn.cursor()
+
+    for city in ["Toshkent", "Andijon", "Buxoro", "Guliston", "Samarqand", "Namangan", "Navoiy", "Jizzax", "Nukus", "Qarshi", "Xiva"]:#, "Marg'ilon"
+        namoz_vaqti = NamozVaqti(city)
+        print(city)
+
+        bomdod = namoz_vaqti.bomdod()
+        quyosh = namoz_vaqti.quyosh_chiqishi()
+        peshin = namoz_vaqti.peshin()
+        asr = namoz_vaqti.asr()
+        shom = namoz_vaqti.shom()
+        xufton = namoz_vaqti.xufton()
+
+        cur.execute(f"UPDATE category_categoryregion SET bomdod='{bomdod}', quyosh='{quyosh}', peshin='{peshin}', asr='{asr}', shom='{shom}', xufton='{xufton}' WHERE name='{city}'")
+        namoz_vaqti2 = NamozVaqti("Qo'qon")
+        print(namoz_vaqti2)
+
+        bomdod = namoz_vaqti2.bomdod()
+        quyosh = namoz_vaqti2.quyosh_chiqishi()
+        peshin = namoz_vaqti2.peshin()
+        asr = namoz_vaqti2.asr()
+        shom = namoz_vaqti2.shom()
+        xufton = namoz_vaqti2.xufton()
+        cur.execute(
+            "UPDATE category_categoryregion SET bomdod=?, quyosh=?, peshin=?, asr=?, shom=?, xufton=? WHERE name=?",
+            (bomdod, quyosh, peshin, asr, shom, xufton, "Qo'qon"))
+
+        cur.execute(
+            f"UPDATE category_categoryregion SET bomdod='{bomdod}', quyosh='{quyosh}', peshin='{peshin}', asr='{asr}', shom='{shom}', xufton='{xufton}' WHERE name='{city}'")
+        namoz_vaqti3 = NamozVaqti('Marg‘ilon')
+        print(namoz_vaqti3)
+
+        bomdod = namoz_vaqti3.bomdod()
+        quyosh = namoz_vaqti3.quyosh_chiqishi()
+        peshin = namoz_vaqti3.peshin()
+        asr = namoz_vaqti3.asr()
+        shom = namoz_vaqti3.shom()
+        xufton = namoz_vaqti3.xufton()
+        cur.execute(
+            "UPDATE category_categoryregion SET bomdod=?, quyosh=?, peshin=?, asr=?, shom=?, xufton=? WHERE name=?",
+            (bomdod, quyosh, peshin, asr, shom, xufton, 'Marg‘ilon'))
+
+    conn.commit()
+    cur.close()
+    conn.close()
 
 

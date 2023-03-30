@@ -14,3 +14,8 @@ async def send_menu(message: types.Message):
 async def send_zam_suralar(message: types.Message):
     category_id = 80
     await get_inline_keyboards(message, category_id, page=1)
+
+@dp.message_handler(text="Arab tili uchun kitoblar")
+async def send_zam_suralar(message: types.Message):
+    category_id = 430
+    await get_inline_keyboards(message, category_id, page=1)

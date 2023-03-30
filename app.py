@@ -7,18 +7,23 @@ import aioschedule
 from keyboards.inline.regions import get_prayer_times, send_prayer_time_message, get_subscribed_users, get_regions
 from loader import dp, db
 import middlewares, filters, handlers
-from prayer_time.vaqt import api_namaz
+from prayer_time.vaqt import api_namaz, update_prayer_times
 from utils.notify_admins import on_startup_notify
 from utils.set_bot_commands import set_default_commands
 print(get_subscribed_users())
+get_prayer_times(13)
 async def scheduler():
-    aioschedule.every().day.at('20:01').do(api_namaz)
+    aioschedule.every().day.at('03:37').do(update_prayer_times)
     while True:
         now = datetime.datetime.now().strftime('%H:%M')
         for user in get_subscribed_users():
             print(user[0])
+            print(user[1])
             times = get_prayer_times(user[1])
-            print(times[0])
+            if times is not None:
+                print(times)
+
+            # print(times[0])
 
             for i, time in enumerate(times):
                 prayer_name = None
@@ -43,7 +48,6 @@ async def scheduler():
 
         await asyncio.sleep(60)
 
-# update_prayer_times()
 # update_prayer_times()
 async def on_startup(dispatcher):
     asyncio.create_task(scheduler())
