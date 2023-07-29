@@ -89,7 +89,7 @@ def update_prayer_times():
 
         cur.execute(
             f"UPDATE category_categoryregion SET bomdod='{bomdod}', quyosh='{quyosh}', peshin='{peshin}', asr='{asr}', shom='{shom}', xufton='{xufton}' WHERE name='{city}'")
-        namoz_vaqti3 = NamozVaqti('Marg‘ilon')
+        namoz_vaqti3 = NamozVaqti('Marg\'ilon')
         print(namoz_vaqti3)
 
         bomdod = namoz_vaqti3.bomdod()
@@ -100,7 +100,7 @@ def update_prayer_times():
         xufton = namoz_vaqti3.xufton()
         cur.execute(
             "UPDATE category_categoryregion SET bomdod=?, quyosh=?, peshin=?, asr=?, shom=?, xufton=? WHERE name=?",
-            (bomdod, quyosh, peshin, asr, shom, xufton, 'Marg‘ilon'))
+            (bomdod, quyosh, peshin, asr, shom, xufton, 'Marg\'ilon'))
 
     conn.commit()
     cur.close()

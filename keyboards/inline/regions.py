@@ -91,7 +91,8 @@ async def prayer_times_callback_handler(callback_query: types.CallbackQuery):
     # Handle the user's button click
     if callback_query.data.startswith('subscribe:') or callback_query.data.startswith('unsubscribe:'):
         subscribe_value = 1 if callback_query.data.startswith('subscribe:') else 0
-        cursor.execute(f"UPDATE bot_namazuser SET subscribe={subscribe_value} WHERE user_id={user_id}")
+        # cursor.execute(f"UPDATE bot_namazuser SET subscribe={subscribe_value} WHERE user_id={user_id}")
+        cursor.execute(f"UPDATE bot_namazuser SET region={region_id} WHERE user_id={user_id}")
         conn.commit()
         confirmation_message = f"Siz {message} kunlik eslatmani {'yoqdingiz' if subscribe_value == 1 else 'ochirdingiz'}."
         await callback_query.message.reply(confirmation_message)
@@ -153,6 +154,7 @@ async def handle_subscription_callback(callback_query: CallbackQuery):
 def get_prayer_times(region_id):
     conn = sqlite3.connect('backend/ilmbot/db.sqlite3')
     c = conn.cursor()
+    print((f"SELECT bomdod, quyosh, peshin, asr, shom,xufton FROM category_categoryregion WHERE id={region_id}"))
     c.execute(f"SELECT bomdod, quyosh, peshin, asr, shom,xufton FROM category_categoryregion WHERE id={region_id}")
     results = c.fetchone()
     print(f"get_prayer_times: region_id={region_id}, results={results}")

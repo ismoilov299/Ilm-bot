@@ -1,9 +1,9 @@
 Masjid = [
-    # Chilanzor masjidlari
+   # "name": 'Chilanzor masjidlari',
 
     {
 
-        # Abu_Sahiy_masjidi
+        "name": 'Abu_Sahiy_masjidi',
 
         "lat": 41.248203831616344,
 
@@ -13,7 +13,7 @@ Masjid = [
 
     {
 
-        # Shayx_Muhammad_Sodiq_Muhammad_Yusuf
+        "name": 'Shayx_Muhammad_Sodiq_Muhammad_Yusuf',
 
         "lat": 41.25960654276252,
 
@@ -23,7 +23,7 @@ Masjid = [
 
     {
 
-        # Chosh_peta_masjidi
+        "name": 'Chosh_peta_masjidi',
 
         "lat": 41.23775954919874,
 
@@ -33,7 +33,7 @@ Masjid = [
 
     {
 
-        # Hasanhonqori_masjidi
+        "name": 'Hasanhonqori_masjidi',
 
         "lat": 41.29702214624629,
 
@@ -43,7 +43,7 @@ Masjid = [
 
     {
 
-        # Dombirabot_masjidi
+        "name": 'Dombirabot_masjidi',
 
         "lat": 41.26228990264712,
 
@@ -53,7 +53,7 @@ Masjid = [
 
     {
 
-        # qatortol_masjidi
+        "name": 'qatortol_masjidi',
 
         "lat": 41.267248199400385,
 
@@ -63,7 +63,7 @@ Masjid = [
 
     {
 
-        # ko'zi_ojizlar_masjidi
+        "name": 'Ko\'zi_ojizlar_masjidi',
 
         "lat": 41.29090674121106,
 
@@ -73,7 +73,7 @@ Masjid = [
 
     {
 
-        # Ubay ibn Kaab_masjidi
+        "name": 'Ubay ibn Kaab_masjidi',
 
         "lat": 41.26417868996122,
 
@@ -83,7 +83,7 @@ Masjid = [
 
     {
 
-        # Nosirhon masjidi
+        "name": 'Nosirhon masjidi',
 
         "lat": 41.25726694928192,
 
@@ -93,7 +93,7 @@ Masjid = [
 
     {
 
-        # Muhsinhon tora masjidi
+        "name": 'Muhsinhon tora masjidi',
 
         "lat": 41.2522863324597,
 
@@ -103,7 +103,7 @@ Masjid = [
 
     {
 
-        # Bota_buva masjidi
+        "name": 'Bota_buva masjidi',
 
         "lat": 41.24061265791863,
 
@@ -113,7 +113,7 @@ Masjid = [
 
     {
 
-        # Novza masjidi
+        "name": 'Novza masjidi',
 
         "lat": 41.29431493630495,
 
@@ -123,7 +123,7 @@ Masjid = [
 
     {
 
-        # Qozirabot masjidi
+        "name": 'Qozirabot masjidi',
 
         "lat": 41.27973347962563,
 
@@ -133,7 +133,7 @@ Masjid = [
 
     {
 
-        # Maruf ota  masjidi
+        "name": 'Maruf ota  masjidi',
 
         "lat": 41.243348500068414,
 
@@ -143,7 +143,7 @@ Masjid = [
 
     {
 
-        #  Sobithon hoji masjidi
+        "name":  'Sobithon hoji masjidi',
 
         "lat": 41.291901449654645,
 
@@ -153,7 +153,7 @@ Masjid = [
 
     {
 
-        # Tinchik masjidi
+        "name": 'Tinchik masjidi',
 
         "lat": 41.265612159600394,
 
@@ -161,11 +161,11 @@ Masjid = [
 
     },
 
-    # Yunusobot masjidlari
+#    "name": Yunusobot tumani masjidlari
 
     {
 
-        # Minor masjidi
+        "name": 'Minor masjidi',
 
         "lat": 41.3355196302628,
 
@@ -175,7 +175,7 @@ Masjid = [
 
     {
 
-        # Omina masjidi
+        "name": 'Omina masjidi',
 
         "lat": 41.35379738152819,
 
@@ -185,7 +185,7 @@ Masjid = [
 
     {
 
-        # Mirzo yusuf masjidi
+        "name": 'Mirzo yusuf masjidi',
 
         "lat": 41.33999264218335,
 
@@ -195,7 +195,7 @@ Masjid = [
 
     {
 
-        # Umar ibn hattob masjidi
+        "name": 'Umar ibn hattob masjidi',
 
         "lat": 41.35216073567465,
 
@@ -205,7 +205,7 @@ Masjid = [
 
     {
 
-        #  Yunusobot masjidi
+        "name":  'Yunusobot masjidi',
 
         "lat": 41.35903078554317,
 
@@ -215,7 +215,7 @@ Masjid = [
 
     {
 
-        # Yunusobot oqtepa masjidi
+        "name": 'Yunusobot oqtepa masjidi',
 
         "lat": 41.36555858216791,
 
@@ -225,7 +225,7 @@ Masjid = [
 
     {
 
-        # Kulol qo’rg’on  masjidi
+        "name": 'Kulol qo’rg’on  masjidi',
 
         "lat": 41.38171652377108,
 
@@ -235,7 +235,7 @@ Masjid = [
 
     {
 
-    # Hayr masjidi
+    "name": 'Hayr masjidi',
 
     "lat": 41.383068923485595,
 
@@ -245,7 +245,7 @@ Masjid = [
 
     {
 
-    # Anorzor  masjidi
+    "name": 'Anorzor  masjidi',
 
     "lat": 41.35516953030836,
 
@@ -255,7 +255,7 @@ Masjid = [
 
     {
 
-    # Oqqo’rg’on masjidi
+    "name": 'Oqqo’rg’on masjidi',
 
     "lat": 41.33222606234428,
 
@@ -265,7 +265,7 @@ Masjid = [
 
     {
 
-    # Hasanboy masjidi
+    "name": 'Hasanboy masjidi',
 
     "lat": 41.39389589174008,
 
@@ -273,11 +273,11 @@ Masjid = [
 
     },
 
-# Uchtepa masjidlari
+#  Uchtepa tumani masjidlari
 
     {
 
-    # Labi zax masjidi
+    "name": 'Labi zax masjidi',
 
     "lat": 41.31257390166376,
 
@@ -287,7 +287,7 @@ Masjid = [
 
     {
 
-    # masjidi
+    "name": 'masjidi',
 
     "lat": 41.30137872609273,
 
@@ -297,7 +297,7 @@ Masjid = [
 
     {
 
-    # Mir bobo masjidi
+    "name": 'Mir bobo masjidi',
 
     "lat": 41.29651291358311,
 
@@ -307,7 +307,7 @@ Masjid = [
 
     {
 
-    # Aziz ota masjidi
+    "name": 'Aziz ota masjidi',
 
     "lat": 41.29928570810134,
 
@@ -317,7 +317,7 @@ Masjid = [
 
     {
 
-    # Hazrati Bilol masjidi
+    "name": 'Hazrati Bilol masjidi',
 
     "lat": 41.28774236889283,
 
@@ -327,7 +327,7 @@ Masjid = [
 
     {
 
-    #  Dovut qori masjidi
+    "name":  'Dovut qori masjidi',
 
     "lat": 41.3128578036966,
 
@@ -337,7 +337,7 @@ Masjid = [
 
     {
 
-    # Beshqayrag’och masjidi
+    "name": 'Beshqayrag’och masjidi',
 
     "lat": 41.308618842091015,
 
@@ -347,7 +347,7 @@ Masjid = [
 
     {
 
-    # Abu Talha masjidi
+    "name": 'Abu Talha masjidi',
 
     "lat": 41.308223943817865,
 
@@ -357,7 +357,7 @@ Masjid = [
 
     {
 
-    # Hazrati Umar masjidi
+    "name": 'Hazrati Umar masjidi',
 
     "lat": 41.31273692458519,
 
@@ -367,7 +367,7 @@ Masjid = [
 
     {
 
-    # Hazrati Ali masjidi
+    "name": 'Hazrati Ali masjidi',
 
     "lat": 41.30384766588026,
 
@@ -377,7 +377,7 @@ Masjid = [
 
     {
 
-    # Abu Hanifa masjidi
+    "name": 'Abu Hanifa masjidi',
 
     "lat": 41.28779758434251,
 
@@ -387,7 +387,7 @@ Masjid = [
 
     {
 
-    # Said Vaqqos ota masjidi
+    "name": 'Said Vaqqos ota masjidi',
 
     "lat": 41.30553090839637,
 
@@ -397,7 +397,7 @@ Masjid = [
 
     {
 
-    # Ko’kcha oqtepa masjidi
+    "name": 'Ko’kcha oqtepa masjidi',
 
     "lat": 41.30809510764542,
 
@@ -407,7 +407,7 @@ Masjid = [
 
     {
 
-    # Burhoniddin Marg’iloniy masjidi
+    "name": 'Burhoniddin Marg’iloniy masjidi',
 
     "lat": 41.31522709997692,
 
@@ -417,7 +417,7 @@ Masjid = [
 
     {
 
-    # Mahkam ota  masjidi
+    "name":' Mahkam ota  masjidi',
 
     "lat": 41.31827709800938,
 
@@ -427,7 +427,7 @@ Masjid = [
 
     {
 
-    # Abdulmajid hoji masjidi
+    "name": 'Abdulmajid hoji masjidi',
 
     "lat": 41.323570943346155,
 
@@ -437,7 +437,7 @@ Masjid = [
 
     {
 
-    # Abu Hurayra masjidi
+    "name": 'Abu Hurayra masjidi',
 
     "lat": 41.323425912235344,
 
@@ -446,8 +446,8 @@ Masjid = [
     },
 
     {
-
-    # 777 masjidi
+#777
+    "name": ' masjidi',
 
     "lat": 41.27551575930818,
 
@@ -457,7 +457,7 @@ Masjid = [
 
     {
 
-    # Cho’pon ota  masjidi
+    "name": 'Cho’pon ota  masjidi',
 
     "lat": 41.290310081827684,
 
@@ -465,11 +465,11 @@ Masjid = [
 
     },
 
-    # Bektemir masjidlari
+    #  Bektemir tumani masjidlari
 
     {
 
-    # Bektemir jome masjidi
+    "name": 'Bektemir jome masjidi',
 
     "lat": 41.21639197601143,
 
@@ -479,7 +479,7 @@ Masjid = [
 
     {
 
-    # Alibek masjidi
+    "name": 'Alibek masjidi',
 
     "lat": 41.244030265464986,
 
@@ -489,7 +489,7 @@ Masjid = [
 
     {
 
-    # Quddusu sharif masjidi
+    "name": 'Quddusu sharif masjidi',
 
     "lat": 41.21260891223981,
 
@@ -499,7 +499,7 @@ Masjid = [
 
     {
 
-    # Qora soqol ota masjidi
+    "name": 'Qora soqol ota masjidi',
 
     "lat": 41.178904878577036,
 
@@ -507,11 +507,11 @@ Masjid = [
 
     },
 
-# Olmazor masjidlari
+# "name": Olmazor tumani masjidlari
 
     {
 
-    # Siroj solih masjidi
+    "name": 'Siroj solih masjidi',
 
     "lat": 41.37056156695398,
 
@@ -521,7 +521,7 @@ Masjid = [
 
     {
 
-    # Huvaydo masjidi
+    "name": 'Huvaydo masjidi',
 
     "lat": 41.33933178228837,
 
@@ -531,7 +531,7 @@ Masjid = [
 
     {
 
-    # Dorussalom masjidi
+    "name": 'Dorussalom masjidi',
 
     "lat": 41.34877194110753,
 
@@ -541,7 +541,7 @@ Masjid = [
 
     {
 
-    # To’lqin Akrom masjidi
+    "name": 'To’lqin Akrom masjidi',
 
     "lat": 41.35089820446614,
 
@@ -551,7 +551,7 @@ Masjid = [
 
     {
 
-    # Ahmad qori masjidi
+    "name": 'Ahmad qori masjidi',
 
     "lat": 41.36059437326624,
 
@@ -561,7 +561,7 @@ Masjid = [
 
     {
 
-    # Dostjonboy masjidi
+    "name": 'Dostjonboy masjidi',
 
     "lat": 41.362739398355885,
 
@@ -571,7 +571,7 @@ Masjid = [
 
     {
 
-    # Imom Hasan masjidi
+    "name": 'Imom Hasan masjidi',
 
     "lat": 41.33823498020004,
 
@@ -581,7 +581,7 @@ Masjid = [
 
     {
 
-    # Abu Bakr Qaffoli Shoshi masjidi
+    "name": 'Abu Bakr Qaffoli Shoshi masjidi',
 
     "lat": 41.37932200601861,
 
@@ -591,7 +591,7 @@ Masjid = [
 
     {
 
-    # Islomobot masjidi
+    "name": 'Islomobot masjidi',
 
     "lat": 41.34828052359392,
 
@@ -601,7 +601,7 @@ Masjid = [
 
     {
 
-    # Mirza G’olib masjidi
+    "name": 'Mirza G’olib masjidi',
 
     "lat": 41.35461427949867,
 
@@ -611,7 +611,7 @@ Masjid = [
 
     {
 
-    # To’xtaboy masjidi
+    "name": 'To’xtaboy masjidi',
 
     "lat": 41.330095003534275,
 
@@ -621,7 +621,7 @@ Masjid = [
 
     {
 
-    # Hazrati Imom masjidi
+    "name": 'Hazrati Imom masjidi',
 
     "lat": 41.33725518023019,
 
@@ -631,7 +631,7 @@ Masjid = [
 
     {
 
-    # Taxtapul masjidi masjidi
+    "name": 'Taxtapul masjidi masjidi',
 
     "lat": 41.34579964107279,
 
@@ -641,7 +641,7 @@ Masjid = [
 
     {
 
-    # Eshon bobohon masjidi
+    "name": 'Eshon bobohon masjidi',
 
     "lat": 41.346033853127445,
 
@@ -651,7 +651,7 @@ Masjid = [
 
     {
 
-    # Oq tunukali  masjidi
+    "name": 'Oq tunukali  masjidi',
 
     "lat": 41.33769691412945,
 
@@ -661,7 +661,7 @@ Masjid = [
 
     {
 
-    # Chig’atoy  masjidi
+    "name": 'Chig’atoy  masjidi',
 
     "lat": 41.34034760899553,
 
@@ -671,7 +671,7 @@ Masjid = [
 
     {
 
-    # Muhokama masjidi
+    "name": 'Muhokama masjidi',
 
     "lat": 41.33377574364367,
 
@@ -679,11 +679,11 @@ Masjid = [
 
     },
 
-# Yakkasaroy masjidlari
+# Yakkasaroy tumani masjidlari
 
     {
 
-    # Yakkasaroy masjidi
+    "name": 'Yakkasaroy masjidi',
 
     "lat": 41.26664766427478,
 
@@ -693,7 +693,7 @@ Masjid = [
 
     {
 
-    # Nuga qo’tg’on masjidi
+    "name": 'Nuga qo’tg’on masjidi',
 
     "lat": 41.24974561447508,
 
@@ -703,7 +703,7 @@ Masjid = [
 
     {
 
-    # Usmon bir Mazun masjidi
+    "name": 'Usmon bir Mazun masjidi',
 
     "lat": 41.26574184264911,
 
@@ -713,7 +713,7 @@ Masjid = [
 
     {
 
-    #  Rakat masjidi
+    "name":  'Rakat masjidi',
 
     "lat": 41.29048103779239,
 
@@ -723,7 +723,7 @@ Masjid = [
 
     {
 
-    # Rahimjon ota masjidi
+    "name": 'Rahimjon ota masjidi',
 
     "lat": 41.280355176297235,
 
@@ -731,11 +731,11 @@ Masjid = [
 
     },
 
-# Mirobot masjidlari
+# Mirobod tumani masjidlari
 
     {
 
-    #  Badr masjidi
+    "name":  'Badr masjidi',
 
     "lat": 41.269378291788804,
 
@@ -745,7 +745,7 @@ Masjid = [
 
     {
 
-    # Valihoja o’g’li Norhoja masjidi
+    "name": 'Valihoja o’g’li Norhoja masjidi',
 
     "lat": 41.25605248099156,
 
@@ -755,7 +755,7 @@ Masjid = [
 
     {
 
-    # Qoyliq ota masjidi
+    "name": 'Qoyliq ota masjidi',
 
     "lat": 41.23931748939541,
 
@@ -765,7 +765,7 @@ Masjid = [
 
     {
 
-    # Islom ota masjidi
+    "name": 'Islom ota masjidi',
 
     "lat": 41.27714498406902,
 
@@ -775,7 +775,7 @@ Masjid = [
 
     {
 
-    # masjidi
+    "name": 'masjidi',
 
     "lat": 41.28490704406416,
 
@@ -785,7 +785,7 @@ Masjid = [
 
     {
 
-    # Imom Azam masjidi
+    "name": 'Imom Azam masjidi',
 
     "lat": 41.25823030108032,
 
@@ -793,11 +793,11 @@ Masjid = [
 
     },
 
-# Mirzo ulug’bek masjidlari
+# Mirzo ulug’bek tumani masjidlari
 
     {
 
-    # Avayhon masjidi
+    "name": 'Avayhon masjidi',
 
     "lat": 41.31316433660703,
 
@@ -807,7 +807,7 @@ Masjid = [
 
     {
 
-    # Oltin tepa  masjidi
+    "name": 'Oltin tepa  masjidi',
 
     "lat": 41.32407471709511,
 
@@ -817,7 +817,7 @@ Masjid = [
 
     {
 
-    # Mulla qosim masjidi
+    "name": 'Mulla qosim masjidi',
 
     "lat": 41.33166560755049,
 
@@ -827,7 +827,7 @@ Masjid = [
 
     {
 
-    # Mirza Yusuf masjidi
+    "name": 'Mirza Yusuf masjidi',
 
     "lat": 41.34112298793237,
 
@@ -837,7 +837,7 @@ Masjid = [
 
     {
 
-    #Oqqo’rg’on  masjidi
+    "name":'Oqqo’rg’on  masjidi',
 
     "lat": 41.332745139669186,
 
@@ -847,7 +847,7 @@ Masjid = [
 
     {
 
-    #To’ra buva masjidi
+    "name":'To’ra buva masjidi',
 
     "lat": 41.350360831719954,
 
@@ -857,7 +857,7 @@ Masjid = [
 
     {
 
-    #Shayh Ziyovuddin masjidi
+    "name":'Shayh Ziyovuddin masjidi',
 
     "lat": 41.35004019069489,
 
@@ -867,7 +867,7 @@ Masjid = [
 
     {
 
-    # Tepa masjidi
+    "name": 'Tepa masjidi',
 
     "lat": 41.34357553610744,
 
@@ -877,7 +877,7 @@ Masjid = [
 
     {
 
-    # Mulla Holmirza masjidi
+    "name": 'Mulla Holmirza masjidi',
 
     "lat": 41.338114552953144,
 
@@ -887,7 +887,7 @@ Masjid = [
 
     {
 
-    # Dorul Islom masjidi
+    "name": 'Dorul Islom masjidi',
 
     "lat": 41.2794360585184,
 
@@ -895,11 +895,11 @@ Masjid = [
 
     },
 
-#sergeli masjidlari
+#:sergeli tumani masjidlari
 
     {
 
-    # Nurul islom masjidi
+    "name": 'Nurul islom masjidi',
 
     "lat": 41.241781427794706,
 
@@ -909,7 +909,7 @@ Masjid = [
 
     {
 
-    # Qo’shqo’rg’onmasjidi
+    "name": 'Qo’shqo’rg’onmasjidi',
 
     "lat": 41.249052693167435,
 
@@ -919,7 +919,7 @@ Masjid = [
 
     {
 
-    #Maruf ota  masjidi
+    "name": 'Maruf ota  masjidi',
 
     "lat": 41.24479932469445,
 
@@ -927,11 +927,11 @@ Masjid = [
 
     },
 
-#Yashnabot masjidlari
+#:Yashnabot tumani masjidlari
 
     {
 
-    # Xolid ibn Valid masjidi
+    "name": 'Xolid ibn Valid masjidi',
 
     "lat": 41.26963740188066,
 
@@ -941,7 +941,7 @@ Masjid = [
 
     {
 
-    # masjidi
+    "name": 'masjidi',
 
     "lat": 41.296903954358456,
 
@@ -951,7 +951,7 @@ Masjid = [
 
     {
 
-    # Hudaybiya masjidi
+    "name": 'Hudaybiya masjidi',
 
     "lat": 41.28952408293872,
 
@@ -961,7 +961,7 @@ Masjid = [
 
     {
 
-    #pul yemas ota masjidi
+    "name": 'pul yemas ota masjidi',
 
     "lat": 41.29028062843299,
 
@@ -971,7 +971,7 @@ Masjid = [
 
     {
 
-    #Go’zal masjidi
+    "name": 'Go’zal masjidi',
 
     "lat": 41.2820904172805,
 
@@ -979,11 +979,11 @@ Masjid = [
 
     },
 
-#Shayhontohur masjidlari
+#:'Shayhontohur tumani masjidlari',
 
     {
 
-#Ko’kcha masjidi
+"name":'Ko’kcha masjidi',
 
     "lat": 41.323801955922235,
 
@@ -993,7 +993,7 @@ Masjid = [
 
     {
 
-# Fotimai Zahro masjidi
+"name": 'Fotimai Zahro masjidi',
 
     "lat": 41.30845915133155,
 
@@ -1003,7 +1003,7 @@ Masjid = [
 
     {
 
-#Obithon mahtum masjidi
+"name": 'Obithon mahtum masjidi',
 
     "lat": 41.31635663417303,
 
@@ -1013,7 +1013,7 @@ Masjid = [
 
     {
 
-#Obinazir masjidi
+"name": 'Obinazir masjidi',
 
     "lat": 41.32592903458798,
 
@@ -1023,7 +1023,7 @@ Masjid = [
 
     {
 
-#Firdavz masjidi
+"name": 'Firdavz masjidi',
 
     "lat": 41.3301829833935,
 
@@ -1033,7 +1033,7 @@ Masjid = [
 
     {
 
-# Ukkosha masjidi
+"name": 'Ukkosha masjidi',
 
     "lat": 41.32062732320541,
 
@@ -1043,7 +1043,7 @@ Masjid = [
 
     {
 
-# masjidi
+"name": 'masjidi',
 
     "lat": 41.31746865187543,
 
@@ -1053,7 +1053,7 @@ Masjid = [
 
     {
 
-# Shofayz masjidi
+"name": 'Shofayz masjidi',
 
     "lat": 41.31835502913399,
 
@@ -1063,7 +1063,7 @@ Masjid = [
 
     {
 
-#Islom nuri  masjidi
+"name": 'Islom nuri  masjidi',
 
     "lat": 41.31039331721944,
 
@@ -1073,7 +1073,7 @@ Masjid = [
 
     {
 
-# Komolon masjidi
+"name": 'Komolon masjidi',
 
     "lat": 41.305960768772316,
 
@@ -1083,7 +1083,7 @@ Masjid = [
 
     {
 
-# Eshon guzar masjidi
+"name": 'Eshon guzar masjidi',
 
     "lat": 41.31243621770531,
 
@@ -1093,7 +1093,7 @@ Masjid = [
 
     {
 
-#Zangi ota masjidi
+"name": 'Zangi ota masjidi',
 
     "lat": 41.31355283523035,
 
@@ -1103,7 +1103,7 @@ Masjid = [
 
     {
 
-#Balad masjidi
+"name": 'Balad masjidi',
 
     "lat": 41.316202018096355,
 
@@ -1113,7 +1113,7 @@ Masjid = [
 
     {
 
-#To’xataboy masjidi
+"name": 'To’xataboy masjidi',
 
     "lat": 41.32983504461688,
 
@@ -1123,7 +1123,7 @@ Masjid = [
 
     {
 
-# At- Termiziy masjidi
+"name": 'At- Termiziy masjidi',
 
     "lat": 41.33762521568153,
 
@@ -1133,7 +1133,7 @@ Masjid = [
 
     {
 
-#Oqilon  masjidi
+"name":  'Oqilon  masjidi',
 
     "lat": 41.31836242451495,
 
@@ -1143,7 +1143,7 @@ Masjid = [
 
     {
 
-#Obithon  masjidi
+"name": 'Obithon  masjidi',
 
     "lat": 41.31602462127973,
 
@@ -1153,7 +1153,7 @@ Masjid = [
 
     {
 
-# Suzuk ota masjidi
+"name": 'Suzuk ota masjidi',
 
     "lat": 41.31809957706629,
 
@@ -1163,7 +1163,7 @@ Masjid = [
 
     {
 
-# Kox Ota masjidi
+"name": 'Kox Ota masjidi',
 
     "lat": 41.336396651707204,
 

@@ -10,11 +10,16 @@ import middlewares, filters, handlers
 from prayer_time.vaqt import api_namaz, update_prayer_times
 from utils.notify_admins import on_startup_notify
 from utils.set_bot_commands import set_default_commands
-print(get_subscribed_users())
-get_prayer_times(13)
+# print(get_subscribed_users())
+# get_prayer_times(13)
+# update_prayer_times()
 async def scheduler():
-    aioschedule.every().day.at('03:37').do(update_prayer_times)
+    # update_prayer_times()
+    print('aaa')
+    # aioschedule.every().day.at('21:11').do(update_prayer_times)
     while True:
+        aioschedule.every().day.at('21:34').do(update_prayer_times)
+        print('a5')
         now = datetime.datetime.now().strftime('%H:%M')
         for user in get_subscribed_users():
             print(user[0])
@@ -41,14 +46,11 @@ async def scheduler():
                     elif i == 5 :
                         prayer_name ='Xufton'
 
-                    # add more conditions for other prayer times if needed
-
                     if prayer_name:
                         await send_prayer_time_message(user[0], prayer_name)
 
         await asyncio.sleep(60)
 
-# update_prayer_times()
 async def on_startup(dispatcher):
     asyncio.create_task(scheduler())
     # Birlamchi komandalar (/star va /help)
