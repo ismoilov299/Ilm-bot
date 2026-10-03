@@ -4,6 +4,7 @@ from masjid_aniqlash import masofa
 
 from data.location import Masjid
 
+
 def calc_distance(lat1, lon1, lat2, lon2):
     R = 6371000
     phi_1 = math.radians(lat1)

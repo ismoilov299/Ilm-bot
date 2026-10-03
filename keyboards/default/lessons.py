@@ -5,15 +5,17 @@ from keyboards.inline.create import get_inline_keyboards
 from loader import dp
 
 
-@dp.message_handler(text='Darsliklar📕')
+@dp.message_handler(text="Darsliklar📕")
 async def send_menu(message: types.Message):
-    category_id =10
+    category_id = 10
     await get_keyboard(message, category_id)
+
 
 @dp.message_handler(text="Qur'on tartili")
 async def send_zam_suralar(message: types.Message):
     category_id = 80
     await get_inline_keyboards(message, category_id, page=1)
+
 
 @dp.message_handler(text="Arab tili uchun kitoblar")
 async def send_zam_suralar(message: types.Message):

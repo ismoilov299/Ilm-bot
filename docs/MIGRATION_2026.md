@@ -102,7 +102,7 @@ async def on_menu_button(message: Message, menu: MenuService) -> None:
     button = await menu.find_by_name(message.text)
     if button is None:
         return
-    await menu.open(message, button)   # kind bo'yicha: MENU / LIST / POST / ACTION
+    await menu.open(message, button)  # kind bo'yicha: MENU / LIST / POST / ACTION
 ```
 
 - `CategoryButton` ga `kind` maydoni qo'shiladi (6-bo'lim).
@@ -130,8 +130,8 @@ Bitta `Settings` klassi `.env` ni o'qiydi. Django `settings.py` undan foydalanad
 ```python
 class Settings(BaseSettings):
     bot_token: SecretStr
-    admins: Annotated[list[int], NoDecode] = []   # ADMINS=1,2 formati saqlanadi (tekshirildi)
-    content_channel: str                          # hozir kodda: '@testislomyolida'
+    admins: Annotated[list[int], NoDecode] = []  # ADMINS=1,2 formati saqlanadi (tekshirildi)
+    content_channel: str  # hozir kodda: '@testislomyolida'
     secret_key: SecretStr
     debug: bool = False
     allowed_hosts: list[str] = []

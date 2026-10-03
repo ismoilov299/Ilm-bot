@@ -19,7 +19,7 @@ async def process_callback(callback_query: types.CallbackQuery):
         category_id = int(callback_data)
         chat_id = callback_query.from_user.id
 
-        with sqlite3.connect('backend/ilmbot/db.sqlite3') as conn:
+        with sqlite3.connect("backend/ilmbot/db.sqlite3") as conn:
             c = conn.cursor()
 
             c.execute("SELECT idishka FROM bot_post WHERE category_id = ?", (category_id,))
@@ -44,5 +44,3 @@ async def process_callback(callback_query: types.CallbackQuery):
             await get_inline_keyboards(callback_query.message, int(id), page)
         else:
             pass
-
-
