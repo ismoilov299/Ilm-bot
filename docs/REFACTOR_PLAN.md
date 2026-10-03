@@ -66,46 +66,10 @@ bosqichma-bosqich yaxshilash. Har bosqich alohida commit bo'ladi.
 - **I**: `DataBase` hamma narsani biladigan bitta "xudo" klass; handlerlar faqat bittasini kerak qilganda ham butun DB ga bog'lanadi.
 - **D**: handlerlar to'g'ridan-to'g'ri `sqlite3` va `requests` ga bog'liq (abstraksiya yo'q), shuning uchun test yozib bo'lmaydi.
 
-## 3. Maqsadli tuzilma
+## 3–5. Maqsadli tuzilma, bajarish tartibi va ochiq savollar
 
-```
-app.py                      # faqat composition root
-config.py                   # env (token, DB yo'li, TZ, kanal, adminlar)
-db/
-  connection.py             # yagona ulanish, parametrli so'rovlar
-  repositories/
-    users.py                # UserRepository
-    regions.py              # RegionRepository
-    categories.py           # CategoryRepository (daraxt, sahifalash)
-    posts.py                # PostRepository
-services/
-  prayer_times.py           # PrayerTimeService (API mijoz + yangilash)
-  reminders.py              # ReminderService (kim, qachon)
-  subscriptions.py          # obuna mantiqi
-clients/islomapi.py         # httpx/aiohttp async mijoz
-handlers/                   # faqat Telegram <-> servis o'rtasida yelim
-  menu.py, prayer.py, admin.py, location.py, help.py
-keyboards/                  # faqat klaviatura yasash (DB siz)
-tests/                      # pytest
-```
+Bu bo'limlar `docs/MIGRATION_2026.md` bilan almashtirildi (2026-10-03). Asosiy farqlar:
 
-Asosiy qoidalar: handler servisga murojaat qiladi, servis repozitoriyga; SQL faqat repozitoriyda; barcha so'rovlar `?` bilan.
-
-## 4. Bajarish tartibi (kichik, alohida commitlar)
-
-1. **Poydevor**: `requirements.txt`/`Pipfile` to'ldirish, `config.py` ga DB yo'li va TZ, `.gitignore` ga `.DS_Store`, CI ga lint + test qadami.
-2. **Himoya testlari**: `masofa_aniqlash`, sahifalash va vaqt solishtirish uchun tezkor testlar (o'zgartirishdan oldin xatti-harakatni qotirish).
-3. **SQL xavfsizligi**: `regions.py`, `vaqt.py` dagi f-string SQL larni parametrli qilish, `region:` callbackni tekshirish. Kichik va xavfi past.
-4. **DB qatlami**: `db/connection.py` + repozitoriylar; barcha `sqlite3.connect(...)` o'rnini bosish; `DataBase` dagi ishlamaydigan metodlarni olib tashlash.
-5. **Scheduler tuzatish**: `None` tekshiruvi, `Asia/Tashkent`, daqiqada bitta jamlangan so'rov, `update_prayer_times` ni async/executor ga o'tkazish
-   va to'g'ri jadvalga ulash, ikki marta yuborishdan himoya.
-6. **Handlerlarni tartibga solish**: ochiq ro'yxatdan o'tkazish (`register_handlers(dp)`), catch-all callbackni aniq filtrlar bilan almashtirish,
-   `callback_data` uchun `CallbackData` fabrikasi, takroriy klaviatura kodini bitta yordamchiga yig'ish.
-7. **Qattiq yozilgan ID lardan voz kechish**: `CategoryButton.callback` maydoni orqali marshrutlash (DB va admin panel o'zgarishi kerak, migratsiya bilan).
-8. **Django**: `SECRET_KEY`/`DEBUG`/`ALLOWED_HOSTS` env dan, admin yo'li o'zgartirish, `__str__` xatolari, `user_id` ni `BigIntegerField` ga (migratsiya).
-9. **Tozalash**: `print` lar o'rniga `logging`, o'lik kod, `prayer_time/test.py` ni o'chirish yoki testga aylantirish.
-
-## 5. Qaror talab qiladigan masalalar
-- **Telegram ID tipi (8-band)** migratsiya talab qiladi; mavjud ishlab turgan DB bilan kelishib bajarish kerak.
-- **7-band** (ID lardan voz kechish) mavjud kontentga bog'liq: haqiqiy `db.sqlite3` ko'rilmasdan xavfsiz bajarib bo'lmaydi.
-- Namoz vaqti manbasi `islomapi.uz` ga bog'liq, uzilib qolsa nima ko'rsatilishi (kesh/oxirgi qiymat) tanlanishi kerak.
+- Ma'lumotlar qatlami alohida sqlite repozitoriylari emas, **Django ORM (async)**. Sxemaning yagona manbai Django modellari bo'ladi.
+- Bot aiogram 3.31 ga, Python 3.14 ga va Django 6.1 ga o'tadi. Bosqichlar tartibi va sabablari o'sha hujjatda.
+- Yuqoridagi 2-bo'limdagi muammolar amalda qoladi va migratsiya davomida yopiladi (`MIGRATION_2026.md`, 10-bo'lim).
