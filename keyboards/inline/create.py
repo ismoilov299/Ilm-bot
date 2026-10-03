@@ -9,11 +9,8 @@ from aiogram.utils.exceptions import MessageCantBeDeleted, MessageNotModified
 from loader import bot
 
 
-
-
-
 async def get_inline_keyboards(message: types.Message, id: int, page: int):
-    with sqlite3.connect('backend/ilmbot/db.sqlite3') as conn:
+    with sqlite3.connect("backend/ilmbot/db.sqlite3") as conn:
         c = conn.cursor()
 
         # Id ga qarab category matni olamiz
@@ -30,13 +27,14 @@ async def get_inline_keyboards(message: types.Message, id: int, page: int):
         limit = 5
         offset = (page - 1) * limit
 
-        c.execute("SELECT name, id FROM category_categorybutton WHERE parent_id = ? LIMIT ? OFFSET ?", (id, limit, offset))
+        c.execute(
+            "SELECT name, id FROM category_categorybutton WHERE parent_id = ? LIMIT ? OFFSET ?", (id, limit, offset)
+        )
         results = c.fetchall()
 
         if not results:
             await message.answer("Kechirasiz, hozir bu bo'lim tamirlanmoqda")
             return
-
 
         keyboard_namaz = InlineKeyboardMarkup(row_width=2)
 
@@ -61,7 +59,11 @@ async def get_inline_keyboards(message: types.Message, id: int, page: int):
             await message.answer(category_text, reply_markup=keyboard_namaz)
         else:
             try:
-                await bot.edit_message_text(chat_id=message.chat.id, message_id=message.message_id, text=category_text, reply_markup=keyboard_namaz)
+                await bot.edit_message_text(
+                    chat_id=message.chat.id,
+                    message_id=message.message_id,
+                    text=category_text,
+                    reply_markup=keyboard_namaz,
+                )
             except MessageNotModified:
                 pass
-

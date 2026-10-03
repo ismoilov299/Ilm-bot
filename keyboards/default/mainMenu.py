@@ -6,18 +6,17 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton  # KeyboardButton(
 from loader import dp
 
 # KeyboardButton("Duo va Zikirlar🤲"),
-    # KeyboardButton("Qur\'on📖"),
-    # KeyboardButton("Sahobalar👳🏻‍♂"),
-    # KeyboardButton("Kitoblar📚"),
-    # KeyboardButton("Asmaul Husna"),
-    # KeyboardButton("Yaqin Masjid🕌"),
-    # KeyboardButton("Filmlar🎞"),
-    # KeyboardButton("Darsliklar📕"),
-
+# KeyboardButton("Qur\'on📖"),
+# KeyboardButton("Sahobalar👳🏻‍♂"),
+# KeyboardButton("Kitoblar📚"),
+# KeyboardButton("Asmaul Husna"),
+# KeyboardButton("Yaqin Masjid🕌"),
+# KeyboardButton("Filmlar🎞"),
+# KeyboardButton("Darsliklar📕"),
 
 
 async def get_main_keyboard() -> ReplyKeyboardMarkup:
-    with sqlite3.connect('backend/ilmbot/db.sqlite3') as conn:
+    with sqlite3.connect("backend/ilmbot/db.sqlite3") as conn:
         c = conn.cursor()
 
         c.execute("SELECT name FROM category_categorybutton WHERE parent_id IS NULL")
@@ -41,9 +40,7 @@ async def get_main_keyboard() -> ReplyKeyboardMarkup:
         return keyboard
 
 
-
-
-@dp.message_handler(text='Orqaga')
+@dp.message_handler(text="Orqaga")
 async def back(message: types.Message):
     main = await get_main_keyboard()
     await message.answer("Kerakli bo'limni tanlang:", reply_markup=main)

@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UV_VERSION: "0.12.22"
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install uv
+        run: pipx install "uv==${UV_VERSION}"
+      - name: Install dependencies
+        run: uv sync --locked
+      - name: Ruff
+        run: |
+          uv run --frozen ruff check
+          uv run --frozen ruff format --check
+      - name: requirements.txt matches uv.lock
+        run: |
+          uv export --frozen --no-dev --no-hashes --output-file requirements.txt
+          git diff --exit-code requirements.txt
+
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        # Qo'llanadigan oraliqning ikki chekkasi (pyproject.toml dagi requires-python)
+        python-version: ["3.9", "3.11"]
+    env:
+      UV_PYTHON: ${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install uv
+        run: pipx install "uv==${UV_VERSION}"
+      - name: Install dependencies
+        run: uv sync --locked
+      - name: Pytest
+        run: uv run --frozen pytest

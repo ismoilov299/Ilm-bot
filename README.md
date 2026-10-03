@@ -27,6 +27,28 @@ Botni ishga tushurish uchun `.env` faylni yarating va unga ADMINS va bot tokenin
 
 `BOT_TOKEN`
 
+## Ishlab chiqish
+
+Loyiha [uv](https://docs.astral.sh/uv/) bilan boshqariladi (Python 3.9–3.11, `.python-version` da 3.11).
+
+```bash
+uv sync                      # muhit va bog'liqliklarni o'rnatish
+uv run python app.py         # botni ishga tushirish (.env kerak)
+uv run pytest                # testlar
+uv run ruff check            # lint
+uv run ruff format           # formatlash
+```
+
+Bog'liqliklar `pyproject.toml` da, aniq versiyalar `uv.lock` da. `requirements.txt` pip bilan
+o'rnatish uchun lock fayldan yaratiladi, uni qo'lda tahrirlamang:
+
+```bash
+uv lock
+uv export --frozen --no-dev --no-hashes --output-file requirements.txt
+```
+
+CI har bir push va PR da lint, formatlash, `requirements.txt` mosligi va testlarni tekshiradi.
+Yangilash rejasi: [docs/MIGRATION_2026.md](docs/MIGRATION_2026.md).
 
 ## Authors
 

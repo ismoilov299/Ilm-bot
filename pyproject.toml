@@ -1,0 +1,61 @@
+[project]
+name = "ilm-bot"
+version = "1.0.0"
+description = "Ilm yo'lida: islomiy Telegram bot va uning Django admin paneli"
+readme = "README.md"
+# aiogram 2.21 ga aiohttp<3.9 kerak, uning wheel lari Python 3.11 gacha bor.
+# Pipfile 3.9 ni ko'rsatgan, server versiyasi aniqlanguncha shu oraliq saqlanadi.
+# Python 3.14 ga o'tish: docs/MIGRATION_2026.md, Bosqich 3.
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    "aiogram==2.21",
+    "aioschedule==0.5.2",
+    "APScheduler==3.6.3",
+    "Django==4.1.4",
+    "django-import-export==3.1.0",
+    "django-jazzmin==2.6.0",
+    # 14.4.0 Python 3.9 ni qo'llaydigan oxirgi versiya (14.5.0 dan boshlab >=3.10)
+    "environs==14.4.0",
+    "requests==2.31.0",
+]
+
+[dependency-groups]
+dev = [
+    # pytest 9 Python 3.9 ni qo'llamaydi
+    "pytest>=8.4,<9",
+    "ruff==0.16.10",
+]
+
+[tool.uv]
+package = false
+required-version = ">=0.12"
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["backend/ilmbot/*/migrations"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Mavjud kod Bosqich 2 (Django) va Bosqich 3 (aiogram 3) da qayta yoziladi, shuning uchun
+# u yerda hozircha faqat jiddiy xatolar (masalan, aniqlanmagan nomlar) tekshiriladi.
+# F401 ayniqsa avtomatik tuzatilmasligi kerak: aiogram 2 da handlerlar import paytida
+# ro'yxatdan o'tadi, "ishlatilmagan" import olib tashlansa handler jim yo'qoladi.
+"app.py" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"loader.py" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"backend/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"data/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"filters/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"handlers/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"keyboards/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"masjid_aniqlash/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"middlewares/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"prayer_time/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"states/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+"utils/**" = ["E", "W", "F401", "F403", "F405", "F541", "F811", "F841", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"

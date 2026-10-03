@@ -12,7 +12,7 @@ async def send_post(chat_id: int, message_id: int):
 
 
 async def get_keyboard(message: types.Message, id: int):
-    with sqlite3.connect('backend/ilmbot/db.sqlite3') as conn:
+    with sqlite3.connect("backend/ilmbot/db.sqlite3") as conn:
         c = conn.cursor()
 
         c.execute("SELECT text FROM category_categorybutton WHERE id = ?", (id,))
@@ -42,12 +42,6 @@ async def get_keyboard(message: types.Message, id: int):
                 row = []
         if row:
             keyboard_namaz.row(*row)
-        keyboard_namaz.row(KeyboardButton('Orqaga'))
-
+        keyboard_namaz.row(KeyboardButton("Orqaga"))
 
         await message.answer(category_text, reply_markup=keyboard_namaz)
-
-
-
-
-
