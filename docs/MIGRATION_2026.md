@@ -47,7 +47,7 @@ Barcha tekshiruvlar 2026-10-03 da, alohida virtual muhitlarda o'tkazildi.
 | Django | 4.1.4 (EOL 2023-12) | **6.1.1** | Xavfsizlik yangilanishlari taxminan 2027-12 gacha, keyin 6.2 LTS ga yengil o'tish. Oraliq qadam: 5.2.17 LTS. |
 | django-jazzmin | 2.6.0 | **3.0.5** | Classifier Django ≤ 6.0 ni ko'rsatadi, lekin 6.1.1 da admin sahifalari ishladi. Muqobil: django-unfold 0.108.0 (Django 6.1 ni rasman qo'llaydi). |
 | django-import-export | 3.1.0 | **olib tashlanadi** | Ishlatilmaydi: `INSTALLED_APPS` da yo'q, import ham yo'q. |
-| APScheduler | 3.6.3 (o'rnatilgan, ishlatilmaydi) | **3.11.3** | 4.0 hali alfa (4.0.0a6). |
+| APScheduler | 3.6.3 (o'rnatilgan, ishlatilmaydi; hozirgi setuptools da `pkg_resources` yo'qligi uchun import ham bo'lmaydi) | **3.11.3** | 4.0 hali alfa (4.0.0a6). |
 | aioschedule | 0.5.2 (2018) | **olib tashlanadi** | Tashlab ketilgan. Hozirgi ishlatilishi ham noto'g'ri. |
 | requests | 2.31.0 | **olib tashlanadi** | Uning o'rniga aiohttp 3.14.3 (aiogram bilan birga keladi). Sinxron so'rov event loop ni bloklaydi. |
 | environs | 14.6.0 | **pydantic-settings 2.15.0** | pydantic 2.13.5 aiogram bilan allaqachon keladi. |
@@ -200,7 +200,7 @@ Ilm-bot/
 
 Quyidagilar o'chiriladi:
 - papkalar: `handlers/`, `keyboards/`, `middlewares/`, `filters/`, `utils/`, `states/`, `data/`, `prayer_time/`, `masjid_aniqlash/`;
-- fayllar: `loader.py`, `app.py`, `Pipfile*`, `requirements.txt`, `.DS_Store`.
+- fayllar: `loader.py`, `app.py`. `Pipfile*` va `.DS_Store` Bosqich 1 da o'chirildi. `requirements.txt` lock fayldan yaratiladi va pip bilan deploy qilinsa saqlanadi.
 
 Mazmuni yangi tuzilmaga ko'chadi. Masalan Haversine hisobi `services/mosques.py` ga, masjidlar ro'yxati alohida ma'lumot moduliga o'tadi.
 
@@ -315,15 +315,24 @@ Hajmi nisbiy baholangan: S kichik, M o'rta, L katta.
 
 **Tayyorlik mezoni:** zaxira nusxa bor, so'rov natijalari va 14-bo'limdagi savollarga javoblar olingan.
 
-### Bosqich 1: Asboblar (xatti-harakat o'zgarmaydi; Python 3.11 va aiogram 2.21 qoladi), S
+### Bosqich 1: Asboblar (xatti-harakat o'zgarmaydi; aiogram 2.21 qoladi), S
 
-1. `pyproject.toml` + `uv.lock` yaratiladi. Vaqtincha `requires-python = ">=3.11,<3.12"`. Server uchun `uv export` orqali `requirements.txt` yaratiladi.
-2. ruff qo'shiladi. Avval yumshoq qoidalar bilan, eski kod faqat formatlanadi.
-3. pytest qo'shiladi va birinchi "xarakterlovchi" testlar yoziladi: masofa hisobi, sahifalash hisobi.
-4. Haqiqiy CI qo'shiladi (GitHub Actions): `uv sync --locked`, `ruff check`, `ruff format --check`, `pytest`. Action larning joriy major versiyalari amalga oshirish paytida tekshiriladi.
-5. O'chiriladi:
+**Holat: bajarildi (2026-10-03).**
+
+1. `pyproject.toml` + `uv.lock` yaratildi, `requirements.txt` lock fayldan `uv export` bilan yaratiladi.
+   - `requires-python = ">=3.9,<3.12"`. Rejada 3.11 yozilgan edi, lekin Pipfile.lock 3.9 ni ko'rsatadi va serverdagi versiya hali noma'lum. Shuning uchun 3.9 dan aiogram 2 ruxsat bergan 3.11 gacha qo'llanadi.
+   - environs 14.6.0 → 14.4.0: Python 3.9 ni qo'llaydigan oxirgi versiya. 14.6.0 >=3.10 talab qilgani uchun 3.9 dagi serverda o'rnatish yiqilar edi.
+2. ruff qo'shildi va eski kod formatlandi.
+   - Formatlashdan keyin har bir faylning AST si (bitta keraksiz `u''` prefiksidan tashqari) va handlerlar jadvali bir xil qoldi.
+   - Formatlash commiti `.git-blame-ignore-revs` da.
+   - Eski kodda faqat jiddiy xatolar tekshiriladi. Qat'iy qoidalar u yerda taxminan 170 ta xato berar edi, shundan 70 tasi "ishlatilmagan" import. Ular aiogram 2 da handlerlarni ro'yxatdan o'tkazgani uchun avtomatik tuzatilmaydi.
+3. pytest va xarakterlovchi testlar (`tests/`) qo'shildi: masofa va yaqin masjidlar, sahifalash, butun handlerlar jadvali, namoz API maydonlari.
+   - Handlerlar tartibi import tartibiga bog'liqligi test bilan tasdiqlandi.
+   - Testlarga ataylab uchta buzilish kiritib tekshirildi: import olib tashlash, callback tartibini o'zgartirish, sahifa hajmini o'zgartirish. Uchalasi ham ushlandi.
+4. CI qo'shildi (`.github/workflows/ci.yml`): `uv sync --locked`, `ruff check`, `ruff format --check`, `requirements.txt` lock bilan mosligi, `pytest` (Python 3.9 va 3.11).
+5. O'chirildi:
    - `Pipfile`, `Pipfile.lock`, `.DS_Store`;
-   - `prayer_time/test.py`. Unda haqiqiy foydalanuvchilarning Telegram ID lari va ismlari bor (git tarixida qolishi haqida 14-bo'lim, 7-savolga qarang).
+   - `prayer_time/test.py`. Unda haqiqiy foydalanuvchilarning Telegram ID lari va ismlari bor edi (git tarixida qolishi haqida 14-bo'lim, 7-savolga qarang).
 
 **Tayyorlik mezoni:** CI yashil, bot avvalgidek ishlaydi.
 
@@ -392,7 +401,7 @@ Ichki commitlar tartibi:
 
 ### Bosqich 6: Kontent va tozalash (ixtiyoriy), S–M
 
-- Masjidlar (118 ta, hozir `data/location.py` da) `Mosque` modeliga ko'chiriladi va admin orqali boshqariladi.
+- Masjidlar (115 ta, hozir `data/location.py` da) `Mosque` modeliga ko'chiriladi va admin orqali boshqariladi. Ro'yxatda takroriy nomlar bor (`'Maruf ota  masjidi'`, `'masjidi'`), ko'chirishda tozalanadi.
 - Ishlatilmaydigan `CategoryButton.callback` maydoni va ishlatilmaydigan modellar (14-bo'lim, 6-savol) bo'yicha qaror qabul qilinadi.
 - README yangilanadi (o'rnatish va ishga tushirish), `.env.example` qo'shiladi.
 
