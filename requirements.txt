@@ -1,10 +1,9 @@
 aiogram==2.21
-aiogram-broadcaster==0.0.7
+aioschedule==0.5.2
 APScheduler==3.6.3
+environs==14.6.0
+requests==2.31.0
 
 Django==4.1.4
 django-import-export==3.1.0
 django-jazzmin==2.6.0
-einops==0.4.1
-entrypoints==0.4
-et-xmlfile==1.1.0

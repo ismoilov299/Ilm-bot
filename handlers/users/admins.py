@@ -1,3 +1,4 @@
+import logging
 import sqlite3
 
 from aiogram.types import Message
@@ -6,7 +7,6 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import Message
 from aiogram import types
 
-from aiogram_broadcaster import MessageBroadcaster
 from data.config import ADMINS
 from loader import dp, bot, db
 from keyboards.default.adminKeyboard import adminMenu
@@ -76,9 +76,9 @@ async def start_broadcast(msg: Message, state: FSMContext):
     users = db.select_all_users2()
     for user in users:
         try:
-            await MessageBroadcaster(user[0], msg).run()
-        except:
-            pass
+            await bot.copy_message(chat_id=user[0], from_chat_id=msg.chat.id, message_id=msg.message_id)
+        except Exception as ex:
+            logging.warning("Broadcast failed for %s: %s", user[0], ex)
 
 
 
