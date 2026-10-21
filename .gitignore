@@ -131,3 +131,9 @@ dmypy.json
 .env
 # macOS
 .DS_Store
+
+# Shaxsiy ma'lumotli baza fayllari va kanal eksporti (gitga tushmasin)
+*.sqlite
+*.sqlite3
+*.db
+result.json
