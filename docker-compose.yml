@@ -1,0 +1,30 @@
+name: my-bot
+
+services:
+  bot:
+    build: .
+    container_name: my-bot
+    command: ["bot"]
+    env_file: .env
+    environment:
+      TZ: Asia/Tashkent
+    volumes:
+      - db-data:/data
+    restart: unless-stopped
+
+  admin:
+    build: .
+    container_name: my-bot-admin
+    command: ["admin"]
+    environment:
+      TZ: Asia/Tashkent
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - db-data:/data
+    depends_on:
+      - bot
+    restart: unless-stopped
+
+volumes:
+  db-data:
