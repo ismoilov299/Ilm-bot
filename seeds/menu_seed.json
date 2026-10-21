@@ -1,0 +1,10389 @@
+{
+ "channel": "@testislomyolida",
+ "nodes": [
+  {
+   "key": "namoz",
+   "name": "Namoz🕋",
+   "kind": "menu",
+   "parent": null,
+   "text": "Tanlang!",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "quran",
+   "name": "Qur'on📖",
+   "kind": "menu",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "duo_zikr",
+   "name": "Duo va Zikirlar🤲",
+   "kind": "menu",
+   "parent": null,
+   "text": "Alloh vaqtlaringizni o'zining zikri ila xush o'tishini nasib etsin!",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "sahobalar",
+   "name": "Sahobalar",
+   "kind": "list",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "asmaul",
+   "name": "Asmaul Husna",
+   "kind": "menu",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "masjid",
+   "name": "Yaqin Masjid🕌",
+   "kind": "action",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": "nearest_mosques",
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "kitoblar",
+   "name": "Kitoblar📚",
+   "kind": "list",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "namoz_vaqt",
+   "name": "Namoz vaqtlari",
+   "kind": "action",
+   "parent": "namoz",
+   "text": "",
+   "message_ids": [],
+   "action": "prayer_times",
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "gusl_tahorat",
+   "name": "G'usul va Tahorat",
+   "kind": "menu",
+   "parent": "namoz",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "gusl",
+   "name": "G'usul",
+   "kind": "post",
+   "parent": "gusl_tahorat",
+   "text": "",
+   "message_ids": [
+    655
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "tahorat",
+   "name": "Tahorat",
+   "kind": "post",
+   "parent": "gusl_tahorat",
+   "text": "",
+   "message_ids": [
+    564
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "namoz_turlari",
+   "name": "Namoz turlari",
+   "kind": "menu",
+   "parent": "namoz",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "farz",
+   "name": "Farz namozlar",
+   "kind": "list",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "farz_bomdod",
+   "name": "Bomdod namozi",
+   "kind": "post",
+   "parent": "farz",
+   "text": "",
+   "message_ids": [
+    686,
+    692
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "farz_peshin",
+   "name": "Peshin namozi",
+   "kind": "post",
+   "parent": "farz",
+   "text": "",
+   "message_ids": [
+    680,
+    694
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "farz_asr",
+   "name": "Asr namozi",
+   "kind": "post",
+   "parent": "farz",
+   "text": "",
+   "message_ids": [
+    681,
+    696
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "farz_shom",
+   "name": "Shom namozi",
+   "kind": "post",
+   "parent": "farz",
+   "text": "",
+   "message_ids": [
+    682,
+    697
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "farz_xufton",
+   "name": "Xufton namozi",
+   "kind": "post",
+   "parent": "farz",
+   "text": "",
+   "message_ids": [
+    684,
+    699
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "sunnat",
+   "name": "Sunnat namozlar",
+   "kind": "list",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "sunnat_bomdod",
+   "name": "Bomdod namozi",
+   "kind": "post",
+   "parent": "sunnat",
+   "text": "",
+   "message_ids": [
+    685,
+    691
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "sunnat_peshin4",
+   "name": "Peshin namozi (4 rakat)",
+   "kind": "post",
+   "parent": "sunnat",
+   "text": "",
+   "message_ids": [
+    678,
+    693
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "sunnat_peshin2",
+   "name": "Peshin namozi (2 rakat)",
+   "kind": "post",
+   "parent": "sunnat",
+   "text": "",
+   "message_ids": [
+    679,
+    695
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "sunnat_shom",
+   "name": "Shom namozi",
+   "kind": "post",
+   "parent": "sunnat",
+   "text": "",
+   "message_ids": [
+    683,
+    698
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "sunnat_xufton",
+   "name": "Xufton namozi",
+   "kind": "post",
+   "parent": "sunnat",
+   "text": "",
+   "message_ids": [
+    705,
+    700
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "vojib",
+   "name": "Vojib namozlar",
+   "kind": "list",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "review": "v1 da bu bo'lim uchun post yo'q; v2 da bor edi (post ID lar yo'qolgan)",
+   "position": 3
+  },
+  {
+   "key": "juma",
+   "name": "Juma namozi (jamoat)",
+   "kind": "post",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [
+    689
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "janoza",
+   "name": "Janoza namozi (jamoat)",
+   "kind": "post",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [
+    690
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "vitr",
+   "name": "Vitr namozi",
+   "kind": "post",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [
+    702,
+    701
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "hayit",
+   "name": "Ramazon va Qurbon hayit namozlari",
+   "kind": "post",
+   "parent": "namoz_turlari",
+   "text": "",
+   "message_ids": [
+    703
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "zam_suralar",
+   "name": "Zam suralar",
+   "kind": "list",
+   "parent": "namoz",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v2",
+   "review": "Sura matnlari kanaldan; tartib/to'liqligini tasdiqlang",
+   "position": 4
+  },
+  {
+   "key": "quran_info",
+   "name": "Qur'on haqida ma'lumot",
+   "kind": "post",
+   "parent": "quran",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "review": "v1 da bu oddiy matn edi (menu.py), post emas; matnni qo'lda ko'chirish kerak",
+   "position": 1
+  },
+  {
+   "key": "quran_suralar",
+   "name": "Qur'onga o'tish",
+   "kind": "list",
+   "parent": "quran",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "sura_1",
+   "name": "01. Fotiha surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    418
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "sura_2",
+   "name": "02. Baqara surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    419
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "sura_3",
+   "name": "03. Oli Imron surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    420
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "sura_4",
+   "name": "04. Niso surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    421
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "sura_5",
+   "name": "05. Moida surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    422
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "sura_6",
+   "name": "06. An’om surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    423
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "sura_7",
+   "name": "07. A’rof surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    424
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "sura_8",
+   "name": "08. Anfol surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    425
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 8
+  },
+  {
+   "key": "sura_9",
+   "name": "09. Tavba surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    426
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 9
+  },
+  {
+   "key": "sura_10",
+   "name": "10. Yunus surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    427
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 10
+  },
+  {
+   "key": "sura_11",
+   "name": "11. Hud surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    428
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 11
+  },
+  {
+   "key": "sura_12",
+   "name": "12. Yusuf surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    429
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 12
+  },
+  {
+   "key": "sura_13",
+   "name": "13. Ra’d surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    430
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 13
+  },
+  {
+   "key": "sura_14",
+   "name": "14. Ibrohim surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    431
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 14
+  },
+  {
+   "key": "sura_15",
+   "name": "15. Hijr surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    432
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 15
+  },
+  {
+   "key": "sura_16",
+   "name": "16. Nahl surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    433
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 16
+  },
+  {
+   "key": "sura_17",
+   "name": "17. Isro surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    434
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 17
+  },
+  {
+   "key": "sura_18",
+   "name": "18. Kahf surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    435
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 18
+  },
+  {
+   "key": "sura_19",
+   "name": "19. Maryam surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    436
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 19
+  },
+  {
+   "key": "sura_20",
+   "name": "20. To Ha surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    437
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 20
+  },
+  {
+   "key": "sura_21",
+   "name": "21. Anbiyo surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    438
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 21
+  },
+  {
+   "key": "sura_22",
+   "name": "22. Haj surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    439
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 22
+  },
+  {
+   "key": "sura_23",
+   "name": "23. Mu’minun surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    440
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 23
+  },
+  {
+   "key": "sura_24",
+   "name": "24. Nur surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    441
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 24
+  },
+  {
+   "key": "sura_25",
+   "name": "25. Furqon surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    442
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 25
+  },
+  {
+   "key": "sura_26",
+   "name": "26. Shu’aro surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    443
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 26
+  },
+  {
+   "key": "sura_27",
+   "name": "27. Naml surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    444
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 27
+  },
+  {
+   "key": "sura_28",
+   "name": "28. Qasos surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    445
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 28
+  },
+  {
+   "key": "sura_29",
+   "name": "29. Ankabut surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    446
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 29
+  },
+  {
+   "key": "sura_30",
+   "name": "30. Rum surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    447
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 30
+  },
+  {
+   "key": "sura_31",
+   "name": "31. Luqmon surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    448
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 31
+  },
+  {
+   "key": "sura_32",
+   "name": "32. Sajda surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    449
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 32
+  },
+  {
+   "key": "sura_33",
+   "name": "33. Ahzob surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    450
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 33
+  },
+  {
+   "key": "sura_34",
+   "name": "34. Saba’ surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    451
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 34
+  },
+  {
+   "key": "sura_35",
+   "name": "35. Fotir surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    452
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 35
+  },
+  {
+   "key": "sura_36",
+   "name": "36. Yosin surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    453
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 36
+  },
+  {
+   "key": "sura_37",
+   "name": "37. Soffat surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    454
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 37
+  },
+  {
+   "key": "sura_38",
+   "name": "38. Sod surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    455
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 38
+  },
+  {
+   "key": "sura_39",
+   "name": "39. Zumar surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    456
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 39
+  },
+  {
+   "key": "sura_40",
+   "name": "40. G’ofir surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    457
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 40
+  },
+  {
+   "key": "sura_41",
+   "name": "41. Fussilat surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    458
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 41
+  },
+  {
+   "key": "sura_42",
+   "name": "42. Sho’ro surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    459
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 42
+  },
+  {
+   "key": "sura_43",
+   "name": "43. Zuxruf surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    460
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 43
+  },
+  {
+   "key": "sura_44",
+   "name": "44. Duxon surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    461
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 44
+  },
+  {
+   "key": "sura_45",
+   "name": "45. Josiya surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    462
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 45
+  },
+  {
+   "key": "sura_46",
+   "name": "46. Ahqof surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    463
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 46
+  },
+  {
+   "key": "sura_47",
+   "name": "47. Muhammad surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    464
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 47
+  },
+  {
+   "key": "sura_48",
+   "name": "48. Fath surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    465
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 48
+  },
+  {
+   "key": "sura_49",
+   "name": "49. Hujurot surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    466
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 49
+  },
+  {
+   "key": "sura_50",
+   "name": "50. Qof surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    467
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 50
+  },
+  {
+   "key": "sura_51",
+   "name": "51. Zoriyot surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    468
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 51
+  },
+  {
+   "key": "sura_52",
+   "name": "52. Tur surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    469
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 52
+  },
+  {
+   "key": "sura_53",
+   "name": "53. Najm surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    470
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 53
+  },
+  {
+   "key": "sura_54",
+   "name": "54. Qamar surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    471
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 54
+  },
+  {
+   "key": "sura_55",
+   "name": "55. Rahmon surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    472
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 55
+  },
+  {
+   "key": "sura_56",
+   "name": "56. Voqea surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    473
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 56
+  },
+  {
+   "key": "sura_57",
+   "name": "57. Hadid surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    474
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 57
+  },
+  {
+   "key": "sura_58",
+   "name": "58. Mujodala surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    475
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 58
+  },
+  {
+   "key": "sura_59",
+   "name": "59. Hashr surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    476
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 59
+  },
+  {
+   "key": "sura_60",
+   "name": "60. Mumtahana surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    477
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 60
+  },
+  {
+   "key": "sura_61",
+   "name": "61. Sof surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    357
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 61
+  },
+  {
+   "key": "sura_62",
+   "name": "62. Jum’a surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    359
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 62
+  },
+  {
+   "key": "sura_63",
+   "name": "63. Munofiqun  surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    360
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 63
+  },
+  {
+   "key": "sura_64",
+   "name": "64. Tog’abun surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    361
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 64
+  },
+  {
+   "key": "sura_65",
+   "name": "65. Taloq surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    362
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 65
+  },
+  {
+   "key": "sura_66",
+   "name": "66. Tahrim surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    363
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 66
+  },
+  {
+   "key": "sura_67",
+   "name": "67. Mulk surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    364
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 67
+  },
+  {
+   "key": "sura_68",
+   "name": "68. Qalam surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    365
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 68
+  },
+  {
+   "key": "sura_69",
+   "name": "69. Haaqqo surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    366
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 69
+  },
+  {
+   "key": "sura_70",
+   "name": "70. Maorij surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    367
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 70
+  },
+  {
+   "key": "sura_71",
+   "name": "71. Nuh surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    368
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 71
+  },
+  {
+   "key": "sura_72",
+   "name": "72. Jin surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    369
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 72
+  },
+  {
+   "key": "sura_73",
+   "name": "73. Muzzammil surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    370
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 73
+  },
+  {
+   "key": "sura_74",
+   "name": "74. Muddassir surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    371
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 74
+  },
+  {
+   "key": "sura_75",
+   "name": "75. Qiyomat surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    372
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 75
+  },
+  {
+   "key": "sura_76",
+   "name": "76. Inson surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    373
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 76
+  },
+  {
+   "key": "sura_77",
+   "name": "77. Mursalot  surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    374
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 77
+  },
+  {
+   "key": "sura_78",
+   "name": "78. Naba’ surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    375
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 78
+  },
+  {
+   "key": "sura_79",
+   "name": "79. Nazi’at surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    376
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 79
+  },
+  {
+   "key": "sura_80",
+   "name": "80. Abasa surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    378
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 80
+  },
+  {
+   "key": "sura_81",
+   "name": "81. Takvir surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    379
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 81
+  },
+  {
+   "key": "sura_82",
+   "name": "82. Infitor surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    380
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 82
+  },
+  {
+   "key": "sura_83",
+   "name": "83. Mutoffifin surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    381
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 83
+  },
+  {
+   "key": "sura_84",
+   "name": "84. Inshiqoq surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    382
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 84
+  },
+  {
+   "key": "sura_85",
+   "name": "85. Buruj surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    383
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 85
+  },
+  {
+   "key": "sura_86",
+   "name": "86. Toriq surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    384
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 86
+  },
+  {
+   "key": "sura_87",
+   "name": "87. A’lo surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    385
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 87
+  },
+  {
+   "key": "sura_88",
+   "name": "88. G’oshiya surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    386
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 88
+  },
+  {
+   "key": "sura_89",
+   "name": "89. Fajr surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    391
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 89
+  },
+  {
+   "key": "sura_90",
+   "name": "90. Balad surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    392
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 90
+  },
+  {
+   "key": "sura_91",
+   "name": "91. Shams surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    393
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 91
+  },
+  {
+   "key": "sura_92",
+   "name": "92. Layl surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    394
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 92
+  },
+  {
+   "key": "sura_93",
+   "name": "93. Zuho surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    395
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 93
+  },
+  {
+   "key": "sura_94",
+   "name": "94. Sharh surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    396
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 94
+  },
+  {
+   "key": "sura_95",
+   "name": "95. Tiyn surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    397
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 95
+  },
+  {
+   "key": "sura_96",
+   "name": "96. Alaq surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    416
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 96
+  },
+  {
+   "key": "sura_97",
+   "name": "97. Qadr surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    398
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 97
+  },
+  {
+   "key": "sura_98",
+   "name": "98. Bayyina surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    399
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 98
+  },
+  {
+   "key": "sura_99",
+   "name": "99. Zalzala surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    400
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 99
+  },
+  {
+   "key": "sura_100",
+   "name": "100. Odiyat surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    401
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 100
+  },
+  {
+   "key": "sura_101",
+   "name": "101. Qori’a surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    402
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 101
+  },
+  {
+   "key": "sura_102",
+   "name": "102. Takosur surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    403
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 102
+  },
+  {
+   "key": "sura_103",
+   "name": "103. Asr surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    404
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 103
+  },
+  {
+   "key": "sura_104",
+   "name": "104. Humaza surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    405
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 104
+  },
+  {
+   "key": "sura_105",
+   "name": "105. Fil surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    406
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 105
+  },
+  {
+   "key": "sura_106",
+   "name": "106. Quraysh surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    407
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 106
+  },
+  {
+   "key": "sura_107",
+   "name": "107. Mo’un surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    408
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 107
+  },
+  {
+   "key": "sura_108",
+   "name": "108. Kavsar surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    409
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 108
+  },
+  {
+   "key": "sura_109",
+   "name": "109. Kofirun surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    410
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 109
+  },
+  {
+   "key": "sura_110",
+   "name": "110. Nasr surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    411
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 110
+  },
+  {
+   "key": "sura_111",
+   "name": "111. Masad surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    412
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 111
+  },
+  {
+   "key": "sura_112",
+   "name": "112. Ixlos surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    413
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 112
+  },
+  {
+   "key": "sura_113",
+   "name": "113. Falaq surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    414
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 113
+  },
+  {
+   "key": "sura_114",
+   "name": "114. Nos surasi",
+   "kind": "post",
+   "parent": "quran_suralar",
+   "text": "",
+   "message_ids": [
+    415
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 114
+  },
+  {
+   "key": "zikr",
+   "name": "Zikr",
+   "kind": "list",
+   "parent": "duo_zikr",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "zikr_1",
+   "name": "Allohga tasbeh ayting",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    636
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "zikr_2",
+   "name": "Alloh taolo aytadi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    538
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "zikr_3",
+   "name": "Allohga suyukli ikki kalima",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    558
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "zikr_4",
+   "name": "Buyuk sir yashiringan zikr",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    638
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "zikr_5",
+   "name": "Jannat hazinalaridan biri",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    639
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "zikr_6",
+   "name": "Zikrning afzali",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    539
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "zikr_7",
+   "name": "Istig'for kalimasi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    553
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "zikr_8",
+   "name": "Al Iyman Al Mufassal",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    555
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 8
+  },
+  {
+   "key": "zikr_9",
+   "name": "Istig'for aytishning fazilati",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    560
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 9
+  },
+  {
+   "key": "zikr_10",
+   "name": "Istig'for aytish",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    540
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 10
+  },
+  {
+   "key": "zikr_11",
+   "name": "Ixlos surasini o'qish",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    542
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 11
+  },
+  {
+   "key": "zikr_12",
+   "name": "Shahodat kalimasi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    550
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 12
+  },
+  {
+   "key": "zikr_13",
+   "name": "Toyyiba kalimasi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    548
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 13
+  },
+  {
+   "key": "zikr_14",
+   "name": "Tavhid kalimasi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    551
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 14
+  },
+  {
+   "key": "zikr_15",
+   "name": "Tamjid kalimasi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    554
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 15
+  },
+  {
+   "key": "zikr_16",
+   "name": "Raddil kufr kalimasi",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    552
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 16
+  },
+  {
+   "key": "zikr_17",
+   "name": "Bomdod va shom namozlaridan keyingi zikr",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    637
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 17
+  },
+  {
+   "key": "zikr_18",
+   "name": "Namoz boshlanganda",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    590
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 18
+  },
+  {
+   "key": "zikr_19",
+   "name": "Namozdagi rukuda",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    591
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 19
+  },
+  {
+   "key": "zikr_20",
+   "name": "Rukudan bosh ko'targanda",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    592
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 20
+  },
+  {
+   "key": "zikr_21",
+   "name": "Sajda paytida",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    593
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 21
+  },
+  {
+   "key": "zikr_22",
+   "name": "Namoz tugaganda",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    597
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 22
+  },
+  {
+   "key": "zikr_23",
+   "name": "Zikr aytish",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    661
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 23
+  },
+  {
+   "key": "zikr_24",
+   "name": "Allohim meni avf et",
+   "kind": "post",
+   "parent": "zikr",
+   "text": "",
+   "message_ids": [
+    660
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 24
+  },
+  {
+   "key": "duo",
+   "name": "Duo",
+   "kind": "list",
+   "parent": "duo_zikr",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "duo_1",
+   "name": "Alloh taolo musulmonlarni duo qilishga buyurgan",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    538
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "duo_2",
+   "name": "Yunus a.s ning duolari (G'amni ketkazib shodlikni chaqiruvchi duo)",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    640
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "duo_3",
+   "name": "Omad kelishi va ishlar yurishib ketishi uchun o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    559
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "duo_4",
+   "name": "Allohim, sendan pok rizq so'rayman",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    576
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "duo_5",
+   "name": "Nabiy s.a.v doim o'qib yurgan duolari",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    573
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "duo_6",
+   "name": "Dunyo va oxiratdagi muhim ishlarda o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    577
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "duo_7",
+   "name": "70000 farishtani vakil qilib qo'yadigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    579
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "duo_8",
+   "name": "Zararli narsalardan saqlanish",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    574
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 8
+  },
+  {
+   "key": "duo_9",
+   "name": "Allohim, do'zaxdan saqla!",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    575
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 9
+  },
+  {
+   "key": "duo_10",
+   "name": "Allohim to'satdan yaxshilik bo'lishini sendan so'rayman",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    578
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 10
+  },
+  {
+   "key": "duo_11",
+   "name": "Ey Robbim, zulm ko'rishdan panoh so'rayman",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    585
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 11
+  },
+  {
+   "key": "duo_12",
+   "name": "Allohim g'am-g'ussamni ketkaz, qarzdan halos et!",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    580
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 12
+  },
+  {
+   "key": "duo_13",
+   "name": "Tong otganda va kech kirganda o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    561
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 13
+  },
+  {
+   "key": "duo_14",
+   "name": "Jamoat haqqiga o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    571
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 14
+  },
+  {
+   "key": "duo_15",
+   "name": "Nafsimni yomonligidan panoh tilayman",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    582
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 15
+  },
+  {
+   "key": "duo_16",
+   "name": "\"Shayton unga yaqinlasha olmaydi\"",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    586
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 16
+  },
+  {
+   "key": "duo_17",
+   "name": "Hojatxonaga kirayotganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    601
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 17
+  },
+  {
+   "key": "duo_18",
+   "name": "Hojatxonadan chiqayotganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    602
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 18
+  },
+  {
+   "key": "duo_19",
+   "name": "Tahorat qilinganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    587
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 19
+  },
+  {
+   "key": "duo_20",
+   "name": "Uyga kirayotganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    600
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 20
+  },
+  {
+   "key": "duo_21",
+   "name": "Uydan chiqayotganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    599
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 21
+  },
+  {
+   "key": "duo_22",
+   "name": "Masjidga kirayotganda va chiqayotganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    588
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 22
+  },
+  {
+   "key": "duo_23",
+   "name": "Azon va iqomatni eshitganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    589
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 23
+  },
+  {
+   "key": "duo_24",
+   "name": "Azon va iqomatning o'rtasida",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    583
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 24
+  },
+  {
+   "key": "duo_25",
+   "name": "Tashahhud",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    595
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 25
+  },
+  {
+   "key": "duo_26",
+   "name": "Vitrdagi qunut duosi",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    594
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 26
+  },
+  {
+   "key": "duo_27",
+   "name": "Namozdan keyingi duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    598
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 27
+  },
+  {
+   "key": "duo_28",
+   "name": "Tongda o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    570
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 28
+  },
+  {
+   "key": "duo_29",
+   "name": "Nabiy s.a.v to'shaklariga yotayotganlarida o'qiydigan duolari",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    581
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 29
+  },
+  {
+   "key": "duo_30",
+   "name": "Kech kirganda o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    561
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 30
+  },
+  {
+   "key": "duo_31",
+   "name": "Juma kuni Bomdod namozidan oldin o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    556
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 31
+  },
+  {
+   "key": "duo_32",
+   "name": "Juma kuni Kahf surasini o'qishning fazilati",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    557
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 32
+  },
+  {
+   "key": "duo_33",
+   "name": "Juma surasining fazilati",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    562
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 33
+  },
+  {
+   "key": "duo_34",
+   "name": "Voqea surasining fazilati",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    563
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 34
+  },
+  {
+   "key": "duo_35",
+   "name": "Duhon surasining fazilati",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    569
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 35
+  },
+  {
+   "key": "duo_36",
+   "name": "Shar'iy qo'shilishdan oldin o'qiladigan duo",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    662
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 36
+  },
+  {
+   "key": "duo_37",
+   "name": "Yangi kiyim kiyganda",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    666
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 37
+  },
+  {
+   "key": "duo_38",
+   "name": "\"Quyosh chiqib nur sochganidan yaxshiroqdir\"",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    665
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 38
+  },
+  {
+   "key": "duo_39",
+   "name": "\"Uning bu amalidan afzalroq ishni hech kim qila olmaydi\"",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    664
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 39
+  },
+  {
+   "key": "duo_40",
+   "name": "\"Unga jannat vojib bo'ladi\"",
+   "kind": "post",
+   "parent": "duo",
+   "text": "",
+   "message_ids": [
+    663
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 40
+  },
+  {
+   "key": "salovat",
+   "name": "Salovat",
+   "kind": "list",
+   "parent": "duo_zikr",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "salovat_1",
+   "name": "Alloh talo aytadi",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    642
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "salovat_2",
+   "name": "Payg'ambarimiz s.a.v ga salovat aytishning fazilati",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    645
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "salovat_3",
+   "name": "Qisqa salovat",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    647
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "salovat_4",
+   "name": "Yo Alloh Payg'ambarimiz s.a.v ga va u zotning oilalariga rahmat ayla",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    643
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "salovat_5",
+   "name": "Eng afzal va go'zal salovat",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    667
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "salovat_6",
+   "name": "Salovat",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    644
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "salovat_7",
+   "name": "Tashahhuddan keyingi salovat",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    596
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "salovat_8",
+   "name": "Qisqa salovat",
+   "kind": "post",
+   "parent": "salovat",
+   "text": "",
+   "message_ids": [
+    541
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 8
+  },
+  {
+   "key": "sahoba_1",
+   "name": "Abu Bakr As-Siddiq r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    517
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "kitob_1",
+   "name": "Musulmonning odobi",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    289
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "sahoba_2",
+   "name": "Umar ibn Xattob r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    520
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "kitob_2",
+   "name": "VIjdon azobi",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    288
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "sahoba_3",
+   "name": "Usmon ibn Affon r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    522
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "kitob_3",
+   "name": "Payg'ambarlar tarixi",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    282
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 3
+  },
+  {
+   "key": "sahoba_4",
+   "name": "Ali ibn Abu Tolib r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    524
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "kitob_4",
+   "name": "Oisha r.a",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    281
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 4
+  },
+  {
+   "key": "sahoba_5",
+   "name": "Talha ibn Ubaydulloh r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    526
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "kitob_5",
+   "name": "Qiyomat va Oxirat",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    280
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 5
+  },
+  {
+   "key": "sahoba_6",
+   "name": "Sa'd ibn Abu Vaqqos r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    528
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "kitob_6",
+   "name": "Ibodati islomiya",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    279
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 6
+  },
+  {
+   "key": "sahoba_7",
+   "name": "Abdurahmon ibn Avf r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    530
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "kitob_7",
+   "name": "Tarixi Muhammadiy",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    277
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 7
+  },
+  {
+   "key": "sahoba_8",
+   "name": "Said ibn Zayd r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    532
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 8
+  },
+  {
+   "key": "kitob_8",
+   "name": "Saodat asri qissalari",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    273,
+    274,
+    275,
+    276
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 8
+  },
+  {
+   "key": "sahoba_9",
+   "name": "Abu Ubayda ibn Jarroh r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    534
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 9
+  },
+  {
+   "key": "kitob_9",
+   "name": "Hadis va Hayot (9 juz)",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    668,
+    669,
+    670,
+    671,
+    672,
+    673,
+    674,
+    675,
+    676
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 9
+  },
+  {
+   "key": "sahoba_10",
+   "name": "Zubayr ibn Avvom r.a",
+   "kind": "post",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [
+    536
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 10
+  },
+  {
+   "key": "kitob_10",
+   "name": "Qirq hadisi qudusiy",
+   "kind": "post",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [
+    677
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 10
+  },
+  {
+   "key": "asmaul_99",
+   "name": "Allohning 99 ismi",
+   "kind": "post",
+   "parent": "asmaul",
+   "text": "",
+   "message_ids": [
+    479,
+    709
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 1
+  },
+  {
+   "key": "asmaul_manolari",
+   "name": "Ma'nolari",
+   "kind": "post",
+   "parent": "asmaul",
+   "text": "",
+   "message_ids": [
+    707
+   ],
+   "action": null,
+   "source": "v1",
+   "position": 2
+  },
+  {
+   "key": "ramazon",
+   "name": "Ramazon🌙",
+   "kind": "menu",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v2",
+   "position": 8
+  },
+  {
+   "key": "ramazon_haqida",
+   "name": "Ramazon haqida",
+   "kind": "post",
+   "parent": "ramazon",
+   "text": "",
+   "message_ids": [
+    1538
+   ],
+   "action": null,
+   "source": "v2",
+   "position": 1
+  },
+  {
+   "key": "ramazon_amallar",
+   "name": "Ramazon oyidagi amallar",
+   "kind": "post",
+   "parent": "ramazon",
+   "text": "",
+   "message_ids": [
+    1539
+   ],
+   "action": null,
+   "source": "v2",
+   "position": 2
+  },
+  {
+   "key": "ramazon_taqvim",
+   "name": "Ramazon taqvimi",
+   "kind": "post",
+   "parent": "ramazon",
+   "text": "",
+   "message_ids": [
+    1537
+   ],
+   "action": null,
+   "source": "v2",
+   "position": 3
+  },
+  {
+   "key": "hifz",
+   "name": "Hifz uchun tavsiyalar",
+   "kind": "post",
+   "parent": "quran",
+   "text": "",
+   "message_ids": [
+    1532
+   ],
+   "action": null,
+   "source": "v2",
+   "position": 3
+  },
+  {
+   "key": "bilol",
+   "name": "Bilol ibn Raboh",
+   "kind": "post",
+   "parent": "filmlar",
+   "text": "",
+   "message_ids": [
+    1362
+   ],
+   "action": null,
+   "source": "v2",
+   "position": 1
+  },
+  {
+   "key": "filmlar",
+   "name": "Filmlar🎞",
+   "kind": "menu",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v2",
+   "position": 9
+  },
+  {
+   "key": "darsliklar",
+   "name": "Darsliklar📕",
+   "kind": "menu",
+   "parent": null,
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "v2",
+   "position": 10
+  },
+  {
+   "key": "muallimi_soniy",
+   "name": "Muallimi soniy",
+   "kind": "list",
+   "parent": "darsliklar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Video-darslar, nomlar kanal fayllaridan",
+   "position": 1
+  },
+  {
+   "key": "ms_1257",
+   "name": "1-dars | Alifbo",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1257
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "ms_1258",
+   "name": "2-dars | Mahrajlar",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1258
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "ms_1259",
+   "name": "3-dars | Harakatlar",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1259
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "ms_1260",
+   "name": "4-dars | ز harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1260
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "ms_1261",
+   "name": "5-dars | م harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1261
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "ms_1262",
+   "name": "6-dars | ت harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1262
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "ms_1263",
+   "name": "7-dars | ن  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1263
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "ms_1264",
+   "name": "8-dars | ي  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1264
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "ms_1265",
+   "name": "9-dars | ب  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1265
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "ms_1266",
+   "name": "10-dars | ك  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1266
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "ms_1267",
+   "name": "11-dars | ل  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1267
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "ms_1268",
+   "name": "12-dars | و  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1268
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "ms_1269",
+   "name": "13-dars | ه  harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1269
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "ms_1270",
+   "name": "14-dars | ف harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1270
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "ms_1271",
+   "name": "15-dars | ق harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1271
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "ms_1272",
+   "name": "16-dars | ش harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1272
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "ms_1273",
+   "name": "17-dars | س harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1273
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "ms_1274",
+   "name": "18-dars | ث harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1274
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "ms_1275",
+   "name": "19-dars |ص harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1275
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "ms_1276",
+   "name": "20-dars | ط harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1276
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "ms_1277",
+   "name": "21-dars | ج harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1277
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "ms_1278",
+   "name": "22-dars | خ harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1278
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "ms_1279",
+   "name": "23-dars |  ح harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1279
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "ms_1280",
+   "name": "24-dars | غ harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1280
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "ms_1281",
+   "name": "25-dars | ع harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1281
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "ms_1282",
+   "name": "26-dars | د harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1282
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "ms_1283",
+   "name": "27-dars | ض harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1283
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "ms_1284",
+   "name": "28-dars | ذ harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1284
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "ms_1285",
+   "name": "29-dars | ظ harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1285
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "ms_1286",
+   "name": "30-dars | Mad tabiiy",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1286
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "ms_1287",
+   "name": "31-dars | Tashdidli harfi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1287
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 31
+  },
+  {
+   "key": "ms_1288",
+   "name": "32-dars | Tanvinli tashdid",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1288
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 32
+  },
+  {
+   "key": "ms_1289",
+   "name": "33-dars | Hamza",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1289
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 33
+  },
+  {
+   "key": "ms_1290",
+   "name": "34-dars | Ta marbuta (ة)",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1290
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 34
+  },
+  {
+   "key": "ms_1291",
+   "name": "35-dars | Muqaddar alif",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1291
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 35
+  },
+  {
+   "key": "ms_1292",
+   "name": "36-dars | Muqaddar  ي  va  و",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1292
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 36
+  },
+  {
+   "key": "ms_1293",
+   "name": "36-dars | Muqaddar  ي  va  و",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1293
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 37
+  },
+  {
+   "key": "ms_1294",
+   "name": "37-dars | ي li aliflar",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1294
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 38
+  },
+  {
+   "key": "ms_1295",
+   "name": "38 dars | Yozuvda bo‘lib o‘qilmaydigan harflar",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1295
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 39
+  },
+  {
+   "key": "ms_1296",
+   "name": "39 dars | Qamariyya harflari va vasliya hamzasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1296
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 40
+  },
+  {
+   "key": "ms_1297",
+   "name": "40-dars | Shamsiya harflari",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1297
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 41
+  },
+  {
+   "key": "ms_1298",
+   "name": "41 dars | Qamariya, shamsiya harflari va vasliya",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1298
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 42
+  },
+  {
+   "key": "ms_1299",
+   "name": "42 dars | Kalimalar so‘ngida to‘xtash qoidalari",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1299
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 43
+  },
+  {
+   "key": "ms_1300",
+   "name": "43 dars | So‘z so‘ngida madlik kalimalarga to‘xtash",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1300
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 44
+  },
+  {
+   "key": "ms_1301",
+   "name": "44-dars | Idg‘om qoidasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1301
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 45
+  },
+  {
+   "key": "ms_1302",
+   "name": "45-dars | Iqlob qoidasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1302
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 46
+  },
+  {
+   "key": "ms_1303",
+   "name": "46-dars | Alloh lafzi o'qilish qoidasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1303
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 47
+  },
+  {
+   "key": "ms_1304",
+   "name": "47-dars | Iymon kalimalari",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1304
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 48
+  },
+  {
+   "key": "ms_1305",
+   "name": "48-dars | Fotiha surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1305
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 49
+  },
+  {
+   "key": "ms_1306",
+   "name": "49-dars | Baqara surasi (1-5)",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1306
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 50
+  },
+  {
+   "key": "ms_1307",
+   "name": "50-dars | Shams surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1307
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 51
+  },
+  {
+   "key": "ms_1308",
+   "name": "51-dars | Layl surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1308
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 52
+  },
+  {
+   "key": "ms_1309",
+   "name": "52-dars | Sharh surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1309
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 53
+  },
+  {
+   "key": "ms_1310",
+   "name": "53-dars | Tiyn surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1310
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 54
+  },
+  {
+   "key": "ms_1311",
+   "name": "54-dars | Alaq surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1311
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 55
+  },
+  {
+   "key": "ms_1312",
+   "name": "55-dars | Qadr surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1312
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 56
+  },
+  {
+   "key": "ms_1313",
+   "name": "56-dars | Bayyina surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1313
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 57
+  },
+  {
+   "key": "ms_1314",
+   "name": "57-dars | Zalzala surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1314
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 58
+  },
+  {
+   "key": "ms_1315",
+   "name": "58-dars | Adiyat surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1315
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 59
+  },
+  {
+   "key": "ms_1316",
+   "name": "59-dars | Qoria surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1316
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 60
+  },
+  {
+   "key": "ms_1317",
+   "name": "60-dars | Takasur surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1317
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 61
+  },
+  {
+   "key": "ms_1318",
+   "name": "61-dars | Asr surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1318
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 62
+  },
+  {
+   "key": "ms_1319",
+   "name": "62-dars | Humaza surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1319
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 63
+  },
+  {
+   "key": "ms_1320",
+   "name": "63-dars | Fil surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1320
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 64
+  },
+  {
+   "key": "ms_1321",
+   "name": "64-dars | Quraysh surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1321
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 65
+  },
+  {
+   "key": "ms_1322",
+   "name": "65-dars | Maa'uun surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1322
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 66
+  },
+  {
+   "key": "ms_1323",
+   "name": "66-dars | Kavsar surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1323
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 67
+  },
+  {
+   "key": "ms_1324",
+   "name": "67-dars | Kafirun surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1324
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 68
+  },
+  {
+   "key": "ms_1325",
+   "name": "68-dars | Nasr surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1325
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 69
+  },
+  {
+   "key": "ms_1326",
+   "name": "69-dars | Masad surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1326
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 70
+  },
+  {
+   "key": "ms_1327",
+   "name": "70-dars | Ixlos surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1327
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 71
+  },
+  {
+   "key": "ms_1328",
+   "name": "71-dars | Falaq surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1328
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 72
+  },
+  {
+   "key": "ms_1329",
+   "name": "72-dars | Nas surasi",
+   "kind": "post",
+   "parent": "muallimi_soniy",
+   "text": "",
+   "message_ids": [
+    1329
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 73
+  },
+  {
+   "key": "quran_tartili",
+   "name": "Qur'on tartili",
+   "kind": "list",
+   "parent": "darsliklar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Video-darslar (Қуръон тартили)",
+   "position": 2
+  },
+  {
+   "key": "qt_1330",
+   "name": "01. Қуръон тартили - Муқаддима",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1330
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "qt_1331",
+   "name": "02. Қуръон тартили - Биринчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1331
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "qt_1332",
+   "name": "03. Қуръон тартили - Иккинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1332
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "qt_1333",
+   "name": "04. Қуръон тартили - Учинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1333
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "qt_1334",
+   "name": "05. Қуръон тартили - Тўртинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1334
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "qt_1335",
+   "name": "06. Қуръон тартили - Бешинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1335
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "qt_1336",
+   "name": "07. Қуръон тартили - Олтинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1336
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "qt_1337",
+   "name": "08. Қуръон тартили - Еттинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1337
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "qt_1338",
+   "name": "09 Қуръон тартили Саккизинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1338
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "qt_1339",
+   "name": "10 Қуръон тартили Тўққизинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1339
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "qt_1340",
+   "name": "11. Қуръон тартили - Ўнинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1340
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "qt_1341",
+   "name": "12 Қуръон тартили Ўн Биринчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1341
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "qt_1342",
+   "name": "13 Қуръон тартили Ўн иккинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1342
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "qt_1343",
+   "name": "14. Қуръон тартили - Ўн учинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1343
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "qt_1344",
+   "name": "15 Қуръон тартили Ўн тўртинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1344
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "qt_1345",
+   "name": "16 Қуръон тартили Ўн бешинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1345
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "qt_1346",
+   "name": "17 Қуръон тартили Ўн олтинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1346
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "qt_1347",
+   "name": "18 Қуръон тартили Ўн еттинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1347
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "qt_1348",
+   "name": "19 Қуръон тартили Ўн саккизинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1348
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "qt_1349",
+   "name": "20 Қуръон тартили Ўн тўққизинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1349
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "qt_1350",
+   "name": "21 Қуръон тартили Йигирманчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1350
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "qt_1351",
+   "name": "22 Қуръон тартили Йигирма биринчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1351
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "qt_1352",
+   "name": "23 Қуръон тартили Йигирма иккинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1352
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "qt_1353",
+   "name": "24 Қуръон тартили Йигирма учинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1353
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "qt_1354",
+   "name": "25 Қуръон тартили Йигирма тўртинчи",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1354
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "qt_1355",
+   "name": "26 Қуръон тартили Йигирма бешинчи дарс",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1355
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "qt_1356",
+   "name": "27. Қуръон тартили | Калималар",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1356
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "qt_1357",
+   "name": "TARTIL ONLINE 2 DARS WEB",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1357
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "qt_1358",
+   "name": "TARTIL ONLINE 3 DARS WEB",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1358
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "qt_1359",
+   "name": "TARTIL ONLINE 4 DARS WEB",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1359
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "qt_1360",
+   "name": "TARTIL ONLINE 5 DARS WEB",
+   "kind": "post",
+   "parent": "quran_tartili",
+   "text": "",
+   "message_ids": [
+    1360
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 31
+  },
+  {
+   "key": "arab_kitoblar",
+   "name": "Arab tili uchun kitoblar",
+   "kind": "list",
+   "parent": "darsliklar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "PDF lar; bo'lim nomi v2 kodidan",
+   "position": 3
+  },
+  {
+   "key": "arab_1524",
+   "name": "ABDUJABBOROV Араб тили 2015",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1524
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "arab_1526",
+   "name": "Mabdal 1 E'robsiz",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1526
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "arab_1527",
+   "name": "Mabda ul Qiroat erobsiz 2",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1527
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "arab_1528",
+   "name": "mabdal qıroat 3 erobsız",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1528
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "arab_1530",
+   "name": "arab-tili-darslari",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1530
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "arab_1531",
+   "name": "Mukammal sarf darsligi",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1531
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "arab_1534",
+   "name": "ABDUJABBOROV Араб тили 2015",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1534
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "arab_1535",
+   "name": "1 Ne'matillo Ibrohimov, Muhammad Yusupov Arab tili grammatikasi",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1535
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "arab_1536",
+   "name": "2 Ne'matullo Ibrohimov, Muhammad Yusupov Arab tili grammatikasi",
+   "kind": "post",
+   "parent": "arab_kitoblar",
+   "text": "",
+   "message_ids": [
+    1536
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "umar_serial",
+   "name": "Umar ibn Xattob r.a. (serial)",
+   "kind": "list",
+   "parent": "filmlar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "30 qism; sarlavha kanaldagi izohdan",
+   "position": 2
+  },
+  {
+   "key": "um_1363",
+   "name": "1-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1363
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "um_1364",
+   "name": "2-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1364
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "um_1365",
+   "name": "3-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1365
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "um_1366",
+   "name": "4-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1366
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "um_1367",
+   "name": "5-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1367
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "um_1368",
+   "name": "6-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1368
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "um_1369",
+   "name": "7-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1369
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "um_1370",
+   "name": "8-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1370
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "um_1371",
+   "name": "9-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1371
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "um_1372",
+   "name": "10-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1372
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "um_1373",
+   "name": "11-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1373
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "um_1374",
+   "name": "12-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1374
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "um_1375",
+   "name": "13-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1375
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "um_1376",
+   "name": "14-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1376
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "um_1377",
+   "name": "15-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1377
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "um_1378",
+   "name": "16-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1378
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "um_1379",
+   "name": "17-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1379
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "um_1380",
+   "name": "18-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1380
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "um_1381",
+   "name": "19-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1381
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "um_1382",
+   "name": "20-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1382
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "um_1383",
+   "name": "21-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1383
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "um_1384",
+   "name": "22-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1384
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "um_1385",
+   "name": "23-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1385
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "um_1386",
+   "name": "24-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1386
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "um_1387",
+   "name": "25-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1387
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "um_1388",
+   "name": "26-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1388
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "um_1389",
+   "name": "27-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1389
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "um_1390",
+   "name": "28-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1390
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "um_1391",
+   "name": "29-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1391
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "um_1392",
+   "name": "30-qism",
+   "kind": "post",
+   "parent": "umar_serial",
+   "text": "",
+   "message_ids": [
+    1392
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "olamga_nur",
+   "name": "Olamga nur sochgan oy",
+   "kind": "list",
+   "parent": "filmlar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "30 qism, islomiy serial (v2 da 'Olamga nur sochgan oy')",
+   "position": 3
+  },
+  {
+   "key": "on_1395",
+   "name": "1-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1395
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "on_1396",
+   "name": "2-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1396
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "on_1397",
+   "name": "3-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1397
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "on_1398",
+   "name": "4-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1398
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "on_1399",
+   "name": "5-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1399
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "on_1400",
+   "name": "6-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1400
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "on_1401",
+   "name": "7-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1401
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "on_1402",
+   "name": "8-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1402
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "on_1403",
+   "name": "9-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1403
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "on_1404",
+   "name": "10-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1404
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "on_1405",
+   "name": "11-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1405
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "on_1406",
+   "name": "12-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1406
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "on_1407",
+   "name": "13-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1407
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "on_1408",
+   "name": "14-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1408
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "on_1409",
+   "name": "15-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1409
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "on_1410",
+   "name": "16-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1410
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "on_1411",
+   "name": "17-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1411
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "on_1412",
+   "name": "18-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1412
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "on_1413",
+   "name": "19-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1413
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "on_1414",
+   "name": "20-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1414
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "on_1415",
+   "name": "21-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1415
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "on_1416",
+   "name": "22-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1416
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "on_1417",
+   "name": "23-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1417
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "on_1418",
+   "name": "24-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1418
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "on_1419",
+   "name": "25-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1419
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "on_1420",
+   "name": "26-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1420
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "on_1421",
+   "name": "27-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1421
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "on_1422",
+   "name": "28-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1422
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "on_1423",
+   "name": "29-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1423
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "on_1424",
+   "name": "30-qism",
+   "kind": "post",
+   "parent": "olamga_nur",
+   "text": "",
+   "message_ids": [
+    1424
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "kitoblar_qoshimcha",
+   "name": "Boshqa kitoblar",
+   "kind": "list",
+   "parent": "kitoblar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Kanaldagi qolgan PDF kitoblar; bo'limga joylashuvini tasdiqlang",
+   "position": 11
+  },
+  {
+   "key": "kq_278",
+   "name": "Bir vijdon uyg'onur (Ahmad Lutfiy Qozonchi)",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    278
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "kq_283",
+   "name": "Tafsiri Hilol 1 juz",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    283
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "kq_284",
+   "name": "Tafsiri Hilol 2 juz",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    284
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "kq_285",
+   "name": "Tafsiri Hilol 3 juz",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    285
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "kq_286",
+   "name": "TAFSIRI HILOL 4-JUZ",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    286
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "kq_287",
+   "name": "Usmon Azim. Jimlik",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    287
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "kq_1228",
+   "name": "Imom G'azzoliy Ihyou ulumid din Ro'za sirlari kitobi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1228
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "kq_1229",
+   "name": "Imom G'azzoliy. Ihyou ulumid-din. Tavba kitobi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1229
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "kq_1231",
+   "name": "Imom G'azzoliy. Ihyou ulumid-din. Tafakkur kitobi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1231
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "kq_1232",
+   "name": "Imom G'azzoliy. Ihyou ulumid-din. Zakot sirlari kitobi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1232
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "kq_1233",
+   "name": "Imom G'azzoliy. Oxiratnoma",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1233
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "kq_1235",
+   "name": "Imom G'azzoliy. Ihyou ulumid-din. Qalb kitobi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1235
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "kq_1236",
+   "name": "Imom G'azzoliy. Ihyou ulumid-din. Riyozatun nafs",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1236
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "kq_1237",
+   "name": "Qalb kitobi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1237
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "kq_1239",
+   "name": "Qur'on axloqiga ko'ra mo'minning 24 soati",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1239
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "kq_1241",
+   "name": "Gunohi kabiralar",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1241
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "kq_1242",
+   "name": "G'azabning davosi",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1242
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "kq_1243",
+   "name": "XXI asrda Islom",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1243
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "kq_1244",
+   "name": "Qur'oni karimning ilmiy mo'jizalari",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1244
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "kq_1245",
+   "name": "Islomiy moliya asoslari",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1245
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "kq_1249",
+   "name": "Nasroniy atirguli",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1249
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "kq_1250",
+   "name": "Xadicha binti huvaylid roziyallohu anhu",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1250
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "kq_1251",
+   "name": "Abu Lays Samarqandiy. Tanbehul g'ofiliyn",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1251
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "kq_1252",
+   "name": "Савдогарлар устози",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1252
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "kq_1253",
+   "name": "Saida Chamlija Iymon va huzun",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1253
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "kq_1254",
+   "name": "Imom G'azzoliy. Til ofatlari",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1254
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "kq_1255",
+   "name": "Ulamolar nazdida vaqtning qadri [@kitoblar pdf]",
+   "kind": "post",
+   "parent": "kitoblar_qoshimcha",
+   "text": "",
+   "message_ids": [
+    1255
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "asmaul_rasmlar",
+   "name": "Ismlar va ma'nolari (rasmlar)",
+   "kind": "list",
+   "parent": "asmaul",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Rasm-izohlar; ismlar tartibi bo'yicha raqamlangan",
+   "position": 3
+  },
+  {
+   "key": "ar_834",
+   "name": "1-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    834
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "ar_835",
+   "name": "2-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    835
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "ar_836",
+   "name": "3-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    836
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "ar_837",
+   "name": "4-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    837
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "ar_838",
+   "name": "5-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    838
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "ar_839",
+   "name": "6-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    839
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "ar_840",
+   "name": "7-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    840
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "ar_841",
+   "name": "8-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    841
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "ar_842",
+   "name": "9-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    842
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "ar_843",
+   "name": "10-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    843
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "ar_844",
+   "name": "11-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    844
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "ar_845",
+   "name": "12-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    845
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "ar_846",
+   "name": "13-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    846
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "ar_847",
+   "name": "14-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    847
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "ar_848",
+   "name": "15-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    848
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "ar_849",
+   "name": "16-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    849
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "ar_850",
+   "name": "17-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    850
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "ar_851",
+   "name": "18-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    851
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "ar_852",
+   "name": "19-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    852
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "ar_853",
+   "name": "20-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    853
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "ar_854",
+   "name": "21-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    854
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "ar_855",
+   "name": "22-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    855
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "ar_856",
+   "name": "23-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    856
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "ar_857",
+   "name": "24-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    857
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "ar_858",
+   "name": "25-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    858
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "ar_859",
+   "name": "26-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    859
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "ar_860",
+   "name": "27-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    860
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "ar_861",
+   "name": "28-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    861
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "ar_862",
+   "name": "29-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    862
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "ar_863",
+   "name": "30-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    863
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "ar_864",
+   "name": "31-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    864
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 31
+  },
+  {
+   "key": "ar_865",
+   "name": "32-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    865
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 32
+  },
+  {
+   "key": "ar_866",
+   "name": "33-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    866
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 33
+  },
+  {
+   "key": "ar_867",
+   "name": "34-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    867
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 34
+  },
+  {
+   "key": "ar_868",
+   "name": "35-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    868
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 35
+  },
+  {
+   "key": "ar_869",
+   "name": "36-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    869
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 36
+  },
+  {
+   "key": "ar_870",
+   "name": "37-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    870
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 37
+  },
+  {
+   "key": "ar_871",
+   "name": "38-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    871
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 38
+  },
+  {
+   "key": "ar_872",
+   "name": "39-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    872
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 39
+  },
+  {
+   "key": "ar_873",
+   "name": "40-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    873
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 40
+  },
+  {
+   "key": "ar_874",
+   "name": "41-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    874
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 41
+  },
+  {
+   "key": "ar_875",
+   "name": "42-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    875
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 42
+  },
+  {
+   "key": "ar_876",
+   "name": "43-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    876
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 43
+  },
+  {
+   "key": "ar_877",
+   "name": "44-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    877
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 44
+  },
+  {
+   "key": "ar_878",
+   "name": "45-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    878
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 45
+  },
+  {
+   "key": "ar_879",
+   "name": "46-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    879
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 46
+  },
+  {
+   "key": "ar_880",
+   "name": "47-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    880
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 47
+  },
+  {
+   "key": "ar_881",
+   "name": "48-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    881
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 48
+  },
+  {
+   "key": "ar_882",
+   "name": "49-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    882
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 49
+  },
+  {
+   "key": "ar_883",
+   "name": "50-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    883
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 50
+  },
+  {
+   "key": "ar_884",
+   "name": "51-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    884
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 51
+  },
+  {
+   "key": "ar_885",
+   "name": "52-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    885
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 52
+  },
+  {
+   "key": "ar_886",
+   "name": "53-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    886
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 53
+  },
+  {
+   "key": "ar_887",
+   "name": "54-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    887
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 54
+  },
+  {
+   "key": "ar_888",
+   "name": "55-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    888
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 55
+  },
+  {
+   "key": "ar_889",
+   "name": "56-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    889
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 56
+  },
+  {
+   "key": "ar_890",
+   "name": "57-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    890
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 57
+  },
+  {
+   "key": "ar_891",
+   "name": "58-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    891
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 58
+  },
+  {
+   "key": "ar_892",
+   "name": "59-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    892
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 59
+  },
+  {
+   "key": "ar_893",
+   "name": "60-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    893
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 60
+  },
+  {
+   "key": "ar_894",
+   "name": "61-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    894
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 61
+  },
+  {
+   "key": "ar_895",
+   "name": "62-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    895
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 62
+  },
+  {
+   "key": "ar_897",
+   "name": "63-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    897
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 63
+  },
+  {
+   "key": "ar_898",
+   "name": "64-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    898
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 64
+  },
+  {
+   "key": "ar_899",
+   "name": "65-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    899
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 65
+  },
+  {
+   "key": "ar_900",
+   "name": "66-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    900
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 66
+  },
+  {
+   "key": "ar_901",
+   "name": "67-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    901
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 67
+  },
+  {
+   "key": "ar_902",
+   "name": "68-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    902
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 68
+  },
+  {
+   "key": "ar_903",
+   "name": "69-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    903
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 69
+  },
+  {
+   "key": "ar_904",
+   "name": "70-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    904
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 70
+  },
+  {
+   "key": "ar_905",
+   "name": "71-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    905
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 71
+  },
+  {
+   "key": "ar_906",
+   "name": "72-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    906
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 72
+  },
+  {
+   "key": "ar_907",
+   "name": "73-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    907
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 73
+  },
+  {
+   "key": "ar_908",
+   "name": "74-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    908
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 74
+  },
+  {
+   "key": "ar_909",
+   "name": "75-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    909
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 75
+  },
+  {
+   "key": "ar_910",
+   "name": "76-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    910
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 76
+  },
+  {
+   "key": "ar_911",
+   "name": "77-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    911
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 77
+  },
+  {
+   "key": "ar_912",
+   "name": "78-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    912
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 78
+  },
+  {
+   "key": "ar_913",
+   "name": "79-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    913
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 79
+  },
+  {
+   "key": "ar_914",
+   "name": "80-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    914
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 80
+  },
+  {
+   "key": "ar_915",
+   "name": "81-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    915
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 81
+  },
+  {
+   "key": "ar_916",
+   "name": "82-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    916
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 82
+  },
+  {
+   "key": "ar_917",
+   "name": "83-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    917
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 83
+  },
+  {
+   "key": "ar_918",
+   "name": "84-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    918
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 84
+  },
+  {
+   "key": "ar_919",
+   "name": "85-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    919
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 85
+  },
+  {
+   "key": "ar_920",
+   "name": "86-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    920
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 86
+  },
+  {
+   "key": "ar_921",
+   "name": "87-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    921
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 87
+  },
+  {
+   "key": "ar_922",
+   "name": "88-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    922
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 88
+  },
+  {
+   "key": "ar_923",
+   "name": "89-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    923
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 89
+  },
+  {
+   "key": "ar_924",
+   "name": "90-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    924
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 90
+  },
+  {
+   "key": "ar_925",
+   "name": "91-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    925
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 91
+  },
+  {
+   "key": "ar_926",
+   "name": "92-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    926
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 92
+  },
+  {
+   "key": "ar_927",
+   "name": "93-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    927
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 93
+  },
+  {
+   "key": "ar_928",
+   "name": "94-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    928
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 94
+  },
+  {
+   "key": "ar_929",
+   "name": "95-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    929
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 95
+  },
+  {
+   "key": "ar_930",
+   "name": "96-ism",
+   "kind": "post",
+   "parent": "asmaul_rasmlar",
+   "text": "",
+   "message_ids": [
+    930
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 96
+  },
+  {
+   "key": "asmaul_audio",
+   "name": "Asmaul Husna darslari (audio)",
+   "kind": "list",
+   "parent": "asmaul",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Audio darslar",
+   "position": 4
+  },
+  {
+   "key": "aa_931",
+   "name": "1. Da'vatda Asmaul husnaning o'rni",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    931
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "aa_932",
+   "name": "2. Da'vatda Asmaul husnaning o'rni",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    932
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "aa_933",
+   "name": "3. Al Akrom 1",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    933
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "aa_934",
+   "name": "4. Al Akrom 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    934
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "aa_935",
+   "name": "5. Ar Robb 1",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    935
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "aa_936",
+   "name": "6. Ar Robb 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    936
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "aa_937",
+   "name": "7. Al Mavlaa¹",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    937
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "aa_938",
+   "name": "7. Al-Mavlaa²",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    938
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "aa_939",
+   "name": "8. Al-Valiy",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    939
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "aa_940",
+   "name": "9. An-Nasir¹",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    940
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "aa_941",
+   "name": "9. An-Nasir²",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    941
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "aa_942",
+   "name": "9. An-Nasir³",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    942
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "aa_943",
+   "name": "10. Ar-Rofiq 1",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    943
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "aa_944",
+   "name": "11. Ar-Rofiq 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    944
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "aa_945",
+   "name": "12. Ar-Razzaq 1",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    945
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "aa_946",
+   "name": "13. Ar-Razzoq 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    946
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "aa_947",
+   "name": "14. Ash-Shakir",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    947
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "aa_948",
+   "name": "14. Ash-Shakir",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    948
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "aa_949",
+   "name": "16. Ash-Shakir²",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    949
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "aa_950",
+   "name": "17. As-Sittir - 1.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    950
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "aa_951",
+   "name": "18. As-Sittir - 2.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    951
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "aa_952",
+   "name": "19. Al-Jamil - 1.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    952
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "aa_953",
+   "name": "20. Al Jamil - 2.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    953
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "aa_954",
+   "name": "21. Al-Mu'tiy - 1.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    954
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "aa_955",
+   "name": "23. Al Mu'tiy - 3.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    955
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "aa_956",
+   "name": "23. Al Mu'tiy - 3.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    956
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "aa_957",
+   "name": "24.  Ad-Dayyan - 1.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    957
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "aa_958",
+   "name": "25 Ad-Dayyan - 2.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    958
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "aa_959",
+   "name": "26. Al-Muhsin",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    959
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "aa_960",
+   "name": "27. Al-Muhsin",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    960
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "aa_961",
+   "name": "28. Ash-Shafiy",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    961
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 31
+  },
+  {
+   "key": "aa_962",
+   "name": "29. Ash-Shafiy",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    962
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 32
+  },
+  {
+   "key": "aa_963",
+   "name": "30-Dars ASH-SHAFI   Asma-ul-Husna   Abdulloh domla",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    963
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 33
+  },
+  {
+   "key": "aa_964",
+   "name": "31. Al-Mubin",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    964
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 34
+  },
+  {
+   "key": "aa_965",
+   "name": "32. Al-Mubin - 2.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    965
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 35
+  },
+  {
+   "key": "aa_966",
+   "name": "33-Dars AL-QORIYB  Asma-ul-Husna  Abdulloh domla",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    966
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 36
+  },
+  {
+   "key": "aa_967",
+   "name": "34. Al-Qorib — 2.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    967
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 37
+  },
+  {
+   "key": "aa_968",
+   "name": "35-DARS   AL-JAVAD   ASMA-UL-HUSNA   ABDULLOH DOMLA",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    968
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 38
+  },
+  {
+   "key": "aa_969",
+   "name": "36. Al Javvad - 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    969
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 39
+  },
+  {
+   "key": "aa_970",
+   "name": "37. Al Hayiiy",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    970
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 40
+  },
+  {
+   "key": "aa_971",
+   "name": "38. Al Hayiy - 2.",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    971
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 41
+  },
+  {
+   "key": "aa_972",
+   "name": "39. Al-Qodiir!",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    972
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 42
+  },
+  {
+   "key": "aa_973",
+   "name": "24.12.2021 40-ДАРС (2-ҚИСМ) АЛ-ҚОДИИР / АСМА-УЛ-ҲУСНА / АБДУЛЛОҲ…",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    973
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 43
+  },
+  {
+   "key": "aa_974",
+   "name": "31.12.2021 41-ДАРС (3-ҚИСМ) АЛ-ҚОДИИР / АСМА-УЛ-ҲУСНА / АБДУЛЛОҲ…",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    974
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 44
+  },
+  {
+   "key": "aa_976",
+   "name": "42. Al Qoohir",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    976
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 45
+  },
+  {
+   "key": "aa_977",
+   "name": "43. Al Qoohir - 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    977
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 46
+  },
+  {
+   "key": "aa_978",
+   "name": "44. Al Qoohir - 3",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    978
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 47
+  },
+  {
+   "key": "aa_979",
+   "name": "45. Al Alaa - 1",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    979
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 48
+  },
+  {
+   "key": "aa_980",
+   "name": "46. Al Alaa - 2",
+   "kind": "post",
+   "parent": "asmaul_audio",
+   "text": "",
+   "message_ids": [
+    980
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 49
+  },
+  {
+   "key": "sahobalar_audio",
+   "name": "Sahobalar hayoti (audio)",
+   "kind": "list",
+   "parent": "sahobalar",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Audio darslar; sahobalarga bo'lib chiqish mumkin",
+   "position": 11
+  },
+  {
+   "key": "sa_983",
+   "name": "1. Abu Bakr Siddiq",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    983
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "sa_984",
+   "name": "2. Abu Bakr Siddiq RA 2",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    984
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "sa_985",
+   "name": "3. Abu Bakr Siddiq R.A 3.",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    985
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "sa_986",
+   "name": "4. Abu Bakr Siddiq R.A 4.",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    986
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "sa_987",
+   "name": "5. Abu Bakr Siddiq R.A 5.",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    987
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "sa_988",
+   "name": "1. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    988
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "sa_989",
+   "name": "2. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    989
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "sa_990",
+   "name": "3. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    990
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "sa_991",
+   "name": "4. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    991
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "sa_992",
+   "name": "5. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    992
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "sa_993",
+   "name": "6. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    993
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "sa_994",
+   "name": "7. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    994
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "sa_995",
+   "name": "8. Umar Ibn Xattob R.A",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    995
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "sa_996",
+   "name": "1. Usmon ibn Affon r.a",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    996
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "sa_997",
+   "name": "2. Usmon ibn Affon r.a",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    997
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "sa_998",
+   "name": "3. Usmon ibn Affon r.a",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    998
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "sa_999",
+   "name": "4. Usmon ibn Affon r.a",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    999
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "sa_1000",
+   "name": "1. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1000
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "sa_1001",
+   "name": "2. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1001
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "sa_1002",
+   "name": "3. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1002
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "sa_1003",
+   "name": "4. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1003
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "sa_1004",
+   "name": "5. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1004
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "sa_1005",
+   "name": "6. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1005
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "sa_1006",
+   "name": "7. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1006
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "sa_1007",
+   "name": "8. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1007
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "sa_1008",
+   "name": "9. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1008
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "sa_1009",
+   "name": "10. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1009
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "sa_1010",
+   "name": "11. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1010
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "sa_1011",
+   "name": "12. Ali ibn abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1011
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "sa_1012",
+   "name": "13. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1012
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "sa_1013",
+   "name": "14. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1013
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 31
+  },
+  {
+   "key": "sa_1014",
+   "name": "15. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1014
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 32
+  },
+  {
+   "key": "sa_1015",
+   "name": "16. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1015
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 33
+  },
+  {
+   "key": "sa_1016",
+   "name": "17. Ali ibn Abu Tolib",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1016
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 34
+  },
+  {
+   "key": "sa_1017",
+   "name": "6. Talha ibn Ubaydulloh",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1017
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 35
+  },
+  {
+   "key": "sa_1018",
+   "name": "7. Zubayr ibn Avvom",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1018
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 36
+  },
+  {
+   "key": "sa_1019",
+   "name": "8. Abdurohman ibn Avf",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1019
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 37
+  },
+  {
+   "key": "sa_1020",
+   "name": "9. Abdurohman ibn Avf 2",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1020
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 38
+  },
+  {
+   "key": "sa_1021",
+   "name": "10. Sa'd ibn abu Vaqqos",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1021
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 39
+  },
+  {
+   "key": "sa_1022",
+   "name": "11. Sa'd ibn abu Vaqqos 2",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1022
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 40
+  },
+  {
+   "key": "sa_1023",
+   "name": "12. Sa'id ibn Zayid",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1023
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 41
+  },
+  {
+   "key": "sa_1024",
+   "name": "13. Abu Ubayda",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1024
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 42
+  },
+  {
+   "key": "sa_1025",
+   "name": "14. Abu Ubayda 2",
+   "kind": "post",
+   "parent": "sahobalar_audio",
+   "text": "",
+   "message_ids": [
+    1025
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 43
+  },
+  {
+   "key": "zs_1036",
+   "name": "Фотиҳа Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1036
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "zs_1037",
+   "name": "Фийл Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1037
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "zs_1038",
+   "name": "Қурайш Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1038
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "zs_1039",
+   "name": "Маъун Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1039
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "zs_1040",
+   "name": "Кавсар Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1040
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "zs_1041",
+   "name": "Кафирун Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1041
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "zs_1042",
+   "name": "Наср Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1042
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "zs_1043",
+   "name": "Масад Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1043
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "zs_1044",
+   "name": "Ихлос Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1044
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "zs_1045",
+   "name": "Фалақ Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1045
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "zs_1046",
+   "name": "Ан-Нас Сураси",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1046
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "zs_1047",
+   "name": "Quraysh Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1047
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "zs_1049",
+   "name": "Ma’Un Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1049
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "zs_1050",
+   "name": "Kafirun Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1050
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "zs_1051",
+   "name": "Nasr Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1051
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "zs_1052",
+   "name": "Masad Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1052
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "zs_1053",
+   "name": "Ixlos Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1053
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "zs_1054",
+   "name": "Falaq Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1054
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "zs_1055",
+   "name": "An-Nas Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1055
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "zs_1057",
+   "name": "Fil Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1057
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "zs_1058",
+   "name": "Kavsar Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1058
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "zs_1059",
+   "name": "Ash-Sharh Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1059
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "zs_1179",
+   "name": "Tiyn Surasi",
+   "kind": "post",
+   "parent": "zam_suralar",
+   "text": "",
+   "message_ids": [
+    1179
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "namozni_organish",
+   "name": "Namozni o'rganish",
+   "kind": "list",
+   "parent": "namoz",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "Namoz/tahorat videolari; v2 dagi bo'lim nomi",
+   "position": 5
+  },
+  {
+   "key": "no_510",
+   "name": "БОМДОД НАМОЗИ АЁЛЛАР УЧУН ХАНАФИЙ МАЗХАБИДА",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    510
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "no_511",
+   "name": "ПЕШИН НАМОЗИаёллар учун PESHIN NAMOZI ханафий мазхабида",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    511
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "no_512",
+   "name": "АСР НАМОЗИ аёллар учун ASR NAMOZI ayollar uchun Ханафий мазхабида",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    512
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "no_513",
+   "name": "ШОМ НАМОЗИ Аёллар учун SHOM NAMOZI ayollar uchun",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    513
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "no_514",
+   "name": "ҲУФТОН НАМОЗИ -АЁЛЛАР УЧУН.",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    514
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "no_543",
+   "name": "TAHORAT QANDAY QILINADI | BIRGALIKDA",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    543
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "no_544",
+   "name": "ASR NAMOZI QANDAY O'QILADI? | BIRGALIKDA O'RGANAMIZ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    544
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "no_545",
+   "name": "PESHIN NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    545
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "no_546",
+   "name": "BOMDOD NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    546
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "no_547",
+   "name": "NAMOZ QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ | НАМОЗ ҚАНДАЙ ЎҚИЛАДИ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    547
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "no_565",
+   "name": "ASR NAMOZI QANDAY O'QILADI? | BIRGALIKDA O'RGANAMIZ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    565
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "no_566",
+   "name": "PESHIN NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    566
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "no_567",
+   "name": "BOMDOD NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    567
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "no_568",
+   "name": "NAMOZ QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ | НАМОЗ ҚАНДАЙ ЎҚИЛАДИ",
+   "kind": "post",
+   "parent": "namozni_organish",
+   "text": "",
+   "message_ids": [
+    568
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "quran_audio2",
+   "name": "Qur'on audio (qori Badr al-Izi)",
+   "kind": "list",
+   "parent": "quran",
+   "text": "",
+   "message_ids": [],
+   "action": null,
+   "source": "channel",
+   "review": "114 ta sura audiosi; 'Qur'onga o'tish' bilan almashtirish/qo'shish masalasini hal qiling",
+   "position": 4
+  },
+  {
+   "key": "q2_1065",
+   "name": "01 Al-Fatihah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1065
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 1
+  },
+  {
+   "key": "q2_1066",
+   "name": "02 Al-Baqarah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1066
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 2
+  },
+  {
+   "key": "q2_1067",
+   "name": "03 Al-Imron",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1067
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 3
+  },
+  {
+   "key": "q2_1068",
+   "name": "04 An-Nisa'",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1068
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 4
+  },
+  {
+   "key": "q2_1069",
+   "name": "05 Al-Ma'idah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1069
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 5
+  },
+  {
+   "key": "q2_1070",
+   "name": "06 Al-An'am",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1070
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 6
+  },
+  {
+   "key": "q2_1071",
+   "name": "07 Al-A'raf",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1071
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 7
+  },
+  {
+   "key": "q2_1072",
+   "name": "08 Al-Anfal",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1072
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 8
+  },
+  {
+   "key": "q2_1073",
+   "name": "09 At-Taubah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1073
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 9
+  },
+  {
+   "key": "q2_1074",
+   "name": "10 Yunus",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1074
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 10
+  },
+  {
+   "key": "q2_1075",
+   "name": "11 Hud",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1075
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 11
+  },
+  {
+   "key": "q2_1076",
+   "name": "12 Yusuf",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1076
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 12
+  },
+  {
+   "key": "q2_1077",
+   "name": "13 Ar-Ra'd",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1077
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 13
+  },
+  {
+   "key": "q2_1078",
+   "name": "14 Ibrahim",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1078
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 14
+  },
+  {
+   "key": "q2_1079",
+   "name": "15 Al-Hijr",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1079
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 15
+  },
+  {
+   "key": "q2_1080",
+   "name": "16 An-Nahl",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1080
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 16
+  },
+  {
+   "key": "q2_1081",
+   "name": "17 Al-Isra",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1081
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 17
+  },
+  {
+   "key": "q2_1082",
+   "name": "18 Al-Kahf",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1082
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 18
+  },
+  {
+   "key": "q2_1083",
+   "name": "19 Maryam",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1083
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 19
+  },
+  {
+   "key": "q2_1084",
+   "name": "20 TaHa",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1084
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 20
+  },
+  {
+   "key": "q2_1085",
+   "name": "21 Al-Anbiya'",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1085
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 21
+  },
+  {
+   "key": "q2_1086",
+   "name": "22 Al-Hajj",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1086
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 22
+  },
+  {
+   "key": "q2_1087",
+   "name": "23 Mu'minun",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1087
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 23
+  },
+  {
+   "key": "q2_1088",
+   "name": "24 An-Nur",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1088
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 24
+  },
+  {
+   "key": "q2_1089",
+   "name": "25 Al-Furqan",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1089
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 25
+  },
+  {
+   "key": "q2_1090",
+   "name": "26 Ash-Shu'ara",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1090
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 26
+  },
+  {
+   "key": "q2_1091",
+   "name": "27 An-Naml",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1091
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 27
+  },
+  {
+   "key": "q2_1092",
+   "name": "28 Al-Qasas",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1092
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 28
+  },
+  {
+   "key": "q2_1093",
+   "name": "29 Al-'Ankabut",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1093
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 29
+  },
+  {
+   "key": "q2_1094",
+   "name": "30 Ar-Rum",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1094
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 30
+  },
+  {
+   "key": "q2_1095",
+   "name": "31 Luqman",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1095
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 31
+  },
+  {
+   "key": "q2_1096",
+   "name": "32 As-Sajdah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1096
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 32
+  },
+  {
+   "key": "q2_1097",
+   "name": "33 Al-Ahzab",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1097
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 33
+  },
+  {
+   "key": "q2_1098",
+   "name": "34 Saba'",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1098
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 34
+  },
+  {
+   "key": "q2_1099",
+   "name": "35 Fatir",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1099
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 35
+  },
+  {
+   "key": "q2_1100",
+   "name": "36 YaSin",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1100
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 36
+  },
+  {
+   "key": "q2_1101",
+   "name": "37 As-Saffat",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1101
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 37
+  },
+  {
+   "key": "q2_1102",
+   "name": "38 Sad",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1102
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 38
+  },
+  {
+   "key": "q2_1103",
+   "name": "39 Az-Zumar",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1103
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 39
+  },
+  {
+   "key": "q2_1104",
+   "name": "40 Ghafir",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1104
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 40
+  },
+  {
+   "key": "q2_1105",
+   "name": "41 Fussilat",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1105
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 41
+  },
+  {
+   "key": "q2_1106",
+   "name": "42 Ash-Shura",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1106
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 42
+  },
+  {
+   "key": "q2_1107",
+   "name": "43 Az-Zukhruf",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1107
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 43
+  },
+  {
+   "key": "q2_1108",
+   "name": "44 Ad-Dukhan",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1108
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 44
+  },
+  {
+   "key": "q2_1109",
+   "name": "45 Al-Jathiya",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1109
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 45
+  },
+  {
+   "key": "q2_1110",
+   "name": "46 Al-Ahqaf",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1110
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 46
+  },
+  {
+   "key": "q2_1111",
+   "name": "47 Muhammad",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1111
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 47
+  },
+  {
+   "key": "q2_1112",
+   "name": "48 Al-Fath",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1112
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 48
+  },
+  {
+   "key": "q2_1113",
+   "name": "49 Al-Hujurat",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1113
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 49
+  },
+  {
+   "key": "q2_1114",
+   "name": "50 Qaf",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1114
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 50
+  },
+  {
+   "key": "q2_1115",
+   "name": "51 Az-Zariyat",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1115
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 51
+  },
+  {
+   "key": "q2_1116",
+   "name": "52 At-Tur",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1116
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 52
+  },
+  {
+   "key": "q2_1117",
+   "name": "53 An-Najm",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1117
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 53
+  },
+  {
+   "key": "q2_1118",
+   "name": "54 Al-Qamar",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1118
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 54
+  },
+  {
+   "key": "q2_1119",
+   "name": "55 Ar-Rahman",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1119
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 55
+  },
+  {
+   "key": "q2_1120",
+   "name": "56 Al-Waqi'ah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1120
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 56
+  },
+  {
+   "key": "q2_1121",
+   "name": "57 Al-Hadid",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1121
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 57
+  },
+  {
+   "key": "q2_1122",
+   "name": "58 Al-Mujadilah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1122
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 58
+  },
+  {
+   "key": "q2_1123",
+   "name": "59 Al-Hashr",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1123
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 59
+  },
+  {
+   "key": "q2_1124",
+   "name": "60 Al-Mumtahanah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1124
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 60
+  },
+  {
+   "key": "q2_1125",
+   "name": "61 As-Saff",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1125
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 61
+  },
+  {
+   "key": "q2_1126",
+   "name": "62 Al-Jumu'ah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1126
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 62
+  },
+  {
+   "key": "q2_1127",
+   "name": "63 Al-Munafiqun",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1127
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 63
+  },
+  {
+   "key": "q2_1128",
+   "name": "64 At-Taghabun",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1128
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 64
+  },
+  {
+   "key": "q2_1129",
+   "name": "65 At-Talaq",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1129
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 65
+  },
+  {
+   "key": "q2_1130",
+   "name": "66 At-Tahrim",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1130
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 66
+  },
+  {
+   "key": "q2_1131",
+   "name": "67 Al-Mulk",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1131
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 67
+  },
+  {
+   "key": "q2_1132",
+   "name": "68 Al-Qalam",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1132
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 68
+  },
+  {
+   "key": "q2_1133",
+   "name": "69 Al-Haqqah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1133
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 69
+  },
+  {
+   "key": "q2_1134",
+   "name": "70 Al-Ma'arij",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1134
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 70
+  },
+  {
+   "key": "q2_1135",
+   "name": "71 Nuh",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1135
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 71
+  },
+  {
+   "key": "q2_1136",
+   "name": "72 Al-Jinn",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1136
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 72
+  },
+  {
+   "key": "q2_1137",
+   "name": "73 Al-Muzzammil",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1137
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 73
+  },
+  {
+   "key": "q2_1138",
+   "name": "74 Al-Muddaththir",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1138
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 74
+  },
+  {
+   "key": "q2_1139",
+   "name": "75 Al-Qiyomah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1139
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 75
+  },
+  {
+   "key": "q2_1140",
+   "name": "76 Al-Insan",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1140
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 76
+  },
+  {
+   "key": "q2_1141",
+   "name": "77 Al-Mursalat",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1141
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 77
+  },
+  {
+   "key": "q2_1142",
+   "name": "78 An-Naba'",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1142
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 78
+  },
+  {
+   "key": "q2_1143",
+   "name": "79 An-Nazi'at",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1143
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 79
+  },
+  {
+   "key": "q2_1144",
+   "name": "80 Abasa",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1144
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 80
+  },
+  {
+   "key": "q2_1145",
+   "name": "81 At-Takwir",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1145
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 81
+  },
+  {
+   "key": "q2_1146",
+   "name": "82 Al-Infitar",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1146
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 82
+  },
+  {
+   "key": "q2_1147",
+   "name": "83 Al-Mutaffifun",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1147
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 83
+  },
+  {
+   "key": "q2_1148",
+   "name": "84 Al-Inshiqaq",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1148
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 84
+  },
+  {
+   "key": "q2_1149",
+   "name": "85 Al-Buruj",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1149
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 85
+  },
+  {
+   "key": "q2_1150",
+   "name": "86 At-Tariq",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1150
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 86
+  },
+  {
+   "key": "q2_1151",
+   "name": "87 Al-A'la",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1151
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 87
+  },
+  {
+   "key": "q2_1152",
+   "name": "88 Al-Ghahsiyah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1152
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 88
+  },
+  {
+   "key": "q2_1153",
+   "name": "89 Al-Fajr",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1153
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 89
+  },
+  {
+   "key": "q2_1154",
+   "name": "90 Al-Balad",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1154
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 90
+  },
+  {
+   "key": "q2_1155",
+   "name": "91 Ash-Shams",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1155
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 91
+  },
+  {
+   "key": "q2_1156",
+   "name": "92 Al-Lail",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1156
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 92
+  },
+  {
+   "key": "q2_1157",
+   "name": "93 Ad-Duha",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1157
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 93
+  },
+  {
+   "key": "q2_1158",
+   "name": "94 Ash-Sharh",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1158
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 94
+  },
+  {
+   "key": "q2_1159",
+   "name": "95 At-Tin",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1159
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 95
+  },
+  {
+   "key": "q2_1160",
+   "name": "96 Al-'Alaq",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1160
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 96
+  },
+  {
+   "key": "q2_1161",
+   "name": "97 Al-Qadr",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1161
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 97
+  },
+  {
+   "key": "q2_1162",
+   "name": "98 Al-Baiyyinah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1162
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 98
+  },
+  {
+   "key": "q2_1163",
+   "name": "99 Az-Zalzalah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1163
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 99
+  },
+  {
+   "key": "q2_1164",
+   "name": "100 Al-'Adiyat",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1164
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 100
+  },
+  {
+   "key": "q2_1165",
+   "name": "101 Al-Qari'ah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1165
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 101
+  },
+  {
+   "key": "q2_1166",
+   "name": "102 At-Takathur",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1166
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 102
+  },
+  {
+   "key": "q2_1167",
+   "name": "103 Al-'Asr",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1167
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 103
+  },
+  {
+   "key": "q2_1168",
+   "name": "104 Al-Humazah",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1168
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 104
+  },
+  {
+   "key": "q2_1169",
+   "name": "105 Al-Fil",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1169
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 105
+  },
+  {
+   "key": "q2_1170",
+   "name": "106 Quraish",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1170
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 106
+  },
+  {
+   "key": "q2_1171",
+   "name": "107 Al-Ma'un",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1171
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 107
+  },
+  {
+   "key": "q2_1172",
+   "name": "108 Al-Kauthar",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1172
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 108
+  },
+  {
+   "key": "q2_1173",
+   "name": "109 Al-Kafirun",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1173
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 109
+  },
+  {
+   "key": "q2_1174",
+   "name": "110 An-Nasr",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1174
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 110
+  },
+  {
+   "key": "q2_1175",
+   "name": "111 Al-Masad",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1175
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 111
+  },
+  {
+   "key": "q2_1176",
+   "name": "112 Al-Ikhlas",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1176
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 112
+  },
+  {
+   "key": "q2_1177",
+   "name": "113 Al-Falaq",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1177
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 113
+  },
+  {
+   "key": "q2_1178",
+   "name": "114 An-Nas",
+   "kind": "post",
+   "parent": "quran_audio2",
+   "text": "",
+   "message_ids": [
+    1178
+   ],
+   "action": null,
+   "source": "channel",
+   "position": 114
+  }
+ ]
+}

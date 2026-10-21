@@ -1,0 +1,8050 @@
+[
+{
+"id": 6,
+"date": "2022-05-07",
+"type": "text",
+"title": "1)Abu Bakr As-Sodiq r.a. Abu Bakr r.a. Payg’ambarimiz ﷺdan keyin musulmonlarning",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 13,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "1. Abu Bakr Siddiq",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 14,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "2. Abu Bakr Siddiq RA 2",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 15,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "3. Abu Bakr Siddiq R.A 3.",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 16,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "4. Abu Bakr Siddiq R.A 4.",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 17,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "5. Abu Bakr Siddiq R.A 5.",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 26,
+"date": "2022-05-10",
+"type": "text",
+"title": "2)Umar ibn Hattob r.a. Ummatning eng shiddatlisi , ummatning ilhomlangani, shayt",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 27,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "1. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 28,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "2. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 29,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "3. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 30,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "4. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 31,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "5. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 32,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "6. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 33,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "7. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 34,
+"date": "2022-05-10",
+"type": "audio_file",
+"title": "8. Umar Ibn Xattob R.A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 35,
+"date": "2022-05-10",
+"type": "text",
+"title": "3)Usmon ibn Affon r.a. Usmon ibn Affon r.a. ummatning eng hayoli kishisi Usmon r",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 36,
+"date": "2022-05-10",
+"type": "text",
+"title": "4)Ali ibn AbuTolib Roziyallohu anhu Islomdagi eng birinchi fidoiy inson Birinchi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 37,
+"date": "2022-05-10",
+"type": "text",
+"title": "5)Talha ibn Ubaydulloh Roziyallohu anhu Islomga kirgan 8 insondan biri Yer ustid",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 38,
+"date": "2022-05-10",
+"type": "text",
+"title": "6)Saad ibn Abu Vaqqos Roziyallohu anhu Payg’ambarimiz ﷺning tog’alari Duolari ij",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 39,
+"date": "2022-05-10",
+"type": "text",
+"title": "7)Abdurahmon ibn Avf Roziyallohu anhu Sahobalarning ichida molu-dunyosi eng kopi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 40,
+"date": "2022-05-10",
+"type": "text",
+"title": "8)Said ibn Zayd Roziyallohu anhu Payg’ambarimiz ﷺ otalari Zayd ibn Amr ibn Nufay",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 41,
+"date": "2022-05-10",
+"type": "text",
+"title": "9)Abu Ubayda ibn Jarroh Roziyallohu anhu Ummatning eng ishonchi kishisi Abu Ubay",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 42,
+"date": "2022-05-10",
+"type": "text",
+"title": "10)Zubayr ibn Avvom Roziyallohu anhu Payg’ambarimiz ﷺning Havoriylari Yengilmas ",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 273,
+"date": "2022-05-17",
+"type": "text",
+"title": "Ahmad Lutfiy Qozonchi. Saodat asri qissalari. 1-kitob",
+"status": "in_menu",
+"node": "kitob_8"
+},
+{
+"id": 274,
+"date": "2022-05-17",
+"type": "text",
+"title": "Ahmad Lutfiy Qozonchi. Saodat asri qissalari. 2-kitob",
+"status": "in_menu",
+"node": "kitob_8"
+},
+{
+"id": 275,
+"date": "2022-05-17",
+"type": "text",
+"title": "Ahmad Lutfiy Qozonchi. Saodat asri qissalari. 3-kitob",
+"status": "in_menu",
+"node": "kitob_8"
+},
+{
+"id": 276,
+"date": "2022-05-17",
+"type": "text",
+"title": "Ahmad Lutfiy Qozonchi. Saodat asri qissalari. 4-kitob",
+"status": "in_menu",
+"node": "kitob_8"
+},
+{
+"id": 277,
+"date": "2022-05-17",
+"type": "text",
+"title": "Alixonto'ra Sog'uniy. Tarixi Muhammadiy",
+"status": "in_menu",
+"node": "kitob_7"
+},
+{
+"id": 278,
+"date": "2022-05-17",
+"type": "text",
+"title": "Bir vijdon uyg'onur (Ahmad Lutfiy Qozonchi)",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 279,
+"date": "2022-05-17",
+"type": "text",
+"title": "Ibodati islomiya",
+"status": "in_menu",
+"node": "kitob_6"
+},
+{
+"id": 280,
+"date": "2022-05-17",
+"type": "text",
+"title": "Imom G'azzoliy. Qiyomat va Oxirat",
+"status": "in_menu",
+"node": "kitob_5"
+},
+{
+"id": 281,
+"date": "2022-05-17",
+"type": "text",
+"title": "Oisha (R.A.)",
+"status": "in_menu",
+"node": "kitob_4"
+},
+{
+"id": 282,
+"date": "2022-05-17",
+"type": "text",
+"title": "Payg'ambarlar tarixi",
+"status": "in_menu",
+"node": "kitob_3"
+},
+{
+"id": 283,
+"date": "2022-05-17",
+"type": "text",
+"title": "Tafsiri Hilol 1 juz",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 284,
+"date": "2022-05-17",
+"type": "text",
+"title": "Tafsiri Hilol 2 juz",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 285,
+"date": "2022-05-17",
+"type": "text",
+"title": "Tafsiri Hilol 3 juz",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 286,
+"date": "2022-05-17",
+"type": "text",
+"title": "TAFSIRI HILOL 4-JUZ",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 287,
+"date": "2022-05-17",
+"type": "text",
+"title": "Usmon Azim. Jimlik",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 288,
+"date": "2022-05-17",
+"type": "text",
+"title": "Vijdon azobi",
+"status": "in_menu",
+"node": "kitob_2"
+},
+{
+"id": 289,
+"date": "2022-05-17",
+"type": "text",
+"title": "Zohidjon Islomov. Musulmonning odob kitobi",
+"status": "in_menu",
+"node": "kitob_1"
+},
+{
+"id": 290,
+"date": "2022-05-17",
+"type": "text",
+"title": "#kitoblar",
+"status": "ignore",
+"node": null
+},
+{
+"id": 357,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat As-Saff",
+"status": "in_menu",
+"node": "sura_61"
+},
+{
+"id": 359,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Jumua",
+"status": "in_menu",
+"node": "sura_62"
+},
+{
+"id": 360,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Munafiqoon",
+"status": "in_menu",
+"node": "sura_63"
+},
+{
+"id": 361,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Taghabun",
+"status": "in_menu",
+"node": "sura_64"
+},
+{
+"id": 362,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Talaq",
+"status": "in_menu",
+"node": "sura_65"
+},
+{
+"id": 363,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Tahrim",
+"status": "in_menu",
+"node": "sura_66"
+},
+{
+"id": 364,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Mulk",
+"status": "in_menu",
+"node": "sura_67"
+},
+{
+"id": 365,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Qalam",
+"status": "in_menu",
+"node": "sura_68"
+},
+{
+"id": 366,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Haaqqa",
+"status": "in_menu",
+"node": "sura_69"
+},
+{
+"id": 367,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Maarij",
+"status": "in_menu",
+"node": "sura_70"
+},
+{
+"id": 368,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Nooh",
+"status": "in_menu",
+"node": "sura_71"
+},
+{
+"id": 369,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Jinn",
+"status": "in_menu",
+"node": "sura_72"
+},
+{
+"id": 370,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Muzzammil",
+"status": "in_menu",
+"node": "sura_73"
+},
+{
+"id": 371,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Muddaththir",
+"status": "in_menu",
+"node": "sura_74"
+},
+{
+"id": 372,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Qiyama",
+"status": "in_menu",
+"node": "sura_75"
+},
+{
+"id": 373,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Insan",
+"status": "in_menu",
+"node": "sura_76"
+},
+{
+"id": 374,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Mursalat",
+"status": "in_menu",
+"node": "sura_77"
+},
+{
+"id": 375,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat An-Naba",
+"status": "in_menu",
+"node": "sura_78"
+},
+{
+"id": 376,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat An-Naziat",
+"status": "in_menu",
+"node": "sura_79"
+},
+{
+"id": 378,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Abasa",
+"status": "in_menu",
+"node": "sura_80"
+},
+{
+"id": 379,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Takwir",
+"status": "in_menu",
+"node": "sura_81"
+},
+{
+"id": 380,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Infitar",
+"status": "in_menu",
+"node": "sura_82"
+},
+{
+"id": 381,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Mutaffifin",
+"status": "in_menu",
+"node": "sura_83"
+},
+{
+"id": 382,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Inshiqaq",
+"status": "in_menu",
+"node": "sura_84"
+},
+{
+"id": 383,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Burooj",
+"status": "in_menu",
+"node": "sura_85"
+},
+{
+"id": 384,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Tariq",
+"status": "in_menu",
+"node": "sura_86"
+},
+{
+"id": 385,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Ala",
+"status": "in_menu",
+"node": "sura_87"
+},
+{
+"id": 386,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Ghashiya",
+"status": "in_menu",
+"node": "sura_88"
+},
+{
+"id": 391,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Al-Fajr",
+"status": "in_menu",
+"node": "sura_89"
+},
+{
+"id": 392,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Balad",
+"status": "in_menu",
+"node": "sura_90"
+},
+{
+"id": 393,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Ash-Shams",
+"status": "in_menu",
+"node": "sura_91"
+},
+{
+"id": 394,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Lail",
+"status": "in_menu",
+"node": "sura_92"
+},
+{
+"id": 395,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Ad-Dhuha",
+"status": "in_menu",
+"node": "sura_93"
+},
+{
+"id": 396,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Inshirah",
+"status": "in_menu",
+"node": "sura_94"
+},
+{
+"id": 397,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Tin",
+"status": "in_menu",
+"node": "sura_95"
+},
+{
+"id": 398,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Qadr",
+"status": "in_menu",
+"node": "sura_97"
+},
+{
+"id": 399,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Bayyina",
+"status": "in_menu",
+"node": "sura_98"
+},
+{
+"id": 400,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Az-Zalzala",
+"status": "in_menu",
+"node": "sura_99"
+},
+{
+"id": 401,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Adiyat",
+"status": "in_menu",
+"node": "sura_100"
+},
+{
+"id": 402,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Qaria",
+"status": "in_menu",
+"node": "sura_101"
+},
+{
+"id": 403,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Takathur",
+"status": "in_menu",
+"node": "sura_102"
+},
+{
+"id": 404,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Asr",
+"status": "in_menu",
+"node": "sura_103"
+},
+{
+"id": 405,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Humaza",
+"status": "in_menu",
+"node": "sura_104"
+},
+{
+"id": 406,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Fil",
+"status": "in_menu",
+"node": "sura_105"
+},
+{
+"id": 407,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Quraish",
+"status": "in_menu",
+"node": "sura_106"
+},
+{
+"id": 408,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Maun",
+"status": "in_menu",
+"node": "sura_107"
+},
+{
+"id": 409,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Kauther",
+"status": "in_menu",
+"node": "sura_108"
+},
+{
+"id": 410,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Kafiroon",
+"status": "in_menu",
+"node": "sura_109"
+},
+{
+"id": 411,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat An-Nasr",
+"status": "in_menu",
+"node": "sura_110"
+},
+{
+"id": 412,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Masadd",
+"status": "in_menu",
+"node": "sura_111"
+},
+{
+"id": 413,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Ikhlas",
+"status": "in_menu",
+"node": "sura_112"
+},
+{
+"id": 414,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Falaq",
+"status": "in_menu",
+"node": "sura_113"
+},
+{
+"id": 415,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat An-Nas",
+"status": "in_menu",
+"node": "sura_114"
+},
+{
+"id": 416,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Alaq",
+"status": "in_menu",
+"node": "sura_96"
+},
+{
+"id": 417,
+"date": "2022-05-19",
+"type": "text",
+"title": "#quran",
+"status": "ignore",
+"node": null
+},
+{
+"id": 418,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Fatiha",
+"status": "in_menu",
+"node": "sura_1"
+},
+{
+"id": 419,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Baqara",
+"status": "in_menu",
+"node": "sura_2"
+},
+{
+"id": 420,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Oli Imron",
+"status": "in_menu",
+"node": "sura_3"
+},
+{
+"id": 421,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Niso",
+"status": "in_menu",
+"node": "sura_4"
+},
+{
+"id": 422,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Moida",
+"status": "in_menu",
+"node": "sura_5"
+},
+{
+"id": 423,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "An'om",
+"status": "in_menu",
+"node": "sura_6"
+},
+{
+"id": 424,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "A'rof",
+"status": "in_menu",
+"node": "sura_7"
+},
+{
+"id": 425,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Anfol",
+"status": "in_menu",
+"node": "sura_8"
+},
+{
+"id": 426,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Tavba",
+"status": "in_menu",
+"node": "sura_9"
+},
+{
+"id": 427,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Yunus",
+"status": "in_menu",
+"node": "sura_10"
+},
+{
+"id": 428,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Hud",
+"status": "in_menu",
+"node": "sura_11"
+},
+{
+"id": 429,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Yusuf",
+"status": "in_menu",
+"node": "sura_12"
+},
+{
+"id": 430,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Ra'd",
+"status": "in_menu",
+"node": "sura_13"
+},
+{
+"id": 431,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Ibrohim",
+"status": "in_menu",
+"node": "sura_14"
+},
+{
+"id": 432,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Hijr",
+"status": "in_menu",
+"node": "sura_15"
+},
+{
+"id": 433,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Nahl",
+"status": "in_menu",
+"node": "sura_16"
+},
+{
+"id": 434,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Isro",
+"status": "in_menu",
+"node": "sura_17"
+},
+{
+"id": 435,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Kahf",
+"status": "in_menu",
+"node": "sura_18"
+},
+{
+"id": 436,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Maryam",
+"status": "in_menu",
+"node": "sura_19"
+},
+{
+"id": 437,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Toha",
+"status": "in_menu",
+"node": "sura_20"
+},
+{
+"id": 438,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Anbiyo",
+"status": "in_menu",
+"node": "sura_21"
+},
+{
+"id": 439,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Haj",
+"status": "in_menu",
+"node": "sura_22"
+},
+{
+"id": 440,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Mu'minun",
+"status": "in_menu",
+"node": "sura_23"
+},
+{
+"id": 441,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Nur",
+"status": "in_menu",
+"node": "sura_24"
+},
+{
+"id": 442,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Furqon",
+"status": "in_menu",
+"node": "sura_25"
+},
+{
+"id": 443,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Shu'aro",
+"status": "in_menu",
+"node": "sura_26"
+},
+{
+"id": 444,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Naml",
+"status": "in_menu",
+"node": "sura_27"
+},
+{
+"id": 445,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Qasas",
+"status": "in_menu",
+"node": "sura_28"
+},
+{
+"id": 446,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Ankabut",
+"status": "in_menu",
+"node": "sura_29"
+},
+{
+"id": 447,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Rum",
+"status": "in_menu",
+"node": "sura_30"
+},
+{
+"id": 448,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Luqmon",
+"status": "in_menu",
+"node": "sura_31"
+},
+{
+"id": 449,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat As-Sajda",
+"status": "in_menu",
+"node": "sura_32"
+},
+{
+"id": 450,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Ahzob",
+"status": "in_menu",
+"node": "sura_33"
+},
+{
+"id": 451,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Saba'",
+"status": "in_menu",
+"node": "sura_34"
+},
+{
+"id": 452,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Fotir",
+"status": "in_menu",
+"node": "sura_35"
+},
+{
+"id": 453,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Yosin",
+"status": "in_menu",
+"node": "sura_36"
+},
+{
+"id": 454,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Soffat",
+"status": "in_menu",
+"node": "sura_37"
+},
+{
+"id": 455,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Sod",
+"status": "in_menu",
+"node": "sura_38"
+},
+{
+"id": 456,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Zumar",
+"status": "in_menu",
+"node": "sura_39"
+},
+{
+"id": 457,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "G'ofir",
+"status": "in_menu",
+"node": "sura_40"
+},
+{
+"id": 458,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Fussilat",
+"status": "in_menu",
+"node": "sura_41"
+},
+{
+"id": 459,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Sho'ro",
+"status": "in_menu",
+"node": "sura_42"
+},
+{
+"id": 460,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Zuxruf",
+"status": "in_menu",
+"node": "sura_43"
+},
+{
+"id": 461,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Ad-Dukhan",
+"status": "in_menu",
+"node": "sura_44"
+},
+{
+"id": 462,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "045 Surah Al-Jathiya",
+"status": "in_menu",
+"node": "sura_45"
+},
+{
+"id": 463,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Ahqof",
+"status": "in_menu",
+"node": "sura_46"
+},
+{
+"id": 464,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Muhammad",
+"status": "in_menu",
+"node": "sura_47"
+},
+{
+"id": 465,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Fath",
+"status": "in_menu",
+"node": "sura_48"
+},
+{
+"id": 466,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Hujraat",
+"status": "in_menu",
+"node": "sura_49"
+},
+{
+"id": 467,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Qaf",
+"status": "in_menu",
+"node": "sura_50"
+},
+{
+"id": 468,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Adh-Dhariyat",
+"status": "in_menu",
+"node": "sura_51"
+},
+{
+"id": 469,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat At-Tur",
+"status": "in_menu",
+"node": "sura_52"
+},
+{
+"id": 470,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat An-Najm",
+"status": "in_menu",
+"node": "sura_53"
+},
+{
+"id": 471,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Qamar",
+"status": "in_menu",
+"node": "sura_54"
+},
+{
+"id": 472,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Rahmon",
+"status": "in_menu",
+"node": "sura_55"
+},
+{
+"id": 473,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Voqea",
+"status": "in_menu",
+"node": "sura_56"
+},
+{
+"id": 474,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Hadid",
+"status": "in_menu",
+"node": "sura_57"
+},
+{
+"id": 475,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Mujadila",
+"status": "in_menu",
+"node": "sura_58"
+},
+{
+"id": 476,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Hashr",
+"status": "in_menu",
+"node": "sura_59"
+},
+{
+"id": 477,
+"date": "2022-05-19",
+"type": "audio_file",
+"title": "Surat Al-Mumtahina",
+"status": "in_menu",
+"node": "sura_60"
+},
+{
+"id": 478,
+"date": "2022-05-19",
+"type": "text",
+"title": "#quran",
+"status": "ignore",
+"node": null
+},
+{
+"id": 479,
+"date": "2022-05-20",
+"type": "text",
+"title": "1 Alloh الله 2 Ar-Rohmān الرحمن 3 Ar-Rohīm الرحيم 4 Al-Malik الملك 5 Al-Quddūs ا",
+"status": "in_menu",
+"node": "asmaul_99"
+},
+{
+"id": 481,
+"date": "2022-05-20",
+"type": "text",
+"title": "#Asmaul husna",
+"status": "ignore",
+"node": null
+},
+{
+"id": 510,
+"date": "2022-05-21",
+"type": "video_file",
+"title": "БОМДОД НАМОЗИ АЁЛЛАР УЧУН ХАНАФИЙ МАЗХАБИДА",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 511,
+"date": "2022-05-21",
+"type": "video_file",
+"title": "ПЕШИН НАМОЗИаёллар учун PESHIN NAMOZI ханафий мазхабида",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 512,
+"date": "2022-05-21",
+"type": "video_file",
+"title": "АСР НАМОЗИ аёллар учун ASR NAMOZI ayollar uchun Ханафий мазхабида",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 513,
+"date": "2022-05-21",
+"type": "video_file",
+"title": "ШОМ НАМОЗИ Аёллар учун SHOM NAMOZI ayollar uchun",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 514,
+"date": "2022-05-21",
+"type": "video_file",
+"title": "ҲУФТОН НАМОЗИ -АЁЛЛАР УЧУН.",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 515,
+"date": "2022-05-21",
+"type": "text",
+"title": "Солиҳ амаллар қилишни кўпайтирайлик! Абу Ҳурайра розияллоҳу анҳудан ривоят қилин",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 517,
+"date": "2022-05-23",
+"type": "photo",
+"title": "1)Abu Bakr As-Sodiq (r.a.) Abu Bakr (r.a.) Payg’ambarimiz ﷺdan keyin musulmonlar",
+"status": "in_menu",
+"node": "sahoba_1"
+},
+{
+"id": 520,
+"date": "2022-05-23",
+"type": "photo",
+"title": "2)Umar ibn Hattob (r.a.) Ummatning eng shiddatlisi, Umar ibn Hattob (r.a.) bir k",
+"status": "in_menu",
+"node": "sahoba_2"
+},
+{
+"id": 522,
+"date": "2022-05-23",
+"type": "photo",
+"title": "3)Usmon ibn Affon (r.a.) Usmon ibn Affon (r.a.) oʻrta boʻyli, koʻrkam, chiroyli ",
+"status": "in_menu",
+"node": "sahoba_3"
+},
+{
+"id": 524,
+"date": "2022-05-23",
+"type": "photo",
+"title": "4)Ali ibn Abu Tolib (r.a.) Ali ibn Abu Tolib (r.a.) islomda „Xulafo ar-roshidin“",
+"status": "in_menu",
+"node": "sahoba_4"
+},
+{
+"id": 526,
+"date": "2022-05-23",
+"type": "photo",
+"title": "5)Talha ibn Ubaydulloh (r.a.) Uhud jangida Muhammadni himoya qilgan va Jannat ba",
+"status": "in_menu",
+"node": "sahoba_5"
+},
+{
+"id": 528,
+"date": "2022-05-23",
+"type": "photo",
+"title": "6)Sa’d ibn Abu Vaqqos (r.a.) \"Ot, Sa’d, ot... Ota-onam senga fido bo’lsin\". (Muh",
+"status": "in_menu",
+"node": "sahoba_6"
+},
+{
+"id": 530,
+"date": "2022-05-23",
+"type": "photo",
+"title": "7)Abdurahmon ibn Avf (r.a.) Alloh sening bergan molingga ham, o’zingga qoldirgan",
+"status": "in_menu",
+"node": "sahoba_7"
+},
+{
+"id": 532,
+"date": "2022-05-23",
+"type": "photo",
+"title": "8)Said ibn Zayd (r.a.) Payg’ambarimiz ﷺ otalari Zayd ibn Amr ibn Nufayl haqida a",
+"status": "in_menu",
+"node": "sahoba_8"
+},
+{
+"id": 534,
+"date": "2022-05-23",
+"type": "photo",
+"title": "9)Abu Ubayda ibn Jarroh (r.a.) “Rasululloh ﷺ: “Albatta har bir ummatning amiyni ",
+"status": "in_menu",
+"node": "sahoba_9"
+},
+{
+"id": 536,
+"date": "2022-05-23",
+"type": "photo",
+"title": "10)Zubayr ibn Avvom (r.a.) Payg’ambarimiz ﷺning Havoriylari. Hazrat Umar (r.a.) ",
+"status": "in_menu",
+"node": "sahoba_10"
+},
+{
+"id": 537,
+"date": "2022-05-23",
+"type": "text",
+"title": "#Duo va zikrlar",
+"status": "ignore",
+"node": null
+},
+{
+"id": 538,
+"date": "2022-05-23",
+"type": "text",
+"title": "Alloh taolo aytadi “Бас, Мени ёд этингиз, (Мен ҳам) сизларни ёд этурман. Менга ш",
+"status": "in_menu",
+"node": "zikr_2"
+},
+{
+"id": 539,
+"date": "2022-05-23",
+"type": "text",
+"title": "Zikrning afzali “Зикрнинг афзали – Лаа илаҳа иллаллоҳ” (Термизий ривояти).",
+"status": "in_menu",
+"node": "zikr_6"
+},
+{
+"id": 540,
+"date": "2022-05-23",
+"type": "text",
+"title": "Istig'for aytish “Астағфуруллоҳ\" Ҳар куни аср намозидан кейин 70 марта истиғфор ",
+"status": "in_menu",
+"node": "zikr_10"
+},
+{
+"id": 541,
+"date": "2022-05-23",
+"type": "text",
+"title": "Qisqa salovat Пайғамбаримиз (соллаллоҳу алайҳи ва саллам)га салавот айтиш. \"Алло",
+"status": "in_menu",
+"node": "salovat_8"
+},
+{
+"id": 542,
+"date": "2022-05-23",
+"type": "text",
+"title": "Ihlos surasini o'qish 3 марта Ихлос (яъни Қул ҳуваллоҳу аҳад) сурасини ҳар гал “",
+"status": "in_menu",
+"node": "zikr_11"
+},
+{
+"id": 543,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "TAHORAT QANDAY QILINADI | BIRGALIKDA",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 544,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "ASR NAMOZI QANDAY O'QILADI? | BIRGALIKDA O'RGANAMIZ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 545,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "PESHIN NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 546,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "BOMDOD NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 547,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "NAMOZ QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ | НАМОЗ ҚАНДАЙ ЎҚИЛАДИ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 548,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimati Toyyiba “Лаа илаҳа иллаллоҳу Муҳаммадур Расулуллоҳ”. Гўзал калима: “Алл",
+"status": "in_menu",
+"node": "zikr_13"
+},
+{
+"id": 549,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimatush Shahoda “Ашҳаду аллаа илаҳа иллаллоҳу ва ашҳаду анна Муҳаммадан абдуҳ",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 550,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimatush Shahoda “Ашҳаду аллаа илаҳа иллаллоҳу ва ашҳаду анна Муҳаммадан абдуҳ",
+"status": "in_menu",
+"node": "zikr_12"
+},
+{
+"id": 551,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimatut tavhid “Ашҳаду аллаа иллаҳа иллаллоҳу ваҳдаҳу лаа шарика лаҳ, лаҳул му",
+"status": "in_menu",
+"node": "zikr_14"
+},
+{
+"id": 552,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimatu raddil kufr “Аллоҳума инний аъузу бика мин ан ушрика бика шайъан ва ана",
+"status": "in_menu",
+"node": "zikr_16"
+},
+{
+"id": 553,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimatul istig'for “Астағфуруллоҳ, астағфуруллоҳ, астағфуруллоҳа таъала мин кул",
+"status": "in_menu",
+"node": "zikr_7"
+},
+{
+"id": 554,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kalimatut tamjid “Субҳаналлоҳи валҳамдулиллаҳи ва лаа илаҳа иллаллоҳу валлоҳу ак",
+"status": "in_menu",
+"node": "zikr_15"
+},
+{
+"id": 555,
+"date": "2022-05-23",
+"type": "text",
+"title": "Al iymaan Al mufassal “Аманту биллаҳи ва малааикатиҳи ва кутубиҳи ва русулиҳи ва",
+"status": "in_menu",
+"node": "zikr_8"
+},
+{
+"id": 556,
+"date": "2022-05-23",
+"type": "text",
+"title": "Juma kuni Bomdod namozidan oldin o'qiladigan duo “Астағфируллоҳаллазий лаа илаҳа",
+"status": "in_menu",
+"node": "duo_31"
+},
+{
+"id": 557,
+"date": "2022-05-23",
+"type": "text",
+"title": "Juma kuni Kahf surasini o'qishning fazilati “Ҳар ким жума куни “Каҳф” сурасини ў",
+"status": "in_menu",
+"node": "duo_32"
+},
+{
+"id": 558,
+"date": "2022-05-23",
+"type": "text",
+"title": "Alloh taologa suyukli ikki kalima “Субҳааналлоҳи ва биҳамдиҳ. Субҳааналлоҳил ъаз",
+"status": "in_menu",
+"node": "zikr_3"
+},
+{
+"id": 559,
+"date": "2022-05-23",
+"type": "text",
+"title": "Omad kelishi va ishlari yurishib ketishi uchun o'qiladigan duo “Субҳааналлооҳи в",
+"status": "in_menu",
+"node": "duo_3"
+},
+{
+"id": 560,
+"date": "2022-05-23",
+"type": "text",
+"title": "Istig'for aytish fazilati \"АСТАҒФИРУЛЛОҲ\" Расулуллоҳ (соллаллоҳу алайҳи ва салла",
+"status": "in_menu",
+"node": "zikr_9"
+},
+{
+"id": 561,
+"date": "2022-05-23",
+"type": "text",
+"title": "Tong otganda va kech kirganda o'qiladigan duo «Бисмиллаҳиллазий лаа язурру маъас",
+"status": "in_menu",
+"node": "duo_13"
+},
+{
+"id": 562,
+"date": "2022-05-23",
+"type": "text",
+"title": "Juma surasining fazilati Жумъа сурасини ўқишга одатланган инсонга мусулмон мамла",
+"status": "in_menu",
+"node": "duo_33"
+},
+{
+"id": 563,
+"date": "2022-05-23",
+"type": "text",
+"title": "Voqea surasining fazilati Абдуллоҳ ибн Масъуд (розияллоҳу анҳу) ўлим тўшагида ёт",
+"status": "in_menu",
+"node": "duo_34"
+},
+{
+"id": 564,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "TAHORAT QANDAY QILINADI | BIRGALIKDA",
+"status": "in_menu",
+"node": "tahorat"
+},
+{
+"id": 565,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "ASR NAMOZI QANDAY O'QILADI? | BIRGALIKDA O'RGANAMIZ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 566,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "PESHIN NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 567,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "BOMDOD NAMOZI QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 568,
+"date": "2022-05-23",
+"type": "video_file",
+"title": "NAMOZ QANDAY O'QILADI | BIRGALIKDA O'RGANAMIZ | НАМОЗ ҚАНДАЙ ЎҚИЛАДИ",
+"status": "in_menu",
+"node": "namozni_organish"
+},
+{
+"id": 569,
+"date": "2022-05-23",
+"type": "text",
+"title": "Duhon surasining fazilati Пайғамбаримиз (соллаллоҳу алайҳи ва саллам) айтдилар: ",
+"status": "in_menu",
+"node": "duo_35"
+},
+{
+"id": 570,
+"date": "2022-05-23",
+"type": "text",
+"title": "Tongda o'qiladigan duo “Розийту биллаҳи Раббан ва бил ислаами дийнан ва би Муҳам",
+"status": "in_menu",
+"node": "duo_28"
+},
+{
+"id": 571,
+"date": "2022-05-23",
+"type": "text",
+"title": "Jamoat haqqiga o'qiladigan duolar “Раббанаа аатинаа фид дуня ҳасанатан ва фил аа",
+"status": "in_menu",
+"node": "duo_14"
+},
+{
+"id": 572,
+"date": "2022-05-23",
+"type": "text",
+"title": "Kechgi duo «Бисмиллаҳиллазий лаа язурру маъасмиҳи шайъун фил арзи вала фис самаа",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 573,
+"date": "2022-05-23",
+"type": "text",
+"title": "Nabiy alayhissalomning doim o'qib yurgan duolari «Набий соллаллоҳу алайҳи васалл",
+"status": "in_menu",
+"node": "duo_5"
+},
+{
+"id": 574,
+"date": "2022-05-23",
+"type": "text",
+"title": "Zararli narsalardan saqlanish Абу Ҳурайра розияллоҳу анҳудан ривоят қилинади: «Н",
+"status": "in_menu",
+"node": "duo_8"
+},
+{
+"id": 575,
+"date": "2022-05-23",
+"type": "text",
+"title": "Allohim, do'zaxdan saqla! Абу Ҳурайра розияллоҳу анҳудан ривоят қилинади: Набий ",
+"status": "in_menu",
+"node": "duo_9"
+},
+{
+"id": 576,
+"date": "2022-05-23",
+"type": "text",
+"title": "Allohim, sendan pok rizq so'rayman Умму Салама розияллоҳу анҳодан ривоят қилинад",
+"status": "in_menu",
+"node": "duo_4"
+},
+{
+"id": 577,
+"date": "2022-05-23",
+"type": "text",
+"title": "Dunyo va oxiratdagi muhim ishlarda aytiladigan duo Абу Дардо розияллоҳу анҳудан ",
+"status": "in_menu",
+"node": "duo_6"
+},
+{
+"id": 578,
+"date": "2022-05-23",
+"type": "text",
+"title": "Allohim to'satdan yaxshilik bo'lishini sendan so'rayman Анас розияллоҳу анҳудан ",
+"status": "in_menu",
+"node": "duo_10"
+},
+{
+"id": 579,
+"date": "2022-05-23",
+"type": "text",
+"title": "Yetmush ming farishtani vakil qilib qo'yadigan duo Маъқал ибн Йасор розияллоҳу а",
+"status": "in_menu",
+"node": "duo_7"
+},
+{
+"id": 580,
+"date": "2022-05-23",
+"type": "text",
+"title": "Alloh g'am-g'ussamni ketkaz, qarzdan halos et! Абу Саид Худрий розияллоҳу анҳуда",
+"status": "in_menu",
+"node": "duo_12"
+},
+{
+"id": 581,
+"date": "2022-05-23",
+"type": "text",
+"title": "Nabiy alayhissalomning to'shaklariga yotayotganlarida o'qiydigan duolari «Расулу",
+"status": "in_menu",
+"node": "duo_29"
+},
+{
+"id": 582,
+"date": "2022-05-23",
+"type": "text",
+"title": "Nafsimning yomonligidan panoh tilayman Абу Ҳурайра розияллоҳу анҳудан ривоят қил",
+"status": "in_menu",
+"node": "duo_15"
+},
+{
+"id": 583,
+"date": "2022-05-23",
+"type": "text",
+"title": "Azon bilan iqomatning o'rtasidagi duo Анас розияллоҳу анҳудан ривоят қилинади: Р",
+"status": "in_menu",
+"node": "duo_24"
+},
+{
+"id": 584,
+"date": "2022-05-23",
+"type": "text",
+"title": "Hojatxonadan chiqqanda aytiladigan duo Ибн Умар розияллоҳу анҳумодан ривоят қили",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 585,
+"date": "2022-05-23",
+"type": "text",
+"title": "Ey Robbim, zulm ko'rishdan panoh so'rayman Умму Салама розияллоҳу анҳодан ривоят",
+"status": "in_menu",
+"node": "duo_11"
+},
+{
+"id": 586,
+"date": "2022-05-23",
+"type": "text",
+"title": "«Shayton unga yaqinlasha olmaydi» Абу Зарр розияллоҳу анҳудан ривоят қилинади: Р",
+"status": "in_menu",
+"node": "duo_16"
+},
+{
+"id": 587,
+"date": "2022-05-23",
+"type": "text",
+"title": "Tahorat qilinganda Умар ибн Хаттоб розияллоҳу анҳудан ривоят қилинади: Расулулло",
+"status": "in_menu",
+"node": "duo_19"
+},
+{
+"id": 588,
+"date": "2022-05-23",
+"type": "text",
+"title": "Masjidga kirayotganda va undan chiqayotganda Абу Ҳумайд ёки Абу Усайдлардан риво",
+"status": "in_menu",
+"node": "duo_22"
+},
+{
+"id": 589,
+"date": "2022-05-23",
+"type": "text",
+"title": "Azon va iqomatni eshitganda Абу Саид Худрий розияллоҳу анҳудан ривоят қилинади: ",
+"status": "in_menu",
+"node": "duo_23"
+},
+{
+"id": 590,
+"date": "2022-05-23",
+"type": "text",
+"title": "Namoz boshlanganda Оиша онамиз розияллоҳу анҳодан ривоят қилинади: Расулуллоҳ со",
+"status": "in_menu",
+"node": "zikr_18"
+},
+{
+"id": 591,
+"date": "2022-05-23",
+"type": "text",
+"title": "Namozdagi rukuda Намоз ўқиётган киши рукуъга тўла эгилса; «Субҳана роббийал ъази",
+"status": "in_menu",
+"node": "zikr_19"
+},
+{
+"id": 592,
+"date": "2022-05-23",
+"type": "text",
+"title": "Rukudan bosh ko'targanda va tik turganda Абу Ҳурайра розияллоҳу анҳудан ривоят қ",
+"status": "in_menu",
+"node": "zikr_20"
+},
+{
+"id": 593,
+"date": "2022-05-23",
+"type": "text",
+"title": "Sajda paytida Расулуллоҳ алайҳиссалом: «Агар бирортангиз сажда қилса, камида уч ",
+"status": "in_menu",
+"node": "zikr_21"
+},
+{
+"id": 594,
+"date": "2022-05-23",
+"type": "text",
+"title": "Vitrdagi Qunut duosi Аллоҳумма инна настаъийнука ва настағфирука ва ну`мину бика",
+"status": "in_menu",
+"node": "duo_26"
+},
+{
+"id": 595,
+"date": "2022-05-23",
+"type": "text",
+"title": "Tashahhud Ибн Масъуд розияллоҳу анҳудан ривоят қилинади: Расулуллоҳ соллаллоҳу а",
+"status": "in_menu",
+"node": "duo_25"
+},
+{
+"id": 596,
+"date": "2022-05-23",
+"type": "text",
+"title": "Tashahhuddan keyingi salovatlar «Аллоҳумма солли ъала Муҳаммадин ва ъала али Муҳ",
+"status": "in_menu",
+"node": "salovat_7"
+},
+{
+"id": 597,
+"date": "2022-05-23",
+"type": "text",
+"title": "Namoz tugaganda Савбон розияллоҳу анҳудан ривоят қилинади: Расулуллоҳ соллаллоҳу",
+"status": "in_menu",
+"node": "zikr_22"
+},
+{
+"id": 598,
+"date": "2022-05-23",
+"type": "text",
+"title": "Namozdan keyingi duo Муоз розияллоҳу анҳудан ривоят қилинади: Расулуллоҳ соллалл",
+"status": "in_menu",
+"node": "duo_27"
+},
+{
+"id": 599,
+"date": "2022-05-23",
+"type": "text",
+"title": "Uydan chiqayotganda Умму Салама онамиз розияллоҳу анҳодан ривоят қилинади: Расул",
+"status": "in_menu",
+"node": "duo_21"
+},
+{
+"id": 600,
+"date": "2022-05-23",
+"type": "text",
+"title": "Uyga kirayotganda Манзилга кираётганда «Бисмиллоҳ»ни айтиб, зикрни кўпайтириб, у",
+"status": "in_menu",
+"node": "duo_20"
+},
+{
+"id": 601,
+"date": "2022-05-23",
+"type": "text",
+"title": "Hojatxonaga kirayotganda Анас розияллоҳу анҳудан ривоят қилинади: Расулуллоҳ сол",
+"status": "in_menu",
+"node": "duo_17"
+},
+{
+"id": 602,
+"date": "2022-05-23",
+"type": "text",
+"title": "Hojatxonadan chiqayotganda Расулуллоҳ соллаллоҳу алайҳи васаллам ҳожатхонадан чи",
+"status": "in_menu",
+"node": "duo_18"
+},
+{
+"id": 603,
+"date": "2022-05-24",
+"type": "text",
+"title": "Лаа илааҳа иллаа анта. Субҳаанака. Инний кунту миназ зоолимийн”",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 604,
+"date": "2022-05-24",
+"type": "text",
+"title": "bunga tafsir berw kere",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 605,
+"date": "2022-05-24",
+"type": "text",
+"title": "mulahaza, [24/05/22 14:41] “Arof” surasining 180-oyatida: “Allohning go'zal isml",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 606,
+"date": "2022-05-24",
+"type": "text",
+"title": "boladimi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 607,
+"date": "2022-05-24",
+"type": "text",
+"title": "зор",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 621,
+"date": "2022-05-24",
+"type": "text",
+"title": "Alloh",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 626,
+"date": "2022-05-24",
+"type": "photo",
+"title": "1. ALLOH Alloh lafzi \"alaha\" felidan olingan \"iloh\" masdariga mansub bo'lib ma'b",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 627,
+"date": "2022-05-24",
+"type": "photo",
+"title": "2.Rahmon. \"Rahmon\" - ulug' ne'matlarni beruvchi. \"Rahmon\" sifati faqat Allohga x",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 628,
+"date": "2022-05-24",
+"type": "photo",
+"title": "3.Rohiym. \"Rohiym\" - latif nematlarni beruvchi. “Rohiym” sifati esa hosroq bo'li",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 629,
+"date": "2022-05-24",
+"type": "photo",
+"title": "4. Molik. \"Malik\" - barcha narsaning egasi. \"Malik\" - haqiqiy egadir, Undan o'zg",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 630,
+"date": "2022-05-24",
+"type": "sticker",
+"title": "AnimatedSticker.tgs",
+"status": "ignore",
+"node": null
+},
+{
+"id": 631,
+"date": "2022-05-24",
+"type": "text",
+"title": "oddiy knopkan bosgandan kanaldan olsh kere bovot",
+"status": "ignore",
+"node": null
+},
+{
+"id": 632,
+"date": "2022-05-24",
+"type": "text",
+"title": "nma qsa boladi",
+"status": "ignore",
+"node": null
+},
+{
+"id": 633,
+"date": "2022-05-24",
+"type": "text",
+"title": "inlinemas odiysi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 634,
+"date": "2022-05-24",
+"type": "voice_message",
+"title": "post 634",
+"status": "ignore",
+"node": null
+},
+{
+"id": 635,
+"date": "2022-05-24",
+"type": "text",
+"title": "oke\\",
+"status": "ignore",
+"node": null
+},
+{
+"id": 636,
+"date": "2022-05-24",
+"type": "text",
+"title": "Аллоҳ таоло: «Бас, тунга киришингизда ҳам, тонгга киришингизда ҳам Аллоҳга тасбе",
+"status": "in_menu",
+"node": "zikr_1"
+},
+{
+"id": 637,
+"date": "2022-05-24",
+"type": "text",
+"title": "Bomdod va Shom namozlaridan keyingi zikr Муслим ибн ал-Ҳорис аттамимий розияллоҳ",
+"status": "in_menu",
+"node": "zikr_17"
+},
+{
+"id": 638,
+"date": "2022-05-24",
+"type": "text",
+"title": "Buyuk sir yashiringan zikr “Я Зал Жалали вал Икром”ни кўп айтиш керак. Аллоҳ тао",
+"status": "in_menu",
+"node": "zikr_4"
+},
+{
+"id": 639,
+"date": "2022-05-24",
+"type": "text",
+"title": "Jannat hazinalaridan biri “Ла ҳавла вала қуввата илла биллаҳ”ни кўп айтиш. Пайға",
+"status": "in_menu",
+"node": "zikr_5"
+},
+{
+"id": 640,
+"date": "2022-05-24",
+"type": "text",
+"title": "G'amni ketgazib shodlikni chaqiruvchi duo ya'ni Yunus a.s ning duolari “Ла илаҳа",
+"status": "in_menu",
+"node": "duo_2"
+},
+{
+"id": 641,
+"date": "2022-05-24",
+"type": "text",
+"title": "Аллоҳ таоло мусулмонларни дуо қилишга буюрган. «Роббингиз: «Менга дуо қилинг, си",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 642,
+"date": "2022-05-24",
+"type": "text",
+"title": "Alloh taolo aytadi “Албатта, Аллоҳ ва Унинг фаришталари Пайғамбарга саловат айту",
+"status": "in_menu",
+"node": "salovat_1"
+},
+{
+"id": 643,
+"date": "2022-05-24",
+"type": "text",
+"title": "Yo Alloh Payg'ambarimiz s.a.v ga va u zotning oilalariga rahmat ayla “Аллоҳумма ",
+"status": "in_menu",
+"node": "salovat_4"
+},
+{
+"id": 644,
+"date": "2022-05-24",
+"type": "text",
+"title": "Salovat \"Аллоҳумма солли ъала саййидина Муҳаммадин ъабдика ва набиййика ва ҳабиб",
+"status": "in_menu",
+"node": "salovat_6"
+},
+{
+"id": 645,
+"date": "2022-05-24",
+"type": "text",
+"title": "Payg'ambarimiz (s.a.v)ga salovat aytishning fazilati Ҳазрат Анас ибн Молик розия",
+"status": "in_menu",
+"node": "salovat_2"
+},
+{
+"id": 646,
+"date": "2022-05-24",
+"type": "voice_message",
+"title": "post 646",
+"status": "ignore",
+"node": null
+},
+{
+"id": 647,
+"date": "2022-05-24",
+"type": "text",
+"title": "Qisqa salovat \"Ас – Солату вас – саламу алайка я Росулаллоҳ\" (яъни, Эй, Расулулл",
+"status": "in_menu",
+"node": "salovat_3"
+},
+{
+"id": 648,
+"date": "2022-05-24",
+"type": "text",
+"title": "time is short",
+"status": "ignore",
+"node": null
+},
+{
+"id": 649,
+"date": "2022-05-24",
+"type": "text",
+"title": "Axx",
+"status": "ignore",
+"node": null
+},
+{
+"id": 650,
+"date": "2022-05-24",
+"type": "text",
+"title": "Ideyan zor kevot",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 651,
+"date": "2022-05-24",
+"type": "text",
+"title": "Yaqn atrofdig masjid topb beradgan knopka",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 652,
+"date": "2022-05-24",
+"type": "text",
+"title": "Qisa bolaka logikas boycha iw bowlaw kere",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 653,
+"date": "2022-05-24",
+"type": "text",
+"title": "grupada gaplashsela bomidimi😂",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 654,
+"date": "2022-05-24",
+"type": "text",
+"title": "Soglom fikr",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 655,
+"date": "2022-05-25",
+"type": "video_file",
+"title": "G'usl qanday qilinadi?",
+"status": "in_menu",
+"node": "gusl"
+},
+{
+"id": 656,
+"date": "2022-05-25",
+"type": "text",
+"title": "duo.py",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 657,
+"date": "2022-05-25",
+"type": "text",
+"title": "duo.py",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 658,
+"date": "2022-05-25",
+"type": "text",
+"title": "duo.py",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 659,
+"date": "2022-05-27",
+"type": "text",
+"title": "Isig'for haqida «Астағфируллоҳа ва атуубу илайҳи». (Маъноси: «Аллоҳдан мағфират ",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 660,
+"date": "2022-05-27",
+"type": "text",
+"title": "Allohim meni avf et Аллоҳумма иннака ъафуввун, туҳиббул ъафва фаъфу ъанний. Маън",
+"status": "in_menu",
+"node": "zikr_24"
+},
+{
+"id": 661,
+"date": "2022-05-27",
+"type": "text",
+"title": "Zikr «Лаа илааҳа иллаллоҳул ъазимул ҳалийм Лаа илааҳа иллаллоҳу Роббул ъаршил ъа",
+"status": "in_menu",
+"node": "zikr_23"
+},
+{
+"id": 662,
+"date": "2022-05-27",
+"type": "text",
+"title": "Shar'iy qo'shilishdan oldin o'qiladigan duo Ибн Аббос розияллоҳу анҳудан ривоят ",
+"status": "in_menu",
+"node": "duo_36"
+},
+{
+"id": 663,
+"date": "2022-05-27",
+"type": "text",
+"title": "\"Unga jannat vojib bo'ladi\" Абу Саид Худрий розияллоҳу анҳудан ривоят қилинади: ",
+"status": "in_menu",
+"node": "duo_40"
+},
+{
+"id": 664,
+"date": "2022-05-27",
+"type": "text",
+"title": "\"Uning bu amalidan afzalroq ishni hech kim qila olmaydi\" Абу Ҳурайра розияллоҳу ",
+"status": "in_menu",
+"node": "duo_39"
+},
+{
+"id": 665,
+"date": "2022-05-27",
+"type": "text",
+"title": "\"Quyosh chiqib nur sochganidan yaxshiroqdir\" Абу Ҳурайра розияллоҳу анҳудан риво",
+"status": "in_menu",
+"node": "duo_38"
+},
+{
+"id": 666,
+"date": "2022-05-27",
+"type": "text",
+"title": "Yangi kiyim kiyganda Муоз ибн Анас розияллоҳу анҳудан ривоят қилинади: Расулулло",
+"status": "in_menu",
+"node": "duo_37"
+},
+{
+"id": 667,
+"date": "2022-05-27",
+"type": "text",
+"title": "Eng afzal va go'zal salovat “Аллоҳумма солли ъала Муҳаммадив ва ъала али Муҳамма",
+"status": "in_menu",
+"node": "salovat_5"
+},
+{
+"id": 668,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va Hayot 1 Muqaddima Shayx",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 669,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 2.",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 670,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 3",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 671,
+"date": "2022-05-28",
+"type": "text",
+"title": "HADIS VA HAYOT 4-QISM",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 672,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 5",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 673,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 6",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 674,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 7",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 675,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 8",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 676,
+"date": "2022-05-28",
+"type": "text",
+"title": "Hadis va hayot 9",
+"status": "in_menu",
+"node": "kitob_9"
+},
+{
+"id": 677,
+"date": "2022-05-28",
+"type": "text",
+"title": "Imom G'azzoliy. Qirq hadisi qudsiy",
+"status": "in_menu",
+"node": "kitob_10"
+},
+{
+"id": 678,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Peshin namozining 4 rakat sunnati | Erkaklar uchun",
+"status": "in_menu",
+"node": "sunnat_peshin4"
+},
+{
+"id": 679,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Peshin namozining 2 rakat sunnati | Erkaklar uchun",
+"status": "in_menu",
+"node": "sunnat_peshin2"
+},
+{
+"id": 680,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Peshin namozining 4 rakat farzi | Erkaklar uchun",
+"status": "in_menu",
+"node": "farz_peshin"
+},
+{
+"id": 681,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Asr namozining 4 rakat farzi | Erkak uchun",
+"status": "in_menu",
+"node": "farz_asr"
+},
+{
+"id": 682,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Shom namozining 3 rakat farzi | Erkak uchun",
+"status": "in_menu",
+"node": "farz_shom"
+},
+{
+"id": 683,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Shom namozining 2 rakat sunnati | Erkak uchun",
+"status": "in_menu",
+"node": "sunnat_shom"
+},
+{
+"id": 684,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Xufton namozining 4 rakat farzi | Erkak uchun",
+"status": "in_menu",
+"node": "farz_xufton"
+},
+{
+"id": 685,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Bomdod namozining sunnati | Erkaklar uchun",
+"status": "in_menu",
+"node": "sunnat_bomdod"
+},
+{
+"id": 686,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Bomdod namozining farzi | Erkaklar uchun",
+"status": "in_menu",
+"node": "farz_bomdod"
+},
+{
+"id": 689,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Juma namozi qanday o'qiladi?",
+"status": "in_menu",
+"node": "juma"
+},
+{
+"id": 690,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Janoza namozi qanday o'qiladi?",
+"status": "in_menu",
+"node": "janoza"
+},
+{
+"id": 691,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Bomdod namozining sunnati | Ayollar uchun",
+"status": "in_menu",
+"node": "sunnat_bomdod"
+},
+{
+"id": 692,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Bomdod namozining farzi | Ayollar uchun",
+"status": "in_menu",
+"node": "farz_bomdod"
+},
+{
+"id": 693,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Peshin namozining avvalgi 4 rakat sunnati | Ayol uchun",
+"status": "in_menu",
+"node": "sunnat_peshin4"
+},
+{
+"id": 694,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Peshin namozining 4 rakat farzi | Ayol uchun",
+"status": "in_menu",
+"node": "farz_peshin"
+},
+{
+"id": 695,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Peshin namozining keyingi 2 rakat sunnati | Ayol uchun",
+"status": "in_menu",
+"node": "sunnat_peshin2"
+},
+{
+"id": 696,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Asr namozining 4 rakat farzi | Ayol uchun",
+"status": "in_menu",
+"node": "farz_asr"
+},
+{
+"id": 697,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Shom namozining 3 rakat farzi | Ayollar uchun",
+"status": "in_menu",
+"node": "farz_shom"
+},
+{
+"id": 698,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Shom namozining 2 rakat sunnati | Ayollar uchun",
+"status": "in_menu",
+"node": "sunnat_shom"
+},
+{
+"id": 699,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Xufton namozining 4 rakat farzi | Ayollar uchun",
+"status": "in_menu",
+"node": "farz_xufton"
+},
+{
+"id": 700,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Xufton namozining 2 rakat sunnati | Ayollar uchun",
+"status": "in_menu",
+"node": "sunnat_xufton"
+},
+{
+"id": 701,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Vitr namozining 3 rakat vojibi | Ayollar uchun",
+"status": "in_menu",
+"node": "vitr"
+},
+{
+"id": 702,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Vitr namozining 3 rakat vojibi | Erkak uchun",
+"status": "in_menu",
+"node": "vitr"
+},
+{
+"id": 703,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Hayit namozi qanday o'qiladi?",
+"status": "in_menu",
+"node": "hayit"
+},
+{
+"id": 705,
+"date": "2022-05-28",
+"type": "video_file",
+"title": "Xufton namozining 2 rakat sunnati | Erkak uchun",
+"status": "in_menu",
+"node": "sunnat_xufton"
+},
+{
+"id": 706,
+"date": "2022-05-28",
+"type": "text",
+"title": "bot2.zip",
+"status": "ignore",
+"node": null
+},
+{
+"id": 707,
+"date": "2022-05-30",
+"type": "photo",
+"title": "1. ALLOH Alloh lafzi \"alaha\" felidan olingan \"iloh\" masdariga mansub bo'lib ma'b",
+"status": "in_menu",
+"node": "asmaul_manolari"
+},
+{
+"id": 708,
+"date": "2022-05-30",
+"type": "photo",
+"title": "2.Rahmon. \"Rahmon\" - ulug' ne'matlarni beruvchi. \"Rahmon\" sifati faqat Allohga x",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 709,
+"date": "2022-05-30",
+"type": "video_file",
+"title": "99 прекрасных имён Всевышнего (HD)",
+"status": "in_menu",
+"node": "asmaul_99"
+},
+{
+"id": 710,
+"date": "2022-05-31",
+"type": "text",
+"title": "bot3.1.zip",
+"status": "ignore",
+"node": null
+},
+{
+"id": 711,
+"date": "2022-05-31",
+"type": "text",
+"title": "bot3.1.zip",
+"status": "ignore",
+"node": null
+},
+{
+"id": 712,
+"date": "2022-06-02",
+"type": "text",
+"title": "bot3.1.zip",
+"status": "ignore",
+"node": null
+},
+{
+"id": 834,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Аллоҳ лафзи «алаҳа» феълидан олинган «илоҳ» масдарига мансуб бўлиб маъбуд - ибод",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 835,
+"date": "2022-06-02",
+"type": "photo",
+"title": "«Раҳмон» – улуғ неъматларни берувчи. «Раҳмон» сифати фақат Аллоҳга хос бўлиб, ба",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 836,
+"date": "2022-06-02",
+"type": "photo",
+"title": "«Роҳийм» – латиф неъматларни берувчи. «Роҳийм» сифати эса хосроқ бўлиб, қиёмат к",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 837,
+"date": "2022-06-02",
+"type": "photo",
+"title": "«Малик» – барча нарсанинг эгаси. «Малик» – ҳақиқий эгадир, Ундан ўзга эга йўқ. Ш",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 838,
+"date": "2022-06-02",
+"type": "photo",
+"title": "«Қуддус» - барча айблардан ҳоли, нолойиқ сифатлардан пок. Мутлақ муқаддаслик ва ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 839,
+"date": "2022-06-02",
+"type": "photo",
+"title": "«Салом» - нуқсонлардан саломат, шунингдек, тинчлик-хотиржамлик ва роҳат берувчи ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 840,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Муъмин - иймон ва омонликни берувчи Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 841,
+"date": "2022-06-02",
+"type": "photo",
+"title": "«Муҳаймин» - ҳамма нарсани қамраб олувчи, яъни, Аллоҳ бандаларининг барча ҳолатл",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 842,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Азиз - барчанинг устидан ғолиб. Ундан бирор нарса ғолиб кела олмайди Манба: Алло",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 843,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Жаббор - олий қадар, улуғ, Унинг олдида ўзгалар ўзини хор тутади. Манба: Аллоҳни",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 844,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Мутакаббир - кибирёси ва улуғлиги муболағали зот. Унинг олдида бошқалар қул бўли",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 845,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Холиқ - Асли ва ўхшаши йўқ нарсаларни аниқ бир ўлчовлар билан яратувчи. У зотда ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 846,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Бариъ - йўқдан пайдо қилувчи, вужудга келтирувчи. Бариъ тафовутсиз қилиб вужудга",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 847,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Мусаввир - махлуқотларнинг сувратини шаклланти-рувчи. Ҳар бир нарсага ўзига хос ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 848,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кўплаб мағфират қилиб, бандаларнинг айбини Ўз фазли ила уларни итоб қилмасдан ке",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 849,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Барча махлуқотларни қабзасида тутиб, уларни Ўз ҳукмига юритиб ва қудрати ила бўй",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 850,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кўплаб неъматларни беҳисоб берувчи Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 851,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кўплаб ризқ берувчи. Ризқларни ва уларнинг воситаларини яратувчи. Аллоҳ махлуқот",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 852,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кўплаб нарсаларни очувчи. Ўз раҳмат хазийнасини бандаларига очувчи. Манба: Аллоҳ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 853,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳар бир нарсани билувчи. Бўлган ва бўладиган, аввалги ва охирги, зоҳир ва ботин ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 854,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Руҳларни қабз қилувчи - тутувчи. Хоҳлаган кишисининг ризқини қабз қилувчи. Қалбл",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 855,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Руҳларни кенгликка қўйиб юборувчи. Хоҳлаган кишисининг ризқини кенг қилиб қўювчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 856,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Пасайтирувчи. Мисол учун кофир ва фосиқларнинг мартабасини уларни хору зор қилиб",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 857,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кўтарувчи. Мисол учун мўмин ва тақводорларнинг мартабасини уларни азизу мукаррам",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 858,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Азиз қилувчи. Кимни хоҳласа тўғри йўлга солиб азиз қилади. Манба: Аллоҳнинг 99 и",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 859,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Хор қилувчи. Кимни хоҳласа эгри йўлга юргани учун хор қилади. Манба: Аллоҳнинг 9",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 860,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳар бир нарсани эшитувчи. Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 861,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳар бир нарсани кўрувчи. Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 862,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳукм қилувчи. Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 863,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Мутлақ адолат қилувчи. Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 864,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ўта лутф кўрсатувчи. Барча нарсаларнинг нозик ва дақиқ жойларигача билувчи. Манб",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 865,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳамма нарсадан ўта хабардор.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 866,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ғазаби қўзимайдиган ва иқоб қилишга шошилмайдиган",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 867,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ақл тасаввур қила олмайдиган даражада азаматли ва улуғ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 868,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кўп мағфират қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 869,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Оз амал учун кўп савоб берувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 870,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Мартабаси олийликда бениҳоя Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 871,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳар бир нарсадан катта.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 872,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Ҳар бир нарсани комил муҳофаза қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 873,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Барча моддий ва руҳий қутларни яратувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 874,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Кифоя қилувчи. Қиёмат куни бандаларнинг ҳисобини қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 875,
+"date": "2022-06-02",
+"type": "photo",
+"title": "Биров сўрамаса ҳам, бирор нарсанинг эвазига бўлмаса ҳам нарсаларни кўплаб ато қи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 876,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#44 ал-Рақийб Ҳеч бир заррани ҳам қўймай муроқаба қилиб турувчи Манба: Аллоҳнинг",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 877,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#45 ал-Мужийб Дуоларни ижобат қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 878,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#46 Ал-Восиъ Кенг - ҳамма нарсани кенг илми ила қамраб олган. Барчани кенг раҳма",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 879,
+"date": "2022-06-02",
+"type": "photo",
+"title": "47 Ал-Ҳакийм Ҳар бир нарсани ҳикмат ила қилувчи.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 880,
+"date": "2022-06-02",
+"type": "photo",
+"title": "48 Ал-Вадуд Барчага яхшиликни раво кўрувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 881,
+"date": "2022-06-02",
+"type": "photo",
+"title": "49. Ал-Мажийд Шон - шарафи ва қадри баланд ва чексиз. Манба: Аллоҳнинг 99 исмлар",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 882,
+"date": "2022-06-02",
+"type": "photo",
+"title": "50. Ал-Боъис Юборувчи: халқларга пайғамбарлар юборувчи. Кишиларга ҳиммат юборувч",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 883,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#allohning 99 ismlari 51. Аш -Шаҳийд Ҳар бир нарсага ҳозиру нозир. Барчага шоҳид",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 884,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 52. Ал-Ҳаққ Ўзгармас собит зот. Ҳақни юзага чиқарувчи зот.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 885,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 53. Ал-Вакийл Барчанинг иши унга топширилган зот.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 886,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 54. Ал-Қовийй Қувватли зот.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 887,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 55. Ал-Матийн Матонатли зот",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 888,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 56. Ал-Валийй. Манба: Аллоҳнинг 99 исмлари иловаси.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 889,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 57. Ал-Ҳамийд Барча мақтовлар ила мақталган зот. Манба: Ал",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 890,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 58. Ал-Муҳсий Барча нарсанинг ҳисобини олган зот. Манба: А",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 891,
+"date": "2022-06-02",
+"type": "photo",
+"title": "59. Ал-Мубдиъ Барча нарсаларни аввал бошдан бор қилган зот. Манба: Аллоҳнинг 99 ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 892,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 60. Ал-Муъийд Йўқ бўлган нарсаларни яна қайтадан бор қилув",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 893,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari Тирилтирувчи. У зот ўликларни тирилтирувчидир ва бу исмга ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 894,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 63. Ал-Ҳайй Тирик. У тирикдир, ўлмас. Яъни, Аллоҳнинг ҳаёт",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 895,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 64. Ал-Қоййум Ўз ўзидан қоим бўлган ва бошқаларни қоим қил",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 897,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 65. Ал-Вожид Топувчи. Хоҳлаган нарсасини топувчи. Бу ишда ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 898,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 66. Ал-Можид Мажду шараф соҳиби бўлган зот. Манба: Аллоҳни",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 899,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 68. Ас-Сомад Сомад сифати кўп маъноларни ўз ичига олади: -",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 900,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 69. Ал-Қодир Чексиз қудрат соҳиби. У зот ҳар бир нарсага қ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 901,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 70. Ал-Муқтадир Жуда ҳам қудратли",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 902,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 71. Ал-Муқаддим Олдинга сурувчи. У зот хоҳлаган шахс ва на",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 903,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 72. Ал-Муаххир Орқага сурувчи. У зот хоҳлаган шахс ва нарс",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 904,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 73. Ал-Аввал «Аввал» - У ҳамма нарсадан аввал, яъни, барча",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 905,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 74. Ал-Охир «Охир» - У ҳамма нарса йўқ бўлиб кетганда ҳам ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 906,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 75. Аз-Зоҳир «Зоҳир» - Унинг мавжудлиги ошкор, очиқ-ойдинд",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 907,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 76. Ал-Ботин «Ботин» - У кўзга кўринмайди. Ҳаммадан пинҳон",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 908,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 77. Ал-Волий Ҳар бир нарсага волий - эга бўлган зот. Манба",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 909,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 78. Ал-Мутаолий Нуқсонлардан юқори турувчи зот.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 910,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 79. Aл-Барр Улуғ яхшилик қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 911,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 80. Ат-Таввоб Бандаларни тавбага йўлловчи ва уларнинг тавб",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 912,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 81. Ал-Мунтақим Золим ва осийлардан интиқом олувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 913,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 82. Ал-Афувв Афв қилувчи.",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 914,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 83. Ар-Раъуф Ўта шафқатли ва меҳрибон",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 915,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 84. Моликул Мулк Мулк эгаси. Бу дунёдаги ишларни ўзи хоҳла",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 916,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 85. Зул Жалоли вал Икром Шараф ва камол эгаси. Карам ва ик",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 917,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 86. Ал-Муқсит Ўз адолати ила мазлумларга нусрат ва золимла",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 918,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 87. Ал-Жомеъ Жамловчи. Барча ҳақиқатларни жамловчи. Одамла",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 919,
+"date": "2022-06-02",
+"type": "photo",
+"title": "88. Ал-Ғанийй Беҳожат. Унинг ҳеч ким ва ҳеч нарсага ҳожати тушмайди Манба: Аллоҳ",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 920,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 89. Ал-Муғний Беҳожат қилувчи. У зот Ўз бандаларидан қай б",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 921,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 90. Ал-Монеъ Ман қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 922,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 91. Аз-Зорр Зарар қилувчи. Зарарли нарсаларни ҳам яратувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 923,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 92. Ан-Нофиъ Манфаат берувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 924,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 93. Ан-Нур Ўз-ўзи ила зоҳир бўлган ва ўзгаларни зоҳир қилг",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 925,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 94. Ал-Ҳодий Ҳидоят қилувчи. У зот Ўз фазли ила хоҳлаган к",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 926,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 95. Ал-Бадийъ Ўхшаши йўқ нарсаларни келтирувчи Манба: Алло",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 927,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 96. Ал-Боқий Боқий қолувчи. У доимий бордир, унга фонийлик",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 928,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 97. Ал-Ворис Мувжудотлар йўқ бўлганда ҳам боқий қолувчи зо",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 929,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 98. Ар-Рашийд Тўғри йўлга иршод қилувчи",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 930,
+"date": "2022-06-02",
+"type": "photo",
+"title": "#Allohning 99 ismlari 99. Ас-Сабур Ўта сабрли. Осийларни азоблашга шошилмайди",
+"status": "in_menu",
+"node": "asmaul_rasmlar"
+},
+{
+"id": 931,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "1. Da'vatda Asmaul husnaning o'rni",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 932,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "2. Da'vatda Asmaul husnaning o'rni",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 933,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "3. Al Akrom 1",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 934,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "4. Al Akrom 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 935,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "5. Ar Robb 1",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 936,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "6. Ar Robb 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 937,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "7. Al Mavlaa¹",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 938,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "7. Al-Mavlaa²",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 939,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "8. Al-Valiy",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 940,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "9. An-Nasir¹",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 941,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "9. An-Nasir²",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 942,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "9. An-Nasir³",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 943,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "10. Ar-Rofiq 1",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 944,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "11. Ar-Rofiq 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 945,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "12. Ar-Razzaq 1",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 946,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "13. Ar-Razzoq 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 947,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "14. Ash-Shakir",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 948,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "14. Ash-Shakir",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 949,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "16. Ash-Shakir²",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 950,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "17. As-Sittir - 1.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 951,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "18. As-Sittir - 2.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 952,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "19. Al-Jamil - 1.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 953,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "20. Al Jamil - 2.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 954,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "21. Al-Mu'tiy - 1.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 955,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "23. Al Mu'tiy - 3.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 956,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "23. Al Mu'tiy - 3.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 957,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "24.  Ad-Dayyan - 1.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 958,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "25 Ad-Dayyan - 2.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 959,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "26. Al-Muhsin",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 960,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "27. Al-Muhsin",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 961,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "28. Ash-Shafiy",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 962,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "29. Ash-Shafiy",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 963,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "30-Dars ASH-SHAFI   Asma-ul-Husna   Abdulloh domla",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 964,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "31. Al-Mubin",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 965,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "32. Al-Mubin - 2.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 966,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "33-Dars AL-QORIYB  Asma-ul-Husna  Abdulloh domla",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 967,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "34. Al-Qorib — 2.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 968,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "35-DARS   AL-JAVAD   ASMA-UL-HUSNA   ABDULLOH DOMLA",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 969,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "36. Al Javvad - 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 970,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "37. Al Hayiiy",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 971,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "38. Al Hayiy - 2.",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 972,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "39. Al-Qodiir!",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 973,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "24.12.2021 40-ДАРС (2-ҚИСМ) АЛ-ҚОДИИР / АСМА-УЛ-ҲУСНА / АБДУЛЛОҲ…",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 974,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "31.12.2021 41-ДАРС (3-ҚИСМ) АЛ-ҚОДИИР / АСМА-УЛ-ҲУСНА / АБДУЛЛОҲ…",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 976,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "42. Al Qoohir",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 977,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "43. Al Qoohir - 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 978,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "44. Al Qoohir - 3",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 979,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "45. Al Alaa - 1",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 980,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "46. Al Alaa - 2",
+"status": "in_menu",
+"node": "asmaul_audio"
+},
+{
+"id": 981,
+"date": "2022-06-02",
+"type": "text",
+"title": "#asmaul husna",
+"status": "ignore",
+"node": null
+},
+{
+"id": 982,
+"date": "2022-06-02",
+"type": "text",
+"title": "#sahobalar",
+"status": "ignore",
+"node": null
+},
+{
+"id": 983,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "1. Abu Bakr Siddiq",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 984,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "2. Abu Bakr Siddiq RA 2",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 985,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "3. Abu Bakr Siddiq R.A 3.",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 986,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "4. Abu Bakr Siddiq R.A 4.",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 987,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "5. Abu Bakr Siddiq R.A 5.",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 988,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "1. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 989,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "2. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 990,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "3. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 991,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "4. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 992,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "5. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 993,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "6. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 994,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "7. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 995,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "8. Umar Ibn Xattob R.A",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 996,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "1. Usmon ibn Affon r.a",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 997,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "2. Usmon ibn Affon r.a",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 998,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "3. Usmon ibn Affon r.a",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 999,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "4. Usmon ibn Affon r.a",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1000,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "1. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1001,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "2. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1002,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "3. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1003,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "4. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1004,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "5. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1005,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "6. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1006,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "7. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1007,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "8. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1008,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "9. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1009,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "10. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1010,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "11. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1011,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "12. Ali ibn abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1012,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "13. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1013,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "14. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1014,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "15. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1015,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "16. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1016,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "17. Ali ibn Abu Tolib",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1017,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "6. Talha ibn Ubaydulloh",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1018,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "7. Zubayr ibn Avvom",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1019,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "8. Abdurohman ibn Avf",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1020,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "9. Abdurohman ibn Avf 2",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1021,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "10. Sa'd ibn abu Vaqqos",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1022,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "11. Sa'd ibn abu Vaqqos 2",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1023,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "12. Sa'id ibn Zayid",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1024,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "13. Abu Ubayda",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1025,
+"date": "2022-06-02",
+"type": "audio_file",
+"title": "14. Abu Ubayda 2",
+"status": "in_menu",
+"node": "sahobalar_audio"
+},
+{
+"id": 1029,
+"date": "2022-06-04",
+"type": "video_file",
+"title": "6 How to create telegram Web App with PHP, Full course of Telegram",
+"status": "ignore",
+"node": null
+},
+{
+"id": 1030,
+"date": "2022-06-04",
+"type": "audio_file",
+"title": "21. Al Mu'tiy  2.",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1031,
+"date": "2022-06-04",
+"type": "text",
+"title": "1 Alloh الله 2 Ar-Rohmān الرحمن 3 Ar-Rohīm الرحيم 4 Al-Malik الملك 5 Al-Quddūs ا",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1032,
+"date": "2022-06-04",
+"type": "photo",
+"title": "Sifatlarida ug'likka ega bo'lgan zot",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1033,
+"date": "2022-06-04",
+"type": "photo",
+"title": "62.Mumiyt. O‘ldirivchi. Barcha jonzotlarning jonini oluvchi.",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1034,
+"date": "2022-06-04",
+"type": "photo",
+"title": "67.Vohid. Yagona. Bita. Bo‘linmas. U zot o‘z zotida ham, sifatlarida ham va ishl",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1036,
+"date": "2022-06-07",
+"type": "text",
+"title": "ФОТИҲА СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Алҳамдулиллаҳи роббил ъааламийн 2.",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1037,
+"date": "2022-06-07",
+"type": "text",
+"title": "ФИЙЛ СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. А лам таро кайфа фаъала Роббука биас",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1038,
+"date": "2022-06-07",
+"type": "text",
+"title": "ҚУРАЙШ СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Ли ийлаафи қуройш 2. Ийлаафиҳим ри",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1039,
+"date": "2022-06-07",
+"type": "text",
+"title": "МАЪУН СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. А роайталлазии йуказзибу бид-дийн 2",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1040,
+"date": "2022-06-07",
+"type": "text",
+"title": "КАВСАР СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Иннаа аътойнаакал кавсар 2. Фасолл",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1041,
+"date": "2022-06-07",
+"type": "text",
+"title": "КАФИРУН СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Қул йаа айюҳал кафирун 2. Лаа ъаб",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1042,
+"date": "2022-06-07",
+"type": "text",
+"title": "НАСР СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Изаа жааанасруллооҳи вал-фатҳ 2. Ва ",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1043,
+"date": "2022-06-07",
+"type": "text",
+"title": "МАСАД СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Таббат йадаа абии лаҳабив-ва табб 2",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1044,
+"date": "2022-06-07",
+"type": "text",
+"title": "ИХЛОС СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Қул ҳуваллоҳу аҳад 2. Аллоҳус-сомад",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1045,
+"date": "2022-06-07",
+"type": "text",
+"title": "ФАЛАҚ СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Қул аъуузу бироббил фалақ 2. Мин ша",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1046,
+"date": "2022-06-07",
+"type": "text",
+"title": "АН-НАС СУРАСИ Бисмиллаҳир роҳмаанир роҳийм 1. Қул аъуузу бирробин-наас 2. Малики",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1047,
+"date": "2022-06-08",
+"type": "text",
+"title": "QURAYSH SURASI Bismillahir rohmaanir rohiym 1. Li iylaafi quroysh 2. Iylaafihim ",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1049,
+"date": "2022-06-08",
+"type": "text",
+"title": "MA’UN SURASI Bismillahir rohmaanir rohiym 1. A roaytallazii yukazzibu bid-diyn. ",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1050,
+"date": "2022-06-08",
+"type": "text",
+"title": "KAFIRUN SURASI Bismillahir rohmaanir rohiym 1. Qul yaa ayyuhal kafirun 2. Laa 'a",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1051,
+"date": "2022-06-08",
+"type": "text",
+"title": "NASR SURASI Bismillahir rohmaanir rohiym 1. Izaa jaaanasrulloohi val-fath 2. Va ",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1052,
+"date": "2022-06-08",
+"type": "text",
+"title": "MASAD SURASI Bismillahir rohmaanir rohiym 1. Tabbat yadaa abii lahabiv-va tabb 2",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1053,
+"date": "2022-06-08",
+"type": "text",
+"title": "IXLOS SURASI Bismillahir rohmaanir rohiym 1. Qul huvallohu ahad 2. Allohus-somad",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1054,
+"date": "2022-06-08",
+"type": "text",
+"title": "FALAQ SURASI Bismillahir rohmaanir rohiym 1. Qul a'uuzu birobbil falaq 2. Min sh",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1055,
+"date": "2022-06-08",
+"type": "text",
+"title": "AN-NAS SURASI Bismillahir rohmaanir rohiym 1. Qul a'uuzu birrobin-naas 2. Maliki",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1057,
+"date": "2022-06-08",
+"type": "text",
+"title": "FIL SURASI Bismillahir rohmaanir rohiym 1. A lam taro kayfa fa'ala Robbuka biash",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1058,
+"date": "2022-06-08",
+"type": "text",
+"title": "KAVSAR SURASI Bismillahir rohmaanir rohiym 1. Innaa a'toynaakal kavsar 2. Fasoll",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1059,
+"date": "2022-06-08",
+"type": "text",
+"title": "ASH-SHARH SURASI Bismillahir rohmaanir rohiym 1. Alam nashroh laka sodrok. 2. Va",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1062,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "Surat Al-Inshirah - Badr al Izi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1065,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "01 Al-Fatihah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1066,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "02 Al-Baqarah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1067,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "03 Al-Imron",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1068,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "04 An-Nisa'",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1069,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "05 Al-Ma'idah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1070,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "06 Al-An'am",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1071,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "07 Al-A'raf",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1072,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "08 Al-Anfal",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1073,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "09 At-Taubah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1074,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "10 Yunus",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1075,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "11 Hud",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1076,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "12 Yusuf",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1077,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "13 Ar-Ra'd",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1078,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "14 Ibrahim",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1079,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "15 Al-Hijr",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1080,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "16 An-Nahl",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1081,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "17 Al-Isra",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1082,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "18 Al-Kahf",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1083,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "19 Maryam",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1084,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "20 TaHa",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1085,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "21 Al-Anbiya'",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1086,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "22 Al-Hajj",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1087,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "23 Mu'minun",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1088,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "24 An-Nur",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1089,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "25 Al-Furqan",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1090,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "26 Ash-Shu'ara",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1091,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "27 An-Naml",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1092,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "28 Al-Qasas",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1093,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "29 Al-'Ankabut",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1094,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "30 Ar-Rum",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1095,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "31 Luqman",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1096,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "32 As-Sajdah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1097,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "33 Al-Ahzab",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1098,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "34 Saba'",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1099,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "35 Fatir",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1100,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "36 YaSin",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1101,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "37 As-Saffat",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1102,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "38 Sad",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1103,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "39 Az-Zumar",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1104,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "40 Ghafir",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1105,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "41 Fussilat",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1106,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "42 Ash-Shura",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1107,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "43 Az-Zukhruf",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1108,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "44 Ad-Dukhan",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1109,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "45 Al-Jathiya",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1110,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "46 Al-Ahqaf",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1111,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "47 Muhammad",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1112,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "48 Al-Fath",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1113,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "49 Al-Hujurat",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1114,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "50 Qaf",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1115,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "51 Az-Zariyat",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1116,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "52 At-Tur",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1117,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "53 An-Najm",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1118,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "54 Al-Qamar",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1119,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "55 Ar-Rahman",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1120,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "56 Al-Waqi'ah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1121,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "57 Al-Hadid",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1122,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "58 Al-Mujadilah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1123,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "59 Al-Hashr",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1124,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "60 Al-Mumtahanah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1125,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "61 As-Saff",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1126,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "62 Al-Jumu'ah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1127,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "63 Al-Munafiqun",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1128,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "64 At-Taghabun",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1129,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "65 At-Talaq",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1130,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "66 At-Tahrim",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1131,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "67 Al-Mulk",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1132,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "68 Al-Qalam",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1133,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "69 Al-Haqqah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1134,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "70 Al-Ma'arij",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1135,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "71 Nuh",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1136,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "72 Al-Jinn",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1137,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "73 Al-Muzzammil",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1138,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "74 Al-Muddaththir",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1139,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "75 Al-Qiyomah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1140,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "76 Al-Insan",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1141,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "77 Al-Mursalat",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1142,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "78 An-Naba'",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1143,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "79 An-Nazi'at",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1144,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "80 Abasa",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1145,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "81 At-Takwir",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1146,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "82 Al-Infitar",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1147,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "83 Al-Mutaffifun",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1148,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "84 Al-Inshiqaq",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1149,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "85 Al-Buruj",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1150,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "86 At-Tariq",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1151,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "87 Al-A'la",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1152,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "88 Al-Ghahsiyah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1153,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "89 Al-Fajr",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1154,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "90 Al-Balad",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1155,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "91 Ash-Shams",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1156,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "92 Al-Lail",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1157,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "93 Ad-Duha",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1158,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "94 Ash-Sharh",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1159,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "95 At-Tin",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1160,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "96 Al-'Alaq",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1161,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "97 Al-Qadr",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1162,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "98 Al-Baiyyinah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1163,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "99 Az-Zalzalah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1164,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "100 Al-'Adiyat",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1165,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "101 Al-Qari'ah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1166,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "102 At-Takathur",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1167,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "103 Al-'Asr",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1168,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "104 Al-Humazah",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1169,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "105 Al-Fil",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1170,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "106 Quraish",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1171,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "107 Al-Ma'un",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1172,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "108 Al-Kauthar",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1173,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "109 Al-Kafirun",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1174,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "110 An-Nasr",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1175,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "111 Al-Masad",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1176,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "112 Al-Ikhlas",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1177,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "113 Al-Falaq",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1178,
+"date": "2022-06-08",
+"type": "audio_file",
+"title": "114 An-Nas",
+"status": "in_menu",
+"node": "quran_audio2"
+},
+{
+"id": 1179,
+"date": "2022-06-08",
+"type": "text",
+"title": "TIYN SURASI Bismillahir rohmanir rohim 1.Vat tiyni vaz zaytunu. 2.Va turisiyniyn",
+"status": "in_menu",
+"node": "zam_suralar"
+},
+{
+"id": 1182,
+"date": "2022-06-09",
+"type": "text",
+"title": "bot origin.zip",
+"status": "ignore",
+"node": null
+},
+{
+"id": 1183,
+"date": "2022-06-09",
+"type": "text",
+"title": "Namozda 12 ta farz amal bor. Namozdan tashqarida 6 ta farz amal bo‘lib ular “ Na",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1184,
+"date": "2022-06-09",
+"type": "text",
+"title": "NАFL NАMOZLАRINI OʼQISh TАRTIBI Kunduzgi nafl namozlarini toʼrt rakatdan, kechqu",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1185,
+"date": "2022-06-09",
+"type": "text",
+"title": "NAFL NAMOZLAR «Nafl namozi» deb kishi o‘z ixtiyori bilan farzga qo‘shimcha tarzd",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1186,
+"date": "2022-06-09",
+"type": "text",
+"title": "ISTIXORА NАMOZI «Istixora» soʼzi lugʼatda «xayr, yaʼni yaxshilikni talab qilish»",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1187,
+"date": "2022-06-09",
+"type": "text",
+"title": "TAHIYYATUL MASJID NAMOZI Namozxon masjidga kirganida agar farz namozlari ado eti",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1188,
+"date": "2022-06-09",
+"type": "text",
+"title": "SHURUQ (ISHROQ) NAMOZI Muoz ibn Anas al-Juhaniy roziyallohu anhudan rivoyat qili",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1189,
+"date": "2022-06-09",
+"type": "text",
+"title": "ZUHO (CHOSHGOH) NAMOZI Abu Hurayra roziyallohu anhudan rivoyat qilinadi: «Payg‘a",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1190,
+"date": "2022-06-09",
+"type": "text",
+"title": "SHUKRI VUZU’ NAMOZI Odatda tahorat qilib bo‘lgandan so‘ng o‘qiladigan namoz «Shu",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1191,
+"date": "2022-06-09",
+"type": "text",
+"title": "HOJAT NAMOZI Abdulloh ibn Abu Avfo roziyallohu anhudan rivoyat qilinadi: «Payg'a",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1192,
+"date": "2022-06-09",
+"type": "text",
+"title": "AVVOBIYN NAMOZI Bu namoz shom namozidan keyin o'qiladi va olti rakat bo'ladi. Av",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1193,
+"date": "2022-06-09",
+"type": "text",
+"title": "TAHAJJUD NAMOZI Bu namozning ozi ikki, ko'pi sakkiz rakatdir. Alloh taolo: «Kech",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1194,
+"date": "2022-06-09",
+"type": "text",
+"title": "TАVBА NАMOZI Аliy roziyallohu anhudan rivoyat qilinadi: «Men qachon Rasululloh s",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1195,
+"date": "2022-06-09",
+"type": "text",
+"title": "TАSBEH NАMOZI Ikrimaning Аbdulloh ibn Аbbos roziyallohu anhumodan rivoyat qilish",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1196,
+"date": "2022-06-09",
+"type": "text",
+"title": "MАRKАBDА NАMOZ OʼQISH Minib yuriladigan hayvonlar ustida shahar tashqarisida qay",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1197,
+"date": "2022-06-09",
+"type": "text",
+"title": "Namozdagi farz amallar 12: bularning oltitasi namoz tashqarisida boʼlib, ular «n",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1198,
+"date": "2022-06-09",
+"type": "text",
+"title": "Quyidagilar namozdagi vojib amallar hisoblanadi: 1. Farz namozlarining ikki raka",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1199,
+"date": "2022-06-09",
+"type": "text",
+"title": "NAMOZNING SUNNATLARI 1. «Takbiri tahrima» («Allohu akbar»)da qo'lning barmoqlari",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1200,
+"date": "2022-06-09",
+"type": "text",
+"title": "NAMOZNING MUSTAHABLARI 1. Namozda esnoq va yo'tal kelsa, kuchi yetganicha qaytar",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1201,
+"date": "2022-06-09",
+"type": "text",
+"title": "Namoz ichida harom bo'lgan amallar quyidagilar: 1. Yuzni o'ng va chap tarafga qa",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1202,
+"date": "2022-06-09",
+"type": "text",
+"title": "NAMOZNING MUBOHLARI (RUXSAT ETILGAN AMALLARI) 1. Yuzni burmay, nigoh bilan qaras",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1203,
+"date": "2022-06-09",
+"type": "text",
+"title": "Quyidagilar namozdagi makruh amallar hisoblanadi: – namozda xushu'siz, bеparvo q",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1204,
+"date": "2022-06-09",
+"type": "text",
+"title": "MAKRUH BOʻLMAGAN AMALLAR 1. Namoz oʻqimayotgan kishining orqasida namoz oʻqish. ",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1205,
+"date": "2022-06-09",
+"type": "text",
+"title": "Namozning quyidagi odoblariga rioya qilish bilan namoz mukammal boʻladi: 1. Qiyo",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1206,
+"date": "2022-06-09",
+"type": "text",
+"title": "SAJDAI SAHV Namozda adashib yoki esdan chiqib biror ruknni boshqasidan oldin qil",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1207,
+"date": "2022-06-09",
+"type": "text",
+"title": "SUTRA Namoz oʻqiyotgan kishining oldidan kеsib oʻtish gunohdir. Imom Buxoriy «Sa",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1208,
+"date": "2022-06-09",
+"type": "text",
+"title": "NAMOZNI BUZUVCHI AMALLAR 1. Namozda gapirish (qasddan yoki adashib boʻlsa ham). ",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1209,
+"date": "2022-06-09",
+"type": "text",
+"title": "https://t.me/ksfdmgfdkomkdfbot",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1212,
+"date": "2022-06-10",
+"type": "text",
+"title": "1 Alloh الله 2 Ar-Rohmān الرحمن 3 Ar-Rohīm الرحيم 4 Al-Malik الملك 5 Al-Quddūs ا",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1213,
+"date": "2022-06-10",
+"type": "text",
+"title": "91 Az-Zorr الضار 92 An-Nāfi النافع 93 An-Nūr النور 94 Al-Hādi الهادي 95 Al-Badī ",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1214,
+"date": "2022-06-10",
+"type": "text",
+"title": "1 Alloh الله 2 Ar-Rohmān الرحمن 3 Ar-Rohīm الرحيم 4 Al-Malik الملك 5 Al-Quddūs ا",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1215,
+"date": "2022-06-10",
+"type": "text",
+"title": "51 Ash-Shahīd الشهيد 52 Al-Haqq الحق 53 Al-Vakīl الوكيل 54 Al-Qovviyy القوى 55 A",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1216,
+"date": "2022-08-03",
+"type": "text",
+"title": "Mukoshafat-ul qulub [@kitoblar1]",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1217,
+"date": "2022-08-03",
+"type": "text",
+"title": "Jaloliddin Rumiy. Qalb ko'zingni och",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1218,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom Zarnujiy. Ilm olish sirlari",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1219,
+"date": "2022-08-03",
+"type": "text",
+"title": "Islom tarixi 1 kitob Shayx Muxammad Sodiq Muhammad Yusuf 2018",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1220,
+"date": "2022-08-03",
+"type": "text",
+"title": "Baxtiyor oila Shayx Muhammad Sodiq Muhammad Yusuf",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1221,
+"date": "2022-08-03",
+"type": "text",
+"title": "Islom tarixi 2-kitob Shayx Muhammad Sodiq Muhammad Yusuf",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1222,
+"date": "2022-08-03",
+"type": "text",
+"title": "Anbiyolar qissasi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1223,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Kimyoi saodat",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1224,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Mukoshafatul-qulub",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1225,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy Ihyou ulumid din O'limni eslash kitobi",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1228,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy Ihyou ulumid din Ro'za sirlari kitobi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1229,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Ihyou ulumid-din. Tavba kitobi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1231,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Ihyou ulumid-din. Tafakkur kitobi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1232,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Ihyou ulumid-din. Zakot sirlari kitobi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1233,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Oxiratnoma",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1235,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Ihyou ulumid-din. Qalb kitobi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1236,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Ihyou ulumid-din. Riyozatun nafs",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1237,
+"date": "2022-08-03",
+"type": "text",
+"title": "Qalb kitobi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1239,
+"date": "2022-08-03",
+"type": "text",
+"title": "Qur'on axloqiga ko'ra mo'minning 24 soati",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1240,
+"date": "2022-08-03",
+"type": "text",
+"title": "Жаннат васфи. ©Имом Қуртубий https://t.me/IslomilmiyolidaBot",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1241,
+"date": "2022-08-03",
+"type": "text",
+"title": "Gunohi kabiralar",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1242,
+"date": "2022-08-03",
+"type": "text",
+"title": "G'azabning davosi",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1243,
+"date": "2022-08-03",
+"type": "text",
+"title": "XXI asrda Islom",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1244,
+"date": "2022-08-03",
+"type": "text",
+"title": "Qur'oni karimning ilmiy mo'jizalari",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1245,
+"date": "2022-08-03",
+"type": "text",
+"title": "Islomiy moliya asoslari",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1249,
+"date": "2022-08-03",
+"type": "text",
+"title": "Nasroniy atirguli",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1250,
+"date": "2022-08-03",
+"type": "text",
+"title": "Xadicha binti huvaylid roziyallohu anhu",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1251,
+"date": "2022-08-03",
+"type": "text",
+"title": "Abu Lays Samarqandiy. Tanbehul g'ofiliyn",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1252,
+"date": "2022-08-03",
+"type": "text",
+"title": "Савдогарлар устози",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1253,
+"date": "2022-08-03",
+"type": "text",
+"title": "Saida Chamlija Iymon va huzun",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1254,
+"date": "2022-08-03",
+"type": "text",
+"title": "Imom G'azzoliy. Til ofatlari",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1255,
+"date": "2022-08-03",
+"type": "text",
+"title": "Ulamolar nazdida vaqtning qadri [@kitoblar pdf]",
+"status": "in_menu",
+"node": "kitoblar_qoshimcha"
+},
+{
+"id": 1257,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 1-dars | Alifbo",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1258,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 2-dars | Mahrajlar",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1259,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 3-dars | Harakatlar",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1260,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 4-dars | ز harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1261,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 5-dars | م harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1262,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 6-dars | ت harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1263,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 7-dars | ن  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1264,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 8-dars | ي  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1265,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 9-dars | ب  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1266,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 10-dars | ك  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1267,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 11-dars | ل  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1268,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 12-dars | و  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1269,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 13-dars | ه  harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1270,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 14-dars | ف harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1271,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 15-dars | ق harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1272,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 16-dars | ش harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1273,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 17-dars | س harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1274,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 18-dars | ث harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1275,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 19-dars |ص harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1276,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 20-dars | ط harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1277,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 21-dars | ج harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1278,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 22-dars | خ harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1279,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 23-dars |  ح harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1280,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 24-dars | غ harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1281,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 25-dars | ع harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1282,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 26-dars | د harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1283,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 27-dars | ض harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1284,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 28-dars | ذ harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1285,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 29-dars | ظ harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1286,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 30-dars | Mad tabiiy",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1287,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 31-dars | Tashdidli harfi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1288,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 32-dars | Tanvinli tashdid",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1289,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 33-dars | Hamza",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1290,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 34-dars | Ta marbuta (ة)",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1291,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 35-dars | Muqaddar alif",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1292,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 36-dars | Muqaddar  ي  va  و",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1293,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 36-dars | Muqaddar  ي  va  و",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1294,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 37-dars | ي li aliflar",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1295,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 38 dars | Yozuvda bo‘lib o‘qilmaydigan harflar",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1296,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 39 dars | Qamariyya harflari va vasliya hamzasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1297,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 40-dars | Shamsiya harflari",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1298,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 41 dars | Qamariya, shamsiya harflari va vasliya",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1299,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 42 dars | Kalimalar so‘ngida to‘xtash qoidalari",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1300,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 43 dars | So‘z so‘ngida madlik kalimalarga to‘xtash",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1301,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 44-dars | Idg‘om qoidasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1302,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 45-dars | Iqlob qoidasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1303,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 46-dars | Alloh lafzi o'qilish qoidasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1304,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 47-dars | Iymon kalimalari",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1305,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 48-dars | Fotiha surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1306,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 49-dars | Baqara surasi (1-5)",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1307,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 50-dars | Shams surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1308,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 51-dars | Layl surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1309,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 52-dars | Sharh surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1310,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 53-dars | Tiyn surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1311,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 54-dars | Alaq surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1312,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 55-dars | Qadr surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1313,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 56-dars | Bayyina surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1314,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 57-dars | Zalzala surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1315,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 58-dars | Adiyat surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1316,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 59-dars | Qoria surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1317,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 60-dars | Takasur surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1318,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 61-dars | Asr surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1319,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 62-dars | Humaza surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1320,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 63-dars | Fil surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1321,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 64-dars | Quraysh surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1322,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 65-dars | Maa'uun surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1323,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 66-dars | Kavsar surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1324,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 67-dars | Kafirun surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1325,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 68-dars | Nasr surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1326,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 69-dars | Masad surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1327,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 70-dars | Ixlos surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1328,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 71-dars | Falaq surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1329,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "Muallimi soniy | 72-dars | Nas surasi",
+"status": "in_menu",
+"node": "muallimi_soniy"
+},
+{
+"id": 1330,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "01. Қуръон тартили - Муқаддима",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1331,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "02. Қуръон тартили - Биринчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1332,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "03. Қуръон тартили - Иккинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1333,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "04. Қуръон тартили - Учинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1334,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "05. Қуръон тартили - Тўртинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1335,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "06. Қуръон тартили - Бешинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1336,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "07. Қуръон тартили - Олтинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1337,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "08. Қуръон тартили - Еттинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1338,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "09 Қуръон тартили Саккизинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1339,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "10 Қуръон тартили Тўққизинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1340,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "11. Қуръон тартили - Ўнинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1341,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "12 Қуръон тартили Ўн Биринчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1342,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "13 Қуръон тартили Ўн иккинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1343,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "14. Қуръон тартили - Ўн учинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1344,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "15 Қуръон тартили Ўн тўртинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1345,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "16 Қуръон тартили Ўн бешинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1346,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "17 Қуръон тартили Ўн олтинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1347,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "18 Қуръон тартили Ўн еттинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1348,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "19 Қуръон тартили Ўн саккизинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1349,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "20 Қуръон тартили Ўн тўққизинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1350,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "21 Қуръон тартили Йигирманчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1351,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "22 Қуръон тартили Йигирма биринчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1352,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "23 Қуръон тартили Йигирма иккинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1353,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "24 Қуръон тартили Йигирма учинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1354,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "25 Қуръон тартили Йигирма тўртинчи",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1355,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "26 Қуръон тартили Йигирма бешинчи дарс",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1356,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "27. Қуръон тартили | Калималар",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1357,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "TARTIL ONLINE 2 DARS WEB",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1358,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "TARTIL ONLINE 3 DARS WEB",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1359,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "TARTIL ONLINE 4 DARS WEB",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1360,
+"date": "2022-09-17",
+"type": "video_file",
+"title": "TARTIL ONLINE 5 DARS WEB",
+"status": "in_menu",
+"node": "quran_tartili"
+},
+{
+"id": 1362,
+"date": "2022-09-19",
+"type": "video_file",
+"title": "bilol2018",
+"status": "in_menu",
+"node": "bilol"
+},
+{
+"id": 1363,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "1-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1364,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "2-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1365,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "3-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1366,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "4-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1367,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "5-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1368,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "6-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1369,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "7-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1370,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "8-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1371,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "9-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1372,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "10-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1373,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "11-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1374,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "12-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1375,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "13-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1376,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "14-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1377,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "15-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1378,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "16-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1379,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "17-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1380,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "18-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1381,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "19-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1382,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "20-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1383,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "21-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1384,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "22-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1385,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "23-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1386,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "24-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1387,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "25-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1388,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "26-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1389,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "27-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1390,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "28-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1391,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "29-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1392,
+"date": "2022-09-23",
+"type": "video_file",
+"title": "30-Qism",
+"status": "in_menu",
+"node": "umar_serial"
+},
+{
+"id": 1395,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga nur sochgan oy 1 qism",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1396,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "🗂 Оламга нур сочган ой (Исломий сериал) 🎞 2-Қисм",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1397,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "🗂 Оламга нур сочган ой (Исломий сериал) 🎞 3-Қисм",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1398,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "🗂 Оламга нур сочган ой (Исломий сериал) 🎞 4-Қисм",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1399,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 05-qism (1)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1400,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 06-qism (1)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1401,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "olamga nur sochga oy 7",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1402,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamlarga nur sochgan oy 8",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1403,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga nur sochgan oy 9",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1404,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "olamga nur sochgan oy 10",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1405,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga nur sochgan oy 11",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1406,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga nur sochgan oy 12 (2)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1407,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga nur sochgan oy13",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1408,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "@islomuz kanal Olamga nur soch gan oy 14",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1409,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 15-qism (1)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1410,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 16-qism (1)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1411,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 17-qism (1)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1412,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "@islomuz kanal olamlarga nur sochgan oy 18",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1413,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 19-qism (1)",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1414,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga nur sochgan oy 20",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1415,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "@islomuz kanal Olamga nur sochgan oy 21",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1416,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "@islomuz kanal Olamga nur sochgan oy 22",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1417,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "@islomuz kanal Olamga nur sochgan oy 23",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1418,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "@islomuz kanal Olamga nur sochgan oy 24",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1419,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 25 qism o'zbek tilida HD | Оламга Нур Сочган",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1420,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 26 qism o'zbek tilida HD | Оламга Нур Сочган",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1421,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 27 qism o'zbek tilida HD | Оламга Нур Сочган",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1422,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "olamga nur sochgan oy 28-qism",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1423,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "Olamga Nur Sochgan Oy 29 qism o'zbek tilida HD | Оламга Нур Сочган",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1424,
+"date": "2022-10-11",
+"type": "video_file",
+"title": "olamga nur sochgan oy 30-qism",
+"status": "in_menu",
+"node": "olamga_nur"
+},
+{
+"id": 1425,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1425",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1426,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1426",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1427,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1427",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1428,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1428",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1429,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1429",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1430,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1430",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1431,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1431",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1432,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1432",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1433,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1433",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1434,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1434",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1435,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1435",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1436,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1436",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1437,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1437",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1438,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1438",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1439,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1439",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1440,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1440",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1441,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1441",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1442,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1442",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1443,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1443",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1444,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1444",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1445,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1445",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1446,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1446",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1447,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1447",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1448,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1448",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1449,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1449",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1450,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1450",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1451,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1451",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1452,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1452",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1453,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1453",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1454,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1454",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1455,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1455",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1456,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1456",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1457,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1457",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1458,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1458",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1459,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1459",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1460,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1460",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1461,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1461",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1462,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1462",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1463,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1463",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1464,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1464",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1465,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1465",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1466,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1466",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1467,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1467",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1468,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1468",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1469,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1469",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1470,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1470",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1471,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1471",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1472,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1472",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1473,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1473",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1474,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1474",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1475,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1475",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1476,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1476",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1477,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1477",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1478,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1478",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1479,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1479",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1480,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1480",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1481,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1481",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1482,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1482",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1483,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1483",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1484,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1484",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1485,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1485",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1486,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1486",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1487,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1487",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1488,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1488",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1489,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1489",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1490,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1490",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1491,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1491",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1492,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1492",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1493,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1493",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1494,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1494",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1495,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1495",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1496,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1496",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1497,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1497",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1498,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1498",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1499,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1499",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1500,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1500",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1501,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1501",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1502,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1502",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1503,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1503",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1504,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1504",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1505,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1505",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1506,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1506",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1507,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1507",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1508,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1508",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1509,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1509",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1510,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1510",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1511,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1511",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1512,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1512",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1513,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1513",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1514,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1514",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1515,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1515",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1516,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1516",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1517,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1517",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1518,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1518",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1519,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1519",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1520,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1520",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1521,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1521",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1522,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1522",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1523,
+"date": "2022-10-13",
+"type": "photo",
+"title": "post 1523",
+"status": "unassigned",
+"node": null
+},
+{
+"id": 1524,
+"date": "2023-03-20",
+"type": "text",
+"title": "ABDUJABBOROV Араб тили 2015",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1526,
+"date": "2023-03-20",
+"type": "text",
+"title": "Mabdal 1 E'robsiz",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1527,
+"date": "2023-03-20",
+"type": "text",
+"title": "Mabda ul Qiroat erobsiz 2",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1528,
+"date": "2023-03-20",
+"type": "text",
+"title": "mabdal qıroat 3 erobsız",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1530,
+"date": "2023-03-21",
+"type": "text",
+"title": "arab-tili-darslari",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1531,
+"date": "2023-03-21",
+"type": "text",
+"title": "Mukammal sarf darsligi",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1532,
+"date": "2023-03-22",
+"type": "text",
+"title": "Qur’on hifzi uchun tavsiyalar: 1. Avval niyatingizni, maqsadingizni aniqlab olin",
+"status": "in_menu",
+"node": "hifz"
+},
+{
+"id": 1534,
+"date": "2023-03-23",
+"type": "text",
+"title": "ABDUJABBOROV Араб тили 2015",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1535,
+"date": "2023-03-23",
+"type": "text",
+"title": "1 Ne'matillo Ibrohimov, Muhammad Yusupov Arab tili grammatikasi",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1536,
+"date": "2023-03-23",
+"type": "text",
+"title": "2 Ne'matullo Ibrohimov, Muhammad Yusupov Arab tili grammatikasi",
+"status": "in_menu",
+"node": "arab_kitoblar"
+},
+{
+"id": 1537,
+"date": "2023-03-24",
+"type": "text",
+"title": "IMG 6813",
+"status": "in_menu",
+"node": "ramazon_taqvim"
+},
+{
+"id": 1538,
+"date": "2023-03-24",
+"type": "text",
+"title": "Ramazon xayr-baraka oyidir. Ramazon oyi Qur’on oyidir. Chunki, bu oyda qilingan ",
+"status": "in_menu",
+"node": "ramazon_haqida"
+},
+{
+"id": 1539,
+"date": "2023-03-24",
+"type": "text",
+"title": "Bu oyda quyidagi amallarni o’z vaqtida va qoldirmasdan ado etish shart. - Ro‘za ",
+"status": "in_menu",
+"node": "ramazon_amallar"
+}
+]
