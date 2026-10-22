@@ -27,6 +27,9 @@ dev = [
     "pytest-asyncio>=1.0",
     "ruff>=0.12",
 ]
+tools = [
+    "telethon>=1.40",
+]
 
 [tool.uv]
 package = false
