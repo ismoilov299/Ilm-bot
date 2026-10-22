@@ -9,7 +9,8 @@
   const months = ["yanvar", "fevral", "mart", "aprel", "may", "iyun", "iyul", "avgust", "sentabr", "oktabr", "noyabr", "dekabr"];
   const state = { user: null, regions: [], nodes: [], botUrl: null, today: null, day: null, homePrayer: null,
     tomorrowPrayer: null, prayer: null, view: "home", parent: null, location: null };
-  let toastTimer, searchTimer, prayerVersion = 0, starting = false;
+  let toastTimer, searchTimer, prayerVersion = 0, starting = false, telegramEventsReady = false;
+  let fullscreenUnavailable = false;
 
   function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -60,6 +61,58 @@
     if (/iPad|Macintosh/i.test(agent)) return false;
     return /iPhone/i.test(agent) || (/Android/i.test(agent) &&
       (/Mobile/i.test(agent) || navigator.userAgentData?.mobile === true));
+  }
+  function syncTelegramInsets() {
+    for (const [prefix, insets] of [["safe", tg?.safeAreaInset], ["content-safe", tg?.contentSafeAreaInset]]) {
+      for (const edge of ["top", "bottom", "left", "right"]) {
+        const value = Number(insets?.[edge] || 0);
+        document.documentElement.style.setProperty(`--tg-${prefix}-area-inset-${edge}`, `${Number.isFinite(value) ? Math.max(0, value) : 0}px`);
+      }
+    }
+    if (tg?.viewportStableHeight > 0) {
+      document.documentElement.style.setProperty("--tg-viewport-stable-height", `${tg.viewportStableHeight}px`);
+    }
+  }
+  function canFullscreen() {
+    return tg?.isVersionAtLeast?.("8.0") && typeof tg.requestFullscreen === "function";
+  }
+  function fullscreenButton() {
+    $("fullscreen-retry").hidden = !canFullscreen() || Boolean(tg.isFullscreen) || fullscreenUnavailable;
+    syncTelegramInsets();
+  }
+  function requestFullscreen() {
+    if (!canFullscreen()) {
+      notice("Haqiqiy to‘liq ekran uchun Telegram ilovasini yangilang.");
+      return;
+    }
+    if (tg.isFullscreen || fullscreenUnavailable) return;
+    try { tg.requestFullscreen(); }
+    catch {
+      fullscreenUnavailable = true;
+      fullscreenButton();
+      notice("To‘liq ekran ochilmadi. Telegram ilovasini yangilab, qayta oching.");
+    }
+  }
+  function prepareTelegram() {
+    syncTelegramInsets();
+    if (!telegramEventsReady && tg.onEvent) {
+      telegramEventsReady = true;
+      tg.onEvent("safeAreaChanged", syncTelegramInsets);
+      tg.onEvent("contentSafeAreaChanged", syncTelegramInsets);
+      tg.onEvent("viewportChanged", syncTelegramInsets);
+      tg.onEvent("fullscreenChanged", fullscreenButton);
+      tg.onEvent("fullscreenFailed", (event) => {
+        if (event?.error === "ALREADY_FULLSCREEN") return;
+        fullscreenUnavailable = true;
+        fullscreenButton();
+        notice("Bu Telegram versiyasida to‘liq ekran ochilmadi. Ilovani yangilab ko‘ring.");
+      });
+    }
+    if (tg.isVersionAtLeast?.("7.7") && tg.disableVerticalSwipes) tg.disableVerticalSwipes();
+    if (tg.isVersionAtLeast?.("6.1") && tg.SettingsButton) {
+      tg.SettingsButton.show();
+    }
+    requestFullscreen();
   }
   function shiftedDay(day, offset) {
     const date = new Date(`${day}T12:00:00Z`);
@@ -360,6 +413,7 @@
     try {
       tg.ready(); tg.expand();
       if (tg.isVersionAtLeast?.("6.1")) { tg.setHeaderColor("#f7f6ed"); tg.setBackgroundColor("#f7f6ed"); }
+      prepareTelegram();
       const [me, menu, regions] = await Promise.all([api("me"), api("menu"), api("regions")]);
       state.user = me.user; state.botUrl = me.bot_url; state.today = me.today; state.day = me.today;
       state.nodes = menu.nodes; state.regions = regions.regions;
@@ -377,6 +431,7 @@
 
   document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => show(button.dataset.view)));
   $("retry-auth").addEventListener("click", start);
+  $("fullscreen-retry").addEventListener("click", requestFullscreen);
   $("catalog-back").addEventListener("click", catalogBack);
   $("catalog-search").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(drawCatalog, 120); });
   $("prayer-region").addEventListener("change", (event) => changeRegion(event.target.value));
@@ -394,6 +449,7 @@
   tg?.BackButton?.onClick(() => {
     if (state.view === "catalog" && (state.parent || $("catalog-search").value)) catalogBack(); else show("home");
   });
+  tg?.SettingsButton?.onClick(() => show("settings"));
   setInterval(() => {
     if (!state.user) return;
     if (localClock().day !== state.today) {

@@ -4,3 +4,20 @@
 
 .brand-mark svg{width:42px;height:42px;stroke-width:1.25;display:block}.brand-mark{display:flex;align-items:center}.greeting-art{max-width:47%;overflow:hidden}.catalog-heading h1{overflow-wrap:anywhere;min-width:0}.catalog-heading{min-width:0}
 @media(min-width:500px){.brand-mark svg{width:54px;height:54px}}
+
+/* Telegram fullscreen: system cutouts and the native close/menu controls. */
+:root{
+ --app-safe-top:calc(max(env(safe-area-inset-top,0px),var(--tg-safe-area-inset-top,0px)) + var(--tg-content-safe-area-inset-top,0px));
+ --app-safe-bottom:calc(max(env(safe-area-inset-bottom,0px),var(--tg-safe-area-inset-bottom,0px)) + var(--tg-content-safe-area-inset-bottom,0px));
+ --app-safe-left:calc(max(env(safe-area-inset-left,0px),var(--tg-safe-area-inset-left,0px)) + var(--tg-content-safe-area-inset-left,0px));
+ --app-safe-right:calc(max(env(safe-area-inset-right,0px),var(--tg-safe-area-inset-right,0px)) + var(--tg-content-safe-area-inset-right,0px));
+}
+.app-wrap{min-height:var(--tg-viewport-stable-height,100dvh);padding-top:var(--app-safe-top);padding-bottom:calc(110px + var(--app-safe-bottom))}
+.brand-bar{padding-top:12px}
+.bottom-nav{bottom:calc(12px + var(--app-safe-bottom));width:calc(100% - 28px - var(--app-safe-left) - var(--app-safe-right));left:calc(50% + (var(--app-safe-left) - var(--app-safe-right))/2)}
+.notice{top:calc(12px + var(--app-safe-top))}
+.fullscreen-retry{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:10px 14px;border:1px solid #d8c797;background:#fffdf1;border-radius:14px;margin-bottom:14px;color:var(--green);font-size:12px}
+.fullscreen-retry svg{width:17px;height:17px}
+.welcome-gate>.round-icon{width:70px;height:70px;margin-bottom:20px}
+.welcome-gate>small{color:var(--muted);display:block;margin-top:20px;line-height:1.6}
+@media(orientation:landscape){.app-wrap{padding-left:max(20px,var(--app-safe-left));padding-right:max(20px,var(--app-safe-right))}}
