@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Toshkent",
+  "api_name": "Toshkent",
+  "lat": 41.2995,
+  "lon": 69.2401
+ },
+ {
+  "name": "Andijon",
+  "api_name": "Andijon",
+  "lat": 40.7821,
+  "lon": 72.3442
+ },
+ {
+  "name": "Buxoro",
+  "api_name": "Buxoro",
+  "lat": 39.7747,
+  "lon": 64.4286
+ },
+ {
+  "name": "Guliston",
+  "api_name": "Guliston",
+  "lat": 40.4897,
+  "lon": 68.7842
+ },
+ {
+  "name": "Samarqand",
+  "api_name": "Samarqand",
+  "lat": 39.6542,
+  "lon": 66.9597
+ },
+ {
+  "name": "Namangan",
+  "api_name": "Namangan",
+  "lat": 40.9983,
+  "lon": 71.6726
+ },
+ {
+  "name": "Navoiy",
+  "api_name": "Navoiy",
+  "lat": 40.1039,
+  "lon": 65.3739
+ },
+ {
+  "name": "Jizzax",
+  "api_name": "Jizzax",
+  "lat": 40.1158,
+  "lon": 67.8422
+ },
+ {
+  "name": "Nukus",
+  "api_name": "Nukus",
+  "lat": 42.4531,
+  "lon": 59.6103
+ },
+ {
+  "name": "Qarshi",
+  "api_name": "Qarshi",
+  "lat": 38.8606,
+  "lon": 65.7891
+ },
+ {
+  "name": "Qo'qon",
+  "api_name": "Qo'qon",
+  "lat": 40.5286,
+  "lon": 70.9425
+ },
+ {
+  "name": "Xiva",
+  "api_name": "Xiva",
+  "lat": 41.3775,
+  "lon": 60.3639
+ },
+ {
+  "name": "Marg'ilon",
+  "api_name": "Marg'ilon",
+  "lat": 40.4722,
+  "lon": 71.7247
+ }
+]

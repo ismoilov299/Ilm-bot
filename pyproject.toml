@@ -22,7 +22,6 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "aiosqlite>=0.21",
     "fakeredis>=2.30",
     "pytest>=8.4",
     "pytest-asyncio>=1.0",
@@ -36,7 +35,7 @@ required-version = ">=0.9"
 [tool.ruff]
 line-length = 120
 target-version = "py312"
-extend-exclude = ["migrations/versions"]
+extend-exclude = ["migrations/versions", "tools"]
 
 [tool.ruff.lint]
 select = ["E", "W", "F", "I", "B", "UP", "ASYNC"]
