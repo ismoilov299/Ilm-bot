@@ -5,6 +5,9 @@ filmlar, darsliklar, kunlik namoz vaqti eslatmalari va eng yaqin masjidlar (Tosh
 
 Kontent Telegram kanalida (`@testislomyolida`) turadi, menyu esa bazadagi daraxt sifatida admin paneldan boshqariladi.
 
+Telegram Mini App `/app` manzilida: bosh sahifa, namoz jadvali va eslatmalar, yaqin masjidlar, qibla va kontent bo'limlari.
+Botning eski tugmalari ham ishlaydi. Sozlash va ishga tushirish: [docs/MINI_APP.md](docs/MINI_APP.md).
+
 > **Holat:** loyiha butunlay qayta qurilmoqda (relaunch). Hozir tayyor: poydevor (ma'lumotlar bazasi, migratsiyalar, boshlang'ich
 > ma'lumot). Bot, admin panel va eslatmalar keyingi bosqichlarda. Reja: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md),
 > qolgan ishlar: [docs/TODO.md](docs/TODO.md). Eski versiya `main` branchida.
