@@ -10,6 +10,7 @@ Ma'lumot © OpenStreetMap contributors (ODbL).
 import json
 import math
 import sys
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -24,6 +25,7 @@ QUERY = (
 MERGE_RADIUS_M = 60  # bir masjidning nuqtasi va binosi shu masofada takror hisoblanadi
 CURATED_RADIUS_M = 100
 DEFAULT_NAME = "Masjid"
+GENERIC_NAMES = {"masjid", "jome masjid", "jome masjidi", "jame masjid", "jamie masjid"}
 
 CYR = {
     "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "j", "з": "z", "и": "i",
@@ -61,6 +63,31 @@ def pick_name(tags: dict) -> str:
     return DEFAULT_NAME
 
 
+def address(tags: dict) -> str:
+    """Ko'cha va uy raqami; bo'lmasa to'liq manzil; bo'lmasa shahar yoki tuman."""
+    street = normalize((tags.get("addr:street") or "").strip())
+    house = (tags.get("addr:housenumber") or "").strip()
+    if street:
+        return f"{street} {house}".strip()
+    full = normalize((tags.get("addr:full") or "").strip())
+    if full:
+        return full
+    for key in ("addr:district", "addr:city", "addr:suburb", "addr:place"):
+        if tags.get(key):
+            return normalize(tags[key].strip())
+    return ""
+
+
+def display_name(tags: dict) -> str:
+    """Umumiy yoki nomsiz masjidga manzil qo'shiladi: "Jome masjid, Quva ko'chasi 81a"."""
+    name = pick_name(tags)
+    if name.lower().replace("'", "") not in GENERIC_NAMES:
+        return name
+    where = address(tags)
+    base = DEFAULT_NAME if name == DEFAULT_NAME else name[:1].upper() + name[1:]
+    return f"{base}, {where}"[:255] if where else base
+
+
 def meters(a: tuple[float, float], b: tuple[float, float]) -> float:
     dy = (a[0] - b[0]) * 111_320
     dx = (a[1] - b[1]) * 111_320 * math.cos(math.radians((a[0] + b[0]) / 2))
@@ -77,8 +104,13 @@ def fetch() -> list[dict]:
         data=urllib.parse.urlencode({"data": QUERY}).encode(),
         headers={"User-Agent": "ilmbot-seed/1.0", "Accept": "*/*"},
     )
-    with urllib.request.urlopen(request, timeout=180) as response:
-        return json.load(response)["elements"]
+    for attempt in range(4):  # Overpass band bo'lsa HTML qaytaradi
+        try:
+            with urllib.request.urlopen(request, timeout=180) as response:
+                return json.load(response)["elements"]
+        except (ValueError, OSError):
+            time.sleep(20 * (attempt + 1))
+    raise SystemExit("Overpass javob bermadi, keyinroq urinib ko'ring")
 
 
 def build(elements: list[dict], curated: list[dict]) -> list[dict]:
@@ -94,15 +126,14 @@ def build(elements: list[dict], curated: list[dict]) -> list[dict]:
         if too_close(point, known, CURATED_RADIUS_M) or too_close(point, kept, MERGE_RADIUS_M):
             continue
         tags = element.get("tags", {})
-        name = pick_name(tags)
-        street = (tags.get("addr:street") or "").strip()
+        name = display_name(tags)
         result.append(
             {
                 "name": name,
                 "district": None,
                 "lat": point[0],
                 "lon": point[1],
-                "review": f"OSM {element['type']}/{element['id']}" + (f"; {normalize(street)}" if street else ""),
+                "review": f"OSM {element['type']}/{element['id']}",
             }
         )
         kept.append(point)
@@ -116,8 +147,8 @@ def main() -> None:
     (ROOT / "seeds" / "mosques_osm.json").write_text(
         json.dumps(mosques, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
     )
-    unnamed = sum(m["name"] == DEFAULT_NAME for m in mosques)
-    print(f"{len(mosques)} ta masjid yozildi ({unnamed} tasi nomsiz), qo'lda tekshirilgan: {len(curated)}")
+    bare = sum(m["name"] in (DEFAULT_NAME, "Jome masjid") for m in mosques)
+    print(f"{len(mosques)} ta masjid yozildi ({bare} tasi manzilsiz va umumiy nomli), qo'lda tekshirilgan: {len(curated)}")
 
 
 if __name__ == "__main__":

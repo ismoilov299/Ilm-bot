@@ -11,7 +11,7 @@
   "district": null,
   "lat": 37.23325,
   "lon": 67.257785,
-  "review": "OSM relation/10030222; Shimoliy darvoza ko'chasi"
+  "review": "OSM relation/10030222"
  },
  {
   "name": "Masjid",
@@ -49,7 +49,7 @@
   "review": "OSM way/351273147"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 37.338682,
   "lon": 67.213839,
@@ -84,7 +84,7 @@
   "review": "OSM node/7139198854"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 37.478175,
   "lon": 66.816648,
@@ -224,7 +224,7 @@
   "review": "OSM node/7139198881"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, “Cho'mishli” maxallasi",
   "district": null,
   "lat": 37.676414,
   "lon": 67.080463,
@@ -294,7 +294,7 @@
   "review": "OSM node/7139215187"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Angor tuman Tallimaron mfy",
   "district": null,
   "lat": 37.772994,
   "lon": 66.810292,
@@ -525,7 +525,7 @@
   "review": "OSM node/7139198868"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 38.208258,
   "lon": 67.1929,
@@ -595,7 +595,7 @@
   "review": "OSM way/543994830"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Dehqonobod tumani, Qizilcha QFY, Qizilcha qishlog'i",
   "district": null,
   "lat": 38.266926,
   "lon": 66.101303,
@@ -721,14 +721,14 @@
   "review": "OSM node/7139317626"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Dehqonobod tumani, Chilgaz MFY, Chilgaz qishlog'i",
   "district": null,
   "lat": 38.34992,
   "lon": 66.483528,
   "review": "OSM node/7139317625"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Dehqonobod tumani, O'zbekiston MFY, Qorashina qo'rg'oni",
   "district": null,
   "lat": 38.353258,
   "lon": 66.478619,
@@ -760,7 +760,7 @@
   "district": null,
   "lat": 38.374524,
   "lon": 68.003613,
-  "review": "OSM way/350178690; Abdurahman Jami street"
+  "review": "OSM way/350178690"
  },
  {
   "name": "CHAMBIL jome masjidi",
@@ -791,18 +791,18 @@
   "review": "OSM node/8759013741"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 38.412374,
   "lon": 67.953582,
   "review": "OSM way/592712748"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Oxunboboyev ko'chasi 3",
   "district": null,
   "lat": 38.415818,
   "lon": 67.916864,
-  "review": "OSM way/1476533766; Oxunboboyev ko'chasi"
+  "review": "OSM way/1476533766"
  },
  {
   "name": "DOMLA MUHAMMAD SHARIF jome masjidi",
@@ -819,14 +819,14 @@
   "review": "OSM node/8615881418"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Dehqonobod tumani, Boshchorbog' QFY, Bog'zag'on qishlog'i",
   "district": null,
   "lat": 38.443411,
   "lon": 66.771832,
   "review": "OSM node/7139317630"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Dehqonobod tumani, Choshtepa qishlog'i",
   "district": null,
   "lat": 38.445025,
   "lon": 66.676388,
@@ -875,7 +875,7 @@
   "review": "OSM node/8619007029"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid",
   "district": null,
   "lat": 38.567502,
   "lon": 67.601894,
@@ -970,7 +970,7 @@
   "district": null,
   "lat": 38.778523,
   "lon": 65.810381,
-  "review": "OSM node/14248368913; Qoratepa"
+  "review": "OSM node/14248368913"
  },
  {
   "name": "FAYZOBOD jome masjidi",
@@ -1029,14 +1029,14 @@
   "review": "OSM node/7139317673"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Paxtakor QFY, Fazli qishlog'i",
   "district": null,
   "lat": 38.816601,
   "lon": 65.468653,
   "review": "OSM node/7139317667"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qarshi tumani, Dasht QFY, Dasht qishlog'i",
   "district": null,
   "lat": 38.816936,
   "lon": 65.682553,
@@ -1050,7 +1050,7 @@
   "review": "OSM way/572201816"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qamashi tumani, Boburtepa MFY, Pastol qishlog'i, Toshkent ko'chasi, 29",
   "district": null,
   "lat": 38.818835,
   "lon": 66.585002,
@@ -1078,14 +1078,14 @@
   "review": "OSM node/7139317679"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Xo'ja Ilg'or MFY, To'rtog'ayni qishlog'i",
   "district": null,
   "lat": 38.823362,
   "lon": 66.600765,
   "review": "OSM node/7139346020"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Sandal QFY, Korasuv qishlog'i",
   "district": null,
   "lat": 38.824613,
   "lon": 66.582881,
@@ -1127,7 +1127,7 @@
   "review": "OSM way/229550240"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Qamashi QFY, Qamashi qishlog'i",
   "district": null,
   "lat": 38.834221,
   "lon": 65.371033,
@@ -1145,10 +1145,10 @@
   "district": null,
   "lat": 38.83685,
   "lon": 65.833832,
-  "review": "OSM way/891426346; Namuna ko'chasi"
+  "review": "OSM way/891426346"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Mirishkor tumani, Kalta MFY, Mirishkor qishlog'i, O'zbekiston ko'chasi, 41",
   "district": null,
   "lat": 38.841588,
   "lon": 65.179784,
@@ -1162,14 +1162,14 @@
   "review": "OSM node/7139317632"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Turon MFY, Turon qishlog'i",
   "district": null,
   "lat": 38.844391,
   "lon": 66.961675,
   "review": "OSM node/7139346030"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qamashi tumani, Kushkapa MFY, Chim qishlog'i, Qo'shkapa ko'chasi, 107",
   "district": null,
   "lat": 38.84753,
   "lon": 66.24524,
@@ -1208,7 +1208,7 @@
   "district": null,
   "lat": 38.86372,
   "lon": 65.791487,
-  "review": "OSM relation/3077308; Nasaf shoh ko'chasi"
+  "review": "OSM relation/3077308"
  },
  {
   "name": "Odina masjid va madrasasi",
@@ -1225,7 +1225,7 @@
   "review": "OSM relation/15487144"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Sovuqbuloq MFY, Sovuqbuloq qishlog'i",
   "district": null,
   "lat": 38.869511,
   "lon": 66.764997,
@@ -1267,42 +1267,42 @@
   "review": "OSM node/7139317611"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Chulquvar QFY, Chulquvar qishlog'i",
   "district": null,
   "lat": 38.879703,
   "lon": 65.385004,
   "review": "OSM node/7139317664"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qamashi tumani, Mang'it MFY, Mang'it qishlog'i, Buyuk ipak yo'li ko'chasi",
   "district": null,
   "lat": 38.892953,
   "lon": 66.402483,
   "review": "OSM node/7139317635"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Nazartepa MFY, Nazartepa qishlog'i",
   "district": null,
   "lat": 38.901895,
   "lon": 65.427743,
   "review": "OSM node/7139317666"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, G'alaba QFY, Toshqo'rg'on qishlog'i",
   "district": null,
   "lat": 38.908287,
   "lon": 65.520009,
   "review": "OSM node/7139317660"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qamashi tumani, Qoratepa QFY. Qoratepa qishlog'i, Qoratepa ko'chasi, 222",
   "district": null,
   "lat": 38.908677,
   "lon": 66.423222,
   "review": "OSM node/7139317638"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Mug'lon MFY, Mug'lon qishlog'i",
   "district": null,
   "lat": 38.916385,
   "lon": 65.40161,
@@ -1316,14 +1316,14 @@
   "review": "OSM way/1534199623"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Esat QFY, O'g'in qishlog'i",
   "district": null,
   "lat": 38.923055,
   "lon": 66.584984,
   "review": "OSM node/7139346022"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Xo'jakasbi MFY, Xo'jakasbi qishlog'i",
   "district": null,
   "lat": 38.923601,
   "lon": 65.415301,
@@ -1337,14 +1337,14 @@
   "review": "OSM node/12050627766"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Mesit MFY, Mesit qishlog'i",
   "district": null,
   "lat": 38.925157,
   "lon": 65.475684,
   "review": "OSM node/7139317661"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Eski Yakkabog ShFY, Tatar mahallasi",
   "district": null,
   "lat": 38.927012,
   "lon": 66.531991,
@@ -1358,7 +1358,7 @@
   "review": "OSM node/7139317654"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 38.927331,
   "lon": 65.401708,
@@ -1372,14 +1372,14 @@
   "review": "OSM node/7139345986"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Madaniyat MFY, Qutanboy qishlog'i",
   "district": null,
   "lat": 38.929462,
   "lon": 66.650602,
   "review": "OSM node/7139346026"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Ibn Sino MFY, Eski Qurg'on mahallasi, 30",
   "district": null,
   "lat": 38.930654,
   "lon": 66.839828,
@@ -1393,42 +1393,42 @@
   "review": "OSM node/7139317682"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Sovuqbuloq MFY, Javog'i qishlog'i, 368",
   "district": null,
   "lat": 38.937666,
   "lon": 66.693801,
   "review": "OSM node/7139346014"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Qushchinor MFY, G'urjob qishlog'i",
   "district": null,
   "lat": 38.943396,
   "lon": 66.545998,
   "review": "OSM node/7139346025"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Qatag'on MFY, Qatag'on qishlog'i",
   "district": null,
   "lat": 38.949785,
   "lon": 65.420672,
   "review": "OSM node/7139317669"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Alakuylak MFY, Alakuylak qishlog'i",
   "district": null,
   "lat": 38.950518,
   "lon": 66.731104,
   "review": "OSM node/7139346016"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Kasbi MFY, Kasbi qishlog'i",
   "district": null,
   "lat": 38.950561,
   "lon": 65.389194,
   "review": "OSM node/7139317658"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Alakuylak QFY, Imom Yaqub qishlog'i",
   "district": null,
   "lat": 38.954058,
   "lon": 66.720088,
@@ -1442,49 +1442,49 @@
   "review": "OSM node/7139317646"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Darxon MFY, Darxon qishlog'i",
   "district": null,
   "lat": 38.969415,
   "lon": 66.825348,
   "review": "OSM node/7139346024"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Qatag'on MFY, Chimqurg'on qishlog'i",
   "district": null,
   "lat": 38.974223,
   "lon": 66.797593,
   "review": "OSM node/7139346023"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Yangihayot MFY, Yangiobod qishlog'i",
   "district": null,
   "lat": 38.974334,
   "lon": 66.553225,
   "review": "OSM node/7139346018"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Xo'jaxaroy MFY, Xo'jaxayron qishlog'i",
   "district": null,
   "lat": 38.977078,
   "lon": 65.354124,
   "review": "OSM node/7139317668"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' shahar, Bunyodkor MFY, Do'stlik ko'chasi, 15",
   "district": null,
   "lat": 38.977269,
   "lon": 66.698709,
   "review": "OSM node/7139346029"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' shahar, Yangiobod MFY, U.Yusupov ko'chasi",
   "district": null,
   "lat": 38.981093,
   "lon": 66.689784,
   "review": "OSM node/7139346015"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Chaydari QFY, Chaydari qishlog'i",
   "district": null,
   "lat": 38.983044,
   "lon": 66.611623,
@@ -1512,35 +1512,35 @@
   "review": "OSM node/12050627840"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kasbi tumani, Istiqlol MFY, Maymanoq qishlog'i",
   "district": null,
   "lat": 38.99621,
   "lon": 65.418639,
   "review": "OSM node/7139317662"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yakkabog' tumani, Qayrag'och QFY, Qayrag'och qishlog'i",
   "district": null,
   "lat": 39.002114,
   "lon": 66.759479,
   "review": "OSM node/7139346012"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Achchig'i MFY, Qatag'on qishlog'i",
   "district": null,
   "lat": 39.006997,
   "lon": 67.021105,
   "review": "OSM node/7139346051"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Sarqamish MFY, Sarqamish qishlog'i",
   "district": null,
   "lat": 39.008662,
   "lon": 66.48894,
   "review": "OSM node/7139346011"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Yangiqishloq MFY, Yangi qishloq qishlog'i, 117",
   "district": null,
   "lat": 39.017797,
   "lon": 66.807748,
@@ -1554,7 +1554,7 @@
   "review": "OSM node/7139317657"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Dodiq QFY, Dodiq qishlog'i",
   "district": null,
   "lat": 39.02606,
   "lon": 66.5592,
@@ -1582,7 +1582,7 @@
   "review": "OSM way/1028901435"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Miraki MFY, O'lang ko'chasi",
   "district": null,
   "lat": 39.032439,
   "lon": 67.130816,
@@ -1596,21 +1596,21 @@
   "review": "OSM way/1028901468"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi shahar, A.Navoiy MFY, Terakzor ko'chasi",
   "district": null,
   "lat": 39.033556,
   "lon": 66.563543,
   "review": "OSM node/7139346010"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Qutchi MFY, Chorshanbe qishlog'i",
   "district": null,
   "lat": 39.033683,
   "lon": 66.963207,
   "review": "OSM node/7139346052"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Polmon MFY, Polmon qishlog'i",
   "district": null,
   "lat": 39.035262,
   "lon": 67.033932,
@@ -1624,7 +1624,7 @@
   "review": "OSM node/7139317645"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi shahar, Bog'ishamol MFY, Xonjon ko'chasi",
   "district": null,
   "lat": 39.03797,
   "lon": 66.57065,
@@ -1638,21 +1638,21 @@
   "review": "OSM way/968709797"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Shakarteri MFY, Shavkan qishlog'i",
   "district": null,
   "lat": 39.039391,
   "lon": 67.005846,
   "review": "OSM node/7139346031"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Ammag'on MFY, Ammog'on qishlog'i",
   "district": null,
   "lat": 39.040521,
   "lon": 66.804827,
   "review": "OSM node/7139346042"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Uymavutota QFY, Uymavutota qishlog'i",
   "district": null,
   "lat": 39.040979,
   "lon": 66.63437,
@@ -1673,14 +1673,14 @@
   "review": "OSM node/11716448979"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Shamaton QFY, Saroy qishlog'i",
   "district": null,
   "lat": 39.047961,
   "lon": 66.664865,
   "review": "OSM node/7139346041"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Kulollik MFY, Kulollik ko'chasi, 157",
   "district": null,
   "lat": 39.049453,
   "lon": 66.825757,
@@ -1701,7 +1701,7 @@
   "review": "OSM way/405107423"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz shahar, Qushxona MFY, Memor ko'chasi, 46",
   "district": null,
   "lat": 39.05032,
   "lon": 66.818324,
@@ -1715,28 +1715,28 @@
   "review": "OSM node/7139317648"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Tupchoq QFY, Ravot qishlog'i, 67",
   "district": null,
   "lat": 39.051172,
   "lon": 67.035204,
   "review": "OSM node/7139346084"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz shahar, Qo'shhovuz MFY, Xovuzmardon ko'chasi, 29",
   "district": null,
   "lat": 39.052304,
   "lon": 66.821917,
   "review": "OSM node/7139346038"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Mevazor MFY, Mo'minobod qishlog'i",
   "district": null,
   "lat": 39.054354,
   "lon": 66.919273,
   "review": "OSM node/7139346048"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Mevazor MFY, Mo'minobod qishlog'i",
   "district": null,
   "lat": 39.054917,
   "lon": 66.923698,
@@ -1757,14 +1757,14 @@
   "review": "OSM way/498975064"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz shahar, Navro'z MFY, Sh.Rashidov ko'chasi, 26",
   "district": null,
   "lat": 39.058834,
   "lon": 66.817477,
   "review": "OSM node/7139346053"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Qumqishloq MFY, Kumqishloq qishlog'i",
   "district": null,
   "lat": 39.059159,
   "lon": 66.752304,
@@ -1778,84 +1778,84 @@
   "review": "OSM way/493659544"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Jar QFY, Jar qishlog'i",
   "district": null,
   "lat": 39.064212,
   "lon": 66.597546,
   "review": "OSM node/7139346009"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Paxtakor MFY, Yangi qishloq qishlog'i 220",
   "district": null,
   "lat": 39.064213,
   "lon": 66.66844,
   "review": "OSM node/7139346044"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz shahar, Xo'jamurod Baxshi MFY, Ipak yo'li ko'chasi, 46",
   "district": null,
   "lat": 39.065082,
   "lon": 66.833688,
   "review": "OSM node/7139346043"
  },
  {
-  "name": "masjid",
+  "name": "Masjid",
   "district": null,
   "lat": 39.067275,
   "lon": 66.835637,
   "review": "OSM node/5694074921"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Ko'ktosh QFY, Ko'ktosh qishlog'i",
   "district": null,
   "lat": 39.069725,
   "lon": 66.564663,
   "review": "OSM node/7139346000"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Avazmalik MFY, Avazmalik qishlog'i",
   "district": null,
   "lat": 39.07359,
   "lon": 66.949242,
   "review": "OSM node/7139346034"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Duxchi MFY Duxchi qishlog'i",
   "district": null,
   "lat": 39.075692,
   "lon": 66.72034,
   "review": "OSM node/7139346057"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, G'elon MFY, G'elon qishlog'i",
   "district": null,
   "lat": 39.077227,
   "lon": 67.456017,
   "review": "OSM node/7139346035"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Do'stlikdiyori MFY, Jar qishlog'i",
   "district": null,
   "lat": 39.083196,
   "lon": 66.600183,
   "review": "OSM node/7139345990"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Bog'ishamol MFY, Qishloqcha qishlog'i, 1",
   "district": null,
   "lat": 39.085175,
   "lon": 66.909738,
   "review": "OSM node/7139346040"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz shahar, Bunyodkor MFY, Paxtakor ko'chasi, 20",
   "district": null,
   "lat": 39.087282,
   "lon": 66.841002,
   "review": "OSM node/7139346046"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Qiyomshayx MFY, Qiyomshayx qishlog'i",
   "district": null,
   "lat": 39.088272,
   "lon": 66.669003,
@@ -1876,35 +1876,35 @@
   "review": "OSM node/7139317652"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Sevaz QFY, Xujaisparaz qishlog'i, 83",
   "district": null,
   "lat": 39.099241,
   "lon": 66.992005,
   "review": "OSM node/7139346066"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob shahar, Sanam MFY, Shodyona ko'chasi, 34",
   "district": null,
   "lat": 39.102102,
   "lon": 66.859282,
   "review": "OSM node/7139346071"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, G'allakor QFY, G'allakor qishlog'i",
   "district": null,
   "lat": 39.103085,
   "lon": 66.342775,
   "review": "OSM node/7139346004"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Paxtaobod QFY, Bezqazoq qishlog'i, Beshqazoq ko'chasi, 139",
   "district": null,
   "lat": 39.105823,
   "lon": 66.909485,
   "review": "OSM node/7139346067"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Sevaz QFY, Sevaz shaharchasi, 129",
   "district": null,
   "lat": 39.107508,
   "lon": 66.991233,
@@ -1915,38 +1915,38 @@
   "district": null,
   "lat": 39.107828,
   "lon": 65.425429,
-  "review": "OSM way/910756159; Zormamat ko'chasi"
+  "review": "OSM way/910756159"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Ulug'bek MFY, Paxtakor ko'chasi, 132",
   "district": null,
   "lat": 39.115072,
   "lon": 66.899176,
   "review": "OSM node/7139346069"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Beshterak QFY, Beshterak qishlog'i, 127",
   "district": null,
   "lat": 39.116529,
   "lon": 66.769079,
   "review": "OSM node/7139346061"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shahrisabz tumani, Ko'l MFY, Ko'l qishlog'i",
   "district": null,
   "lat": 39.11705,
   "lon": 67.517635,
   "review": "OSM node/7139346047"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Sevaz QFY, Gulbog' qishlog'i, Gulbog' ko'cha 156",
   "district": null,
   "lat": 39.117088,
   "lon": 66.979212,
   "review": "OSM node/7139346077"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob shahar, Toshkent MFY, Toshkent ko'chasi, 2",
   "district": null,
   "lat": 39.120687,
   "lon": 66.881537,
@@ -1960,35 +1960,35 @@
   "review": "OSM way/498148447"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Sariosiyo QFY, Sariosiyo qishlog'i, 176",
   "district": null,
   "lat": 39.122004,
   "lon": 66.965972,
   "review": "OSM node/7139346063"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob shahar, Guliston MFY, Buyuk Ipak yo'li ko'chasi, 4",
   "district": null,
   "lat": 39.124294,
   "lon": 66.879269,
   "review": "OSM node/7139346059"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Sevaz QFY, Xujailmkoni qishlog'i, 87",
   "district": null,
   "lat": 39.124975,
   "lon": 66.989437,
   "review": "OSM node/7139346072"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Surum QFY, Denov qishlog'i, 138",
   "district": null,
   "lat": 39.134041,
   "lon": 66.915589,
   "review": "OSM node/7139346074"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Quyioqboy QFY, Qusam qishlog'i, 53",
   "district": null,
   "lat": 39.141084,
   "lon": 66.937917,
@@ -2002,35 +2002,35 @@
   "review": "OSM node/8152091997"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Bektemir QFY, Bektemir qishlog'i, Bektemir ko'cha, 3",
   "district": null,
   "lat": 39.14703,
   "lon": 66.825973,
   "review": "OSM node/7139346058"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Bektemir QFY, Alaquylik qishlog'i, 31",
   "district": null,
   "lat": 39.147844,
   "lon": 66.835215,
   "review": "OSM node/7139346060"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Chiyal QFY, Kilburun qishlog'i",
   "district": null,
   "lat": 39.154905,
   "lon": 66.170246,
   "review": "OSM node/7139346003"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Arabbandi MFY, Arabbandi qishlog'i",
   "district": null,
   "lat": 39.166431,
   "lon": 66.114709,
   "review": "OSM node/7139346006"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Jilisuv QFY, Saroy qishlog'i, 160",
   "district": null,
   "lat": 39.168118,
   "lon": 66.6927,
@@ -2044,14 +2044,14 @@
   "review": "OSM node/7139317650"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Togob QFY, Tuyaboshi qishlog'i, 17",
   "district": null,
   "lat": 39.18975,
   "lon": 67.17137,
   "review": "OSM node/7139346070"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Kuhisor QFY, Yuqori Jovuz qishlog'i, 47",
   "district": null,
   "lat": 39.193156,
   "lon": 67.245543,
@@ -2065,56 +2065,56 @@
   "review": "OSM node/7139317647"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Kuhisor MFY, Matmon qishlog'i, 15",
   "district": null,
   "lat": 39.19679,
   "lon": 67.269864,
   "review": "OSM node/7139346078"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Makrid QFY, Makrid qishlog'i, 13",
   "district": null,
   "lat": 39.207392,
   "lon": 66.7504,
   "review": "OSM node/7139346068"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Qatarbog' QFY, Toshloq qishlog'i, Toshloq ko'cha, 78",
   "district": null,
   "lat": 39.209919,
   "lon": 67.003622,
   "review": "OSM node/7139346062"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Kuhisor QFY, Denovbolo qishlog'i, 54",
   "district": null,
   "lat": 39.212664,
   "lon": 67.309481,
   "review": "OSM node/7139346083"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Qatarbog' QFY, Kushchinor qishlog'i, 76",
   "district": null,
   "lat": 39.213505,
   "lon": 66.974468,
   "review": "OSM node/7139346081"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Tuqmor MFY, Tuqmor qishlog'i",
   "district": null,
   "lat": 39.221583,
   "lon": 66.099673,
   "review": "OSM node/7139346005"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Chuvulloq MFY, Chuvilloq qishlog'i",
   "district": null,
   "lat": 39.223628,
   "lon": 66.179355,
   "review": "OSM node/7139345998"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Shurquduq QFY, Shurquduq qishlog'i",
   "district": null,
   "lat": 39.227385,
   "lon": 66.180669,
@@ -2128,42 +2128,42 @@
   "review": "OSM way/946583750"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Ko'kdala QFY, Ko'kdala qishlog'i",
   "district": null,
   "lat": 39.231575,
   "lon": 66.157448,
   "review": "OSM node/7139345995"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Chuvulloq MFY, Chuvilloq qishlog'i",
   "district": null,
   "lat": 39.232761,
   "lon": 66.342659,
   "review": "OSM node/7139345991"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Makrid QFY, Xonaqo qishlog'i, 64",
   "district": null,
   "lat": 39.243805,
   "lon": 66.804974,
   "review": "OSM node/7139346076"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Yangihayot QFY, Xarduri qishlog'i",
   "district": null,
   "lat": 39.249782,
   "lon": 66.180476,
   "review": "OSM node/7139345993"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Ayoqchi QFY, Ayoqchi qishlog'i, 17",
   "district": null,
   "lat": 39.254031,
   "lon": 66.672121,
   "review": "OSM node/7139346079"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Annaro'z MFY, Annaro'z qishlog'i",
   "district": null,
   "lat": 39.254706,
   "lon": 66.149886,
@@ -2177,21 +2177,21 @@
   "review": "OSM way/749273049"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Jalabek MFY, Dovtosh qishlog'i",
   "district": null,
   "lat": 39.276618,
   "lon": 66.600227,
   "review": "OSM node/7139345992"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Qalqama QFY, Katta qishloq qishlog'i",
   "district": null,
   "lat": 39.286779,
   "lon": 66.611965,
   "review": "OSM node/7139345996"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kitob tumani, Ayoqchi QFY, Yuqori Ayoqchi qishlog'i, 104",
   "district": null,
   "lat": 39.289555,
   "lon": 66.748492,
@@ -2205,7 +2205,7 @@
   "review": "OSM way/1069495854"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Omonqo'ton MFY",
   "district": null,
   "lat": 39.316167,
   "lon": 66.967975,
@@ -2219,49 +2219,49 @@
   "review": "OSM node/7139317649"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Quruqsoy MFY, Quruksoy qishlog'i",
   "district": null,
   "lat": 39.348089,
   "lon": 66.703821,
   "review": "OSM node/7139346008"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chiroqchi tumani, Langar QFY, Langar qishlog'i",
   "district": null,
   "lat": 39.363184,
   "lon": 66.668002,
   "review": "OSM node/7139345999"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Soy G'o's MFY",
   "district": null,
   "lat": 39.369319,
   "lon": 67.289008,
   "review": "OSM node/7139516259"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Vatak MFY",
   "district": null,
   "lat": 39.376858,
   "lon": 66.961392,
   "review": "OSM node/7139516243"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Tersak 1 MFY",
   "district": null,
   "lat": 39.381292,
   "lon": 66.974622,
   "review": "OSM node/7139516266"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani To'rtko'l MFY",
   "district": null,
   "lat": 39.384853,
   "lon": 67.363447,
   "review": "OSM node/7139516262"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Yettiuylik MFY",
   "district": null,
   "lat": 39.385564,
   "lon": 67.318781,
@@ -2275,112 +2275,112 @@
   "review": "OSM way/1391351965"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani O'rtaguzar MFY",
   "district": null,
   "lat": 39.391564,
   "lon": 67.307264,
   "review": "OSM node/7139516261"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar So'fiyon MFY",
   "district": null,
   "lat": 39.391986,
   "lon": 67.243264,
   "review": "OSM node/7139516272"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Murodqishloq MFY",
   "district": null,
   "lat": 39.393517,
   "lon": 67.368892,
   "review": "OSM node/7139516250"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Quyiguzar MFY",
   "district": null,
   "lat": 39.394153,
   "lon": 67.315617,
   "review": "OSM node/7139516231"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar Kulollik MFY",
   "district": null,
   "lat": 39.397161,
   "lon": 67.242117,
   "review": "OSM node/7139516234"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar Guliston MFY",
   "district": null,
   "lat": 39.397364,
   "lon": 67.234958,
   "review": "OSM node/7139516220"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar G'uzni MFY",
   "district": null,
   "lat": 39.397578,
   "lon": 67.240764,
   "review": "OSM node/7139516230"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Kamangaron MFY",
   "district": null,
   "lat": 39.399253,
   "lon": 67.191153,
   "review": "OSM node/7139516268"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar A.Shukuriy 31",
   "district": null,
   "lat": 39.399717,
   "lon": 67.245625,
   "review": "OSM node/7139516271"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar Torinjak MFY",
   "district": null,
   "lat": 39.399992,
   "lon": 67.267792,
   "review": "OSM node/7139516267"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Vag'ashti MFY",
   "district": null,
   "lat": 39.400964,
   "lon": 67.172692,
   "review": "OSM node/7139516232"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Qoratepa MFY",
   "district": null,
   "lat": 39.401517,
   "lon": 67.003244,
   "review": "OSM node/7139516239"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Mo'minobod MFY",
   "district": null,
   "lat": 39.403278,
   "lon": 67.40145,
   "review": "OSM node/7139516249"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Soyguzar MFY",
   "district": null,
   "lat": 39.404444,
   "lon": 67.308697,
   "review": "OSM node/7139516258"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Toshariq MFY",
   "district": null,
   "lat": 39.408408,
   "lon": 67.275892,
   "review": "OSM node/7139516252"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar Kamardon MFY",
   "district": null,
   "lat": 39.408678,
   "lon": 67.247825,
@@ -2401,28 +2401,28 @@
   "review": "OSM way/577952815"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Tersak MFY",
   "district": null,
   "lat": 39.415239,
   "lon": 67.166578,
   "review": "OSM node/7139516270"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Paxmob MFY",
   "district": null,
   "lat": 39.415528,
   "lon": 67.271619,
   "review": "OSM node/7139516254"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Saptang MFY",
   "district": null,
   "lat": 39.416333,
   "lon": 67.279575,
   "review": "OSM node/7139516237"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut shahar Chag'izmon MFY",
   "district": null,
   "lat": 39.417836,
   "lon": 67.259489,
@@ -2436,35 +2436,35 @@
   "review": "OSM way/915107987"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Satang MFY",
   "district": null,
   "lat": 39.421981,
   "lon": 67.288406,
   "review": "OSM node/7139516245"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Chumchuqli MFY",
   "district": null,
   "lat": 39.428639,
   "lon": 67.418572,
   "review": "OSM node/7139516233"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Jom MFY",
   "district": null,
   "lat": 39.432598,
   "lon": 66.41342,
   "review": "OSM way/931388396"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Chep MFY",
   "district": null,
   "lat": 39.441231,
   "lon": 67.435475,
   "review": "OSM node/7139516269"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Nisbot MFY",
   "district": null,
   "lat": 39.446014,
   "lon": 67.124456,
@@ -2478,28 +2478,28 @@
   "review": "OSM way/1134720799"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Jarqishloq MFY",
   "district": null,
   "lat": 39.450478,
   "lon": 67.369061,
   "review": "OSM node/7139516247"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Aloxotun MFY",
   "district": null,
   "lat": 39.45215,
   "lon": 67.214669,
   "review": "OSM node/7139516251"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Mirzaqishloq MFY",
   "district": null,
   "lat": 39.455153,
   "lon": 67.180006,
   "review": "OSM node/7139516246"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Beshkapa MFY",
   "district": null,
   "lat": 39.455897,
   "lon": 67.131311,
@@ -2513,7 +2513,7 @@
   "review": "OSM way/1196091364"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Olg'a MFY",
   "district": null,
   "lat": 39.457156,
   "lon": 66.019339,
@@ -2527,105 +2527,105 @@
   "review": "OSM way/1134488111"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Xo'jabalnd MFY",
   "district": null,
   "lat": 39.4614,
   "lon": 67.266019,
   "review": "OSM node/7139516256"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Algar MFY",
   "district": null,
   "lat": 39.462069,
   "lon": 67.211725,
   "review": "OSM node/7139516216"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Yuqoritegana MFY",
   "district": null,
   "lat": 39.463975,
   "lon": 67.238642,
   "review": "OSM node/7139516260"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Qing'ir MFY",
   "district": null,
   "lat": 39.4651,
   "lon": 67.386369,
   "review": "OSM node/7139516240"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Beshkapa MFY",
   "district": null,
   "lat": 39.465817,
   "lon": 67.291089,
   "review": "OSM node/7139516223"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Ipakli MFY",
   "district": null,
   "lat": 39.466928,
   "lon": 67.186067,
   "review": "OSM node/7139516235"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Quyitegana MFY",
   "district": null,
   "lat": 39.468344,
   "lon": 67.225786,
   "review": "OSM node/7139516221"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Pochvon MFY",
   "district": null,
   "lat": 39.469047,
   "lon": 67.27785,
   "review": "OSM node/7139516255"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani G'oyib ota MFY",
   "district": null,
   "lat": 39.474594,
   "lon": 67.316889,
   "review": "OSM node/7139516229"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani O'rtabuz MFY",
   "district": null,
   "lat": 39.478689,
   "lon": 66.179981,
   "review": "OSM node/7139516450"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani O'rtabuz MFY",
   "district": null,
   "lat": 39.479906,
   "lon": 66.166639,
   "review": "OSM node/7139516447"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Qayroqli MFY",
   "district": null,
   "lat": 39.480869,
   "lon": 67.252433,
   "review": "OSM node/7139516227"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Quyiqishloq MFY",
   "district": null,
   "lat": 39.485553,
   "lon": 67.330222,
   "review": "OSM node/7139516241"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Sanchiqul MFY",
   "district": null,
   "lat": 39.491067,
   "lon": 67.280692,
   "review": "OSM node/7139516217"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani G'ishmasjid MFY",
   "district": null,
   "lat": 39.494864,
   "lon": 67.163908,
@@ -2646,35 +2646,35 @@
   "review": "OSM node/1897948606"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani O'roqboyjar MFY",
   "district": null,
   "lat": 39.499575,
   "lon": 67.267697,
   "review": "OSM node/7139516236"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Mang'itobod MFY",
   "district": null,
   "lat": 39.499756,
   "lon": 67.127622,
   "review": "OSM node/7139516242"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Uzunqishloq MFY",
   "district": null,
   "lat": 39.500417,
   "lon": 67.292267,
   "review": "OSM node/7139516263"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Sarikul MFY",
   "district": null,
   "lat": 39.501181,
   "lon": 66.500631,
   "review": "OSM node/7139516444"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani O'ramas MFY",
   "district": null,
   "lat": 39.502858,
   "lon": 67.212069,
@@ -2688,42 +2688,42 @@
   "review": "OSM node/7471650780"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani O'ramas MFY",
   "district": null,
   "lat": 39.504514,
   "lon": 67.1987,
   "review": "OSM node/7139516218"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Jalolobod mahalla",
   "district": null,
   "lat": 39.508864,
   "lon": 67.202428,
   "review": "OSM node/7139516200"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Oqsoy MFY",
   "district": null,
   "lat": 39.51002,
   "lon": 66.62794,
   "review": "OSM node/7139516442"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Bo'taboy mahalla",
   "district": null,
   "lat": 39.511456,
   "lon": 67.249331,
   "review": "OSM node/7139516203"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Qorabuloq MFY",
   "district": null,
   "lat": 39.513342,
   "lon": 67.020725,
   "review": "OSM node/7139516248"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Samarqand tuman Ravonak qishloq",
   "district": null,
   "lat": 39.515697,
   "lon": 66.890839,
@@ -2737,7 +2737,7 @@
   "review": "OSM node/7494353960"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Boybul MFY",
   "district": null,
   "lat": 39.523744,
   "lon": 67.318853,
@@ -2751,14 +2751,14 @@
   "review": "OSM way/798789930"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Yastepa mahalla",
   "district": null,
   "lat": 39.531044,
   "lon": 67.180831,
   "review": "OSM node/7139516214"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Beshyog'och MFY",
   "district": null,
   "lat": 39.531236,
   "lon": 67.101847,
@@ -2772,14 +2772,14 @@
   "review": "OSM node/12506133315"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Yalang'och mahalla",
   "district": null,
   "lat": 39.533633,
   "lon": 67.256664,
   "review": "OSM node/7139516204"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Urgut tumani Saroy MFY",
   "district": null,
   "lat": 39.537236,
   "lon": 67.355922,
@@ -2793,21 +2793,21 @@
   "review": "OSM way/416375673"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Bachki mahalla",
   "district": null,
   "lat": 39.538264,
   "lon": 67.276892,
   "review": "OSM node/7139516196"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani O'rtaqishloq mahalla",
   "district": null,
   "lat": 39.551903,
   "lon": 67.191494,
   "review": "OSM node/7139516211"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani G'o'lba mahalla",
   "district": null,
   "lat": 39.557269,
   "lon": 67.261272,
@@ -2821,56 +2821,56 @@
   "review": "OSM node/7495177315"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Talliota mahalla",
   "district": null,
   "lat": 39.561208,
   "lon": 67.170608,
   "review": "OSM node/7139516207"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Nayman 1 mahalla",
   "district": null,
   "lat": 39.568989,
   "lon": 67.046197,
   "review": "OSM node/7139516205"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Xalqobod MFY",
   "district": null,
   "lat": 39.573292,
   "lon": 66.380403,
   "review": "OSM node/7139516446"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Gadoyqushchi mahalla",
   "district": null,
   "lat": 39.575192,
   "lon": 67.06515,
   "review": "OSM node/7139516198"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Bog'izag'on mahalla",
   "district": null,
   "lat": 39.575839,
   "lon": 67.172264,
   "review": "OSM node/7139516197"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Payshanbisiyob mahalla",
   "district": null,
   "lat": 39.583006,
   "lon": 67.04995,
   "review": "OSM node/7139516209"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Sariosiyo mahalla",
   "district": null,
   "lat": 39.585506,
   "lon": 67.133758,
   "review": "OSM node/7139516206"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Yangihayot mahalla",
   "district": null,
   "lat": 39.596747,
   "lon": 67.150258,
@@ -2884,56 +2884,56 @@
   "review": "OSM node/7139516208"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Sochak 1 mahalla",
   "district": null,
   "lat": 39.601064,
   "lon": 67.039794,
   "review": "OSM node/7139516210"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Qovchin mahalla",
   "district": null,
   "lat": 39.601575,
   "lon": 67.073264,
   "review": "OSM node/7139516213"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Saxoba MFY",
   "district": null,
   "lat": 39.604175,
   "lon": 65.534453,
   "review": "OSM node/7139516445"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Kattaqishloq mahallasi",
   "district": null,
   "lat": 39.604669,
   "lon": 67.358378,
   "review": "OSM node/7139516284"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Payshanbisiyob mahalla",
   "district": null,
   "lat": 39.605783,
   "lon": 67.111453,
   "review": "OSM node/7139516212"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Mo'g'ol mahallasi",
   "district": null,
   "lat": 39.6065,
   "lon": 67.396161,
   "review": "OSM node/7139516289"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod shahri O'zbekiston ko'chasi",
   "district": null,
   "lat": 39.607171,
   "lon": 66.294419,
   "review": "OSM way/1497862744"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Changal mahallasi",
   "district": null,
   "lat": 39.607639,
   "lon": 67.308011,
@@ -2961,14 +2961,14 @@
   "review": "OSM node/7139516193"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Naqqashon mahalla",
   "district": null,
   "lat": 39.622861,
   "lon": 67.102944,
   "review": "OSM node/7139516195"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Sariqipchoq mahallasi",
   "district": null,
   "lat": 39.624906,
   "lon": 67.358719,
@@ -2989,7 +2989,7 @@
   "review": "OSM node/7139515267"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tayloq tumani Madaniyat mahalla",
   "district": null,
   "lat": 39.629892,
   "lon": 67.053217,
@@ -3003,7 +3003,7 @@
   "review": "OSM node/7139515270"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Niyozmat mahallasi",
   "district": null,
   "lat": 39.634519,
   "lon": 67.3523,
@@ -3031,7 +3031,7 @@
   "review": "OSM way/974532345"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Qirqshodi mahallasi",
   "district": null,
   "lat": 39.637514,
   "lon": 67.276392,
@@ -3045,21 +3045,21 @@
   "review": "OSM way/177478676"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Kildon mahallasi",
   "district": null,
   "lat": 39.642481,
   "lon": 67.411631,
   "review": "OSM node/7139516280"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Boshquduq MFY,",
   "district": null,
   "lat": 39.642583,
   "lon": 66.447372,
   "review": "OSM node/7139516443"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Suluvqo'rg'on mahallasi",
   "district": null,
   "lat": 39.643578,
   "lon": 67.231581,
@@ -3105,10 +3105,10 @@
   "district": null,
   "lat": 39.650002,
   "lon": 66.968016,
-  "review": "OSM way/211098189; Ruhobod ko'chasi"
+  "review": "OSM way/211098189"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Samarqand tuman Arabxona qishloq",
   "district": null,
   "lat": 39.650008,
   "lon": 66.893694,
@@ -3122,7 +3122,7 @@
   "review": "OSM way/1380040744"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Samarqand shahar Vobkend ko'cha 82",
   "district": null,
   "lat": 39.653568,
   "lon": 66.984118,
@@ -3143,7 +3143,7 @@
   "review": "OSM way/615889742"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Chandir MFY",
   "district": null,
   "lat": 39.656633,
   "lon": 66.708233,
@@ -3164,7 +3164,7 @@
   "review": "OSM node/11985465625"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Kichik Kildon mahallasi",
   "district": null,
   "lat": 39.658325,
   "lon": 67.374497,
@@ -3199,7 +3199,7 @@
   "review": "OSM way/615445898"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Parchaqara MFY",
   "district": null,
   "lat": 39.659717,
   "lon": 66.6609,
@@ -3210,7 +3210,7 @@
   "district": null,
   "lat": 39.660688,
   "lon": 66.97762,
-  "review": "OSM way/615445735; Chorraha Street"
+  "review": "OSM way/615445735"
  },
  {
   "name": "Bibi Xonim masjidi",
@@ -3220,7 +3220,7 @@
   "review": "OSM node/12029940233"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Samarqand tuman Qo'shtamg'ali qishloq",
   "district": null,
   "lat": 39.661,
   "lon": 67.025544,
@@ -3283,7 +3283,7 @@
   "review": "OSM node/7139515274"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Uzunbuloq QFY, Uzunbuloq qishlog'i",
   "district": null,
   "lat": 39.666129,
   "lon": 67.523187,
@@ -3304,14 +3304,14 @@
   "review": "OSM way/732438528"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Uzunbuloq QFY, O'rta qishlog'i",
   "district": null,
   "lat": 39.671392,
   "lon": 67.563562,
   "review": "OSM node/7139631855"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Tor-Arik QFY Boganali MFY",
   "district": null,
   "lat": 39.672347,
   "lon": 66.751628,
@@ -3325,14 +3325,14 @@
   "review": "OSM node/7139515277"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Dimishqibolo QFY Kamolot MFY",
   "district": null,
   "lat": 39.676736,
   "lon": 66.833103,
   "review": "OSM node/7139516420"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Mehnat MFY",
   "district": null,
   "lat": 39.677022,
   "lon": 66.611594,
@@ -3346,7 +3346,7 @@
   "review": "OSM way/781773458"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Kattanayman MFY",
   "district": null,
   "lat": 39.682261,
   "lon": 66.666014,
@@ -3360,14 +3360,14 @@
   "review": "OSM way/604693434"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Quyidarg'om MFY",
   "district": null,
   "lat": 39.685319,
   "lon": 66.768497,
   "review": "OSM node/7139516427"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'smat MFY, Tengali qishlog'i",
   "district": null,
   "lat": 39.685401,
   "lon": 67.337783,
@@ -3388,28 +3388,28 @@
   "review": "OSM way/414071054"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oyqor QFY, Tangatopti qishlog'i",
   "district": null,
   "lat": 39.68877,
   "lon": 67.908583,
   "review": "OSM node/7139631833"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani Guliston mahallasi",
   "district": null,
   "lat": 39.690844,
   "lon": 67.101144,
   "review": "OSM node/7139516294"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Eskijuma MFY",
   "district": null,
   "lat": 39.691189,
   "lon": 66.681094,
   "review": "OSM node/7139516430"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Charxin qo'rg'oni Charxin MFY",
   "district": null,
   "lat": 39.693075,
   "lon": 66.82605,
@@ -3423,7 +3423,7 @@
   "review": "OSM way/299864704"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Mustaqillik MFY Qatortol qishlog'i",
   "district": null,
   "lat": 39.694541,
   "lon": 67.55982,
@@ -3437,35 +3437,35 @@
   "review": "OSM way/299864703"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oyqor QFY, Tangatopti qishlog'i",
   "district": null,
   "lat": 39.696034,
   "lon": 67.912412,
   "review": "OSM node/7139631834"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Gulbuloq QFY, Qaropchi qishlog'i",
   "district": null,
   "lat": 39.698655,
   "lon": 67.342675,
   "review": "OSM node/7139631852"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Charxin qo'rg'oni Oqoltin MFY",
   "district": null,
   "lat": 39.6987,
   "lon": 66.807364,
   "review": "OSM node/7139516413"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Nurdum MFY",
   "district": null,
   "lat": 39.699048,
   "lon": 66.285167,
   "review": "OSM node/7139516441"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Isori O'roqli mahallasi",
   "district": null,
   "lat": 39.699547,
   "lon": 67.2508,
@@ -3479,7 +3479,7 @@
   "review": "OSM way/1119184220"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qatortol MFY Qatortol qishlog'i",
   "district": null,
   "lat": 39.701644,
   "lon": 67.566935,
@@ -3493,7 +3493,7 @@
   "review": "OSM way/1119184008"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Oqtepa mahallasi",
   "district": null,
   "lat": 39.707014,
   "lon": 67.312447,
@@ -3514,14 +3514,14 @@
   "review": "OSM node/7474803586"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Muzbuloq MFY, Muzbuloq qishlog'i",
   "district": null,
   "lat": 39.710034,
   "lon": 68.13336,
   "review": "OSM node/7139631839"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Qorag'uppa MFY",
   "district": null,
   "lat": 39.710292,
   "lon": 66.736883,
@@ -3535,7 +3535,7 @@
   "review": "OSM way/334304841"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Baxmal QFY, Ilonchi qishlog'i",
   "district": null,
   "lat": 39.71177,
   "lon": 68.013091,
@@ -3556,28 +3556,28 @@
   "review": "OSM node/7474803595"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Jag'alboyli MFY",
   "district": null,
   "lat": 39.714447,
   "lon": 66.765853,
   "review": "OSM node/7139516415"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Baxmal QFY,Bekkeldi qishlog'i",
   "district": null,
   "lat": 39.716014,
   "lon": 68.008152,
   "review": "OSM node/7139631837"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qutlug'obod MFY, Yo'ldoshboy qishlog'i",
   "district": null,
   "lat": 39.717011,
   "lon": 67.659962,
   "review": "OSM node/7139631828"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Muzbuloq MFY, So'pi qishlog'i",
   "district": null,
   "lat": 39.718229,
   "lon": 68.082767,
@@ -3591,7 +3591,7 @@
   "review": "OSM node/7483195490"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani Kattaqishloq mahallasi",
   "district": null,
   "lat": 39.720661,
   "lon": 67.081906,
@@ -3612,7 +3612,7 @@
   "review": "OSM node/7474821539"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Baxmal QFY, Qirq qishlog'i",
   "district": null,
   "lat": 39.723208,
   "lon": 68.002818,
@@ -3626,35 +3626,35 @@
   "review": "OSM node/7474803634"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Tongotar QFY Qo'shtepa qishlog'i",
   "district": null,
   "lat": 39.728741,
   "lon": 67.400851,
   "review": "OSM node/7139631851"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Baxmal QFY, Abay qishlog'i",
   "district": null,
   "lat": 39.728946,
   "lon": 68.006845,
   "review": "OSM node/7139631841"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Baxmal QFY, Temirqadam qishlog'i",
   "district": null,
   "lat": 39.729279,
   "lon": 67.944805,
   "review": "OSM node/7139631835"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Paxtakor MFY",
   "district": null,
   "lat": 39.730094,
   "lon": 66.605328,
   "review": "OSM node/7139516428"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, O'smat ShFY, Kaltatoy qishlog'i",
   "district": null,
   "lat": 39.730793,
   "lon": 67.644479,
@@ -3668,21 +3668,21 @@
   "review": "OSM node/7006807699"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi, Mo'g'ol QFY, Mo'g'ol qishlog'i",
   "district": null,
   "lat": 39.732578,
   "lon": 67.78781,
   "review": "OSM node/7139631832"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Beshbola MFY",
   "district": null,
   "lat": 39.733025,
   "lon": 66.730131,
   "review": "OSM node/7139516410"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Erganakli mahallasi",
   "district": null,
   "lat": 39.733539,
   "lon": 67.332328,
@@ -3696,7 +3696,7 @@
   "review": "OSM node/7474821524"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, O'smat ShFY, Yumaloqbosh qishlog'i, A.Xudaybaxtov ko'chasi 16",
   "district": null,
   "lat": 39.736158,
   "lon": 67.645947,
@@ -3717,7 +3717,7 @@
   "review": "OSM node/7474803641"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Imomjon Qadimiy MFY",
   "district": null,
   "lat": 39.738939,
   "lon": 66.799322,
@@ -3745,21 +3745,21 @@
   "review": "OSM way/180355155"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik MFY, Jarbuloq Uyas qishlog'i",
   "district": null,
   "lat": 39.740263,
   "lon": 67.654835,
   "review": "OSM node/7139631830"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Novqa MFY, Novqa qishlog'i",
   "district": null,
   "lat": 39.740909,
   "lon": 67.711815,
   "review": "OSM node/7139631829"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Nurbuloq MFY",
   "district": null,
   "lat": 39.742972,
   "lon": 66.403219,
@@ -3780,21 +3780,21 @@
   "review": "OSM node/7139367627"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, No'shkent MFY Mullabuloq qishlog'i",
   "district": null,
   "lat": 39.747002,
   "lon": 67.892855,
   "review": "OSM node/7139631859"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani Beshbola mahallasi",
   "district": null,
   "lat": 39.747928,
   "lon": 67.162606,
   "review": "OSM node/7139516291"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqtosh QFY, O'roy qishlog'i",
   "district": null,
   "lat": 39.748564,
   "lon": 67.629416,
@@ -3815,14 +3815,14 @@
   "review": "OSM way/584258643"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, O'smat ShFY, Olomon qishlog'i",
   "district": null,
   "lat": 39.750389,
   "lon": 67.63551,
   "review": "OSM node/7139631826"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Sohibkor mahallasi",
   "district": null,
   "lat": 39.751192,
   "lon": 67.354231,
@@ -3843,14 +3843,14 @@
   "review": "OSM node/6635887324"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Nurobod tumani Nurdum MFY",
   "district": null,
   "lat": 39.755153,
   "lon": 66.235289,
   "review": "OSM node/7139516449"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Tolli qishlog'i",
   "district": null,
   "lat": 39.758092,
   "lon": 68.338318,
@@ -3864,7 +3864,7 @@
   "review": "OSM node/6517030236"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Duoba qishlog'i",
   "district": null,
   "lat": 39.759423,
   "lon": 68.41095,
@@ -3875,7 +3875,7 @@
   "district": null,
   "lat": 39.761111,
   "lon": 64.403232,
-  "review": "OSM way/696786094; Ismat Buxoriy ko'chasi"
+  "review": "OSM way/696786094"
  },
  {
   "name": "Namozgoh",
@@ -3892,7 +3892,7 @@
   "review": "OSM node/7139516304"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Erganakli mahallasi",
   "district": null,
   "lat": 39.765622,
   "lon": 67.287022,
@@ -3903,7 +3903,7 @@
   "district": null,
   "lat": 39.765925,
   "lon": 64.403722,
-  "review": "OSM relation/9683719; Jo'ybor ko'chasi"
+  "review": "OSM relation/9683719"
  },
  {
   "name": "Xo'ja Mirali masjidi",
@@ -3917,7 +3917,7 @@
   "district": null,
   "lat": 39.766587,
   "lon": 64.444836,
-  "review": "OSM way/148704421; Sharq ko'chasi"
+  "review": "OSM way/148704421"
  },
  {
   "name": "Mechet Salloxxona",
@@ -3931,7 +3931,7 @@
   "district": null,
   "lat": 39.76875,
   "lon": 64.399974,
-  "review": "OSM way/148845610; Xalifa Xudoydod ko'chasi"
+  "review": "OSM way/148845610"
  },
  {
   "name": "XIYOBON jome masjidi",
@@ -3945,7 +3945,7 @@
   "district": null,
   "lat": 39.768923,
   "lon": 64.419737,
-  "review": "OSM way/626738417; Arabon ko'chasi"
+  "review": "OSM way/626738417"
  },
  {
   "name": "mechet Ishoni Pir",
@@ -3969,7 +3969,7 @@
   "review": "OSM way/626751248"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Novqa ShFY Novqa qishlog'i",
   "district": null,
   "lat": 39.771494,
   "lon": 67.719609,
@@ -4036,7 +4036,7 @@
   "district": null,
   "lat": 39.773117,
   "lon": 64.423701,
-  "review": "OSM way/1375645280; Bahovaddin Naqshband ko'chasi"
+  "review": "OSM way/1375645280"
  },
  {
   "name": "Mag'oki Ko'rpa masjidi",
@@ -4050,7 +4050,7 @@
   "district": null,
   "lat": 39.773686,
   "lon": 64.423031,
-  "review": "OSM way/202878225; Xo'ja Porso ko'chasi"
+  "review": "OSM way/202878225"
  },
  {
   "name": "mechet Ravgangaron",
@@ -4060,14 +4060,14 @@
   "review": "OSM way/626789526"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani Juriyat mahallasi",
   "district": null,
   "lat": 39.774156,
   "lon": 67.027453,
   "review": "OSM node/7139516295"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani Qang'li mahallasi",
   "district": null,
   "lat": 39.774178,
   "lon": 67.042217,
@@ -4092,7 +4092,7 @@
   "district": null,
   "lat": 39.774741,
   "lon": 64.412027,
-  "review": "OSM way/458002595; Zayniddin ko'chasi"
+  "review": "OSM way/458002595"
  },
  {
   "name": "Poyi Ostona jome masjidi",
@@ -4127,7 +4127,7 @@
   "district": null,
   "lat": 39.775407,
   "lon": 64.425544,
-  "review": "OSM way/165720917; Chor Minor ko'chasi"
+  "review": "OSM way/165720917"
  },
  {
   "name": "Xazrat Shayx Mavlono Sharif mechet",
@@ -4141,7 +4141,7 @@
   "district": null,
   "lat": 39.775892,
   "lon": 64.414135,
-  "review": "OSM relation/5335620; Xo'ja Nurobod ko'chasi"
+  "review": "OSM relation/5335620"
  },
  {
   "name": "Masjid",
@@ -4183,7 +4183,7 @@
   "district": null,
   "lat": 39.777527,
   "lon": 64.414189,
-  "review": "OSM way/627066470; Tagban Bofon jome masjidi"
+  "review": "OSM way/627066470"
  },
  {
   "name": "Boloi Havz jome masjidi",
@@ -4193,7 +4193,7 @@
   "review": "OSM way/163272972"
  },
  {
-  "name": "Jome masjid",
+  "name": "Jome masjid, Buxoro",
   "district": null,
   "lat": 39.778288,
   "lon": 64.409954,
@@ -4218,7 +4218,7 @@
   "district": null,
   "lat": 39.77933,
   "lon": 64.438072,
-  "review": "OSM way/150062038; Fayzobod ko'chasi"
+  "review": "OSM way/150062038"
  },
  {
   "name": "Masjid",
@@ -4228,7 +4228,7 @@
   "review": "OSM way/589710437"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Beshkubi QFY, Beshkubi qishlog'i",
   "district": null,
   "lat": 39.782507,
   "lon": 68.297931,
@@ -4249,7 +4249,7 @@
   "review": "OSM node/7139367593"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Qarshiobod MFY",
   "district": null,
   "lat": 39.784933,
   "lon": 66.635342,
@@ -4260,7 +4260,7 @@
   "district": null,
   "lat": 39.785237,
   "lon": 64.411981,
-  "review": "OSM way/198506285; Abu Hayz Kabir ko'chasi"
+  "review": "OSM way/198506285"
  },
  {
   "name": "ABU BAKR AS-SIDDIQ jome masjidi",
@@ -4270,14 +4270,14 @@
   "review": "OSM node/7139367613"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Qo'shquduq MFY",
   "district": null,
   "lat": 39.786594,
   "lon": 66.538389,
   "review": "OSM node/7139516416"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Barlos QFY, Barlos qishlog'i",
   "district": null,
   "lat": 39.78719,
   "lon": 67.485146,
@@ -4298,21 +4298,21 @@
   "review": "OSM node/7139367602"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani Xitoypoyon mahallasi",
   "district": null,
   "lat": 39.792836,
   "lon": 67.080283,
   "review": "OSM node/7139516293"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bulung'ur tumani Beshqo'ton mahallasi",
   "district": null,
   "lat": 39.796028,
   "lon": 67.259303,
   "review": "OSM node/7139516277"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Barlos QFY Muzbel qishlog'i",
   "district": null,
   "lat": 39.799144,
   "lon": 67.492434,
@@ -4326,7 +4326,7 @@
   "review": "OSM relation/5662959"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Oshiq ota MFY",
   "district": null,
   "lat": 39.803325,
   "lon": 66.647003,
@@ -4340,28 +4340,28 @@
   "review": "OSM way/522488731"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Qorasuv MFY",
   "district": null,
   "lat": 39.806083,
   "lon": 66.595719,
   "review": "OSM node/7139516414"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Koramozor qishlog'i",
   "district": null,
   "lat": 39.809439,
   "lon": 68.188555,
   "review": "OSM node/7139631803"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Usku MFY",
   "district": null,
   "lat": 39.809497,
   "lon": 66.588156,
   "review": "OSM node/7139516418"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Sangzor QFY, Duvlot qishlog'i",
   "district": null,
   "lat": 39.810886,
   "lon": 67.787522,
@@ -4375,14 +4375,14 @@
   "review": "OSM node/7492049613"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Beshkubi MFY, Uvod qishlog'i",
   "district": null,
   "lat": 39.812891,
   "lon": 68.261266,
   "review": "OSM node/7139631811"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Sangzor QFY, Qora qishlog'i",
   "district": null,
   "lat": 39.812909,
   "lon": 67.75757,
@@ -4396,28 +4396,28 @@
   "review": "OSM relation/14615831"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Xo'ja Ismoil mahalla",
   "district": null,
   "lat": 39.814928,
   "lon": 66.943842,
   "review": "OSM node/7139516321"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jomboy tumani G'azira mahallasi",
   "district": null,
   "lat": 39.817428,
   "lon": 67.133497,
   "review": "OSM node/7139516297"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Beshnayman MFY",
   "district": null,
   "lat": 39.819819,
   "lon": 66.734578,
   "review": "OSM node/7139516411"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Pastdarg'om tumani Yangiravot MFY",
   "district": null,
   "lat": 39.8266,
   "lon": 66.531022,
@@ -4431,14 +4431,14 @@
   "review": "OSM node/7480310942"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman To'rtayg'ir qishlog'i Boltaqishloq mahalla",
   "district": null,
   "lat": 39.842131,
   "lon": 66.8201,
   "review": "OSM node/7139516308"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman Pichovchi mfy",
   "district": null,
   "lat": 39.842375,
   "lon": 66.828661,
@@ -4459,21 +4459,21 @@
   "review": "OSM node/12265723287"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman Pichoqchi mfy",
   "district": null,
   "lat": 39.852842,
   "lon": 66.819286,
   "review": "OSM node/7139516305"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Suvhovuz shaharcha",
   "district": null,
   "lat": 39.855006,
   "lon": 66.265972,
   "review": "OSM node/7139516367"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi, Buxoro tuman Xolmurodov qishlog'i",
   "district": null,
   "lat": 39.859741,
   "lon": 64.453294,
@@ -4487,7 +4487,7 @@
   "review": "OSM node/6532916048"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman Yangiravod-1 MFY",
   "district": null,
   "lat": 39.863683,
   "lon": 66.718664,
@@ -4515,49 +4515,49 @@
   "review": "OSM node/7480307867"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Peshag'ar qishlog'i",
   "district": null,
   "lat": 39.878801,
   "lon": 68.065645,
   "review": "OSM node/7139631802"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman Loyish mfy",
   "district": null,
   "lat": 39.880172,
   "lon": 66.744183,
   "review": "OSM node/7139516301"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yangiobod tumani Balandchakir MFY",
   "district": null,
   "lat": 39.884076,
   "lon": 68.797063,
   "review": "OSM node/7139620484"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yangiobod Tuman Sarmich MFY",
   "district": null,
   "lat": 39.889776,
   "lon": 68.874794,
   "review": "OSM node/7139631788"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman O'zbekiston MFY",
   "district": null,
   "lat": 39.892606,
   "lon": 66.783958,
   "review": "OSM node/7139516299"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman A.Temur mfy",
   "district": null,
   "lat": 39.893128,
   "lon": 66.741794,
   "review": "OSM node/7139516303"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on shahar Damariq MFY",
   "district": null,
   "lat": 39.895253,
   "lon": 66.264959,
@@ -4578,56 +4578,56 @@
   "review": "OSM way/1036624765"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Shayxlar mahalla",
   "district": null,
   "lat": 39.903547,
   "lon": 66.548889,
   "review": "OSM node/7139516319"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yangiobod Tuman Sarmich MFY",
   "district": null,
   "lat": 39.904266,
   "lon": 68.87089,
   "review": "OSM node/7139631787"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Yangiqo'rg'oncha mahalla",
   "district": null,
   "lat": 39.904739,
   "lon": 66.387961,
   "review": "OSM node/7139516369"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tumani Buloqboshi QFY Avliyo qishlog'i",
   "district": null,
   "lat": 39.905128,
   "lon": 67.680812,
   "review": "OSM way/901133809"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tumani, Guliston QFY Chuvilloq qishlog'i",
   "district": null,
   "lat": 39.906276,
   "lon": 67.635597,
   "review": "OSM way/1229224135"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, anor ulitsa 4",
   "district": null,
   "lat": 39.907411,
   "lon": 66.252485,
-  "review": "OSM way/228873152; anor ulitsa"
+  "review": "OSM way/228873152"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on shahar Sarmazor MFY",
   "district": null,
   "lat": 39.910232,
   "lon": 66.269608,
   "review": "OSM way/1184196975"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jizzax tumani,Ravot QFY Paymart qishlog'i",
   "district": null,
   "lat": 39.910244,
   "lon": 67.887165,
@@ -4676,14 +4676,14 @@
   "review": "OSM way/693109951"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman So'g'onchi MFY",
   "district": null,
   "lat": 39.91405,
   "lon": 66.609144,
   "review": "OSM node/7139516302"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on shahar Samarqand shox ko'cha",
   "district": null,
   "lat": 39.916006,
   "lon": 66.253228,
@@ -4697,7 +4697,7 @@
   "review": "OSM node/7477359648"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Xo'jakarzon mahalla",
   "district": null,
   "lat": 39.919439,
   "lon": 66.157619,
@@ -4725,35 +4725,35 @@
   "review": "OSM way/228005374"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Amir Temur MFY",
   "district": null,
   "lat": 39.920656,
   "lon": 66.924561,
   "review": "OSM node/7139516385"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Xo'jaqo'rg'on mahalla",
   "district": null,
   "lat": 39.920672,
   "lon": 66.044828,
   "review": "OSM node/7139516393"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani To'xta Roziqov mahalla",
   "district": null,
   "lat": 39.921447,
   "lon": 66.102158,
   "review": "OSM node/7139516383"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani O'zbekiston mahalla",
   "district": null,
   "lat": 39.922914,
   "lon": 66.792042,
   "review": "OSM node/7139516325"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Sug'ot mahalla",
   "district": null,
   "lat": 39.924622,
   "lon": 66.496633,
@@ -4774,21 +4774,21 @@
   "review": "OSM node/7139631785"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Gulchanbar qishlog'i",
   "district": null,
   "lat": 39.926355,
   "lon": 67.481021,
   "review": "OSM node/7139631862"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Aliobod mahalla",
   "district": null,
   "lat": 39.927378,
   "lon": 66.915703,
   "review": "OSM node/7139516327"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Boyli ota mahalla",
   "district": null,
   "lat": 39.928286,
   "lon": 66.426106,
@@ -4809,14 +4809,14 @@
   "review": "OSM node/7477359811"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Kichik Ko'rpa mahalla",
   "district": null,
   "lat": 39.929656,
   "lon": 66.295178,
   "review": "OSM node/7139516356"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Ko'k ota mahalla",
   "district": null,
   "lat": 39.930997,
   "lon": 66.021533,
@@ -4830,21 +4830,21 @@
   "review": "OSM node/10833304970"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman Yangiqo'rg'on MFY",
   "district": null,
   "lat": 39.933658,
   "lon": 66.651694,
   "review": "OSM node/7139516298"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani O'zbekkent MFY",
   "district": null,
   "lat": 39.934256,
   "lon": 66.090425,
   "review": "OSM node/7139516388"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Kattako'rpa mahalla",
   "district": null,
   "lat": 39.935025,
   "lon": 66.304739,
@@ -4858,14 +4858,14 @@
   "review": "OSM node/7477359593"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Qoradaryo mahalla",
   "district": null,
   "lat": 39.935319,
   "lon": 66.246886,
   "review": "OSM node/7139516373"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Achchi qishlog'i",
   "district": null,
   "lat": 39.937424,
   "lon": 68.237227,
@@ -4879,21 +4879,21 @@
   "review": "OSM node/6326775389"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Lalmikor MFY Lalmikor maxallasi",
   "district": null,
   "lat": 39.937518,
   "lon": 67.456202,
   "review": "OSM node/7139631861"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqdaryo tuman So'g'onchi MFY",
   "district": null,
   "lat": 39.939031,
   "lon": 66.619681,
   "review": "OSM node/7139516306"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman G'o'bdin QFY G'o'bdin qishlog'i",
   "district": null,
   "lat": 39.939356,
   "lon": 67.336877,
@@ -4907,14 +4907,14 @@
   "review": "OSM way/1036624764"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Qipchoqsuv QFY Xitoyuz qishlog'i",
   "district": null,
   "lat": 39.942482,
   "lon": 67.283118,
   "review": "OSM node/7139631864"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani,Turkman qishlog'i",
   "district": null,
   "lat": 39.943364,
   "lon": 68.497852,
@@ -4942,7 +4942,7 @@
   "review": "OSM way/1036624749"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Jaloyir kishlog'i",
   "district": null,
   "lat": 39.946485,
   "lon": 68.567404,
@@ -4963,70 +4963,70 @@
   "review": "OSM way/1036624762"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Ko'paki mahalla",
   "district": null,
   "lat": 39.950744,
   "lon": 66.834111,
   "review": "OSM node/7139516324"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Madaniyat mahalla",
   "district": null,
   "lat": 39.951653,
   "lon": 66.736453,
   "review": "OSM node/7139516329"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Paxtachi tumani Qiltamg'ali mahalla",
   "district": null,
   "lat": 39.953589,
   "lon": 65.739789,
   "review": "OSM node/7139516401"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani,Shirin MFY",
   "district": null,
   "lat": 39.954345,
   "lon": 68.346033,
   "review": "OSM node/7139631808"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Paxtachi tumani Zarafshon mahalla",
   "district": null,
   "lat": 39.954917,
   "lon": 65.725178,
   "review": "OSM node/7139516402"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Qozikent mahalla",
   "district": null,
   "lat": 39.954981,
   "lon": 65.856253,
   "review": "OSM node/7139516382"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Chorbog' MFY",
   "district": null,
   "lat": 39.955,
   "lon": 66.054672,
   "review": "OSM node/7139516384"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Oltio'g'il mahalla",
   "district": null,
   "lat": 39.956944,
   "lon": 65.827186,
   "review": "OSM node/7139516378"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Durbush mahalla",
   "district": null,
   "lat": 39.958161,
   "lon": 66.312244,
   "review": "OSM node/7139516363"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Salovat mahalla",
   "district": null,
   "lat": 39.958739,
   "lon": 65.923142,
@@ -5047,7 +5047,7 @@
   "review": "OSM node/6517008037"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Qozikent mahalla",
   "district": null,
   "lat": 39.961058,
   "lon": 65.868161,
@@ -5061,7 +5061,7 @@
   "review": "OSM way/1036624750"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani,Kultepa qishlog'i",
   "district": null,
   "lat": 39.96202,
   "lon": 68.646347,
@@ -5075,14 +5075,14 @@
   "review": "OSM way/362281318"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Kattaming mahalla",
   "district": null,
   "lat": 39.962858,
   "lon": 66.111522,
   "review": "OSM node/7139516355"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Peshag'ar qishlog'i",
   "district": null,
   "lat": 39.963775,
   "lon": 68.124158,
@@ -5096,7 +5096,7 @@
   "review": "OSM node/7139416983"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Qipchoqsuv QFY Solin qishlog'i",
   "district": null,
   "lat": 39.965251,
   "lon": 67.248163,
@@ -5117,7 +5117,7 @@
   "review": "OSM node/7139516406"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon shahri G'ofur G'ulom mahalla",
   "district": null,
   "lat": 39.967003,
   "lon": 66.485264,
@@ -5131,7 +5131,7 @@
   "review": "OSM way/1567444762"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Sarbozor mahalla",
   "district": null,
   "lat": 39.967515,
   "lon": 65.934399,
@@ -5145,7 +5145,7 @@
   "review": "OSM node/7139516380"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tumani, Qashqabuloq QFY Qashqabuloq qishlog'i",
   "district": null,
   "lat": 39.967671,
   "lon": 67.587167,
@@ -5173,7 +5173,7 @@
   "review": "OSM node/7139367639"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Qo'shtol MFY, Qangli qishlog'i",
   "district": null,
   "lat": 39.971364,
   "lon": 68.095154,
@@ -5208,7 +5208,7 @@
   "review": "OSM node/7477359572"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tumani, Qashqabuloq QFY Obuz qishlog'i",
   "district": null,
   "lat": 39.976204,
   "lon": 67.594496,
@@ -5222,14 +5222,14 @@
   "review": "OSM node/7494301932"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani O'zbekiston mahalla",
   "district": null,
   "lat": 39.981008,
   "lon": 65.875228,
   "review": "OSM node/7139516395"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yangiobod tuman Sovot ShFY",
   "district": null,
   "lat": 39.981208,
   "lon": 68.671626,
@@ -5243,7 +5243,7 @@
   "review": "OSM node/7477312347"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Qalandarxo'ja mahalla",
   "district": null,
   "lat": 39.981547,
   "lon": 66.420403,
@@ -5257,35 +5257,35 @@
   "review": "OSM node/7139416981"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani No'g'ay mahalla",
   "district": null,
   "lat": 39.982467,
   "lon": 65.843019,
   "review": "OSM node/7139516386"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Muhammadi mahalla",
   "district": null,
   "lat": 39.983578,
   "lon": 66.885417,
   "review": "OSM node/7139516328"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Qumoq mahalla",
   "district": null,
   "lat": 39.984614,
   "lon": 66.123972,
   "review": "OSM node/7139516362"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Mo'minxuja mahalla",
   "district": null,
   "lat": 39.986875,
   "lon": 66.080361,
   "review": "OSM node/7139516368"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Narpay tumani Mushkent mahalla",
   "district": null,
   "lat": 39.986908,
   "lon": 65.991936,
@@ -5299,7 +5299,7 @@
   "review": "OSM node/7139416984"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Qaropchi qishlog'i",
   "district": null,
   "lat": 39.987821,
   "lon": 68.468475,
@@ -5313,21 +5313,21 @@
   "review": "OSM way/1336749844"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Oqqo'rg'on mahalla",
   "district": null,
   "lat": 39.989311,
   "lon": 66.436586,
   "review": "OSM node/7139516316"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jizzax tumani, Ravot QFY Uch qiz mahalla",
   "district": null,
   "lat": 39.990141,
   "lon": 68.008325,
   "review": "OSM node/7139620439"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Kadan mahalla",
   "district": null,
   "lat": 39.992931,
   "lon": 66.238647,
@@ -5341,7 +5341,7 @@
   "review": "OSM way/1104998361"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Paxtachi tumani Tadbirkor mahalla",
   "district": null,
   "lat": 39.993253,
   "lon": 65.706169,
@@ -5362,7 +5362,7 @@
   "review": "OSM node/7473393595"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, O'rta qishloq qishlog'i",
   "district": null,
   "lat": 39.997311,
   "lon": 68.537004,
@@ -5383,14 +5383,14 @@
   "review": "OSM way/1329058654"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Sh.Rashidov tumani, Ravot MFY Qorasiyroq mahallasi",
   "district": null,
   "lat": 39.99844,
   "lon": 68.009941,
   "review": "OSM node/7139620449"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Kichik Mundiyon mahalla",
   "district": null,
   "lat": 40.000389,
   "lon": 66.202661,
@@ -5411,7 +5411,7 @@
   "review": "OSM node/7139631860"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Yodgorxo'ja mahalla",
   "district": null,
   "lat": 40.003308,
   "lon": 66.247011,
@@ -5425,7 +5425,7 @@
   "review": "OSM way/582189391"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Tahirshayx mahalla",
   "district": null,
   "lat": 40.005331,
   "lon": 66.841669,
@@ -5446,35 +5446,35 @@
   "review": "OSM way/1325471375"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Nisbat mahalla",
   "district": null,
   "lat": 40.012022,
   "lon": 66.338944,
   "review": "OSM node/7139516372"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Chig'atoy mahalla",
   "district": null,
   "lat": 40.012086,
   "lon": 66.304683,
   "review": "OSM node/7139516375"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Fayzikent mahalla",
   "district": null,
   "lat": 40.01225,
   "lon": 66.071806,
   "review": "OSM node/7139516358"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Shayxislom mahalla",
   "district": null,
   "lat": 40.012436,
   "lon": 66.4833,
   "review": "OSM node/7139516320"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Tavaron mahalla",
   "district": null,
   "lat": 40.012686,
   "lon": 66.193889,
@@ -5516,7 +5516,7 @@
   "review": "OSM node/7079673835"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Cho'yanchi mahalla",
   "district": null,
   "lat": 40.020347,
   "lon": 66.287567,
@@ -5544,7 +5544,7 @@
   "review": "OSM node/7473393678"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Beshqo'rg'on mahalla",
   "district": null,
   "lat": 40.022989,
   "lon": 66.788828,
@@ -5579,7 +5579,7 @@
   "review": "OSM way/1036624759"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Tarnov mahalla",
   "district": null,
   "lat": 40.027622,
   "lon": 66.255992,
@@ -5635,14 +5635,14 @@
   "review": "OSM node/7139367631"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani,Yom qishlog'i",
   "district": null,
   "lat": 40.033605,
   "lon": 68.515799,
   "review": "OSM node/7139631799"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Oqtosh mahalla",
   "district": null,
   "lat": 40.03375,
   "lon": 66.742778,
@@ -5656,14 +5656,14 @@
   "review": "OSM way/216957888"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Jiydali QFY Juma qishlog'i",
   "district": null,
   "lat": 40.035702,
   "lon": 67.100638,
   "review": "OSM node/7139631870"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Jiydali QFY Muqri qishlog'i",
   "district": null,
   "lat": 40.035857,
   "lon": 67.141527,
@@ -5677,7 +5677,7 @@
   "review": "OSM node/7139416958"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Boltabek mahalla",
   "district": null,
   "lat": 40.040014,
   "lon": 66.173611,
@@ -5726,7 +5726,7 @@
   "review": "OSM way/1292081815"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Oqtosh QFY Oqtosh qishlog'i",
   "district": null,
   "lat": 40.050814,
   "lon": 67.283878,
@@ -5740,14 +5740,14 @@
   "review": "OSM node/7139416956"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Chaparashli qishlog'i",
   "district": null,
   "lat": 40.055923,
   "lon": 68.523835,
   "review": "OSM node/7139631801"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 40.05678,
   "lon": 64.819883,
@@ -5789,7 +5789,7 @@
   "review": "OSM way/800174378"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Gulshon KFY",
   "district": null,
   "lat": 40.061852,
   "lon": 68.193136,
@@ -5859,21 +5859,21 @@
   "review": "OSM node/7139416920"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Boymoqli qishlog'i",
   "district": null,
   "lat": 40.072052,
   "lon": 68.421485,
   "review": "OSM node/7139631813"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Teshiktepa MFY",
   "district": null,
   "lat": 40.072334,
   "lon": 68.164906,
   "review": "OSM node/7139631822"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Koriz Quduq QFY Qo'riq qishlog'i",
   "district": null,
   "lat": 40.073974,
   "lon": 67.184928,
@@ -5894,14 +5894,14 @@
   "review": "OSM node/7139416951"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Ravot mahallasi",
   "district": null,
   "lat": 40.078942,
   "lon": 68.151615,
   "review": "OSM node/7139631880"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Orlot mahalla",
   "district": null,
   "lat": 40.079581,
   "lon": 66.683819,
@@ -5915,14 +5915,14 @@
   "review": "OSM way/891073723"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Koriz Quduq QFY Koriz quduq qishlog'i",
   "district": null,
   "lat": 40.080088,
   "lon": 67.196901,
   "review": "OSM node/7139631867"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Paxtachi tumani Amirobod mahalla",
   "district": null,
   "lat": 40.081322,
   "lon": 65.578133,
@@ -5950,7 +5950,7 @@
   "review": "OSM way/316903353"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Qoqsoy mahalla",
   "district": null,
   "lat": 40.087858,
   "lon": 66.3262,
@@ -5968,7 +5968,7 @@
   "district": null,
   "lat": 40.088807,
   "lon": 65.387631,
-  "review": "OSM way/208231705; G'alaba shoh ko'chasi"
+  "review": "OSM way/208231705"
  },
  {
   "name": "Said Muxammad o'g'li Qudratxon jome masjidi",
@@ -5985,7 +5985,7 @@
   "review": "OSM node/7139367634"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani P.Umrzoqov QFY",
   "district": null,
   "lat": 40.089262,
   "lon": 68.295815,
@@ -6013,14 +6013,14 @@
   "review": "OSM way/1317165739"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Moybuloq mahalla",
   "district": null,
   "lat": 40.092436,
   "lon": 66.329222,
   "review": "OSM node/7139516365"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Qo'rg'on MFY",
   "district": null,
   "lat": 40.094061,
   "lon": 66.558106,
@@ -6055,11 +6055,11 @@
   "review": "OSM node/7477080493"
  },
  {
-  "name": "Jome masjid",
+  "name": "Jome masjid, Qadriyat ko'chasi",
   "district": null,
   "lat": 40.099536,
   "lon": 67.848292,
-  "review": "OSM way/312019750; Qadriyat ko'chasi"
+  "review": "OSM way/312019750"
  },
  {
   "name": "Imom al-Buxoriy jome masjidi",
@@ -6097,28 +6097,28 @@
   "review": "OSM node/7139416960"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Mirza Olim mahalla",
   "district": null,
   "lat": 40.101081,
   "lon": 65.531242,
   "review": "OSM node/7139516405"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Taraqqiyot qishlog'i",
   "district": null,
   "lat": 40.101365,
   "lon": 68.269731,
   "review": "OSM node/7139631888"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jilli G'ulli mahallasi, S.Qo'chqorov ko'chasi",
   "district": null,
   "lat": 40.101499,
   "lon": 67.774596,
   "review": "OSM node/7139620469"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Bo'ston shaharchasi",
   "district": null,
   "lat": 40.102134,
   "lon": 68.041527,
@@ -6174,7 +6174,7 @@
   "review": "OSM node/7139516396"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Oq buloq QFY",
   "district": null,
   "lat": 40.107226,
   "lon": 68.170737,
@@ -6234,7 +6234,7 @@
   "district": null,
   "lat": 40.122526,
   "lon": 67.835434,
-  "review": "OSM way/309871432; Gavxar ko'chasi"
+  "review": "OSM way/309871432"
  },
  {
   "name": "Xo'ja Orif ar Revgariy Mohitobon jome masjidi",
@@ -6272,7 +6272,7 @@
   "review": "OSM way/321110806"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Toshkesgan MFY",
   "district": null,
   "lat": 40.129908,
   "lon": 68.352807,
@@ -6286,7 +6286,7 @@
   "review": "OSM way/673398408"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Dashtobod sh., Baxt MFY, Tiklanish ko'chasi",
   "district": null,
   "lat": 40.132923,
   "lon": 68.505331,
@@ -6314,14 +6314,14 @@
   "review": "OSM way/310765256"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Dashtobod shaxarchasi, Xamza MFY",
   "district": null,
   "lat": 40.134606,
   "lon": 68.489235,
   "review": "OSM node/7139631823"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tumani Ko'kbuloq QFY Sayfin qishlog'i",
   "district": null,
   "lat": 40.135427,
   "lon": 67.491571,
@@ -6335,7 +6335,7 @@
   "review": "OSM way/1315850259"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Sh.Rashidov tumani, Toqchilik ShFY Toqchilik mahalla",
   "district": null,
   "lat": 40.135875,
   "lon": 67.859641,
@@ -6349,7 +6349,7 @@
   "review": "OSM node/7477080334"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Qo'shhovuz mahalla",
   "district": null,
   "lat": 40.136417,
   "lon": 66.226669,
@@ -6384,7 +6384,7 @@
   "review": "OSM node/7139620463"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tuman Guchambar QFY Jarbuloq qishlog'i",
   "district": null,
   "lat": 40.142754,
   "lon": 67.08741,
@@ -6465,7 +6465,7 @@
   "district": null,
   "lat": 40.14953,
   "lon": 67.827744,
-  "review": "OSM node/7139620464; Islom Karimov shox ko'chasi"
+  "review": "OSM node/7139620464"
  },
  {
   "name": "Xavastlik jome masjid",
@@ -6489,7 +6489,7 @@
   "review": "OSM node/7139416924"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Adirobod mahallasi",
   "district": null,
   "lat": 40.154481,
   "lon": 68.045802,
@@ -6514,7 +6514,7 @@
   "district": null,
   "lat": 40.157657,
   "lon": 67.816183,
-  "review": "OSM node/7139620436; Toshkentlik ko'chasi"
+  "review": "OSM node/7139620436"
  },
  {
   "name": "Sayyid Ato jome masjidi",
@@ -6524,7 +6524,7 @@
   "review": "OSM node/7477080454"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Yonbosh mahalla",
   "district": null,
   "lat": 40.163614,
   "lon": 66.275753,
@@ -6559,7 +6559,7 @@
   "review": "OSM way/1316084914"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Sh.Yulduzi mahallasi",
   "district": null,
   "lat": 40.17008,
   "lon": 68.160002,
@@ -6591,7 +6591,7 @@
   "district": null,
   "lat": 40.174804,
   "lon": 71.725966,
-  "review": "OSM way/1163962272; Chimyon ko'chasi"
+  "review": "OSM way/1163962272"
  },
  {
   "name": "Yakkatut jome masjidi",
@@ -6622,21 +6622,21 @@
   "review": "OSM way/875877131"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Ishtixon tumani Zarband mahalla",
   "district": null,
   "lat": 40.177642,
   "lon": 66.513314,
   "review": "OSM node/7139516312"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani, Yangi xayot MFY",
   "district": null,
   "lat": 40.177732,
   "lon": 68.516804,
   "review": "OSM node/7139631821"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zomin tumani,Oqar MFY",
   "district": null,
   "lat": 40.179514,
   "lon": 68.417419,
@@ -6650,35 +6650,35 @@
   "review": "OSM way/1567684212"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Burgansoy mahalla",
   "district": null,
   "lat": 40.180878,
   "lon": 66.243061,
   "review": "OSM node/7139516352"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Mustaqil lik quyoshi mahallasi",
   "district": null,
   "lat": 40.181926,
   "lon": 68.264173,
   "review": "OSM node/7139631886"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qiziltepa t. Toshrabod MFY",
   "district": null,
   "lat": 40.181994,
   "lon": 64.936623,
   "review": "OSM node/7139416979"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Andijon QFY",
   "district": null,
   "lat": 40.183692,
   "lon": 68.241203,
   "review": "OSM node/7139631890"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, G'allaorol tumani Savruksoy QFY Savruk qishlog'i",
   "district": null,
   "lat": 40.184272,
   "lon": 67.309205,
@@ -6699,14 +6699,14 @@
   "review": "OSM way/1316100761"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Sh.Rashidov tumani, Arvatin mahallasi",
   "district": null,
   "lat": 40.190276,
   "lon": 67.744698,
   "review": "OSM node/7139620456"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Andoqsoy mahalla",
   "district": null,
   "lat": 40.191008,
   "lon": 66.383125,
@@ -6720,7 +6720,7 @@
   "review": "OSM node/7139429093"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Sebiston mahalla",
   "district": null,
   "lat": 40.192344,
   "lon": 66.352606,
@@ -6755,7 +6755,7 @@
   "review": "OSM way/1567691447"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kattaqo'rg'on tumani Yonbosh mahalla",
   "district": null,
   "lat": 40.199214,
   "lon": 66.297456,
@@ -6773,7 +6773,7 @@
   "district": null,
   "lat": 40.204846,
   "lon": 69.275787,
-  "review": "OSM node/13185275507; Chustiy ko'chasi"
+  "review": "OSM node/13185275507"
  },
  {
   "name": "No'mon ibn Sobit",
@@ -6783,7 +6783,7 @@
   "review": "OSM way/1318325156"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani G'allakor mahalla",
   "district": null,
   "lat": 40.207411,
   "lon": 66.824522,
@@ -6794,7 +6794,7 @@
   "district": null,
   "lat": 40.212385,
   "lon": 69.24426,
-  "review": "OSM node/7138458366; Bobur ko'chasi"
+  "review": "OSM node/7138458366"
  },
  {
   "name": "Qo'ytosh jome masjidi",
@@ -6832,7 +6832,7 @@
   "review": "OSM node/10824997542"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Pichot MFY",
   "district": null,
   "lat": 40.218933,
   "lon": 66.637964,
@@ -6843,7 +6843,7 @@
   "district": null,
   "lat": 40.222186,
   "lon": 69.272871,
-  "review": "OSM way/306085533; Muqimiy ko'chasi"
+  "review": "OSM way/306085533"
  },
  {
   "name": "eski masjid",
@@ -6857,7 +6857,7 @@
   "district": null,
   "lat": 40.223116,
   "lon": 69.235773,
-  "review": "OSM way/170123882; Istiqlol ko'chasi"
+  "review": "OSM way/170123882"
  },
  {
   "name": "Nurli yo'l jome masjidi",
@@ -6895,7 +6895,7 @@
   "review": "OSM node/7139429092"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Istiqbol mahallasi",
   "district": null,
   "lat": 40.230643,
   "lon": 68.084737,
@@ -6951,14 +6951,14 @@
   "review": "OSM way/1311741248"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Zarbdor tumani Nurafshon mahallasi",
   "district": null,
   "lat": 40.244868,
   "lon": 68.225659,
   "review": "OSM node/7139631884"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Forish tumani, Narvon MFY",
   "district": null,
   "lat": 40.245423,
   "lon": 67.195969,
@@ -6972,7 +6972,7 @@
   "review": "OSM node/13186391288"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Qo'rolos MFY",
   "district": null,
   "lat": 40.247706,
   "lon": 66.661411,
@@ -7007,7 +7007,7 @@
   "review": "OSM way/329993234"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Payariq tumani Nakurt mahalla",
   "district": null,
   "lat": 40.265056,
   "lon": 66.877311,
@@ -7039,7 +7039,7 @@
   "district": null,
   "lat": 40.270211,
   "lon": 69.008273,
-  "review": "OSM way/1567649417; A. Mamajonov ko'chasi"
+  "review": "OSM way/1567649417"
  },
  {
   "name": "Ali ibn Abu Tolib jome masjidi",
@@ -7053,7 +7053,7 @@
   "district": null,
   "lat": 40.270567,
   "lon": 68.793707,
-  "review": "OSM node/7139629174; Feruza ko'chasi"
+  "review": "OSM node/7139629174"
  },
  {
   "name": "Xos jome' masjidi",
@@ -7105,7 +7105,7 @@
   "review": "OSM node/7139416955"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Pangat MFY",
   "district": null,
   "lat": 40.282503,
   "lon": 66.446569,
@@ -7172,7 +7172,7 @@
   "district": null,
   "lat": 40.299387,
   "lon": 71.97625,
-  "review": "OSM way/449150250; Alisher Navoiy ko'chasi"
+  "review": "OSM way/449150250"
  },
  {
   "name": "Xizrobod jome masjidi",
@@ -7196,7 +7196,7 @@
   "review": "OSM node/7139646824"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Forish tumani Qarobdol qishlog'i",
   "district": null,
   "lat": 40.300327,
   "lon": 67.030686,
@@ -7210,7 +7210,7 @@
   "review": "OSM node/7138458356"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Qo'shrabot MFY",
   "district": null,
   "lat": 40.303553,
   "lon": 66.527342,
@@ -7273,7 +7273,7 @@
   "review": "OSM node/7139629178"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Jizzax viloyati Paxtakor tumani G'alaba MFY Jizzax-Do'stlik shox ko'chasi",
   "district": null,
   "lat": 40.318487,
   "lon": 67.966436,
@@ -7301,7 +7301,7 @@
   "review": "OSM node/7138458361"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yorqin ShFY, M.Qarshiev ko'chasi",
   "district": null,
   "lat": 40.327592,
   "lon": 67.873772,
@@ -7315,7 +7315,7 @@
   "review": "OSM node/10819686822"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Ozod MFY",
   "district": null,
   "lat": 40.332475,
   "lon": 66.658336,
@@ -7336,7 +7336,7 @@
   "review": "OSM way/885059946"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Oqtepa MFY",
   "district": null,
   "lat": 40.33615,
   "lon": 66.777272,
@@ -7378,7 +7378,7 @@
   "review": "OSM node/6546737585"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Ozod MFY",
   "district": null,
   "lat": 40.345592,
   "lon": 66.5101,
@@ -7413,7 +7413,7 @@
   "review": "OSM node/10825110950"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Saroy MFY",
   "district": null,
   "lat": 40.351958,
   "lon": 66.7011,
@@ -7441,7 +7441,7 @@
   "review": "OSM node/7139646786"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Forish tumaniGarasha qishlog'i",
   "district": null,
   "lat": 40.362164,
   "lon": 66.909859,
@@ -7452,7 +7452,7 @@
   "district": null,
   "lat": 40.363827,
   "lon": 71.819466,
-  "review": "OSM node/10824854320; Qadriyat ko'chasi"
+  "review": "OSM node/10824854320"
  },
  {
   "name": "Masjid",
@@ -7466,7 +7466,7 @@
   "district": null,
   "lat": 40.366165,
   "lon": 71.796268,
-  "review": "OSM way/1163946652; Oqariq ko'chasi"
+  "review": "OSM way/1163946652"
  },
  {
   "name": "Achamayli jome' masjidi",
@@ -7501,7 +7501,7 @@
   "district": null,
   "lat": 40.371967,
   "lon": 70.816096,
-  "review": "OSM way/191235776; Alisher Navoiy ko'chasi"
+  "review": "OSM way/191235776"
  },
  {
   "name": "Abduaxadxon jome masjidi",
@@ -7602,7 +7602,7 @@
   "review": "OSM way/1164588332"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bo'ston MFY, Nodirabegim ko'chasi",
   "district": null,
   "lat": 40.384145,
   "lon": 67.821042,
@@ -7616,7 +7616,7 @@
   "review": "OSM way/1164588328"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Qiyqim MFY",
   "district": null,
   "lat": 40.388831,
   "lon": 66.547681,
@@ -7630,7 +7630,7 @@
   "review": "OSM way/1164588333"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Quvkalla MFY",
   "district": null,
   "lat": 40.390617,
   "lon": 66.769164,
@@ -7669,7 +7669,7 @@
   "district": null,
   "lat": 40.395201,
   "lon": 71.794482,
-  "review": "OSM way/1523955173; Gijduvoniy ko'chasi"
+  "review": "OSM way/1523955173"
  },
  {
   "name": "QADOQ jome masjidi",
@@ -7683,7 +7683,7 @@
   "district": null,
   "lat": 40.397153,
   "lon": 71.809804,
-  "review": "OSM node/3551394314; Quva ko'chasi"
+  "review": "OSM node/3551394314"
  },
  {
   "name": "Zohidon jome' masjidi",
@@ -7693,14 +7693,14 @@
   "review": "OSM node/10831167575"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Paxtakor tumani, A.Temur SFU, Mingchinor QFY, N.Qudratov ko'chasi",
   "district": null,
   "lat": 40.398863,
   "lon": 68.082473,
   "review": "OSM node/7139620481"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Olmazor mahallasi, Bunyodkor ko'chasi",
   "district": null,
   "lat": 40.398936,
   "lon": 67.910272,
@@ -7711,14 +7711,14 @@
   "district": null,
   "lat": 40.40012,
   "lon": 68.570997,
-  "review": "OSM way/798764878; Usmon Nosir ko'chasi"
+  "review": "OSM way/798764878"
  },
  {
   "name": "Xo'jamberdiboy jome' masjidi",
   "district": null,
   "lat": 40.400204,
   "lon": 71.781469,
-  "review": "OSM way/885481909; Hidoyat ko'chasi"
+  "review": "OSM way/885481909"
  },
  {
   "name": "Dalvarzin jome' masjidi",
@@ -7749,7 +7749,7 @@
   "review": "OSM way/1481271540"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Qo'shrabot tumani Jo'sh MFY",
   "district": null,
   "lat": 40.405471,
   "lon": 66.353755,
@@ -7784,7 +7784,7 @@
   "review": "OSM node/10825110949"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Forish tumani Yangiqishloq mahallasi",
   "district": null,
   "lat": 40.411065,
   "lon": 67.198999,
@@ -7802,7 +7802,7 @@
   "district": null,
   "lat": 40.413001,
   "lon": 71.773112,
-  "review": "OSM way/1163946655; Jo'ydam ko'chasi"
+  "review": "OSM way/1163946655"
  },
  {
   "name": "Telov jome' masjidi",
@@ -7879,7 +7879,7 @@
   "district": null,
   "lat": 40.426983,
   "lon": 71.721131,
-  "review": "OSM way/883428676; Yangi Farg'ona ko'chasi"
+  "review": "OSM way/883428676"
  },
  {
   "name": "Oqbo'yra jome' masjidi",
@@ -7903,7 +7903,7 @@
   "review": "OSM way/798764876"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Paxtakor tumani, Samarqand SFU, Bog'ishomol QFY, Do'stlik ko'chasi",
   "district": null,
   "lat": 40.43043,
   "lon": 67.96419,
@@ -7914,7 +7914,7 @@
   "district": null,
   "lat": 40.433914,
   "lon": 71.70793,
-  "review": "OSM relation/21046879; Yangi Marg'ilon ko'chasi"
+  "review": "OSM relation/21046879"
  },
  {
   "name": "CHUYA jome masjidi",
@@ -7935,7 +7935,7 @@
   "district": null,
   "lat": 40.440582,
   "lon": 71.753747,
-  "review": "OSM way/206718020; Qirlola ko'chasi"
+  "review": "OSM way/206718020"
  },
  {
   "name": "Mulla Said jome masjidi",
@@ -7977,7 +7977,7 @@
   "district": null,
   "lat": 40.448382,
   "lon": 71.727014,
-  "review": "OSM way/896724767; Ipak yo'li ko'chasi"
+  "review": "OSM way/896724767"
  },
  {
   "name": "Masjid",
@@ -7987,7 +7987,7 @@
   "review": "OSM node/9761373411"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani,Navro'z shaxarchasi, Gulzor ko'chasi 5",
   "district": null,
   "lat": 40.453212,
   "lon": 68.071955,
@@ -8005,14 +8005,14 @@
   "district": null,
   "lat": 40.454164,
   "lon": 71.73505,
-  "review": "OSM way/773848935; Bobur ko'chasi"
+  "review": "OSM way/773848935"
  },
  {
   "name": "Gumbaz jome' masjidi",
   "district": null,
   "lat": 40.454377,
   "lon": 71.709287,
-  "review": "OSM way/439987016; Gumbaz ko'chasi"
+  "review": "OSM way/439987016"
  },
  {
   "name": "Mulla-Mo'min A'lam jome' masjidi",
@@ -8040,7 +8040,7 @@
   "district": null,
   "lat": 40.458455,
   "lon": 71.70238,
-  "review": "OSM node/10820813287; Galatoy ko'chasi"
+  "review": "OSM node/10820813287"
  },
  {
   "name": "Zayd ibn Sobit jome' masjidi",
@@ -8054,35 +8054,35 @@
   "district": null,
   "lat": 40.462097,
   "lon": 71.677217,
-  "review": "OSM node/10833040307; B. Margiloniy ko'chasi"
+  "review": "OSM node/10833040307"
  },
  {
   "name": "Jo'ra Olmon jome' masjidi",
   "district": null,
   "lat": 40.462635,
   "lon": 71.711251,
-  "review": "OSM way/902688319; M.Turgunboeva ko'chasi"
+  "review": "OSM way/902688319"
  },
  {
   "name": "Abdulloh ibn Mas'ud jome' masjidi",
   "district": null,
   "lat": 40.462641,
   "lon": 71.723131,
-  "review": "OSM node/10820026080; Xo'jaegiz ko'chasi"
+  "review": "OSM node/10820026080"
  },
  {
   "name": "No'mon jome' masjidi",
   "district": null,
   "lat": 40.46545,
   "lon": 71.737037,
-  "review": "OSM node/10820813267; Asilobod ko'chasi"
+  "review": "OSM node/10820813267"
  },
  {
   "name": "Baraka jome' masjidi",
   "district": null,
   "lat": 40.46594,
   "lon": 71.74393,
-  "review": "OSM node/5142356723; Toralar"
+  "review": "OSM node/5142356723"
  },
  {
   "name": "Al-Buxariy",
@@ -8103,14 +8103,14 @@
   "district": null,
   "lat": 40.466901,
   "lon": 71.715341,
-  "review": "OSM way/1530051088; Eshonguzar ko'chasi"
+  "review": "OSM way/1530051088"
  },
  {
   "name": "Qutayba ibn Muslim jome' masjidi",
   "district": null,
   "lat": 40.467447,
   "lon": 71.732502,
-  "review": "OSM node/10820026073; Ahmad Yassaviy ko'chasi"
+  "review": "OSM node/10820026073"
  },
  {
   "name": "G'ishtmon jome' masjidi",
@@ -8131,7 +8131,7 @@
   "district": null,
   "lat": 40.47074,
   "lon": 71.743073,
-  "review": "OSM way/903225189; Ipakchi ko'chasi"
+  "review": "OSM way/903225189"
  },
  {
   "name": "AR-RAUF jome masjidi",
@@ -8173,7 +8173,7 @@
   "district": null,
   "lat": 40.476277,
   "lon": 71.714146,
-  "review": "OSM way/449297023; B. Margiloniy ko'chasi"
+  "review": "OSM way/449297023"
  },
  {
   "name": "Abduxoliq G'ijduvoniy jome masjidi",
@@ -8187,7 +8187,7 @@
   "district": null,
   "lat": 40.476515,
   "lon": 71.725737,
-  "review": "OSM relation/21151698; Xonagoh ko'chasi"
+  "review": "OSM relation/21151698"
  },
  {
   "name": "Zomin jome masjidi",
@@ -8201,14 +8201,14 @@
   "district": null,
   "lat": 40.477526,
   "lon": 71.758584,
-  "review": "OSM node/10820813288; Do'stlik ko'chasi"
+  "review": "OSM node/10820813288"
  },
  {
   "name": "Shirmonpazlik jome' masjidi",
   "district": null,
   "lat": 40.479619,
   "lon": 71.723526,
-  "review": "OSM way/807869678; Ibn Sino ko'chasi"
+  "review": "OSM way/807869678"
  },
  {
   "name": "Qaqir jome' masjidi",
@@ -8222,7 +8222,7 @@
   "district": null,
   "lat": 40.48122,
   "lon": 71.713247,
-  "review": "OSM node/10820026079; Zarafshon ko'chasi"
+  "review": "OSM node/10820026079"
  },
  {
   "name": "Amirov Dadaxon jome' masjidi",
@@ -8243,7 +8243,7 @@
   "district": null,
   "lat": 40.48228,
   "lon": 71.720087,
-  "review": "OSM way/1529568474; Jo'raxon Sultonov ko'chasi"
+  "review": "OSM way/1529568474"
  },
  {
   "name": "Al-Madinatul Munavvara jome' masjidi",
@@ -8278,7 +8278,7 @@
   "district": null,
   "lat": 40.482841,
   "lon": 71.73586,
-  "review": "OSM relation/20998769; Anjuman ko'chasi"
+  "review": "OSM relation/20998769"
  },
  {
   "name": "Chillaxona Burxoniddin Margiloniy",
@@ -8313,7 +8313,7 @@
   "district": null,
   "lat": 40.485314,
   "lon": 71.727386,
-  "review": "OSM node/10820026077; Xo'ja Porso ko'chasi"
+  "review": "OSM node/10820026077"
  },
  {
   "name": "Marxamat jome' masjidi",
@@ -8355,7 +8355,7 @@
   "district": null,
   "lat": 40.489883,
   "lon": 68.811929,
-  "review": "OSM way/673894946; Turon ko'chasi"
+  "review": "OSM way/673894946"
  },
  {
   "name": "Gufron jome' masjidi",
@@ -8383,7 +8383,7 @@
   "district": null,
   "lat": 40.491878,
   "lon": 71.741419,
-  "review": "OSM relation/13374088; To'ralar ko'chasi"
+  "review": "OSM relation/13374088"
  },
  {
   "name": "Kamoliddin Qori jome' masjidi",
@@ -8446,14 +8446,14 @@
   "district": null,
   "lat": 40.501123,
   "lon": 72.327516,
-  "review": "OSM way/519983323; 42"
+  "review": "OSM way/519983323"
  },
  {
   "name": "Abdusamad Oxund jome' masjidi",
   "district": null,
   "lat": 40.502091,
   "lon": 71.72038,
-  "review": "OSM node/10833033404; Mustaqillik ko'chasi"
+  "review": "OSM node/10833033404"
  },
  {
   "name": "Orifxo'ja Eshon jome' masjidi",
@@ -8474,7 +8474,7 @@
   "district": null,
   "lat": 40.506957,
   "lon": 70.921378,
-  "review": "OSM node/10830790244; Afgonbog ko'chasi"
+  "review": "OSM node/10830790244"
  },
  {
   "name": "Muhammad Jahongirxon Goziy jome' masjidi",
@@ -8530,10 +8530,10 @@
   "district": null,
   "lat": 40.515181,
   "lon": 68.756367,
-  "review": "OSM way/1157386730; Qaxramon ko'chasi"
+  "review": "OSM way/1157386730"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani, Bog'zor QFY, X.Olimjon ko'chasi 14",
   "district": null,
   "lat": 40.515429,
   "lon": 67.966575,
@@ -8575,7 +8575,7 @@
   "review": "OSM node/10819686828"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani, Do'stlik shaharchasi, Axunboboev 1uy",
   "district": null,
   "lat": 40.51961,
   "lon": 68.030584,
@@ -8589,7 +8589,7 @@
   "review": "OSM node/10819575596"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Forish tumani, Uxum qishlog'i",
   "district": null,
   "lat": 40.520483,
   "lon": 66.791705,
@@ -8600,21 +8600,21 @@
   "district": null,
   "lat": 40.520774,
   "lon": 70.965477,
-  "review": "OSM node/5992697486; Bog'iraxmat ko'chasi"
+  "review": "OSM node/5992697486"
  },
  {
   "name": "Shayxon jome' masjidi",
   "district": null,
   "lat": 40.523567,
   "lon": 70.950626,
-  "review": "OSM node/10830790233; Zavqiyobod ko'chasi"
+  "review": "OSM node/10830790233"
  },
  {
   "name": "Hadya Hoji jome' masjidi",
   "district": null,
   "lat": 40.526387,
   "lon": 70.941869,
-  "review": "OSM way/1158817582; Baxmalbob ko'chasi"
+  "review": "OSM way/1158817582"
  },
  {
   "name": "Shayxuddinxo'ja jome masjidi",
@@ -8642,7 +8642,7 @@
   "district": null,
   "lat": 40.529527,
   "lon": 70.948773,
-  "review": "OSM way/451482572; Amir Umarxon ko'chasi"
+  "review": "OSM way/451482572"
  },
  {
   "name": "Do'stlik jome' masjidi",
@@ -8656,14 +8656,14 @@
   "district": null,
   "lat": 40.532635,
   "lon": 70.949223,
-  "review": "OSM way/174718685; Hamza ko'chasi"
+  "review": "OSM way/174718685"
  },
  {
   "name": "Degrezlik jome' masjidi",
   "district": null,
   "lat": 40.534713,
   "lon": 70.955498,
-  "review": "OSM way/172489656; Toshkent ko'chasi"
+  "review": "OSM way/172489656"
  },
  {
   "name": "Chanoq jome' masjidi",
@@ -8677,17 +8677,17 @@
   "district": null,
   "lat": 40.537562,
   "lon": 71.704048,
-  "review": "OSM way/559352109; Mulkobod"
+  "review": "OSM way/559352109"
  },
  {
   "name": "Xakimxo'ja Eshonbuva jome' masjidi",
   "district": null,
   "lat": 40.53788,
   "lon": 72.345996,
-  "review": "OSM node/7266217374; 106"
+  "review": "OSM node/7266217374"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani, Qahromon QFY,Navbaxor kuchasi 11",
   "district": null,
   "lat": 40.538122,
   "lon": 68.10639,
@@ -8740,7 +8740,7 @@
   "district": null,
   "lat": 40.543228,
   "lon": 70.944997,
-  "review": "OSM way/1137322791; Yangi hayot ko'chasi"
+  "review": "OSM way/1137322791"
  },
  {
   "name": "Uchko'prik jome' masjidi",
@@ -8803,7 +8803,7 @@
   "district": null,
   "lat": 40.548597,
   "lon": 70.971914,
-  "review": "OSM way/525523735; Najmiddin Kubro ko'chasi"
+  "review": "OSM way/525523735"
  },
  {
   "name": "Said Xotam Eshon jome' masjidi",
@@ -8904,7 +8904,7 @@
   "review": "OSM node/7266197041"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chortoq QFY, Xalqobod QFY",
   "district": null,
   "lat": 40.562693,
   "lon": 68.914251,
@@ -8960,7 +8960,7 @@
   "review": "OSM node/10819781034"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani, Saritepa QFY, Dustlik kucha 149",
   "district": null,
   "lat": 40.577066,
   "lon": 67.989992,
@@ -8971,7 +8971,7 @@
   "district": null,
   "lat": 40.57781,
   "lon": 72.465185,
-  "review": "OSM node/7188263016; Nurli zamin ko'chasi"
+  "review": "OSM node/7188263016"
  },
  {
   "name": "Xazrati Mavlono Lutfillo jome' masjidi",
@@ -8981,7 +8981,7 @@
   "review": "OSM way/1164777374"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Forish tumani Qig'izsum QFY",
   "district": null,
   "lat": 40.579195,
   "lon": 67.145065,
@@ -8999,7 +8999,7 @@
   "district": null,
   "lat": 40.584248,
   "lon": 72.474782,
-  "review": "OSM node/7188263039; Oqsuv ko'chasi"
+  "review": "OSM node/7188263039"
  },
  {
   "name": "Ahmad Yassaviy jome masjidi",
@@ -9069,7 +9069,7 @@
   "district": null,
   "lat": 40.594457,
   "lon": 72.19558,
-  "review": "OSM node/7138435728; Yukori boz ulitsa"
+  "review": "OSM node/7138435728"
  },
  {
   "name": "Oqqo'rg'on jome' masjidi",
@@ -9083,10 +9083,10 @@
   "district": null,
   "lat": 40.59493,
   "lon": 69.013072,
-  "review": "OSM way/737065448; Do'stlik ko'chasi"
+  "review": "OSM way/737065448"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani, Yangiobod QFY, Oybek kucha 5",
   "district": null,
   "lat": 40.59532,
   "lon": 68.05361,
@@ -9107,7 +9107,7 @@
   "review": "OSM node/9634844412"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik tumani, Bunyodkor QFY, Xamza kuchasi 18",
   "district": null,
   "lat": 40.597734,
   "lon": 68.059429,
@@ -9125,7 +9125,7 @@
   "district": null,
   "lat": 40.600029,
   "lon": 72.739752,
-  "review": "OSM node/7208328121; O'zbekistonning 5 yilligi ulitsa"
+  "review": "OSM node/7208328121"
  },
  {
   "name": "SHOXIMARDON jome masjidi",
@@ -9139,14 +9139,14 @@
   "district": null,
   "lat": 40.601142,
   "lon": 72.517576,
-  "review": "OSM node/7188263018; Katta-tol ko'chasi"
+  "review": "OSM node/7188263018"
  },
  {
   "name": "Yorqishloq jome' masjidi",
   "district": null,
   "lat": 40.602536,
   "lon": 72.729942,
-  "review": "OSM node/7208328106; Nazokatli ulitsa"
+  "review": "OSM node/7208328106"
  },
  {
   "name": "Ziyo jome masjidi",
@@ -9160,7 +9160,7 @@
   "district": null,
   "lat": 40.604555,
   "lon": 72.347263,
-  "review": "OSM node/7266217373; 116"
+  "review": "OSM node/7266217373"
  },
  {
   "name": "Masjid",
@@ -9174,7 +9174,7 @@
   "district": null,
   "lat": 40.606929,
   "lon": 72.646959,
-  "review": "OSM node/9634844414; Bog' ko'chasi"
+  "review": "OSM node/9634844414"
  },
  {
   "name": "Nayman jome' masjidi",
@@ -9216,7 +9216,7 @@
   "district": null,
   "lat": 40.611867,
   "lon": 72.700418,
-  "review": "OSM node/7208328120; Umarposhsho ko'chasi ulitsa"
+  "review": "OSM node/7208328120"
  },
  {
   "name": "Olaychi jome' masjidi",
@@ -9258,7 +9258,7 @@
   "district": null,
   "lat": 40.620837,
   "lon": 72.449414,
-  "review": "OSM node/7188263038; Shamshod ko'chasi"
+  "review": "OSM node/7188263038"
  },
  {
   "name": "Bandikushod jome' masjidi",
@@ -9321,7 +9321,7 @@
   "district": null,
   "lat": 40.632288,
   "lon": 72.381085,
-  "review": "OSM node/7188263017; Gulzor ko'chasi"
+  "review": "OSM node/7188263017"
  },
  {
   "name": "Abu Xurayra jome' masjidi",
@@ -9335,7 +9335,7 @@
   "district": null,
   "lat": 40.635974,
   "lon": 71.970985,
-  "review": "OSM node/7202871525; Qorasuv ulitsa"
+  "review": "OSM node/7202871525"
  },
  {
   "name": "Naynavo jome' masjidi",
@@ -9391,14 +9391,14 @@
   "district": null,
   "lat": 40.642107,
   "lon": 72.366668,
-  "review": "OSM node/7188263019; Sayoxat ko'chasi"
+  "review": "OSM node/7188263019"
  },
  {
   "name": "Do'rmoncha jome' masjidi",
   "district": null,
   "lat": 40.644084,
   "lon": 71.911209,
-  "review": "OSM node/7202871521; Do'rmoncha ulitsa"
+  "review": "OSM node/7202871521"
  },
  {
   "name": "Qorayantoq jome' masjidi",
@@ -9419,7 +9419,7 @@
   "district": null,
   "lat": 40.645874,
   "lon": 72.647754,
-  "review": "OSM node/7202871518; Guliston ko'chasi"
+  "review": "OSM node/7202871518"
  },
  {
   "name": "Masjid",
@@ -9433,7 +9433,7 @@
   "district": null,
   "lat": 40.646594,
   "lon": 72.600232,
-  "review": "OSM node/9634844416; Zarbdor ko'chasi"
+  "review": "OSM node/9634844416"
  },
  {
   "name": "Xolid Ibn Valid jome' masjidi",
@@ -9454,7 +9454,7 @@
   "district": null,
   "lat": 40.653246,
   "lon": 72.158191,
-  "review": "OSM node/9634899846; Ganch ko'chasi"
+  "review": "OSM node/9634899846"
  },
  {
   "name": "Eshmat mergan jome' masjidi",
@@ -9496,7 +9496,7 @@
   "district": null,
   "lat": 40.659203,
   "lon": 72.423596,
-  "review": "OSM node/7188263015; Suvlug' ota ko'chasi"
+  "review": "OSM node/7188263015"
  },
  {
   "name": "Bahovuddin Naqshband jome' masjidi",
@@ -9531,14 +9531,14 @@
   "district": null,
   "lat": 40.66767,
   "lon": 72.100616,
-  "review": "OSM node/9634899850; Eshon ko'chasi"
+  "review": "OSM node/9634899850"
  },
  {
   "name": "Yetti chinor jome' masjidi",
   "district": null,
   "lat": 40.670019,
   "lon": 72.55816,
-  "review": "OSM node/9634852818; Jome ko'cha"
+  "review": "OSM node/9634852818"
  },
  {
   "name": "Imom Muhammad jome' masjidi",
@@ -9555,7 +9555,7 @@
   "review": "OSM way/702373785"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Mirzachul tumani, Gagarin shaxri, Dustlik maxallasi, Ixsanov kuchasi 26",
   "district": null,
   "lat": 40.674905,
   "lon": 68.171892,
@@ -9566,7 +9566,7 @@
   "district": null,
   "lat": 40.676975,
   "lon": 71.994108,
-  "review": "OSM node/7202871523; Fidoiy ulitsa"
+  "review": "OSM node/7202871523"
  },
  {
   "name": "Muxiddin Saxob jome' masjidi",
@@ -9580,7 +9580,7 @@
   "district": null,
   "lat": 40.679913,
   "lon": 72.597854,
-  "review": "OSM node/7202871517; Toshloq ulitsa"
+  "review": "OSM node/7202871517"
  },
  {
   "name": "Mustahkam jome' masjidi",
@@ -9608,21 +9608,21 @@
   "district": null,
   "lat": 40.687159,
   "lon": 72.161958,
-  "review": "OSM node/9634899851; Do'rmon ko'chasi"
+  "review": "OSM node/9634899851"
  },
  {
   "name": "Solmon Forsiy jome' masjidi",
   "district": null,
   "lat": 40.688994,
   "lon": 72.132738,
-  "review": "OSM node/9634899845; Salmoni Forsiy ko'chasi"
+  "review": "OSM node/9634899845"
  },
  {
   "name": "Burxoniddin Marg'iloniy jome' masjidi",
   "district": null,
   "lat": 40.689426,
   "lon": 71.928196,
-  "review": "OSM node/7202871526; Mustaqillik ulitsa"
+  "review": "OSM node/7202871526"
  },
  {
   "name": "Mulla Raimjon jome' masjidi",
@@ -9636,21 +9636,21 @@
   "district": null,
   "lat": 40.693989,
   "lon": 71.946614,
-  "review": "OSM node/7202871522; Yoshlik ulitsa"
+  "review": "OSM node/7202871522"
  },
  {
   "name": "Xoji Muxammad",
   "district": null,
   "lat": 40.695197,
   "lon": 72.83745,
-  "review": "OSM node/7208328094; Ko'ksaroy ulitsa"
+  "review": "OSM node/7208328094"
  },
  {
   "name": "Shaxidi-A'lo jome' masjidi",
   "district": null,
   "lat": 40.696317,
   "lon": 72.614923,
-  "review": "OSM way/306969785; T.Toshmatov ulitsa"
+  "review": "OSM way/306969785"
  },
  {
   "name": "Sulaymonbek jome' masjidi",
@@ -9664,7 +9664,7 @@
   "district": null,
   "lat": 40.698888,
   "lon": 72.056995,
-  "review": "OSM node/9634844407; Shaydullayev ko'chasi"
+  "review": "OSM node/9634844407"
  },
  {
   "name": "Bo'ston jome' masjidi",
@@ -9678,14 +9678,14 @@
   "district": null,
   "lat": 40.699824,
   "lon": 72.045839,
-  "review": "OSM node/9634899858; Xamid Olimjon ko'chasi"
+  "review": "OSM node/9634899858"
  },
  {
   "name": "R.Boboxonov jome' masjidi",
   "district": null,
   "lat": 40.700466,
   "lon": 72.740665,
-  "review": "OSM node/7208328087; Ziyo ulitsa"
+  "review": "OSM node/7208328087"
  },
  {
   "name": "Abduolim ota jome masjidi",
@@ -9706,7 +9706,7 @@
   "district": null,
   "lat": 40.701783,
   "lon": 72.520354,
-  "review": "OSM node/9634844415; Guldiyor ko'chasi"
+  "review": "OSM node/9634844415"
  },
  {
   "name": "Islomobod masjidi",
@@ -9741,63 +9741,63 @@
   "district": null,
   "lat": 40.709494,
   "lon": 68.83787,
-  "review": "OSM way/1434658916; Navro'z ko'chasi"
+  "review": "OSM way/1434658916"
  },
  {
   "name": "Kapa jome' masjidi",
   "district": null,
   "lat": 40.709647,
   "lon": 72.556988,
-  "review": "OSM node/7208328119; Unq'org'on ko'chasi"
+  "review": "OSM node/7208328119"
  },
  {
   "name": "Namozgoh jome'masjidi",
   "district": null,
   "lat": 40.710673,
   "lon": 72.048952,
-  "review": "OSM way/680352961; Shahrixon shoh ko'chasi"
+  "review": "OSM way/680352961"
  },
  {
   "name": "Gul tepa jome' masjidi",
   "district": null,
   "lat": 40.711191,
   "lon": 72.074701,
-  "review": "OSM node/9634844408; Ravnaq ko'chasi"
+  "review": "OSM node/9634844408"
  },
  {
   "name": "Akbarali-ota jome' masjidi",
   "district": null,
   "lat": 40.711993,
   "lon": 71.933935,
-  "review": "OSM node/7202871524; Xolis ulitsa"
+  "review": "OSM node/7202871524"
  },
  {
   "name": "Ikrom xoji jome' masjidi",
   "district": null,
   "lat": 40.712821,
   "lon": 72.250297,
-  "review": "OSM node/7138435729; Boyguzar ulitsa"
+  "review": "OSM node/7138435729"
  },
  {
   "name": "Munisxon xoji jome' masjidi",
   "district": null,
   "lat": 40.713191,
   "lon": 72.086825,
-  "review": "OSM node/9634899854; Shokirboy ko'chasi"
+  "review": "OSM node/9634899854"
  },
  {
   "name": "Muxammad Roziqboy jome' masjidi",
   "district": null,
   "lat": 40.713463,
   "lon": 72.061199,
-  "review": "OSM way/699821513; Shahrixon shoh ko'chasi"
+  "review": "OSM way/699821513"
  },
  {
   "name": "Ponsto jome' masjidi",
   "district": null,
   "lat": 40.714173,
   "lon": 72.058206,
-  "review": "OSM node/9634844409; Shahrixon shox ko'chasi"
+  "review": "OSM node/9634844409"
  },
  {
   "name": "Zubayr ibn Avom jome' masjidi",
@@ -9825,14 +9825,14 @@
   "district": null,
   "lat": 40.717098,
   "lon": 72.047407,
-  "review": "OSM node/9634899857; Furqat ko'chasi, 4-berk ko'chasi"
+  "review": "OSM node/9634899857"
  },
  {
   "name": "So'fi qishloq jome' masjidi",
   "district": null,
   "lat": 40.717293,
   "lon": 72.642431,
-  "review": "OSM node/7202871520; Ne'mat ulitsa"
+  "review": "OSM node/7202871520"
  },
  {
   "name": "Rovot jome' masjidi",
@@ -9853,42 +9853,42 @@
   "district": null,
   "lat": 40.719732,
   "lon": 72.062931,
-  "review": "OSM node/9634899856; K.Yoqubov ko'chasi"
+  "review": "OSM node/9634899856"
  },
  {
   "name": "Ramazon qori jome' masjidi",
   "district": null,
   "lat": 40.720585,
   "lon": 72.758901,
-  "review": "OSM way/537716405; Hidoyat ulitsa"
+  "review": "OSM way/537716405"
  },
  {
   "name": "Navro'z jome' masjidi",
   "district": null,
   "lat": 40.722306,
   "lon": 72.770008,
-  "review": "OSM node/7208328091; Haqiqat ko'chasi"
+  "review": "OSM node/7208328091"
  },
  {
   "name": "Ma'murobod jome' masjidi",
   "district": null,
   "lat": 40.723108,
   "lon": 72.807324,
-  "review": "OSM node/7208328092; Namuna ulitsa"
+  "review": "OSM node/7208328092"
  },
  {
   "name": "Saroy jome' masjidi",
   "district": null,
   "lat": 40.723826,
   "lon": 72.028127,
-  "review": "OSM node/9634899848; Haqiqat ko'chasi"
+  "review": "OSM node/9634899848"
  },
  {
   "name": "Yunus Ali Oxun jome' masjidi",
   "district": null,
   "lat": 40.723928,
   "lon": 72.886404,
-  "review": "OSM way/630194575; Korxona ko'chasi"
+  "review": "OSM way/630194575"
  },
  {
   "name": "AVLIYO OTA jome masjidi",
@@ -9909,14 +9909,14 @@
   "district": null,
   "lat": 40.730296,
   "lon": 72.610221,
-  "review": "OSM node/7202871506; Qilichmozor ulitsa"
+  "review": "OSM node/7202871506"
  },
  {
   "name": "Uch tegirmon jome' masjidi",
   "district": null,
   "lat": 40.73088,
   "lon": 72.89321,
-  "review": "OSM node/7208328085; Yangilanish ulitsa"
+  "review": "OSM node/7208328085"
  },
  {
   "name": "Masjid",
@@ -9986,14 +9986,14 @@
   "district": null,
   "lat": 40.739665,
   "lon": 72.008113,
-  "review": "OSM node/9634899853; So'zaq ko'chasi"
+  "review": "OSM node/9634899853"
  },
  {
   "name": "Vaxim jome' masjidi",
   "district": null,
   "lat": 40.740602,
   "lon": 72.051369,
-  "review": "OSM node/9634899849; Vahim ko'chasi"
+  "review": "OSM node/9634899849"
  },
  {
   "name": "Shoxruxiya jome' masjidi",
@@ -10007,28 +10007,28 @@
   "district": null,
   "lat": 40.742702,
   "lon": 71.77314,
-  "review": "OSM node/9634793634; Masjid ko'chasi"
+  "review": "OSM node/9634793634"
  },
  {
   "name": "Mirzoqul bo'lish jome' masjidi",
   "district": null,
   "lat": 40.743265,
   "lon": 72.760432,
-  "review": "OSM node/7208328093; Ming chinor ulitsa"
+  "review": "OSM node/7208328093"
  },
  {
   "name": "Pistamozor jome' masjidi",
   "district": null,
   "lat": 40.74346,
   "lon": 72.358647,
-  "review": "OSM way/512460161; Bobur shoh ko'chasi"
+  "review": "OSM way/512460161"
  },
  {
   "name": "Mirpo'stin ota jome' masjidi",
   "district": null,
   "lat": 40.744096,
   "lon": 72.378111,
-  "review": "OSM way/478772327; Maybog'cha ko'chasi"
+  "review": "OSM way/478772327"
  },
  {
   "name": "Masjid",
@@ -10042,14 +10042,14 @@
   "district": null,
   "lat": 40.746529,
   "lon": 72.366271,
-  "review": "OSM way/1521413268; Navbaxor ko'chasi"
+  "review": "OSM way/1521413268"
  },
  {
   "name": "So'fi Olloxyor jome' masjidi",
   "district": null,
   "lat": 40.747065,
   "lon": 71.70349,
-  "review": "OSM node/5004747821; Birdamlik ko'chasi"
+  "review": "OSM node/5004747821"
  },
  {
   "name": "Tursun ona jome' masjidi",
@@ -10070,7 +10070,7 @@
   "district": null,
   "lat": 40.751104,
   "lon": 72.249921,
-  "review": "OSM node/7293704273; Oq daryo ko'chasi"
+  "review": "OSM node/7293704273"
  },
  {
   "name": "Jalabek ota jome' masjidi",
@@ -10084,14 +10084,14 @@
   "district": null,
   "lat": 40.752718,
   "lon": 72.804735,
-  "review": "OSM node/7208328090; Tanga Topdi ko'chasi"
+  "review": "OSM node/7208328090"
  },
  {
   "name": "Najmiddin qori Otaboyev jome' masjidi",
   "district": null,
   "lat": 40.75442,
   "lon": 72.470335,
-  "review": "OSM node/7138304506; Obod ulitsa"
+  "review": "OSM node/7138304506"
  },
  {
   "name": "new mosque",
@@ -10105,14 +10105,14 @@
   "district": null,
   "lat": 40.75545,
   "lon": 71.98452,
-  "review": "OSM node/9634899847; Abdubiy ko'chasi"
+  "review": "OSM node/9634899847"
  },
  {
   "name": "Ittifoq jome' masjidi",
   "district": null,
   "lat": 40.7565,
   "lon": 72.615477,
-  "review": "OSM node/7202871505; Mexrigiyo ulitsa"
+  "review": "OSM node/7202871505"
  },
  {
   "name": "Moytepa jome' masjidi",
@@ -10126,28 +10126,28 @@
   "district": null,
   "lat": 40.758767,
   "lon": 72.132063,
-  "review": "OSM node/7293704270; O'zbekiston ko'chasi"
+  "review": "OSM node/7293704270"
  },
  {
   "name": "To'rachek jome' masjidi",
   "district": null,
   "lat": 40.759242,
   "lon": 72.841639,
-  "review": "OSM node/7208328096; Qorasuv ulitsa"
+  "review": "OSM node/7208328096"
  },
  {
   "name": "Xonaqox jome' masjidi",
   "district": null,
   "lat": 40.761835,
   "lon": 72.329052,
-  "review": "OSM node/5029898721; Ostona guzar ko'chasi"
+  "review": "OSM node/5029898721"
  },
  {
   "name": "Jiddai Muborak jome' masjidi",
   "district": null,
   "lat": 40.762951,
   "lon": 72.336153,
-  "review": "OSM way/406441596; Tinchlik ko'chasi"
+  "review": "OSM way/406441596"
  },
  {
   "name": "Masjid",
@@ -10175,7 +10175,7 @@
   "district": null,
   "lat": 40.766678,
   "lon": 72.973586,
-  "review": "OSM way/700840434; Navoiy ulitsa"
+  "review": "OSM way/700840434"
  },
  {
   "name": "Abdulxamid qori jome' masjidi",
@@ -10189,14 +10189,14 @@
   "district": null,
   "lat": 40.770488,
   "lon": 72.221071,
-  "review": "OSM node/7293704284; Haqiqat ko'chasi"
+  "review": "OSM node/7293704284"
  },
  {
   "name": "Imom muslim jome' masjidi",
   "district": null,
   "lat": 40.771189,
   "lon": 72.883411,
-  "review": "OSM node/7208328095; Chimyon ko'chasi"
+  "review": "OSM node/7208328095"
  },
  {
   "name": "Dalvarzin jome' masjidi",
@@ -10210,14 +10210,14 @@
   "district": null,
   "lat": 40.775667,
   "lon": 72.363703,
-  "review": "OSM way/532178759; N.Xakimov ko'chasi"
+  "review": "OSM way/532178759"
  },
  {
   "name": "Xazrati Bilol jome' masjidi",
   "district": null,
   "lat": 40.775679,
   "lon": 72.369897,
-  "review": "OSM way/713899830; Qo'qon ko'chasi"
+  "review": "OSM way/713899830"
  },
  {
   "name": "Chimildiq ota jome' masjidi",
@@ -10231,7 +10231,7 @@
   "district": null,
   "lat": 40.780172,
   "lon": 72.340639,
-  "review": "OSM node/4555034490; Shaxrixon ko'chasi"
+  "review": "OSM node/4555034490"
  },
  {
   "name": "Polvonto'ra jome' masjidi",
@@ -10245,42 +10245,42 @@
   "district": null,
   "lat": 40.782753,
   "lon": 68.639313,
-  "review": "OSM way/1434636670; Shox ko'chasi"
+  "review": "OSM way/1434636670"
  },
  {
   "name": "Uyg'ur jome' masjidi",
   "district": null,
   "lat": 40.782964,
   "lon": 72.368284,
-  "review": "OSM way/482424152; Bobosadin ko'chasi"
+  "review": "OSM way/482424152"
  },
  {
   "name": "Imomi Azam Raxmatulloxi Alayxi jome' masjidi",
   "district": null,
   "lat": 40.783736,
   "lon": 72.309549,
-  "review": "OSM way/513935898; O'zbekiston ko'chasi"
+  "review": "OSM way/513935898"
  },
  {
   "name": "Uyshin jome' masjidi",
   "district": null,
   "lat": 40.786593,
   "lon": 72.254398,
-  "review": "OSM node/7293704283; Uyshin ko'chasi"
+  "review": "OSM node/7293704283"
  },
  {
   "name": "Devonaboy jome' masjidi",
   "district": null,
   "lat": 40.788128,
   "lon": 72.340616,
-  "review": "OSM way/452168942; Oltinkul ko'chasi"
+  "review": "OSM way/452168942"
  },
  {
   "name": "Chinor jome' masjidi",
   "district": null,
   "lat": 40.789867,
   "lon": 72.347439,
-  "review": "OSM way/488981325; G'ayrat ko'chasi"
+  "review": "OSM way/488981325"
  },
  {
   "name": "Taxtako'prik masjid",
@@ -10301,14 +10301,14 @@
   "district": null,
   "lat": 40.792636,
   "lon": 71.89528,
-  "review": "OSM node/7188263046; Qaqirchek ulitsa"
+  "review": "OSM node/7188263046"
  },
  {
   "name": "G'ishtli jome' masjidi",
   "district": null,
   "lat": 40.7946,
   "lon": 72.354926,
-  "review": "OSM node/7136078517; M.Saidov ko'chasi"
+  "review": "OSM node/7136078517"
  },
  {
   "name": "Xolmatboy jome' masjidi",
@@ -10322,7 +10322,7 @@
   "district": null,
   "lat": 40.797353,
   "lon": 72.364008,
-  "review": "OSM node/7136170447; Soy ko'chasi"
+  "review": "OSM node/7136170447"
  },
  {
   "name": "Usmoni Zinnurayn jome' masjidi",
@@ -10336,14 +10336,14 @@
   "district": null,
   "lat": 40.799816,
   "lon": 72.341423,
-  "review": "OSM node/7136170452; Chuama ko'chasi"
+  "review": "OSM node/7136170452"
  },
  {
   "name": "Oq tepa jome' masjidi",
   "district": null,
   "lat": 40.800375,
   "lon": 72.11263,
-  "review": "OSM way/1034130627; Nurafshon"
+  "review": "OSM way/1034130627"
  },
  {
   "name": "Oltinko'l jome' masjidi",
@@ -10357,14 +10357,14 @@
   "district": null,
   "lat": 40.801682,
   "lon": 72.268027,
-  "review": "OSM node/7293744986; Suvyulduz ko'chasi"
+  "review": "OSM node/7293744986"
  },
  {
   "name": "Eski Gumbaz jome' masjidi",
   "district": null,
   "lat": 40.802275,
   "lon": 72.33202,
-  "review": "OSM way/443737094; Oxunboboyev ko'chasi"
+  "review": "OSM way/443737094"
  },
  {
   "name": "Oltish jome' masjidi",
@@ -10399,14 +10399,14 @@
   "district": null,
   "lat": 40.810096,
   "lon": 72.309439,
-  "review": "OSM node/7136170442; Shaxidtepa ko'chasi"
+  "review": "OSM node/7136170442"
  },
  {
   "name": "Xonobod jome' masjidi",
   "district": null,
   "lat": 40.810137,
   "lon": 72.972145,
-  "review": "OSM way/630194579; Xonobod ko'chasi"
+  "review": "OSM way/630194579"
  },
  {
   "name": "Qoraqo'yli jome' masjidi",
@@ -10420,7 +10420,7 @@
   "district": null,
   "lat": 40.813983,
   "lon": 72.826776,
-  "review": "OSM node/7208328089; Navoiy ko'chasi"
+  "review": "OSM node/7208328089"
  },
  {
   "name": "Abu Xurayra jome' masjidi",
@@ -10434,7 +10434,7 @@
   "district": null,
   "lat": 40.815386,
   "lon": 72.236721,
-  "review": "OSM node/7293744991; Nurafshon ko'chasi"
+  "review": "OSM node/7293744991"
  },
  {
   "name": "Toshloq jome' masjidi",
@@ -10458,7 +10458,7 @@
   "review": "OSM node/10222514285"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Sirdare, Xakikat",
   "district": null,
   "lat": 40.818197,
   "lon": 68.684507,
@@ -10476,14 +10476,14 @@
   "district": null,
   "lat": 40.823782,
   "lon": 72.025083,
-  "review": "OSM node/7293704271; Umurzoqov ko'chasi"
+  "review": "OSM node/7293704271"
  },
  {
   "name": "Tosh masjid jome' masjidi",
   "district": null,
   "lat": 40.823795,
   "lon": 72.737688,
-  "review": "OSM node/7208328122; Toshmasjid ulitsa"
+  "review": "OSM node/7208328122"
  },
  {
   "name": "Mulla bo'ta qozi jome' masjidi",
@@ -10504,7 +10504,7 @@
   "district": null,
   "lat": 40.828441,
   "lon": 72.114744,
-  "review": "OSM node/7188263050; Sog'lom avlod ulitsa"
+  "review": "OSM node/7188263050"
  },
  {
   "name": "Mulla Toji Axmad jome' masjidi",
@@ -10532,7 +10532,7 @@
   "district": null,
   "lat": 40.831884,
   "lon": 72.286069,
-  "review": "OSM node/5855914104; Mirobod ko'chasi"
+  "review": "OSM node/5855914104"
  },
  {
   "name": "Boyazid Bastomiy jome' masjidi",
@@ -10567,7 +10567,7 @@
   "district": null,
   "lat": 40.838091,
   "lon": 72.050257,
-  "review": "OSM node/7293704269; Andijon ko'chasi"
+  "review": "OSM node/7293704269"
  },
  {
   "name": "Mulla O'ktam jome' masjidi",
@@ -10623,7 +10623,7 @@
   "district": null,
   "lat": 40.851494,
   "lon": 71.926004,
-  "review": "OSM node/7188263049; Polvonko'l ulitsa"
+  "review": "OSM node/7188263049"
  },
  {
   "name": "Mulla Abduraxmon jome' masjidi",
@@ -10658,7 +10658,7 @@
   "district": null,
   "lat": 40.854701,
   "lon": 72.353537,
-  "review": "OSM node/7136340530; Juma masjid ulitsa"
+  "review": "OSM node/7136340530"
  },
  {
   "name": "Mulla Nazar Oxun jome' masjidi",
@@ -10672,7 +10672,7 @@
   "district": null,
   "lat": 40.857187,
   "lon": 72.579319,
-  "review": "OSM node/7202871507; Qo'qon ulitsa"
+  "review": "OSM node/7202871507"
  },
  {
   "name": "Ramazoni Sharif jome masjidi",
@@ -10721,7 +10721,7 @@
   "district": null,
   "lat": 40.864912,
   "lon": 72.239496,
-  "review": "OSM node/7208328098; Ezgulik ulitsa"
+  "review": "OSM node/7208328098"
  },
  {
   "name": "Abduqoxxor Maxsum jome' masjidi",
@@ -10735,7 +10735,7 @@
   "district": null,
   "lat": 40.866737,
   "lon": 72.24271,
-  "review": "OSM node/7208328101; Kamolot ulitsa"
+  "review": "OSM node/7208328101"
  },
  {
   "name": "Toptiq Aziz jome' masjidi",
@@ -10770,14 +10770,14 @@
   "district": null,
   "lat": 40.875511,
   "lon": 71.971396,
-  "review": "OSM node/7138530050; Bogi eram ulitsa"
+  "review": "OSM node/7138530050"
  },
  {
   "name": "Imomi A'zam jome' masjidi",
   "district": null,
   "lat": 40.876863,
   "lon": 72.10391,
-  "review": "OSM node/7188263042; Xurriyat ko'chasi"
+  "review": "OSM node/7188263042"
  },
  {
   "name": "Qo'rg'on shams jome' masjidi",
@@ -10819,14 +10819,14 @@
   "district": null,
   "lat": 40.880617,
   "lon": 71.952457,
-  "review": "OSM node/7188263048; Qiyali ulitsa"
+  "review": "OSM node/7188263048"
  },
  {
   "name": "Nurmuxammad xoji jome' masjidi",
   "district": null,
   "lat": 40.883116,
   "lon": 72.561146,
-  "review": "OSM node/9634764830; Bek mahallasi ko'chasi"
+  "review": "OSM node/9634764830"
  },
  {
   "name": "Hilol jome' masjidi",
@@ -10854,7 +10854,7 @@
   "district": null,
   "lat": 40.887407,
   "lon": 72.276438,
-  "review": "OSM node/7208328104; Oq-oltin ulitsa"
+  "review": "OSM node/7208328104"
  },
  {
   "name": "Orifxon xoji jome' masjidi",
@@ -10875,7 +10875,7 @@
   "district": null,
   "lat": 40.890864,
   "lon": 71.875495,
-  "review": "OSM node/7188263043; Navoiy ko'chasi"
+  "review": "OSM node/7188263043"
  },
  {
   "name": "Piskent jome' masjidi",
@@ -10931,7 +10931,7 @@
   "district": null,
   "lat": 40.900381,
   "lon": 72.250736,
-  "review": "OSM node/7208328105; Yangi bozor ulitsa"
+  "review": "OSM node/7208328105"
  },
  {
   "name": "Umarboy xoji jome' masjidi",
@@ -10959,7 +10959,7 @@
   "district": null,
   "lat": 40.904261,
   "lon": 71.838061,
-  "review": "OSM node/7188263044; Maydon ko'chasi"
+  "review": "OSM node/7188263044"
  },
  {
   "name": "Qilichburxon Buva",
@@ -10973,7 +10973,7 @@
   "district": null,
   "lat": 40.905952,
   "lon": 72.522505,
-  "review": "OSM node/9634793636; Qo'rg'oncha ko'chasi"
+  "review": "OSM node/9634793636"
  },
  {
   "name": "Mirza Qosim xoji jome' masjidi",
@@ -11085,7 +11085,7 @@
   "district": null,
   "lat": 40.916793,
   "lon": 72.358086,
-  "review": "OSM node/7208328103; To'pchinor ulitsa"
+  "review": "OSM node/7208328103"
  },
  {
   "name": "Xaqqulobod jome' masjidi",
@@ -11120,7 +11120,7 @@
   "district": null,
   "lat": 40.922786,
   "lon": 72.329215,
-  "review": "OSM node/7208328102; Uzun ulitsa"
+  "review": "OSM node/7208328102"
  },
  {
   "name": "BEKKET O'G'LI XO'JABEK jome masjidi",
@@ -11148,7 +11148,7 @@
   "district": null,
   "lat": 40.925081,
   "lon": 72.495197,
-  "review": "OSM node/9634793635; Muazzinboy ko'chasi"
+  "review": "OSM node/9634793635"
  },
  {
   "name": "Muxammad Siddiq jome' masjidi",
@@ -11204,7 +11204,7 @@
   "district": null,
   "lat": 40.938871,
   "lon": 72.500964,
-  "review": "OSM way/532833453; Sersuv ko'chasi"
+  "review": "OSM way/532833453"
  },
  {
   "name": "Axmadali jome' masjidi",
@@ -11232,7 +11232,7 @@
   "district": null,
   "lat": 40.946681,
   "lon": 72.3913,
-  "review": "OSM node/7208328100; Paxtaobod ulitsa"
+  "review": "OSM node/7208328100"
  },
  {
   "name": "Yallama jome' masjidi",
@@ -11288,7 +11288,7 @@
   "district": null,
   "lat": 40.957375,
   "lon": 72.491879,
-  "review": "OSM node/9634793638; Ko'kto'nlik ota ko'chasi"
+  "review": "OSM node/9634793638"
  },
  {
   "name": "Yandama jome' masjidi",
@@ -11312,7 +11312,7 @@
   "review": "OSM node/9204266577"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Do'stlik mfy",
   "district": null,
   "lat": 40.963224,
   "lon": 69.049599,
@@ -11333,7 +11333,7 @@
   "review": "OSM node/7138478826"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chorvador mfy",
   "district": null,
   "lat": 40.970325,
   "lon": 68.847347,
@@ -11344,14 +11344,14 @@
   "district": null,
   "lat": 40.9704,
   "lon": 71.692891,
-  "review": "OSM node/10142024854; Beshkapa ko'chasi"
+  "review": "OSM node/10142024854"
  },
  {
   "name": "Imom Husayn jome' masjidi",
   "district": null,
   "lat": 40.970925,
   "lon": 72.220953,
-  "review": "OSM node/7208328099; Xurvodiy ulitsa"
+  "review": "OSM node/7208328099"
  },
  {
   "name": "Masjid",
@@ -11372,7 +11372,7 @@
   "district": null,
   "lat": 40.975321,
   "lon": 70.061508,
-  "review": "OSM node/10059825703; Ziyoratgoh ko'chasi"
+  "review": "OSM node/10059825703"
  },
  {
   "name": "Masjid",
@@ -11414,7 +11414,7 @@
   "district": null,
   "lat": 40.981575,
   "lon": 71.643053,
-  "review": "OSM node/10142024855; Naqshband ko'chasi"
+  "review": "OSM node/10142024855"
  },
  {
   "name": "Axsi jome' masjidi",
@@ -11449,7 +11449,7 @@
   "district": null,
   "lat": 40.984383,
   "lon": 71.717789,
-  "review": "OSM way/711386016; Ashxobod ko'chasi"
+  "review": "OSM way/711386016"
  },
  {
   "name": "Imom al-Buxoriy jome' masjidi",
@@ -11484,14 +11484,14 @@
   "district": null,
   "lat": 40.987782,
   "lon": 71.675651,
-  "review": "OSM way/546838399; Marg'ilon ko'chasi"
+  "review": "OSM way/546838399"
  },
  {
   "name": "Homiddin qori jome' masjidi",
   "district": null,
   "lat": 40.98864,
   "lon": 71.650505,
-  "review": "OSM node/10096016312; Axsi ko'chasi"
+  "review": "OSM node/10096016312"
  },
  {
   "name": "Shahrixonchek jome' masjidi",
@@ -11505,7 +11505,7 @@
   "district": null,
   "lat": 40.989374,
   "lon": 71.69709,
-  "review": "OSM node/10095876738; Shalola ko'chasi"
+  "review": "OSM node/10095876738"
  },
  {
   "name": "Ismat ota jome' masjidi",
@@ -11519,7 +11519,7 @@
   "district": null,
   "lat": 40.989933,
   "lon": 71.673792,
-  "review": "OSM node/10095764368; O'zbekiston ko'chasi"
+  "review": "OSM node/10095764368"
  },
  {
   "name": "Masjid",
@@ -11540,7 +11540,7 @@
   "district": null,
   "lat": 40.991702,
   "lon": 71.687557,
-  "review": "OSM node/10095877686; Langar ko'chasi"
+  "review": "OSM node/10095877686"
  },
  {
   "name": "Masjid",
@@ -11582,14 +11582,14 @@
   "district": null,
   "lat": 40.998502,
   "lon": 71.623668,
-  "review": "OSM node/8538292841; G'alaba ko'chasi"
+  "review": "OSM node/8538292841"
  },
  {
   "name": "Xo'ja Amin jome' masjidi",
   "district": null,
   "lat": 40.998836,
   "lon": 71.68415,
-  "review": "OSM way/625102188; Ko'zagarlik ko'chasi"
+  "review": "OSM way/625102188"
  },
  {
   "name": "IMOM MUHAMMAD jome masjidi",
@@ -11715,7 +11715,7 @@
   "district": null,
   "lat": 41.00768,
   "lon": 71.68651,
-  "review": "OSM node/10147885608; Ismoil Maxdum ko'chasi"
+  "review": "OSM node/10147885608"
  },
  {
   "name": "Devona bobo jome' masjidi",
@@ -11729,7 +11729,7 @@
   "district": null,
   "lat": 41.009412,
   "lon": 71.682376,
-  "review": "OSM node/10147885607; S.Adashev ko'chasi"
+  "review": "OSM node/10147885607"
  },
  {
   "name": "Qirg'izboy o'g'li Egamberdi jome' masjidi",
@@ -11750,14 +11750,14 @@
   "district": null,
   "lat": 41.011288,
   "lon": 71.674822,
-  "review": "OSM way/452580366; Oxunboboyev ko'chasi"
+  "review": "OSM way/452580366"
  },
  {
   "name": "Miryoqubboy Mirxakimboy jome' masjidi",
   "district": null,
   "lat": 41.01279,
   "lon": 71.691264,
-  "review": "OSM node/10095786015; S.Adashev ko'chasi"
+  "review": "OSM node/10095786015"
  },
  {
   "name": "Abu Yusuf jome' masjidi",
@@ -11792,7 +11792,7 @@
   "district": null,
   "lat": 41.016771,
   "lon": 71.71714,
-  "review": "OSM way/1521262817; Qizilravot ko'chasi"
+  "review": "OSM way/1521262817"
  },
  {
   "name": "Amir Xamza Asadulloh jome' masjidi",
@@ -11813,7 +11813,7 @@
   "district": null,
   "lat": 41.021758,
   "lon": 71.665654,
-  "review": "OSM node/10096366612; Chamanzor ko'chasi"
+  "review": "OSM node/10096366612"
  },
  {
   "name": "Muxammad Zarif jome' masjidi",
@@ -11834,7 +11834,7 @@
   "district": null,
   "lat": 41.024406,
   "lon": 71.723358,
-  "review": "OSM node/10147885609; Chortoq ko'chasi"
+  "review": "OSM node/10147885609"
  },
  {
   "name": "Abdulxamid xoji Abduraxmon o'g'li jome' masjidi",
@@ -11883,14 +11883,14 @@
   "district": null,
   "lat": 41.028202,
   "lon": 71.851349,
-  "review": "OSM way/484505510; Navoiy ko'chasi"
+  "review": "OSM way/484505510"
  },
  {
   "name": "Abdulloh ibn Mas'ud jome masjidi",
   "district": null,
   "lat": 41.028311,
   "lon": 71.601044,
-  "review": "OSM node/7579540325; A. Avloniy ko'chasi"
+  "review": "OSM node/7579540325"
  },
  {
   "name": "Soy jome' masjidi",
@@ -11946,14 +11946,14 @@
   "district": null,
   "lat": 41.04195,
   "lon": 71.668904,
-  "review": "OSM way/722224721; Yuqori Bogishamol ko'chasi"
+  "review": "OSM way/722224721"
  },
  {
   "name": "Immatali xoji jome' masjidi",
   "district": null,
   "lat": 41.043351,
   "lon": 72.342903,
-  "review": "OSM node/9634793637; Toshqo'rg'on ko'chasi"
+  "review": "OSM node/9634793637"
  },
  {
   "name": "Kamolxon eshon buva jome' masjidi",
@@ -12023,7 +12023,7 @@
   "district": null,
   "lat": 41.062911,
   "lon": 70.086608,
-  "review": "OSM node/7138458344; Oltinbek ko'chasi"
+  "review": "OSM node/7138458344"
  },
  {
   "name": "Qayqi qishlog'i yangi masjidi",
@@ -12152,7 +12152,7 @@
   "review": "OSM node/7138478851"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Umid mfy",
   "district": null,
   "lat": 41.092437,
   "lon": 68.892611,
@@ -12373,7 +12373,7 @@
   "district": null,
   "lat": 41.162704,
   "lon": 69.671669,
-  "review": "OSM node/7138458345; Bahor ko'chasi"
+  "review": "OSM node/7138458345"
  },
  {
   "name": "Imom Husayn jome' masjidi",
@@ -12397,7 +12397,7 @@
   "review": "OSM node/7138478857"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Chortoq mfy",
   "district": null,
   "lat": 41.172354,
   "lon": 69.228336,
@@ -12635,7 +12635,7 @@
   "review": "OSM way/1519598162"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Bektemir ko'chasi, 46",
   "district": null,
   "lat": 41.228431,
   "lon": 69.335007,
@@ -12747,7 +12747,7 @@
   "review": "OSM way/1099761068"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Kungay mfy",
   "district": null,
   "lat": 41.248505,
   "lon": 69.802529,
@@ -12758,7 +12758,7 @@
   "district": null,
   "lat": 41.250192,
   "lon": 69.156735,
-  "review": "OSM way/405590514; Axunbabaeva ulitsa"
+  "review": "OSM way/405590514"
  },
  {
   "name": "Mulla Raxim qori jome' masjidi",
@@ -12807,7 +12807,7 @@
   "district": null,
   "lat": 41.265077,
   "lon": 69.19561,
-  "review": "OSM way/968696966; Tokzor 2nd passage"
+  "review": "OSM way/968696966"
  },
  {
   "name": "Abbosxon qozi jome' masjidi",
@@ -12821,7 +12821,7 @@
   "district": null,
   "lat": 41.2664,
   "lon": 71.545328,
-  "review": "OSM way/969745046; Guliston"
+  "review": "OSM way/969745046"
  },
  {
   "name": "Umir jome' masjidi",
@@ -12856,7 +12856,7 @@
   "district": null,
   "lat": 41.27747,
   "lon": 69.215189,
-  "review": "OSM way/102381391; Chilonzor ko'chasi"
+  "review": "OSM way/102381391"
  },
  {
   "name": "Anas ibn Malik jome' masjidi",
@@ -12915,7 +12915,7 @@
   "review": "OSM node/10200937679"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Yusuf Sakkokiy 1-tor ko'chasi, 21",
   "district": null,
   "lat": 41.295299,
   "lon": 69.157761,
@@ -13101,7 +13101,7 @@
   "district": null,
   "lat": 41.31828,
   "lon": 69.238298,
-  "review": "OSM way/152789954; Ko'k masjid ko'chasi"
+  "review": "OSM way/152789954"
  },
  {
   "name": "Mahkamboy Hoji ota jome masjidi",
@@ -13111,11 +13111,11 @@
   "review": "OSM way/394001455"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Xamkor ulitsa",
   "district": null,
   "lat": 41.320055,
   "lon": 69.180075,
-  "review": "OSM way/623344041; Xamkor ulitsa"
+  "review": "OSM way/623344041"
  },
  {
   "name": "Sulton Uvays Qoraniy jome' masjidi",
@@ -13129,7 +13129,7 @@
   "district": null,
   "lat": 41.323408,
   "lon": 69.236274,
-  "review": "OSM relation/2324986; Navoiy shoh ko'chasi"
+  "review": "OSM relation/2324986"
  },
  {
   "name": "Xodja Axror Vali",
@@ -13178,7 +13178,7 @@
   "district": null,
   "lat": 41.330975,
   "lon": 69.334424,
-  "review": "OSM way/446799041; Chust ulitsa"
+  "review": "OSM way/446799041"
  },
  {
   "name": "Eshonguzar Mosque",
@@ -13220,14 +13220,14 @@
   "district": null,
   "lat": 41.332087,
   "lon": 69.211505,
-  "review": "OSM way/594620485; Aloka ulitsa"
+  "review": "OSM way/594620485"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Sogban ko'chasi 72",
   "district": null,
   "lat": 41.332275,
   "lon": 69.234797,
-  "review": "OSM way/1138237120; Sogban ko'chasi"
+  "review": "OSM way/1138237120"
  },
  {
   "name": "Mechet",
@@ -13244,7 +13244,7 @@
   "review": "OSM way/200134501"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 41.336337,
   "lon": 60.928336,
@@ -13262,7 +13262,7 @@
   "district": null,
   "lat": 41.336752,
   "lon": 69.239902,
-  "review": "OSM way/141617158; Qorasaroy ko'chasi"
+  "review": "OSM way/141617158"
  },
  {
   "name": "Baroqxon madrasasi",
@@ -13283,14 +13283,14 @@
   "district": null,
   "lat": 41.338178,
   "lon": 69.238076,
-  "review": "OSM way/141624570; Zarqaynar 18-chi berk ko'cha"
+  "review": "OSM way/141624570"
  },
  {
   "name": "Ibroximboy va Orifjonboy",
   "district": null,
   "lat": 41.338914,
   "lon": 69.227589,
-  "review": "OSM way/968139005; Hurriyat ko'cha"
+  "review": "OSM way/968139005"
  },
  {
   "name": "Masjid",
@@ -13318,7 +13318,7 @@
   "district": null,
   "lat": 41.347782,
   "lon": 69.359469,
-  "review": "OSM node/7137204528; Temur Malik ko'chasi"
+  "review": "OSM node/7137204528"
  },
  {
   "name": "Umar ibn Xattob",
@@ -13335,11 +13335,11 @@
   "review": "OSM way/390882916"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Chinabad ulitsa 14",
   "district": null,
   "lat": 41.350854,
   "lon": 69.292293,
-  "review": "OSM way/525984573; Chinabad ulitsa"
+  "review": "OSM way/525984573"
  },
  {
   "name": "Muxammad Sayid ziyoratgohi",
@@ -13349,7 +13349,7 @@
   "review": "OSM way/1290044140"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Oqtosh mfy",
   "district": null,
   "lat": 41.354977,
   "lon": 69.097229,
@@ -13370,11 +13370,11 @@
   "review": "OSM node/7138478798"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Buyuk Ipak Yo'li ko'chasi 499",
   "district": null,
   "lat": 41.35728,
   "lon": 69.394423,
-  "review": "OSM way/331671454; Buyuk Ipak Yo'li ko'chasi"
+  "review": "OSM way/331671454"
  },
  {
   "name": "Yunusabadskiy Mechet",
@@ -13395,7 +13395,7 @@
   "district": null,
   "lat": 41.359666,
   "lon": 69.345764,
-  "review": "OSM way/705324904; Musamuxamedova ulitsa"
+  "review": "OSM way/705324904"
  },
  {
   "name": "Yalang'och ota jome' masjidi",
@@ -13412,18 +13412,18 @@
   "review": "OSM way/362646096"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, Choldaraxt ko'chasi 1",
   "district": null,
   "lat": 41.361627,
   "lon": 69.384703,
-  "review": "OSM way/331671388; Choldaraxt ko'chasi"
+  "review": "OSM way/331671388"
  },
  {
   "name": "Yunusobod-Oqtepa masjidi",
   "district": null,
   "lat": 41.363683,
   "lon": 69.317474,
-  "review": "OSM way/99844939; Chinobod ko'chasi"
+  "review": "OSM way/99844939"
  },
  {
   "name": "Do'rmon jome' masjidi",
@@ -13437,7 +13437,7 @@
   "district": null,
   "lat": 41.364931,
   "lon": 69.217738,
-  "review": "OSM way/394541601; Maxamat Urozboeva"
+  "review": "OSM way/394541601"
  },
  {
   "name": "Hamd jome' masjidi",
@@ -13535,21 +13535,21 @@
   "district": null,
   "lat": 41.380074,
   "lon": 69.135049,
-  "review": "OSM way/854122809; U.Kelesboev 2 tor ko'cha"
+  "review": "OSM way/854122809"
  },
  {
   "name": "Kulol qo'rg'on masjid",
   "district": null,
   "lat": 41.380495,
   "lon": 69.291713,
-  "review": "OSM way/243571770; Kulolkurgon 5-y proezd"
+  "review": "OSM way/243571770"
  },
  {
   "name": "Masjidul Xayr",
   "district": null,
   "lat": 41.381736,
   "lon": 69.315993,
-  "review": "OSM way/444571224; Mirzaobod ulitsa"
+  "review": "OSM way/444571224"
  },
  {
   "name": "Masjid",
@@ -13629,7 +13629,7 @@
   "review": "OSM relation/21077578"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Xiyobon mfy",
   "district": null,
   "lat": 41.409109,
   "lon": 69.21228,
@@ -13846,7 +13846,7 @@
   "review": "OSM node/7138458372"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 41.486523,
   "lon": 60.767661,
@@ -13867,7 +13867,7 @@
   "review": "OSM way/186477038"
  },
  {
-  "name": "jome masjid",
+  "name": "Jome masjid, Uyinkulsang mfy",
   "district": null,
   "lat": 41.497049,
   "lon": 69.670529,
@@ -13923,7 +13923,7 @@
   "review": "OSM way/186989787"
  },
  {
-  "name": "jome masjidi",
+  "name": "Jome masjidi",
   "district": null,
   "lat": 41.532145,
   "lon": 60.337219,
@@ -14228,7 +14228,7 @@
   "district": null,
   "lat": 41.688107,
   "lon": 60.736388,
-  "review": "OSM way/187614544; Shayx Abbaz Vali ko'shesi"
+  "review": "OSM way/187614544"
  },
  {
   "name": "XAMZA MASJID",
@@ -14403,7 +14403,7 @@
   "district": null,
   "lat": 42.113201,
   "lon": 60.058882,
-  "review": "OSM node/7136074340; Tadbirkorlar ko'shesi"
+  "review": "OSM node/7136074340"
  },
  {
   "name": "Nog'ay Iyshan meshiti",
@@ -14480,14 +14480,14 @@
   "district": null,
   "lat": 42.386335,
   "lon": 59.630929,
-  "review": "OSM way/878142912; Toshabbus kóshesi"
+  "review": "OSM way/878142912"
  },
  {
   "name": "Erejep biy baba meshiti",
   "district": null,
   "lat": 42.391573,
   "lon": 59.595077,
-  "review": "OSM way/733349047; Kók saray kóshesi"
+  "review": "OSM way/733349047"
  },
  {
   "name": "Muhammed Karim meshiti",
@@ -14515,7 +14515,7 @@
   "district": null,
   "lat": 42.433645,
   "lon": 59.604904,
-  "review": "OSM way/1082829105; Jeke terek kóshesi"
+  "review": "OSM way/1082829105"
  },
  {
   "name": "Sálmen-Ata Iyshan meshiti",
@@ -14536,14 +14536,14 @@
   "district": null,
   "lat": 42.468997,
   "lon": 59.596344,
-  "review": "OSM way/367758205; Xojeli gúzarı"
+  "review": "OSM way/367758205"
  },
  {
-  "name": "Masjid",
+  "name": "Masjid, A. Dosnazarov gúzarı 319 А",
   "district": null,
   "lat": 42.515501,
   "lon": 59.603497,
-  "review": "OSM way/997979328; A. Dosnazarov gúzarı"
+  "review": "OSM way/997979328"
  },
  {
   "name": "Kamal axun meshiti",
