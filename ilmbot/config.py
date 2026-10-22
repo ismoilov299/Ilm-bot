@@ -2,6 +2,7 @@
 
 from functools import lru_cache
 from typing import Annotated
+from urllib.parse import urlsplit
 
 from pydantic import field_validator
 from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
@@ -11,6 +12,8 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     bot_token: str = ""
+    mini_app_url: str = ""  # ochiq HTTPS manzil, masalan https://ilm.example/app
+    mini_app_auth_max_age: int = 3600
     content_channel: str = "@testislomyolida"
     protect_content: bool = True  # yuborilgan postlarni qayta yuborish/saqlashni cheklash
     database_url: str = "postgresql+asyncpg://ilmbot:ilmbot@localhost:5432/ilmbot"
@@ -27,6 +30,23 @@ class Settings(BaseSettings):
     web_host: str = "127.0.0.1"
     web_port: int = 8000
     log_level: str = "INFO"
+
+    @field_validator("mini_app_url")
+    @classmethod
+    def _mini_app_url(cls, value: str) -> str:
+        value = value.strip()
+        if value:
+            parsed = urlsplit(value)
+            if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or parsed.fragment:
+                raise ValueError("MINI_APP_URL ochiq HTTPS manzil bo'lishi kerak")
+        return value
+
+    @field_validator("mini_app_auth_max_age")
+    @classmethod
+    def _auth_age(cls, value: int) -> int:
+        if not 60 <= value <= 86400:
+            raise ValueError("MINI_APP_AUTH_MAX_AGE 60–86400 soniya bo'lishi kerak")
+        return value
 
     @field_validator("admins", mode="before")
     @classmethod
