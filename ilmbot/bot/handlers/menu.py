@@ -1,15 +1,16 @@
 """Menyu: matn orqali reply klaviatura bo'limlari va inline ro'yxatlar."""
 
+from collections.abc import Awaitable, Callable
 from html import escape
 
 from aiogram import Bot, F, Router
-from aiogram.exceptions import TelegramBadRequest
-from aiogram.types import CallbackQuery, InlineKeyboardMarkup, Message
+from aiogram.types import CallbackQuery, Message
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ilmbot.bot import texts
 from ilmbot.bot.callbacks import NodeCb
 from ilmbot.bot.keyboards import MAX_REPLY_BUTTONS, inline_list, reply_menu
+from ilmbot.bot.messaging import answer_text, edit_text
 from ilmbot.db.models import ButtonKind
 from ilmbot.integrations.telegram_content import ContentSender
 from ilmbot.services.menu import MenuService, MenuSnapshot, Node, normalize
@@ -22,30 +23,6 @@ def _title(node: Node) -> str:
     return node.text or escape(node.name)
 
 
-def _is_parse_error(exc: TelegramBadRequest) -> bool:
-    return "can't parse entities" in str(exc)
-
-
-async def _answer(message: Message, text: str, **kwargs) -> None:
-    try:
-        await message.answer(text, **kwargs)
-    except TelegramBadRequest as exc:
-        if not _is_parse_error(exc):
-            raise
-        await message.answer(text, parse_mode=None, **kwargs)  # admin matnidagi HTML xatosi botni to'xtatmasin
-
-
-async def _edit(message: Message, text: str, reply_markup: InlineKeyboardMarkup) -> None:
-    try:
-        await message.edit_text(text, reply_markup=reply_markup)
-    except TelegramBadRequest as exc:
-        if "message is not modified" in str(exc):
-            return
-        if not _is_parse_error(exc):
-            raise
-        await message.edit_text(text, reply_markup=reply_markup, parse_mode=None)
-
-
 async def send_menu(message: Message, snapshot: MenuSnapshot, nav: NavigationState, user_id: int, node: Node | None):
     """Reply klaviatura bilan bo'lim (yoki `node=None` bo'lsa bosh menyu) ko'rsatadi va joriy o'rinni eslab qoladi."""
     children = snapshot.roots if node is None else snapshot.children(node.id)
@@ -54,7 +31,7 @@ async def send_menu(message: Message, snapshot: MenuSnapshot, nav: NavigationSta
         return
     await nav.set(user_id, None if node is None else node.id)
     title = texts.CHOOSE_SECTION if node is None else _title(node)
-    await _answer(message, title, reply_markup=reply_menu(children, back=node is not None))
+    await answer_text(message, title, reply_markup=reply_menu(children, back=node is not None))
 
 
 async def send_list(message: Message, snapshot: MenuSnapshot, node: Node, *, page: int = 1, back_to: int | None = None):
@@ -62,7 +39,7 @@ async def send_list(message: Message, snapshot: MenuSnapshot, node: Node, *, pag
     if not children:
         await message.answer(texts.SECTION_EMPTY)
         return
-    await _answer(message, _title(node), reply_markup=inline_list(node, children, page=page, back_to=back_to))
+    await answer_text(message, _title(node), reply_markup=inline_list(node, children, page=page, back_to=back_to))
 
 
 async def send_posts(bot: Bot, content: ContentSender, chat_id: int, node: Node) -> None:
@@ -79,6 +56,18 @@ def _back_target(snapshot: MenuSnapshot, node: Node) -> int | None:
     return parent.id if parent is not None and parent.kind == ButtonKind.LIST else None
 
 
+# `action` turidagi tugunlar uchun: amal nomi -> (xabar, sessiya, foydalanuvchi ID) qabul qiluvchi funksiya
+Actions = dict[str, Callable[[Message, AsyncSession, int], Awaitable[None]]]
+
+
+async def run_action(message: Message, node: Node, session: AsyncSession, actions: Actions, user_id: int) -> None:
+    handler = actions.get(node.action or "")
+    if handler is None:
+        await message.answer(texts.COMING_SOON)  # amal hali amalga oshirilmagan
+        return
+    await handler(message, session, user_id)
+
+
 async def open_node(
     message: Message,
     snapshot: MenuSnapshot,
@@ -87,6 +76,8 @@ async def open_node(
     bot: Bot,
     nav: NavigationState,
     content: ContentSender,
+    session: AsyncSession,
+    actions: Actions,
     user_id: int,
 ) -> None:
     """Reply klaviatura (matn) orqali tanlangan tugunni ochadi."""
@@ -100,7 +91,7 @@ async def open_node(
     elif node.kind == ButtonKind.POST:
         await send_posts(bot, content, user_id, node)
     else:
-        await message.answer(texts.COMING_SOON)
+        await run_action(message, node, session, actions, user_id)
 
 
 async def go_back(message: Message, snapshot: MenuSnapshot, nav: NavigationState, user_id: int, current: Node | None):
@@ -119,6 +110,7 @@ async def on_text(
     nav: NavigationState,
     users: UserService,
     content: ContentSender,
+    actions: Actions,
 ):
     user = message.from_user
     await users.touch(session, user.id, user.full_name)
@@ -137,7 +129,9 @@ async def on_text(
         children = snapshot.children(parent_id)
         await message.answer(texts.NOT_UNDERSTOOD, reply_markup=reply_menu(children, back=current is not None))
         return
-    await open_node(message, snapshot, node, bot=bot, nav=nav, content=content, user_id=user.id)
+    await open_node(
+        message, snapshot, node, bot=bot, nav=nav, content=content, session=session, actions=actions, user_id=user.id
+    )
 
 
 async def on_node_callback(
@@ -148,6 +142,7 @@ async def on_node_callback(
     menu: MenuService,
     nav: NavigationState,
     content: ContentSender,
+    actions: Actions,
 ):
     if callback_data.act == "x":
         await callback.answer()
@@ -166,7 +161,7 @@ async def on_node_callback(
             await message.answer(texts.SECTION_EMPTY)
             return
         markup = inline_list(node, children, page=callback_data.page, back_to=_back_target(snapshot, node))
-        await _edit(message, _title(node), markup)
+        await edit_text(message, _title(node), markup)
         return
 
     user_id = callback.from_user.id  # act == "o": ro'yxatdagi elementni ochish
@@ -175,13 +170,13 @@ async def on_node_callback(
         if not children:
             await message.answer(texts.SECTION_EMPTY)
             return
-        await _edit(message, _title(node), inline_list(node, children, back_to=_back_target(snapshot, node)))
+        await edit_text(message, _title(node), inline_list(node, children, back_to=_back_target(snapshot, node)))
     elif node.kind == ButtonKind.POST:
         await send_posts(bot, content, user_id, node)
     elif node.kind == ButtonKind.MENU:
         await send_menu(message, snapshot, nav, user_id, node)
     else:
-        await message.answer(texts.COMING_SOON)
+        await run_action(message, node, session, actions, user_id)
 
 
 async def on_unknown_callback(callback: CallbackQuery):

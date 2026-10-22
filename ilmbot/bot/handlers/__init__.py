@@ -1,6 +1,6 @@
 from aiogram import Router
 
-from ilmbot.bot.handlers import errors, menu, start
+from ilmbot.bot.handlers import errors, menu, prayer, start
 
 
 def create_routers() -> list[Router]:
@@ -8,4 +8,4 @@ def create_routers() -> list[Router]:
 
     Tartib muhim: `menu` dagi umumiy matn handleri oxirida turishi kerak.
     """
-    return [errors.create_router(), start.create_router(), menu.create_router()]
+    return [errors.create_router(), start.create_router(), prayer.create_router(), menu.create_router()]

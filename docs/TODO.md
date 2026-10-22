@@ -103,18 +103,19 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 - [ ] Menyu o'zgarganda keshni tozalash
 - [ ] **Tayyorlik:** `review` tugunlarini panel orqali tuzatish mumkin; xavfsizlik testlari yashil
 
-## 6. Bosqich 3: Namoz vaqtlari va eslatmalar
+## 6. Bosqich 3: Namoz vaqtlari va eslatmalar (kod tayyor 2026-10-22)
 
-- [ ] `integrations/prayer_calc.py`: hisoblash (`scratchpad/pt.py` asosida), parametrlar bitta joyda
-- [ ] `PrayerTimeProvider` interfeysi, `ComputedProvider`, ixtiyoriy `IslomApiProvider` (faqat solishtirish uchun)
-- [ ] Regression test: v1 dagi 13 shahar × 245 kun jadvali (~19 000 nuqta; 1–2 ta buzilgan qatorni chiqarib tashlash)
-- [ ] Worker: kunlik hisoblash/yozish, ishga tushganda yo'q bo'lsa to'ldirish
-- [ ] Region tanlash **saqlanadi** (eski kodda saqlanmasdi), eslatmani yoqish/o'chirish
-- [ ] Daqiqalik rejalashtirgich (`Asia/Tashkent`), `reminder_runs` bilan takrorlanmaslik va davom ettirish
-- [ ] `TelegramSender` + Redis token-bucket (umumiy limit ~25/s worker, qolgani bot uchun)
-- [ ] `Forbidden` → `is_blocked`, `RetryAfter` → kutish
-- [ ] Xabar matniga namoz vaqti yozish ("Bomdod: 05:02")
-- [ ] **Tayyorlik:** soxta soat bilan test; test botda obunachilarga o'z vaqtida eslatma; 10 000 soxta qabul qiluvchi bilan yuk testi
+- [x] `ilmbot/integrations/prayer_calc.py`: hisoblash, parametrlar bitta joyda. Tashqi API va provayder interfeysi kerak bo'lmadi
+- [x] Regression test: 13 shahar x ~245 kun (3183 qator, 19 098 nuqta), hammasi +-1 daqiqa; `tests/fixtures/prayer_times_2022.csv`
+- [x] `PrayerService`: bugun va keyingi kunlar uchun yozish, qo'lda kiritilganlarga tegmaydi, yo'q kunni hisoblab beradi
+- [x] Botda "Namoz vaqtlari": shahar tanlash, bugungi vaqtlar, eslatmani yoqish/o'chirish. **Shahar endi saqlanadi**
+- [x] Worker (`python -m ilmbot.worker`): daqiqalik sikl (`Asia/Tashkent`), `reminder_runs` bilan takrorlanmaslik va davom ettirish,
+      3 daqiqalik kechikish chegarasi, bo'laklab yuborish
+- [x] `TelegramSender` + Redis tezlik cheklovchi (worker ~25/s), `Forbidden` -> `is_blocked`, `RetryAfter` -> kutish
+- [x] Xabarda vaqt yoziladi ("Bomdod: 05:02")
+- [ ] Jonli sinov: eslatmani yoqib, haqiqiy vaqtda kelishini kuzatish
+- [ ] 10 000 obunachi bilan yuk testi (hozir 1500 soxta qabul qiluvchi bilan sinalgan)
+- [ ] Joriy (2026) rasmiy jadval bilan qo'lda solishtirish (siz)
 
 ## 7. Bosqich 4: Masjidlar va broadcast
 

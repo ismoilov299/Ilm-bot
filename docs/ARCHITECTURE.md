@@ -43,7 +43,7 @@ Mikroservislar, webhook, bir nechta tilda interfeys, to'lov, foydalanuvchi akkau
 | 6 | **RabbitMQ yo'q** | Bitta iste'molchi, minglab xabar. Navbat PostgreSQL jadvalida | RabbitMQ/Celery: ortiqcha infratuzilma, foyda yo'q |
 | 7 | **Polling**, webhook'ga o'tish yo'li ochiq | 10 mingda polling yetadi. FastAPI allaqachon bor | Webhook: HTTPS, domen kerak; hozir keraksiz |
 | 8 | **Modulli monolit** | Bitta kod bazasi, uchta jarayon | Mikroservislar: bu hajm uchun ortiqcha |
-| 9 | **httpx** (async), **pydantic-settings**, **APScheduler 3.11** | `requests` bloklaydi; `environs` o'rniga yagona tiplangan konfig; daqiqada bitta job uchun yetadi | arq/taskiq: hozircha ortiqcha |
+| 9 | **httpx** (async), **pydantic-settings**, oddiy daqiqalik sikl (asyncio) | `requests` bloklaydi; `environs` o'rniga yagona tiplangan konfig; kutubxonasiz daqiqalik sikl sodda va testlanadi (APScheduler olib tashlandi) | arq/taskiq: hozircha ortiqcha |
 
 ## 3. Jarayonlar
 

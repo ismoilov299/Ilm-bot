@@ -7,7 +7,6 @@ requires-python = ">=3.12,<3.13"
 dependencies = [
     "aiogram==3.31.0",
     "alembic>=1.16",
-    "apscheduler==3.11.3",
     "asyncpg>=0.30",
     "fastapi>=0.115",
     "httpx>=0.28",
@@ -17,6 +16,7 @@ dependencies = [
     "python-multipart>=0.0.20",
     "redis>=6",
     "sqlalchemy[asyncio]>=2.0.40",
+    "tzdata>=2025.2",
     "uvicorn>=0.34",
 ]
 

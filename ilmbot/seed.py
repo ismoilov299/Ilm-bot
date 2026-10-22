@@ -7,7 +7,7 @@ Seed **idempotent va buzmaydi**: faqat yo'q yozuvlarni qo'shadi, mavjudlarini
 import json
 from pathlib import Path
 
-from sqlalchemy import select
+from sqlalchemy import insert, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ilmbot.db.models import Button, ButtonPost, Mosque, Region
@@ -49,35 +49,46 @@ async def seed_menu(session: AsyncSession) -> int:
     """`menu_seed.json` tugunlarini `legacy_key` bo'yicha qo'shadi. Ota-tugunlar ikkinchi o'tishda bog'lanadi."""
     nodes = load_seed("menu_seed.json")["nodes"]
     key_to_id = {key: id_ for key, id_ in (await session.execute(select(Button.legacy_key, Button.id))).all() if key}
+    new_nodes = [node for node in nodes if node["key"] not in key_to_id]
+    if not new_nodes:
+        return 0
 
-    created: list[tuple[Button, dict]] = []
-    for node in nodes:
-        if node["key"] in key_to_id:
-            continue
-        button = Button(
-            name=node["name"],
-            kind=node["kind"],
-            action=node.get("action"),
-            text=node.get("text") or "",
-            position=node["position"],
-            legacy_key=node["key"],
-            review_note=node.get("review"),
-        )
-        button.posts = [ButtonPost(position=i, message_id=mid) for i, mid in enumerate(node["message_ids"], start=1)]
-        session.add(button)
-        created.append((button, node))
-    await session.flush()
+    rows = [
+        {
+            "name": node["name"],
+            "kind": node["kind"],
+            "action": node.get("action"),
+            "text": node.get("text") or "",
+            "position": node["position"],
+            "legacy_key": node["key"],
+            "review_note": node.get("review"),
+        }
+        for node in new_nodes
+    ]
+    # Ommaviy yozish (yuzlab tugunni bittadan yozishdan ancha tez); qaytgan ID lar kiritilish tartibida
+    result = await session.execute(insert(Button).returning(Button.id, sort_by_parameter_order=True), rows)
+    for node, button_id in zip(new_nodes, result.scalars().all(), strict=True):
+        key_to_id[node["key"]] = button_id
 
-    key_to_id.update({node["key"]: button.id for button, node in created})
-    for button, node in created:
-        parent_key = node["parent"]
-        if parent_key is None:
+    parents = []
+    for node in new_nodes:
+        if node["parent"] is None:
             continue
-        if parent_key not in key_to_id:
-            raise ValueError(f"seed: {node['key']!r} uchun ota-tugun {parent_key!r} topilmadi")
-        button.parent_id = key_to_id[parent_key]
+        if node["parent"] not in key_to_id:
+            raise ValueError(f"seed: {node['key']!r} uchun ota-tugun {node['parent']!r} topilmadi")
+        parents.append({"id": key_to_id[node["key"]], "parent_id": key_to_id[node["parent"]]})
+    if parents:
+        await session.execute(update(Button), parents)
+
+    posts = [
+        {"button_id": key_to_id[node["key"]], "position": index, "message_id": message_id}
+        for node in new_nodes
+        for index, message_id in enumerate(node["message_ids"], start=1)
+    ]
+    if posts:
+        await session.execute(insert(ButtonPost), posts)
     await session.flush()
-    return len(created)
+    return len(new_nodes)
 
 
 async def seed_all(session: AsyncSession) -> dict[str, int]:

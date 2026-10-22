@@ -7,3 +7,16 @@ class NodeCb(CallbackData, prefix="n"):
     act: str
     id: int
     page: int = 1
+
+
+class RegionCb(CallbackData, prefix="r"):
+    """Namoz vaqtlari uchun region tanlash. `id=0`: shaharlar ro'yxatini ko'rsatish."""
+
+    id: int
+
+
+class ReminderCb(CallbackData, prefix="rm"):
+    """Kunlik eslatmani yoqish (`on=True`) yoki o'chirish."""
+
+    region_id: int
+    on: bool

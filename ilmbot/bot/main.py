@@ -1,4 +1,7 @@
+import datetime as dt
 import logging
+from collections.abc import Callable
+from zoneinfo import ZoneInfo
 
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
@@ -8,12 +11,15 @@ from redis.asyncio import Redis
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
 from ilmbot.bot.handlers import create_routers
+from ilmbot.bot.handlers.prayer import make_prayer_action
 from ilmbot.bot.middlewares import DbSessionMiddleware, ThrottlingMiddleware
 from ilmbot.config import Settings, get_settings
 from ilmbot.db import make_engine, make_sessionmaker
+from ilmbot.db.models import ButtonAction
 from ilmbot.integrations.telegram_content import ContentSender
 from ilmbot.services.menu import MenuService
 from ilmbot.services.navigation import NavigationState
+from ilmbot.services.prayers import PrayerService
 from ilmbot.services.users import UserService
 
 COMMANDS = [
@@ -28,17 +34,24 @@ def create_dispatcher(
     redis: Redis,
     settings: Settings,
     throttle_interval: float = 0.6,
+    clock: Callable[[], dt.datetime] | None = None,
 ) -> Dispatcher:
     """Global holatsiz: har bir bog'liqlik shu yerda beriladi (testlarda ham shu funksiya ishlatiladi)."""
     dp = Dispatcher()
     # Sessiya ochishdan oldin: tashlangan so'rovlar bazaga tegmaydi
     dp.update.outer_middleware(ThrottlingMiddleware(redis, interval=throttle_interval))
     dp.update.outer_middleware(DbSessionMiddleware(sessionmaker))
+    tz = ZoneInfo(settings.timezone)
+    clock = clock or (lambda: dt.datetime.now(tz))
+    users, prayers = UserService(), PrayerService()
     dp.workflow_data.update(
         menu=MenuService(),
         nav=NavigationState(redis),
-        users=UserService(),
+        users=users,
+        prayers=prayers,
+        clock=clock,
         content=ContentSender(settings.content_channel, settings.protect_content),
+        actions={ButtonAction.PRAYER_TIMES.value: make_prayer_action(prayers, users, clock)},
     )
     dp.include_routers(*create_routers())
     return dp
