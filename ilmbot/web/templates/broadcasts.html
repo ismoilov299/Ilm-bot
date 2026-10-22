@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Broadcast{% endblock %}
+{% block content %}
+<h1>Broadcast</h1>
+<p><a class="btn" href="/broadcasts/new">Yangi broadcast</a></p>
+
+<div class="card">
+  {% if jobs %}
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>Sana</th><th>Tur</th><th>Holat</th><th>Natija</th></tr></thead>
+      <tbody>
+        {% for job in jobs %}
+          <tr>
+            <td><a href="/broadcasts/{{ job.id }}">#{{ job.id }}</a></td>
+            <td>{{ job.created_at | localtime }}</td>
+            <td>{{ 'matn' if job.text is not none else 'kanal posti' }}{% if job.is_test %} · sinov{% endif %}</td>
+            <td><span class="badge {{ job.status }}">{{ job.status }}</span></td>
+            <td>{{ job.sent }} / {{ job.total }}{% if job.blocked %} · bloklagan {{ job.blocked }}{% endif %}{% if job.failed %} · xato {{ job.failed }}{% endif %}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+    <p class="muted">Hali broadcast yuborilmagan.</p>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf, flash %}
+{% block title %}Vaqtlarni tahrirlash{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/prayer-times?date={{ day }}">Namoz vaqtlari</a> › {{ region.name }}</div>
+<h1>{{ region.name }}, {{ day.strftime("%d.%m.%Y") }}</h1>
+{{ flash(None, error) }}
+<p class="muted">Manba: {{ "qo'lda kiritilgan" if row.source == 'manual' else "hisoblangan" }}. Vaqtlar o'sib borishi kerak.</p>
+
+<form method="post" action="/prayer-times/{{ region.id }}/{{ day }}" class="card">
+  {{ csrf(admin) }}
+  <div class="times">
+    {% for name in prayers %}
+      <div>
+        <label for="{{ name }}">{{ labels[name] }}</label>
+        <input id="{{ name }}" name="{{ name }}" type="time" required value="{{ values[name] }}">
+      </div>
+    {% endfor %}
+  </div>
+  <div class="actions"><button type="submit">Qo'lda saqlash</button><a class="btn secondary" href="/prayer-times?date={{ day }}">Bekor qilish</a></div>
+</form>
+
+{% if row.source == 'manual' %}
+<form method="post" action="/prayer-times/{{ region.id }}/{{ day }}/reset" class="card">
+  {{ csrf(admin) }}
+  <p>Qo'lda kiritilgan qiymatni o'chirib, hisoblangan vaqtga qaytarish:</p>
+  <button type="submit" class="secondary">Hisoblangan qiymatga qaytarish</button>
+</form>
+{% endif %}
+{% endblock %}

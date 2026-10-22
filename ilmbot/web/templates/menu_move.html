@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf %}
+{% block title %}Ko'chirish{% endblock %}
+{% block content %}
+<h1>«{{ node.name }}» ni ko'chirish</h1>
+<p class="muted">Hozirgi joyi: {{ current }}</p>
+
+<form method="get" class="card toolbar">
+  <div><label for="q">Yangi bo'limni nomi bo'yicha qidiring</label><input id="q" name="q" type="text" value="{{ q }}" autofocus></div>
+  <button type="submit">Qidirish</button>
+</form>
+
+<div class="card">
+  <form method="post" action="/menu/{{ node.id }}/move">
+    {{ csrf(admin) }}<input type="hidden" name="new_parent" value="">
+    <button type="submit" class="secondary">Bosh menyuga (ildizga) ko'chirish</button>
+  </form>
+</div>
+
+{% if q %}
+<div class="card">
+  {% if results %}
+    <table>
+      <thead><tr><th>Bo'lim</th><th>Turi</th><th></th></tr></thead>
+      <tbody>
+      {% for item, path in results %}
+        <tr>
+          <td>{{ path }}</td><td>{{ item.kind }}</td>
+          <td>
+            {% if item.id != node.id %}
+            <form method="post" action="/menu/{{ node.id }}/move">
+              {{ csrf(admin) }}<input type="hidden" name="new_parent" value="{{ item.id }}">
+              <button type="submit" class="small">Shu yerga ko'chirish</button>
+            </form>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="muted">Hech narsa topilmadi. Faqat «Menyu» va «Ro'yxat» turidagi bo'limlar ko'rsatiladi.</p>
+  {% endif %}
+</div>
+{% endif %}
+<p><a href="/menu/{{ node.id }}/edit">← Orqaga</a></p>
+{% endblock %}

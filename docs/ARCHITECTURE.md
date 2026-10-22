@@ -43,7 +43,7 @@ Mikroservislar, webhook, bir nechta tilda interfeys, to'lov, foydalanuvchi akkau
 | 6 | **RabbitMQ yo'q** | Bitta iste'molchi, minglab xabar. Navbat PostgreSQL jadvalida | RabbitMQ/Celery: ortiqcha infratuzilma, foyda yo'q |
 | 7 | **Polling**, webhook'ga o'tish yo'li ochiq | 10 mingda polling yetadi. FastAPI allaqachon bor | Webhook: HTTPS, domen kerak; hozir keraksiz |
 | 8 | **Modulli monolit** | Bitta kod bazasi, uchta jarayon | Mikroservislar: bu hajm uchun ortiqcha |
-| 9 | **httpx** (async), **pydantic-settings**, **APScheduler 3.11** | `requests` bloklaydi; `environs` o'rniga yagona tiplangan konfig; daqiqada bitta job uchun yetadi | arq/taskiq: hozircha ortiqcha |
+| 9 | **httpx** (async), **pydantic-settings**, oddiy daqiqalik sikl (asyncio) | `requests` bloklaydi; `environs` o'rniga yagona tiplangan konfig; kutubxonasiz daqiqalik sikl sodda va testlanadi (APScheduler olib tashlandi) | arq/taskiq: hozircha ortiqcha |
 
 ## 3. Jarayonlar
 
@@ -181,7 +181,8 @@ faqat 2023-03-19 dagi bitta commitda modelda bor). Ko'chirilmaydi.
   `list` tugmalari esa ID bilan keladi (ikki ma'noli bo'lolmaydi).
 - `CallbackData` klasslari (tiplangan, prefiksli). `lambda c: True` kabi hamma narsani ushlaydigan handler yo'q.
   `callback_data` 64 baytdan oshmasligi testda tekshiriladi.
-- Menyu daraxti Redis'da keshlanadi (TTL 60 s). Admin panel tahrirlaganda kesh tozalanadi.
+- Menyu daraxti har jarayonning xotirasida 60 s keshlanadi (~800 tugun, hajmi kichik). Admin panel alohida jarayon bo'lgani uchun
+  o'zgarishlar eng ko'pi 60 s da ko'rinadi; zarur bo'lsa keyin Redis pub/sub bilan darhol bekor qilinadi.
 
 ### 6.2 Namoz vaqtlari
 - **Asosiy manba: mahalliy hisoblash, tashqi API yo'q.** `islomapi.uz` 2026-10-21 da butun domen bo'yicha `502` qaytardi, hujjatlashtirilgan

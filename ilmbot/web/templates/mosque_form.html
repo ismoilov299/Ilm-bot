@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf, flash %}
+{% block title %}{{ "Masjidni tahrirlash" if mosque else "Yangi masjid" }}{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/mosques">Masjidlar</a> › {{ mosque.name if mosque else "Yangi" }}</div>
+<h1>{{ "Masjidni tahrirlash" if mosque else "Yangi masjid" }}</h1>
+{{ flash(None, error) }}
+{% if mosque and mosque.review_note %}<div class="notice">Tekshirish kerak: {{ mosque.review_note }}</div>{% endif %}
+
+<form method="post" action="{{ '/mosques/' ~ mosque.id if mosque else '/mosques/new' }}" class="card">
+  {{ csrf(admin) }}
+  <label for="name">Nomi</label>
+  <input id="name" name="name" type="text" maxlength="255" value="{{ form.name }}" required>
+  <label for="district">Tuman</label>
+  <input id="district" name="district" type="text" maxlength="64" value="{{ form.district }}">
+  <div class="times">
+    <div><label for="lat">Kenglik (lat)</label><input id="lat" name="lat" type="text" inputmode="decimal" value="{{ form.lat }}" required></div>
+    <div><label for="lon">Uzunlik (lon)</label><input id="lon" name="lon" type="text" inputmode="decimal" value="{{ form.lon }}" required></div>
+  </div>
+  <p class="hint">Koordinatani Google Maps da joyni o'ng tugma bilan bosib nusxalash mumkin (masalan, 41.2995, 69.2401).</p>
+  <label class="check"><input type="checkbox" name="is_active" value="1" {{ 'checked' if form.is_active }}> Botda ko'rsatilsin</label>
+  {% if mosque and mosque.review_note %}<label class="check"><input type="checkbox" name="resolved" value="1"> Tekshirdim, belgini olib tashlash</label>{% endif %}
+  <div class="actions"><button type="submit">Saqlash</button><a class="btn secondary" href="/mosques">Bekor qilish</a></div>
+</form>
+
+{% if mosque %}
+<form method="post" action="/mosques/{{ mosque.id }}/delete" class="card">
+  {{ csrf(admin) }}
+  <p>Masjidni butunlay o'chirish (qaytarib bo'lmaydi). Vaqtincha yashirish uchun yuqoridagi «Botda ko'rsatilsin» ni o'chiring.</p>
+  <button type="submit" class="danger">O'chirish</button>
+</form>
+{% endif %}
+{% endblock %}

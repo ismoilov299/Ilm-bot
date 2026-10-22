@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf %}
+{% block title %}Postni biriktirish{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/inventory">Kanal postlari</a> › #{{ post.id }}</div>
+<h1>Post #{{ post.id }}</h1>
+<div class="card">
+  <p>{{ post.title }}</p>
+  <p class="muted">{{ post.type }} · {{ post.date }}{% if link %} · <a href="{{ link }}" target="_blank" rel="noopener noreferrer">Telegramda ochish</a>{% endif %}</p>
+</div>
+
+<form method="get" class="card toolbar">
+  <div><label for="q">Qaysi tugmaga qo'shamiz? Nomi bo'yicha qidiring</label><input id="q" name="q" type="text" value="{{ q }}" autofocus></div>
+  <button type="submit">Qidirish</button>
+</form>
+
+{% if q %}
+<div class="card">
+  {% if results %}
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Tugun</th><th>Turi</th><th></th></tr></thead>
+      <tbody>
+      {% for node, path in results %}
+        <tr>
+          <td>{{ path }}</td>
+          <td>{{ node.kind }}</td>
+          <td>
+            {% if node.kind == 'post' %}
+              <form method="post" action="/inventory/{{ post.id }}/assign" class="row-actions">
+                {{ csrf(admin) }}<input type="hidden" name="node_id" value="{{ node.id }}"><input type="hidden" name="mode" value="attach">
+                <button class="small" type="submit">Shu tugunga qo'shish</button>
+              </form>
+            {% else %}
+              <form method="post" action="/inventory/{{ post.id }}/assign" class="row-actions">
+                {{ csrf(admin) }}<input type="hidden" name="node_id" value="{{ node.id }}"><input type="hidden" name="mode" value="child">
+                <input type="text" name="name" value="{{ post.title[:80] }}" aria-label="Yangi tugma nomi" maxlength="255">
+                <button class="small" type="submit">Yangi tugma sifatida qo'shish</button>
+              </form>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+    <p class="muted">Hech narsa topilmadi.</p>
+  {% endif %}
+</div>
+{% endif %}
+<p class="hint">«Post» turidagi tugunga qo'shilsa, tugma bosilganda shu post ham yuboriladi. «Menyu»/«Ro'yxat» bo'limiga esa yangi tugma sifatida qo'shiladi.</p>
+{% endblock %}

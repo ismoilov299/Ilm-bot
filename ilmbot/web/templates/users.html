@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pager %}
+{% block title %}Foydalanuvchilar{% endblock %}
+{% block content %}
+<h1>Foydalanuvchilar</h1>
+
+<form method="get" class="card toolbar">
+  <div><label for="q">Ism yoki Telegram ID</label><input id="q" name="q" type="text" value="{{ q }}"></div>
+  <div>
+    <label for="filter">Holat</label>
+    <select id="filter" name="filter">
+      {% for value, label in filters.items() %}<option value="{{ value }}" {{ 'selected' if flt == value }}>{{ label }}</option>{% endfor %}
+    </select>
+  </div>
+  <button type="submit">Qidirish</button>
+</form>
+
+<p class="muted">Topildi: {{ total }}</p>
+<div class="card">
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Telegram ID</th><th>Ism</th><th>Shahar</th><th>Eslatma</th><th>Holat</th><th>Qo'shilgan</th><th>Oxirgi faollik</th></tr></thead>
+      <tbody>
+      {% for user, region in rows %}
+        <tr>
+          <td class="num">{{ user.id }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ region or "-" }}</td>
+          <td>{{ "yoqilgan" if user.subscribed else "-" }}</td>
+          <td>{% if user.is_blocked %}<span class="badge cancelled">bloklagan</span>{% else %}<span class="badge running">faol</span>{% endif %}</td>
+          <td>{{ user.created_at | localtime }}</td>
+          <td>{{ user.last_seen_at | localtime }}</td>
+        </tr>
+      {% else %}
+        <tr><td colspan="7" class="muted">Foydalanuvchi topilmadi.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{{ pager(page, pages, "/users?q=" ~ (q | urlencode) ~ "&filter=" ~ flt ~ "&") }}
+{% endblock %}

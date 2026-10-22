@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf %}
+{% block title %}Masjidlar{% endblock %}
+{% block content %}
+<h1>Masjidlar</h1>
+<p><a class="btn" href="/mosques/new">Yangi masjid</a></p>
+
+<form method="get" class="card toolbar">
+  <div>
+    <label for="district">Tuman</label>
+    <select id="district" name="district">
+      <option value="">Hammasi</option>
+      {% for d in districts %}<option value="{{ d }}" {{ 'selected' if district == d }}>{{ d }}</option>{% endfor %}
+    </select>
+  </div>
+  <div><label for="q">Nomi</label><input id="q" name="q" type="text" value="{{ q }}"></div>
+  <label class="check"><input type="checkbox" name="review" value="1" {{ 'checked' if review }}> Faqat tekshirish kerakligi</label>
+  <button type="submit">Filtrlash</button>
+</form>
+
+<p class="muted">Topildi: {{ items | length }}</p>
+<div class="card">
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Nomi</th><th>Tuman</th><th>Koordinata</th><th>Holat</th><th></th></tr></thead>
+      <tbody>
+      {% for m in items %}
+        <tr>
+          <td>{{ m.name }} {% if m.review_note %}<span class="badge review" title="{{ m.review_note }}">tekshirish</span>{% endif %}</td>
+          <td>{{ m.district or "-" }}</td>
+          <td class="num">{{ "%.5f"|format(m.lat) }}, {{ "%.5f"|format(m.lon) }}</td>
+          <td>{% if m.is_active %}<span class="badge running">faol</span>{% else %}<span class="badge off">yashirin</span>{% endif %}</td>
+          <td><a class="btn small secondary" href="/mosques/{{ m.id }}">Tahrirlash</a></td>
+        </tr>
+      {% else %}
+        <tr><td colspan="5" class="muted">Masjid topilmadi.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

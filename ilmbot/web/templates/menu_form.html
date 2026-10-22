@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf, flash %}
+{% block title %}{{ "Tahrirlash" if node else "Yangi tugun" }}{% endblock %}
+{% block content %}
+<div class="crumbs">
+  <a href="/menu">Menyu</a>{% for item in crumbs %} › <a href="/menu?parent={{ item.id }}">{{ item.name }}</a>{% endfor %}
+</div>
+<h1>{{ "Tugunni tahrirlash" if node else "Yangi tugun" }}</h1>
+{{ flash(None, error) }}
+{% if node and node.review_note %}<div class="notice">Tasdiqlash kerak: {{ node.review_note }}</div>{% endif %}
+
+<form method="post" action="{{ '/menu/' ~ node.id ~ '/edit' if node else '/menu/new' }}" class="card">
+  {{ csrf(admin) }}
+  {% if not node %}<input type="hidden" name="parent" value="{{ parent.id if parent else '' }}">{% endif %}
+
+  <label for="name">Tugma nomi</label>
+  <input id="name" name="name" type="text" maxlength="255" value="{{ form.name }}" required>
+
+  <label for="kind">Turi</label>
+  <select id="kind" name="kind">
+    {% for value, label in kinds.items() %}<option value="{{ value }}" {{ 'selected' if form.kind == value }}>{{ label }}</option>{% endfor %}
+  </select>
+  <p class="hint">Menyu/Ro'yxat ichida boshqa tugunlar bo'ladi; Post tugmasi bosilganda kanal postlarini yuboradi; Amal maxsus bo'lim (namoz vaqtlari, masjidlar).</p>
+
+  <label for="action">Amal (faqat «Amal» turi uchun)</label>
+  <select id="action" name="action">
+    <option value="">—</option>
+    {% for value, label in actions.items() %}<option value="{{ value }}" {{ 'selected' if form.action == value }}>{{ label }}</option>{% endfor %}
+  </select>
+
+  <label for="text">Bo'lim ochilganda ko'rsatiladigan matn</label>
+  <textarea id="text" name="text" maxlength="4000" style="min-height:110px">{{ form.text }}</textarea>
+  <p class="hint">Ixtiyoriy. Ruxsat etilgan teglar: &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;s&gt;, &lt;code&gt;, &lt;a href="https://..."&gt;. Bo'sh bo'lsa tugma nomi ko'rsatiladi.</p>
+
+  <label for="page_size">Ro'yxatda bir sahifadagi elementlar soni (faqat «Ro'yxat» uchun)</label>
+  <input id="page_size" name="page_size" type="number" min="3" max="20" value="{{ form.page_size }}">
+
+  <label for="post_ids">Kanal postlari (faqat «Post» turi uchun)</label>
+  <textarea id="post_ids" name="post_ids" style="min-height:90px" placeholder="655&#10;564">{{ form.post_ids }}</textarea>
+  <p class="hint">{{ settings.content_channel }} kanalidagi post ID lari, har birini yangi qatorda yoki vergul bilan yozing. Tartib shu bo'yicha yuboriladi. Qaysi post nima ekanini <a href="/inventory">Kanal postlari</a> sahifasidan topishingiz mumkin.</p>
+
+  {% if node %}
+    <label class="check"><input type="checkbox" name="is_active" value="1" {{ 'checked' if form.is_active }}> Botda ko'rsatilsin</label>
+    {% if node.review_note %}<label class="check"><input type="checkbox" name="resolve_review" value="1"> Tekshirdim, tasdiqlash belgisini olib tashlash</label>{% endif %}
+  {% endif %}
+
+  <div class="actions">
+    <button type="submit">Saqlash</button>
+    <a class="btn secondary" href="/menu{{ '?parent=' ~ (node.parent_id if node else parent.id) if (node and node.parent_id) or parent }}">Bekor qilish</a>
+    {% if node %}
+      <a class="btn secondary" href="/menu/{{ node.id }}/move">Ko'chirish</a>
+      <a class="btn secondary" href="/menu/{{ node.id }}/delete">O'chirish</a>
+    {% endif %}
+  </div>
+</form>
+{% endblock %}

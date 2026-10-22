@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main, dev]
+    branches: [main, dev, relaunch]
   pull_request:
 
 permissions:
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  UV_VERSION: "0.12.22"
+  UV_VERSION: "0.13.4"
 
 jobs:
   lint:
@@ -26,26 +26,31 @@ jobs:
         run: pipx install "uv==${UV_VERSION}"
       - name: Install dependencies
         run: uv sync --locked
+      - name: Lock file is up to date
+        run: uv lock --check
       - name: Ruff
         run: |
           uv run --frozen ruff check
           uv run --frozen ruff format --check
-      - name: requirements.txt matches uv.lock
-        run: |
-          uv export --frozen --no-dev --no-hashes --output-file requirements.txt
-          git diff --exit-code requirements.txt
 
   test:
-    name: Tests (Python ${{ matrix.python-version }})
+    name: Tests (PostgreSQL)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    strategy:
-      fail-fast: false
-      matrix:
-        # Qo'llanadigan oraliqning ikki chekkasi (pyproject.toml dagi requires-python)
-        python-version: ["3.9", "3.11"]
-    env:
-      UV_PYTHON: ${{ matrix.python-version }}
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: ilmbot
+          POSTGRES_PASSWORD: ilmbot
+          POSTGRES_DB: ilmbot
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ilmbot -d ilmbot"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 20
     steps:
       - uses: actions/checkout@v5
       - name: Install uv
@@ -54,3 +59,14 @@ jobs:
         run: uv sync --locked
       - name: Pytest
         run: uv run --frozen pytest
+
+  docker:
+    name: Docker image
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build image
+        run: docker build --tag ilm-bot:ci .
+      - name: Image starts
+        run: docker run --rm ilm-bot:ci

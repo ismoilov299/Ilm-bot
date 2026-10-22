@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf %}
+{% block title %}Tasdiqlash kerak{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/menu">Menyu</a> › Tasdiqlash kerak</div>
+<h1>Tasdiqlash kerak bo'lgan tugunlar ({{ items | length }})</h1>
+<p class="muted">Kanal eksporti va eski kodlardan tiklangan, lekin joylashuvi yoki mazmuni aniq tasdiqlanmagan tugunlar. To'g'ri bo'lsa «Tasdiqlash», xato bo'lsa tahrirlang.</p>
+
+<div class="card">
+  {% if items %}
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Tugun</th><th>Izoh</th><th></th></tr></thead>
+      <tbody>
+      {% for node, path in items %}
+        <tr>
+          <td><a href="/menu?parent={{ node.id if node.kind in ('menu', 'list') else node.parent_id or '' }}">{{ path }}</a></td>
+          <td>{{ node.review_note }}</td>
+          <td>
+            <div class="row-actions">
+              <a class="btn small secondary" href="/menu/{{ node.id }}/edit">Tahrirlash</a>
+              <form method="post" action="/menu/{{ node.id }}/review-ok">{{ csrf(admin) }}<button class="small">Tasdiqlash</button></form>
+            </div>
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+    <p class="muted">Hammasi tasdiqlangan.</p>
+  {% endif %}
+</div>
+{% endblock %}

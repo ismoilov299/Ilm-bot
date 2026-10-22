@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf, flash %}
+{% block title %}{{ region.name }}{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/regions">Shaharlar</a> › {{ region.name }}</div>
+<h1>{{ region.name }}</h1>
+{{ flash(None, error) }}
+<form method="post" action="/regions/{{ region.id }}" class="card">
+  {{ csrf(admin) }}
+  <div class="times">
+    <div><label for="lat">Kenglik (lat)</label><input id="lat" name="lat" type="text" inputmode="decimal" value="{{ form.lat }}" required></div>
+    <div><label for="lon">Uzunlik (lon)</label><input id="lon" name="lon" type="text" inputmode="decimal" value="{{ form.lon }}" required></div>
+  </div>
+  <p class="hint">Koordinata o'zgarsa, bugun va keyingi kunlarning hisoblangan namoz vaqtlari qayta hisoblanadi (qo'lda kiritilganlar saqlanadi).</p>
+  <label class="check"><input type="checkbox" name="is_active" value="1" {{ 'checked' if form.is_active }}> Faol (botda tanlash mumkin)</label>
+  <div class="actions"><button type="submit">Saqlash</button><a class="btn secondary" href="/regions">Bekor qilish</a></div>
+</form>
+{% endblock %}

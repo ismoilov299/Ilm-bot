@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Namoz vaqtlari{% endblock %}
+{% block content %}
+<h1>Namoz vaqtlari</h1>
+<p class="muted">Vaqtlar hisoblab yoziladi. Xato bo'lsa, shaharning vaqtini qo'lda tuzatish mumkin: u «qo'lda» deb belgilanadi va hisoblash uni bosmaydi.</p>
+
+<div class="toolbar">
+  <a class="btn secondary" href="/prayer-times?date={{ prev_day }}">‹ {{ prev_day.strftime("%d.%m") }}</a>
+  <form method="get" class="toolbar" style="margin:0">
+    <div><label for="date">Sana</label><input id="date" name="date" type="date" value="{{ day }}"></div>
+    <button type="submit">Ko'rish</button>
+  </form>
+  <a class="btn secondary" href="/prayer-times?date={{ next_day }}">{{ next_day.strftime("%d.%m") }} ›</a>
+  {% if day != today %}<a class="btn secondary" href="/prayer-times">Bugun</a>{% endif %}
+</div>
+
+<div class="card">
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Shahar</th>{% for name in prayers %}<th>{{ labels[name] }}</th>{% endfor %}<th>Manba</th><th></th></tr>
+      </thead>
+      <tbody>
+      {% for region, row in rows %}
+        <tr>
+          <td>{{ region.name }}</td>
+          {% for name in prayers %}<td class="num">{{ row[name].strftime("%H:%M") }}</td>{% endfor %}
+          <td>{% if row.source == 'manual' %}<span class="badge review">qo'lda</span>{% else %}<span class="badge">hisoblangan</span>{% endif %}</td>
+          <td><a class="btn small secondary" href="/prayer-times/{{ region.id }}/{{ day }}">Tahrirlash</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf %}
+{% block title %}O'chirish{% endblock %}
+{% block content %}
+<h1>«{{ node.name }}» ni o'chirish</h1>
+<div class="card">
+  <p class="muted">{{ path }}</p>
+  {% if descendants %}
+    <div class="alert">Bu bo'lim bilan birga ichidagi <b>{{ descendants }}</b> ta tugun ham o'chiriladi.</div>
+  {% endif %}
+  <p>Bu amalni qaytarib bo'lmaydi. Botdagi tugma darhol yo'qoladi (kanaldagi postlar o'chmaydi).</p>
+  <div class="actions">
+    <form method="post" action="/menu/{{ node.id }}/delete">{{ csrf(admin) }}<button type="submit" class="danger">Ha, o'chirish</button></form>
+    <a class="btn secondary" href="/menu/{{ node.id }}/edit">Bekor qilish</a>
+  </div>
+</div>
+{% endblock %}

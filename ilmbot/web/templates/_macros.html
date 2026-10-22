@@ -1,0 +1,23 @@
+{% macro csrf(admin) -%}
+<input type="hidden" name="csrf" value="{{ admin.csrf }}">
+{%- endmacro %}
+
+{% macro flash(ok, error) -%}
+{% if ok %}<div class="notice ok" role="status">{{ ok }}</div>{% endif %}
+{% if error %}<div class="alert" role="alert">{{ error }}</div>{% endif %}
+{%- endmacro %}
+
+{# `url` "?..." yoki "&" bilan tugaydi: sahifa raqami unga qo'shiladi #}
+{% macro pager(page, pages, url) -%}
+{% if pages > 1 %}
+<nav class="pager" aria-label="Sahifalar">
+  {% if page > 1 %}<a href="{{ url }}page={{ page - 1 }}">‹ Oldingi</a>{% endif %}
+  <span class="muted">{{ page }} / {{ pages }}</span>
+  {% if page < pages %}<a href="{{ url }}page={{ page + 1 }}">Keyingi ›</a>{% endif %}
+</nav>
+{% endif %}
+{%- endmacro %}
+
+{% macro badge(text, kind='') -%}
+<span class="badge {{ kind }}">{{ text }}</span>
+{%- endmacro %}

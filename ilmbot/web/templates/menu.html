@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf %}
+{% block title %}Menyu{% endblock %}
+{% block content %}
+<div class="crumbs">
+  <a href="/menu">Menyu</a>{% for item in crumbs %} › <a href="/menu?parent={{ item.id }}">{{ item.name }}</a>{% endfor %}
+</div>
+<h1>{{ node.name if node else "Bosh menyu" }}</h1>
+
+{% if node %}
+<div class="card">
+  <p>
+    <span class="badge">{{ kinds[node.kind] }}</span>
+    {% if not node.is_active %}<span class="badge off">yashirilgan</span>{% endif %}
+    {% if node.review_note %}<span class="badge review">tasdiqlash kerak</span>{% endif %}
+  </p>
+  {% if node.review_note %}<p class="notice">{{ node.review_note }}</p>{% endif %}
+  {% if node.text %}<div class="preview">{{ node.text | tghtml }}</div>{% endif %}
+  {% if post_ids %}<p>Postlar: {% for post_id in post_ids %}<code>#{{ post_id }}</code> {% endfor %}</p>{% endif %}
+  <div class="actions">
+    <a class="btn" href="/menu/{{ node.id }}/edit">Tahrirlash</a>
+    <a class="btn secondary" href="/menu/{{ node.id }}/move">Ko'chirish</a>
+    <a class="btn secondary" href="/menu/{{ node.id }}/delete">O'chirish</a>
+  </div>
+</div>
+{% endif %}
+
+{% if not node or node.kind in ('menu', 'list') %}
+<p>
+  <a class="btn" href="/menu/new{{ '?parent=' ~ node.id if node }}">Yangi tugun</a>
+  <a class="btn secondary" href="/menu/review">Tasdiqlash kerak</a>
+</p>
+<div class="card">
+  {% if rows %}
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>Nomi</th><th>Turi</th><th>Ichida</th><th>Postlar</th><th></th></tr></thead>
+      <tbody>
+        {% for row in rows %}
+          {% set b = row.button %}
+          <tr>
+            <td class="num">{{ loop.index }}</td>
+            <td>
+              {% if b.kind in ('menu', 'list') %}<a href="/menu?parent={{ b.id }}">{{ b.name }}</a>{% else %}{{ b.name }}{% endif %}
+              {% if not b.is_active %}<span class="badge off">yashirin</span>{% endif %}
+              {% if b.review_note %}<span class="badge review">tasdiqlash</span>{% endif %}
+            </td>
+            <td>{{ b.kind }}{% if b.action %} · {{ b.action }}{% endif %}</td>
+            <td class="num">{{ row.children or "" }}</td>
+            <td class="num">{{ row.posts or "" }}</td>
+            <td>
+              <div class="row-actions">
+                <form method="post" action="/menu/{{ b.id }}/up">{{ csrf(admin) }}<button class="small secondary" title="Yuqoriga" aria-label="Yuqoriga">↑</button></form>
+                <form method="post" action="/menu/{{ b.id }}/down">{{ csrf(admin) }}<button class="small secondary" title="Pastga" aria-label="Pastga">↓</button></form>
+                <a class="btn small secondary" href="/menu/{{ b.id }}/edit">Tahrirlash</a>
+                <form method="post" action="/menu/{{ b.id }}/toggle">{{ csrf(admin) }}<button class="small secondary">{{ "Yashirish" if b.is_active else "Ko'rsatish" }}</button></form>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+    <p class="muted">Bu bo'limda hali tugun yo'q.</p>
+  {% endif %}
+</div>
+{% endif %}
+{% endblock %}
