@@ -77,17 +77,24 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 - [x] **Tayyorlik:** `docker compose run --rm migrate` bo'sh bazadan sxema va seed yaratdi, ikkinchi ishga tushirish hech narsa qo'shmadi;
       26 test yashil (haqiqiy PostgreSQL), ruff toza
 
-## 4. Bosqich 1: Bot yadrosi
+## 4. Bosqich 1: Bot yadrosi (kod tayyor 2026-10-22, jonli sinov kutilmoqda)
 
-- [ ] `create_dispatcher()`, DB sessiya middleware, servislarni berish (DI), global `dp` yo'q
-- [ ] Throttling middleware (Redis)
-- [ ] `/start` (yangi va mavjud foydalanuvchi uchun to'g'ri matn), `/help`
-- [ ] `MenuService`: daraxt, bolalar, sahifalash, kesh (Redis, TTL 60 s)
-- [ ] `menu` / `list` / `post` / `action` handlerlari, joriy tugun holati (Redis), "Orqaga"
-- [ ] Ko'p postli tugmalar (`button_posts`), kanaldan `copy_message`, xatolarni boshqarish
-- [ ] `CallbackData` klasslari (64 bayt chegarasi testi), `lambda: True` kabi hammasini ushlovchi handler yo'q
-- [ ] Xato handleri, loglar
-- [ ] **Tayyorlik:** test botda (yangi token) har bir bo'lim ochiladi, postlar keladi
+- [x] `create_dispatcher()` (global `dp` yo'q, routerlar har safar yangi: `create_routers()`), DB sessiya middleware
+- [x] Throttling middleware (Redis, jarayonlar orasida umumiy)
+- [x] `/start` (yangi va qaytgan foydalanuvchi uchun alohida matn, bloklagan qaytsa `is_blocked` tozalanadi), `/help`
+- [x] `MenuService`: daraxt snapshot'i, bolalar, nom bo'yicha qidiruv. **Kesh jarayon xotirasida (60 s)**, Redis'da emas
+      (daraxt kichik, har jarayon o'zini yuklaydi). Admin paneldan o'zgartirilganda eng ko'pi 60 s kechikadi
+- [x] `menu` / `list` / `post` / `action` handlerlari, joriy tugun holati (Redis), "Orqaga" (eng yaqin `menu` ajdodiga)
+- [x] Ko'p postli tugmalar (`button_posts`) ketma-ket nusxalanadi, topilmagan post o'tkazib yuboriladi
+- [x] `CallbackData` (`NodeCb`), barcha tugmalar 64 bayt chegarasida (testda tekshirilgan), hammasini ushlovchi handler yo'q
+- [x] Xato handleri (foydalanuvchiga xabar), admin matnidagi noto'g'ri HTML uchun oddiy matnga qaytish
+- [x] 22 ta bot testi (soxta Telegram sessiyasi + haqiqiy PostgreSQL), jami 48 test yashil
+- [ ] `action` bo'limlari (Namoz vaqtlari, Yaqin Masjid) hozir "tez orada" javobini beradi: Bosqich 3 va 4 da
+- [ ] **Jonli sinov** (test botda har bir bo'lim ochilishi, postlar kelishi): to'siq, qarang quyida
+  - **(siz)** `@yaqin_masjidlarbot` tokenida **faol webhook** bor (`ismoilov299.uz` ga yo'naltirilgan, 2 ta yetkazilmagan update).
+    Polling ishlashi uchun uni o'chirish kerak (`deleteWebhook`), bu o'sha manzildagi xizmatni to'xtatadi. Yoki sinov uchun boshqa
+    yangi bot tokenini bering. Webhook o'chirilmaguncha bot `Conflict` xatosi bilan polling qila olmaydi
+  - Tokenni `.env` ga yozing, loglarga yoki chatga chiqarmang (webhook manzili tokenni o'z ichiga oladi)
 
 ## 5. Bosqich 2: Admin panel
 

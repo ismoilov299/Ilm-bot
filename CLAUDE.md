@@ -12,7 +12,8 @@ Telegram bot "Ilm yo'lida" (islomiy kontent, namoz vaqti eslatmalari, yaqin masj
 - Stack: Python 3.12, aiogram 3.31, SQLAlchemy 2 async + asyncpg + Alembic, FastAPI + Jinja2/HTMX, PostgreSQL, Redis. Django va RabbitMQ yo'q.
 - **Bosqich 0 (poydevor) bajarilgan** (2026-10-22): `ilmbot/` (config, db modellari, seed, security, cli), Alembic, Docker Compose
   (postgres, redis, migrate), CI, 26 test (haqiqiy PostgreSQL kerak: `docker compose up -d postgres`). Eski kod o'chirilgan (`main` da bor).
-- Keyingi qadam: **Bosqich 1 (bot yadrosi)**, `docs/TODO.md` 4-bo'lim. Avval egasidan yangi bot tokeni va kanalga admin qilish kerak.
+- **Bosqich 1 (bot yadrosi) kodi tayyor**, 48 test yashil. Jonli sinov to'siqda: tokenli botda faol webhook bor (`docs/TODO.md` 4-bo'lim), egasi
+  hal qilmaguncha `deleteWebhook` qilmang. Keyingi: Bosqich 2 (admin panel) yoki 3 (namoz vaqtlari). Botni ishga tushirish: `uv run python -m ilmbot.bot`.
 - Buyruqlar: `uv sync`, `uv run pytest`, `uv run ruff check`, `uv run alembic upgrade head`, `uv run python -m ilmbot.cli seed`.
 - Namoz vaqti tashqi API siz hisoblanadi (`islomapi.uz` ishlamayapti): `tools/prayer_fit/pt.py` + qoidalar `docs/ARCHITECTURE.md` 6.2.1.
 - Kontent Telegram kanalida `@testislomyolida`; menyu `seeds/menu_seed.json` da (801 tugun, `review` belgili tugunlar tasdiqlanishi kerak).

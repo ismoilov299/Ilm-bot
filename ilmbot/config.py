@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 
     bot_token: str = ""
     content_channel: str = "@testislomyolida"
+    protect_content: bool = True  # yuborilgan postlarni qayta yuborish/saqlashni cheklash
     database_url: str = "postgresql+asyncpg://ilmbot:ilmbot@localhost:5432/ilmbot"
     redis_url: str = "redis://localhost:6379/0"
     timezone: str = "Asia/Tashkent"

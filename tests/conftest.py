@@ -13,8 +13,12 @@ import pytest
 import pytest_asyncio
 from alembic import command
 from alembic.config import Config
+from fakeredis import FakeAsyncRedis
 from sqlalchemy.engine import make_url
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
+
+from ilmbot.config import Settings
+from ilmbot.seed import seed_all
 
 ROOT = Path(__file__).resolve().parent.parent
 TEST_DATABASE_URL = os.environ.get("TEST_DATABASE_URL", "postgresql+asyncpg://ilmbot:ilmbot@localhost:5432/ilmbot_test")
@@ -49,17 +53,48 @@ def database_url() -> str:
 
 
 @pytest_asyncio.fixture
-async def session(database_url: str):
-    """Har bir test o'z tranzaksiyasida ishlaydi va oxirida orqaga qaytariladi (testlar bir-biriga ta'sir qilmaydi)."""
+async def sessionmaker(database_url: str):
+    """Har bir test bitta tashqi tranzaksiyada ishlaydi va oxirida orqaga qaytariladi (testlar bir-biriga
+    ta'sir qilmaydi).
+
+    Undan chiqqan sessiyalar `commit()` qilsa ham faqat SAVEPOINT yopiladi, shuning uchun bot middleware'i ham
+    xuddi ishlab chiqarishdagidek commit qila oladi.
+    """
     engine = create_async_engine(database_url)
     try:
         async with engine.connect() as connection:
             transaction = await connection.begin()
-            db_session = AsyncSession(bind=connection, expire_on_commit=False, join_transaction_mode="create_savepoint")
             try:
-                yield db_session
+                yield async_sessionmaker(
+                    bind=connection, expire_on_commit=False, join_transaction_mode="create_savepoint"
+                )
             finally:
-                await db_session.close()
                 await transaction.rollback()
     finally:
         await engine.dispose()
+
+
+@pytest_asyncio.fixture
+async def session(sessionmaker: async_sessionmaker[AsyncSession]):
+    async with sessionmaker() as db_session:
+        yield db_session
+
+
+@pytest_asyncio.fixture
+async def seeded(session: AsyncSession) -> AsyncSession:
+    """Regionlar, masjidlar va menyu daraxti yuklangan sessiya."""
+    await seed_all(session)
+    await session.flush()
+    return session
+
+
+@pytest_asyncio.fixture
+async def redis():
+    client = FakeAsyncRedis(decode_responses=True)
+    yield client
+    await client.aclose()
+
+
+@pytest.fixture
+def settings() -> Settings:
+    return Settings(_env_file=None, bot_token="42:TEST", content_channel="@test_channel")
