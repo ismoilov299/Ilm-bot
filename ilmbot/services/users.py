@@ -10,18 +10,21 @@ from ilmbot.db.models import User
 
 
 class UserService:
-    async def touch(self, session: AsyncSession, telegram_id: int, name: str) -> bool:
+    async def touch(self, session: AsyncSession, telegram_id: int, name: str, *, unblock: bool = True) -> bool:
         """Foydalanuvchini qo'shadi yoki yangilaydi. Yangi bo'lsa True qaytaradi.
 
         Botni oldin bloklagan foydalanuvchi qaytib yozsa, `is_blocked` bekor qilinadi.
         """
         now = dt.datetime.now(dt.UTC)
+        values = {"name": name[:255], "last_seen_at": now}
+        if unblock:
+            values["is_blocked"] = False
         statement = (
             insert(User)
             .values(id=telegram_id, name=name[:255], last_seen_at=now)
             .on_conflict_do_update(
                 index_elements=[User.id],
-                set_={"name": name[:255], "last_seen_at": now, "is_blocked": False},
+                set_=values,
             )
             .returning(literal_column("(xmax = 0)"))
         )

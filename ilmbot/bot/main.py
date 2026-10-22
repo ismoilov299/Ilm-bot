@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.fsm.storage.redis import RedisStorage
-from aiogram.types import BotCommand
+from aiogram.types import BotCommand, MenuButtonWebApp, WebAppInfo
 from redis.asyncio import Redis
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
@@ -29,6 +29,7 @@ from ilmbot.services.users import UserService
 COMMANDS = [
     BotCommand(command="start", description="Botni ishga tushirish"),
     BotCommand(command="help", description="Adminlar bilan bog'lanish"),
+    BotCommand(command="app", description="Mini App'ni ochish"),
 ]
 
 
@@ -78,6 +79,10 @@ async def run() -> None:
     dp = create_dispatcher(sessionmaker=make_sessionmaker(engine), redis=redis, settings=settings)
     try:
         await bot.set_my_commands(COMMANDS)
+        if settings.mini_app_url:
+            await bot.set_chat_menu_button(
+                menu_button=MenuButtonWebApp(text="Ilovani ochish", web_app=WebAppInfo(url=settings.mini_app_url))
+            )
         me = await bot.get_me()
         logging.getLogger(__name__).info("Bot ishga tushdi: @%s", me.username)
         await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())

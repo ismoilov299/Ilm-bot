@@ -1,18 +1,20 @@
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from redis.asyncio import Redis
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
 from ilmbot.config import Settings
 from ilmbot.services.broadcast import BroadcastService
+from ilmbot.services.menu import MENU_VERSION_KEY, MenuService
 from ilmbot.web import (
     routes_auth,
     routes_broadcast,
     routes_inventory,
     routes_menu,
+    routes_miniapp,
     routes_places,
     routes_prayer,
     routes_users,
@@ -39,9 +41,11 @@ def create_app(
         raise RuntimeError("ADMIN_PASSWORD_HASH o'rnatilmagan: python -m ilmbot.cli hash-password")
     app = FastAPI(title="Ilm yo'lida", docs_url=None, redoc_url=None, openapi_url=None)  # API hujjatlari yopiq
     app.state.settings = settings
+    app.state.bot_username = None  # web lifespan'da Telegram getMe orqali olinadi
     app.state.sessionmaker = sessionmaker
     app.state.redis = redis
     app.state.broadcasts = broadcasts
+    app.state.miniapp_menu = MenuService(version=lambda: redis.get(MENU_VERSION_KEY))
     app.state.templates = make_templates(settings)
     app.state.sessions = SessionManager(
         settings.session_secret, max_age_hours=settings.session_max_hours, secure=settings.cookie_secure
@@ -50,7 +54,17 @@ def create_app(
     @app.middleware("http")
     async def security_headers(request: Request, call_next):
         response = await call_next(request)
-        for name, value in SECURITY_HEADERS.items():
+        headers = dict(SECURITY_HEADERS)
+        if request.url.path in ("/app", "/app/") or request.url.path.startswith("/app/api/"):
+            headers.pop("X-Frame-Options")
+            headers["Content-Security-Policy"] = (
+                "default-src 'self'; script-src 'self' https://telegram.org; "
+                "style-src 'self' 'unsafe-inline'; img-src 'self' data:; "
+                "frame-ancestors https://web.telegram.org https://*.telegram.org https://telegram.org; "
+                "form-action 'self'; object-src 'none'; base-uri 'self'"
+            )
+            headers["Permissions-Policy"] = "geolocation=(self)"
+        for name, value in headers.items():
             response.headers.setdefault(name, value)
         return response
 
@@ -59,11 +73,14 @@ def create_app(
         return RedirectResponse("/login", status_code=303)
 
     @app.exception_handler(HTTPException)
-    async def http_error(request: Request, exc: HTTPException) -> HTMLResponse:
+    async def http_error(request: Request, exc: HTTPException) -> HTMLResponse | JSONResponse:
+        if request.url.path.startswith("/app/api/"):
+            return JSONResponse({"detail": exc.detail}, status_code=exc.status_code, headers=exc.headers)
         return render(request, "error.html", status_code=exc.status_code, message=exc.detail)
 
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
     app.include_router(routes_auth.router)
+    app.include_router(routes_miniapp.router)
     for module in (routes_broadcast, routes_menu, routes_inventory, routes_users, routes_prayer, routes_places):
         app.include_router(module.router)
     return app

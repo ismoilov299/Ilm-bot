@@ -1,7 +1,7 @@
 """Yaqin masjidlar: masofa va botdagi oqim."""
 
 import pytest
-from aiogram.methods import SendLocation, SendMessage
+from aiogram.methods import SendVenue, SendMessage
 
 from ilmbot.bot import texts
 from ilmbot.bot.main import create_dispatcher
@@ -46,12 +46,13 @@ async def test_location_gets_two_mosques_with_links_and_map_pins(bot):
     [message] = [r for r in requests if isinstance(r, SendMessage)]
     assert message.text.count("Uzoqlik:") == 2 and "Abu Sahiy masjidi" in message.text
     assert message.text.count("google.com/maps") == 2
-    assert len([r for r in requests if isinstance(r, SendLocation)]) == 2
+    venues = [r for r in requests if isinstance(r, SendVenue)]
+    assert len(venues) == 2 and all(v.title and v.address.startswith("Uzoqlik:") for v in venues)
 
 
 async def test_location_far_from_tashkent_is_answered_honestly(bot):
     await bot.say("/start")
 
-    [message, *_] = await bot.send_location(39.6542, 66.9597)  # Samarqand
+    [message, *_] = await bot.send_location(51.1694, 71.4491)  # Ostona: butun O'zbekistondan uzoq
 
     assert message.text.startswith(texts.MOSQUES_FAR)

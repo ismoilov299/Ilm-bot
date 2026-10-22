@@ -14,7 +14,7 @@ from ilmbot.services.menu import MenuService
 from ilmbot.services.mosques import MosqueService, NearbyMosque
 from ilmbot.services.navigation import NavigationState
 
-# Ma'lumot hozircha Toshkent uchun: undan uzoqdan yuborilgan lokatsiyaga halol javob beramiz
+# Eng yaqin masjid shundan uzoq bo'lsa (masalan, chet eldan yuborilgan lokatsiya), foydalanuvchiga buni aytamiz
 FAR_AWAY_KM = 30.0
 
 
@@ -59,7 +59,10 @@ async def on_location(
         format_results(nearest), reply_markup=keyboard, link_preview_options=LinkPreviewOptions(is_disabled=True)
     )
     for mosque in nearest:
-        await message.answer_location(latitude=mosque.lat, longitude=mosque.lon)
+        # Venue xaritaning tagida nom va uzoqlikni ko'rsatadi (oddiy lokatsiyaga matn qo'shib bo'lmaydi)
+        await message.answer_venue(
+            latitude=mosque.lat, longitude=mosque.lon, title=mosque.name[:255], address=f"Uzoqlik: {mosque.km:.1f} km"
+        )
 
 
 def create_router() -> Router:
