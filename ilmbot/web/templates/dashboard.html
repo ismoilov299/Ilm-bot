@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Boshqaruv paneli{% endblock %}
+{% block content %}
+<h1>Boshqaruv paneli</h1>
+
+{% if stats.nodes_to_review %}
+  <div class="notice">Menyuda tasdiqlanishi kerak bo'lgan {{ stats.nodes_to_review }} ta tugun bor (menyu boshqaruvi keyingi bosqichda qo'shiladi).</div>
+{% endif %}
+
+<div class="grid">
+  <div class="stat"><b>{{ stats.users }}</b><span>Foydalanuvchilar</span></div>
+  <div class="stat"><b>{{ stats.active }}</b><span>Faol</span></div>
+  <div class="stat"><b>{{ stats.blocked }}</b><span>Botni bloklagan</span></div>
+  <div class="stat"><b>{{ stats.subscribers }}</b><span>Eslatma obunachilari</span></div>
+  <div class="stat"><b>{{ stats.menu_nodes }}</b><span>Menyu tugunlari</span></div>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">Oxirgi broadcast</h2>
+  {% if stats.latest_broadcast %}
+    {% set job = stats.latest_broadcast %}
+    <p>
+      <a href="/broadcasts/{{ job.id }}">#{{ job.id }}</a>
+      <span class="badge {{ job.status }}">{{ job.status }}</span>
+      · yuborildi {{ job.sent }} / {{ job.total }} · {{ job.created_at | localtime }}
+    </p>
+  {% else %}
+    <p class="muted">Hali broadcast yuborilmagan.</p>
+  {% endif %}
+  <a class="btn" href="/broadcasts/new">Yangi broadcast</a>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">Obunachilar shaharlar bo'yicha</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Shahar</th><th>Obunachilar</th></tr></thead>
+      <tbody>
+        {% for name, count in stats.subscribers_by_region %}
+          <tr><td>{{ name }}</td><td>{{ count }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

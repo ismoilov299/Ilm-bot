@@ -40,6 +40,10 @@ extend-exclude = ["migrations/versions", "tools"]
 [tool.ruff.lint]
 select = ["E", "W", "F", "I", "B", "UP", "ASYNC"]
 
+[tool.ruff.lint.flake8-bugbear]
+# FastAPI bog'liqliklari standart argument sifatida beriladi
+extend-immutable-calls = ["fastapi.Depends", "fastapi.Form"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]

@@ -135,3 +135,36 @@ async def test_next_job_is_the_oldest_active_one(session, service):
 
     assert await service.next_job_id(session) == second.id
     assert (await session.scalar(select(BroadcastJob.status).where(BroadcastJob.id == first.id))) == "paused"
+
+
+async def test_text_job_is_sent_as_a_message_not_copied(session, sessionmaker, service, bot):
+    await add_users(session, [1, 2])
+    job = await service.create_job(session, "web:admin", text="Salom <b>hammaga</b>")
+    await session.commit()
+
+    await service.process(sessionmaker, bot, job.id)
+
+    assert [(r.chat_id, r.text) for r in bot.session.requests] == [(i, "Salom <b>hammaga</b>") for i in (1, 2)]
+
+
+async def test_job_without_a_source_chat_copies_from_the_content_channel(session, sessionmaker, redis, bot):
+    service = BroadcastService(
+        TelegramSender(RateLimiter(redis, per_second=100_000)), batch_size=2, content_channel="@kanal"
+    )
+    await add_users(session, [1])
+    job = await service.create_job(session, "web:admin", source_message_id=1539)
+    await session.commit()
+
+    await service.process(sessionmaker, bot, job.id)
+
+    [copy] = bot.session.requests
+    assert (copy.chat_id, copy.from_chat_id, copy.message_id) == (1, "@kanal", 1539)
+
+
+async def test_test_job_reaches_only_the_listed_users(session, service):
+    await add_users(session, [1, 2, 3])
+
+    job = await service.create_job(session, "web:admin", text="Sinov", only_user_ids=[2])
+
+    assert (job.is_test, job.total) == (True, 1)
+    assert await service.count_recipients(session, only_user_ids=[2, 99]) == 1

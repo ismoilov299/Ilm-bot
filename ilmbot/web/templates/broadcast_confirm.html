@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Tasdiqlash{% endblock %}
+{% block content %}
+<h1>Broadcastni tasdiqlang</h1>
+
+<div class="card">
+  <h2 style="margin-top:0">Xabar</h2>
+  {% if mode == 'text' %}
+    {# `text` sanitize() orqali qayta qurilgan: faqat ruxsat etilgan teglar, boshqa hammasi escape qilingan #}
+    <div class="preview">{{ text | safe }}</div>
+  {% else %}
+    <p>{{ settings.content_channel }} kanalidagi <b>#{{ message_id }}</b>-post foydalanuvchilarga nusxalanadi.</p>
+    <p class="hint">Postning ko'rinishini avval «Faqat o'zimga sinov» orqali tekshirib oling.</p>
+  {% endif %}
+</div>
+
+<div class="card">
+  <p>Qabul qiluvchilar: <b>{{ audience }}</b> ta foydalanuvchi (botni bloklaganlar hisobga olinmagan).</p>
+  <p class="muted">Yuborish boshlangach uni to'xtatish yoki bekor qilish mumkin, lekin allaqachon yuborilgan xabarlarni qaytarib bo'lmaydi.</p>
+  <div class="actions">
+    <form method="post" action="/broadcasts">
+      <input type="hidden" name="csrf" value="{{ admin.csrf }}">
+      <input type="hidden" name="mode" value="{{ mode }}">
+      <input type="hidden" name="text" value="{{ text if text is not none }}">
+      <input type="hidden" name="message_id" value="{{ message_id if message_id is not none }}">
+      <input type="hidden" name="target" value="all">
+      <button type="submit">Hammaga yuborish ({{ audience }})</button>
+    </form>
+    <form method="post" action="/broadcasts">
+      <input type="hidden" name="csrf" value="{{ admin.csrf }}">
+      <input type="hidden" name="mode" value="{{ mode }}">
+      <input type="hidden" name="text" value="{{ text if text is not none }}">
+      <input type="hidden" name="message_id" value="{{ message_id if message_id is not none }}">
+      <input type="hidden" name="target" value="test">
+      <button type="submit" class="secondary" {{ 'disabled' if not test_audience }}>Faqat o'zimga sinov ({{ test_audience }})</button>
+    </form>
+    <a class="btn secondary" href="/broadcasts/new">Tahrirlash</a>
+  </div>
+  {% if not test_audience %}
+    <p class="hint">Sinov uchun .env da ADMINS ni sozlang va botda /start ni bosing.</p>
+  {% endif %}
+</div>
+{% endblock %}

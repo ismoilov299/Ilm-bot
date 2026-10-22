@@ -22,6 +22,10 @@ class Settings(BaseSettings):
     send_rate_per_sec: int = 25  # eslatmalar uchun umumiy Telegram limitidan ajratilgan ulush
     broadcast_rate_per_sec: int = 10  # broadcast eslatmalardan past ustuvorlikda (umumiy hisoblagich)
     admins: Annotated[list[int], NoDecode] = []  # bot ichidagi admin buyruqlari uchun Telegram ID lar (ADMINS=1,2)
+    cookie_secure: bool = False  # HTTPS orqasida (productionda) True bo'lishi shart
+    session_max_hours: int = 12
+    web_host: str = "127.0.0.1"
+    web_port: int = 8000
     log_level: str = "INFO"
 
     @field_validator("admins", mode="before")

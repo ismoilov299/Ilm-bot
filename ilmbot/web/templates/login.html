@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Kirish{% endblock %}
+{% block content %}
+<div class="card login">
+  <h1>Ilm yo'lida</h1>
+  <p class="muted">Admin panelga kirish</p>
+  {% if error %}<div class="alert" role="alert">{{ error }}</div>{% endif %}
+  <form method="post" action="/login">
+    <label for="username">Login</label>
+    <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+    <label for="password">Parol</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <div class="actions"><button type="submit">Kirish</button></div>
+  </form>
+</div>
+{% endblock %}

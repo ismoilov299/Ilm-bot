@@ -40,7 +40,7 @@ class TelegramSender:
     async def send_text(self, bot: Bot, chat_id: int, text: str) -> SendResult:
         return await self._deliver(chat_id, lambda: bot.send_message(chat_id, text))
 
-    async def copy_message(self, bot: Bot, chat_id: int, from_chat_id: int, message_id: int) -> SendResult:
+    async def copy_message(self, bot: Bot, chat_id: int, from_chat_id: int | str, message_id: int) -> SendResult:
         """Mavjud xabarni (matn, rasm, video...) o'zgartirmasdan nusxalaydi (broadcast uchun)."""
         return await self._deliver(chat_id, lambda: bot.copy_message(chat_id, from_chat_id, message_id))
 

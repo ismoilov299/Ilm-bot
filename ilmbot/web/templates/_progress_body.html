@@ -1,0 +1,23 @@
+{% set done_count = job.sent + job.blocked + job.failed %}
+{% set percent = (done_count * 100 // job.total) if job.total else (100 if job.status == 'done' else 0) %}
+<p><span class="badge {{ job.status }}">{{ job.status }}</span>
+  {% if job.status == 'queued' %}<span class="muted"> · worker olishini kutmoqda</span>{% endif %}
+  {% if job.finished_at %}<span class="muted"> · tugadi {{ job.finished_at | localtime }}</span>{% endif %}</p>
+<div class="bar" role="progressbar" aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100"><i style="width: {{ percent }}%"></i></div>
+<div class="counts">
+  <div><b>{{ job.total }}</b><br><span class="muted">Jami</span></div>
+  <div><b>{{ job.sent }}</b><br><span class="muted">Yuborildi</span></div>
+  <div><b>{{ job.blocked }}</b><br><span class="muted">Bloklagan</span></div>
+  <div><b>{{ job.failed }}</b><br><span class="muted">Xato</span></div>
+  <div><b>{{ percent }}%</b><br><span class="muted">Bajarildi</span></div>
+</div>
+{% if job.status not in ('done', 'cancelled') %}
+<div class="actions">
+  {% if job.status == 'paused' %}
+    <form method="post" action="/broadcasts/{{ job.id }}/resume"><input type="hidden" name="csrf" value="{{ admin.csrf }}"><button type="submit">Davom ettirish</button></form>
+  {% else %}
+    <form method="post" action="/broadcasts/{{ job.id }}/pause"><input type="hidden" name="csrf" value="{{ admin.csrf }}"><button type="submit" class="secondary">To'xtatish</button></form>
+  {% endif %}
+  <form method="post" action="/broadcasts/{{ job.id }}/cancel"><input type="hidden" name="csrf" value="{{ admin.csrf }}"><button type="submit" class="danger">Bekor qilish</button></form>
+</div>
+{% endif %}

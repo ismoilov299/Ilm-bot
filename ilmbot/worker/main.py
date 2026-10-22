@@ -39,7 +39,7 @@ async def run() -> None:
     sender = TelegramSender(RateLimiter(redis, per_second=settings.send_rate_per_sec))
     # Bir xil umumiy hisoblagich, lekin eslatma (katta limit) broadcastdan (kichik limit) ustun turadi
     broadcast_sender = TelegramSender(RateLimiter(redis, per_second=settings.broadcast_rate_per_sec))
-    broadcasts = BroadcastService(broadcast_sender)
+    broadcasts = BroadcastService(broadcast_sender, content_channel=settings.content_channel)
     prayers = PrayerService()
     scheduler = ReminderScheduler(ReminderService(sender), sessionmaker, bot)
 

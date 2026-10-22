@@ -164,13 +164,19 @@ class Mosque(Base):
 
 class BroadcastJob(Base):
     __tablename__ = "broadcast_jobs"
-    __table_args__ = (CheckConstraint(f"status IN ({_values(JobStatus)})", name="status"),)
+    __table_args__ = (
+        CheckConstraint(f"status IN ({_values(JobStatus)})", name="status"),
+        # Mazmun: tayyor matn (veb panel) yoki nusxalanadigan xabar. Chat ko'rsatilmasa kontent kanali nazarda tutiladi
+        CheckConstraint("text IS NOT NULL OR source_message_id IS NOT NULL", name="content"),
+    )
 
     id: Mapped[int] = mapped_column(primary_key=True)
     created_by: Mapped[str] = mapped_column(String(64))
     status: Mapped[str] = mapped_column(String(16), default=JobStatus.QUEUED.value, server_default="queued")
-    source_chat_id: Mapped[int] = mapped_column(BigInteger)
-    source_message_id: Mapped[int] = mapped_column(BigInteger)
+    text: Mapped[str | None] = mapped_column(Text)  # tozalangan Telegram HTML; None bo'lsa xabar nusxalanadi
+    source_chat_id: Mapped[int | None] = mapped_column(BigInteger)
+    source_message_id: Mapped[int | None] = mapped_column(BigInteger)
+    is_test: Mapped[bool] = mapped_column(Boolean, default=False, server_default="false")
     total: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
     sent: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
     failed: Mapped[int] = mapped_column(Integer, default=0, server_default="0")

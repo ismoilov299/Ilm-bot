@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Yangi broadcast{% endblock %}
+{% block content %}
+<h1>Yangi broadcast</h1>
+{% if error %}<div class="alert" role="alert">{{ error }}</div>{% endif %}
+<form method="post" action="/broadcasts/new" class="card">
+  <input type="hidden" name="csrf" value="{{ admin.csrf }}">
+
+  <label>Xabar turi</label>
+  <div class="radios">
+    <label><input type="radio" name="mode" value="text" {{ 'checked' if mode != 'post' }}> Matn</label>
+    <label><input type="radio" name="mode" value="post" {{ 'checked' if mode == 'post' }}> Kanal posti (rasm, video, fayl bilan)</label>
+  </div>
+
+  <label for="text">Matn</label>
+  <textarea id="text" name="text" maxlength="9000">{{ text }}</textarea>
+  <p class="hint">Qator uzilishi uchun Enter. Ruxsat etilgan teglar: &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;s&gt;, &lt;code&gt;, &lt;pre&gt;, &lt;blockquote&gt;, &lt;tg-spoiler&gt; va &lt;a href="https://..."&gt;.</p>
+
+  <label for="message_id">Kanal posti ID si</label>
+  <input id="message_id" name="message_id" type="text" inputmode="numeric" value="{{ message_id }}" placeholder="masalan, 1539">
+  <p class="hint">{{ settings.content_channel }} kanalidagi post havolasining oxirgi raqami (t.me/.../<b>1539</b>). Post botdan o'zgarishsiz nusxalanadi, rasm va fayllar ham. Bot kanalda administrator bo'lishi kerak.</p>
+
+  <div class="actions"><button type="submit">Davom etish</button><a class="btn secondary" href="/broadcasts">Bekor qilish</a></div>
+</form>
+{% endblock %}

@@ -100,7 +100,9 @@ async def confirm(callback: CallbackQuery, state: FSMContext, session: AsyncSess
     if "message_id" not in data or not isinstance(message, Message):
         await callback.answer(texts.BROADCAST_EXPIRED, show_alert=True)
         return
-    job = await broadcasts.create_job(session, f"tg:{callback.from_user.id}", data["chat_id"], data["message_id"])
+    job = await broadcasts.create_job(
+        session, f"tg:{callback.from_user.id}", source_chat_id=data["chat_id"], source_message_id=data["message_id"]
+    )
     await state.clear()
     await callback.answer()
     await edit_text(message, status_text(job), job_keyboard(job))

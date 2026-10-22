@@ -3,9 +3,10 @@
 import enum
 import logging
 from collections import Counter
+from collections.abc import Sequence
 
 from aiogram import Bot
-from sqlalchemy import func, insert, select, update
+from sqlalchemy import func, insert, literal, select, update
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
 from ilmbot.db.models import BroadcastJob, BroadcastRecipient, JobStatus, RecipientStatus, User
@@ -25,27 +26,53 @@ class JobAction(enum.StrEnum):
 
 
 class BroadcastService:
-    def __init__(self, sender: TelegramSender | None = None, *, batch_size: int = BATCH_SIZE):
+    def __init__(
+        self,
+        sender: TelegramSender | None = None,
+        *,
+        batch_size: int = BATCH_SIZE,
+        content_channel: str | int | None = None,
+    ):
         self._sender = sender
         self._batch_size = batch_size
+        self._content_channel = content_channel  # `source_chat_id` ko'rsatilmagan ishlar shu kanaldan nusxalanadi
 
     # --- admin tomoni -------------------------------------------------------------------------------------
 
-    async def count_recipients(self, session: AsyncSession) -> int:
-        return await session.scalar(select(func.count()).select_from(User).where(User.is_blocked.is_(False)))
+    def _audience(self, only_user_ids: Sequence[int] | None):
+        """Botni bloklamagan foydalanuvchilar; `only_user_ids` berilsa (sinov) faqat shular."""
+        query = select(User.id).where(User.is_blocked.is_(False))
+        return query.where(User.id.in_(list(only_user_ids))) if only_user_ids is not None else query
+
+    async def count_recipients(self, session: AsyncSession, only_user_ids: Sequence[int] | None = None) -> int:
+        return await session.scalar(select(func.count()).select_from(self._audience(only_user_ids).subquery()))
 
     async def create_job(
-        self, session: AsyncSession, created_by: str, source_chat_id: int, source_message_id: int
+        self,
+        session: AsyncSession,
+        created_by: str,
+        *,
+        text: str | None = None,
+        source_chat_id: int | None = None,
+        source_message_id: int | None = None,
+        only_user_ids: Sequence[int] | None = None,
     ) -> BroadcastJob:
-        """Ishni yaratadi va qabul qiluvchilarni shu paytdagi holat bo'yicha qayd qiladi (bloklaganlarsiz)."""
-        job = BroadcastJob(created_by=created_by, source_chat_id=source_chat_id, source_message_id=source_message_id)
+        """Ishni yaratadi va qabul qiluvchilarni shu paytdagi holat bo'yicha qayd qiladi (bloklaganlarsiz).
+
+        Mazmun: tayyor `text` (tozalangan HTML) yoki nusxalanadigan xabar (`source_chat_id` + `source_message_id`).
+        `only_user_ids` berilsa, bu sinov ishi bo'lib, faqat shu foydalanuvchilarga boradi.
+        """
+        job = BroadcastJob(
+            created_by=created_by,
+            text=text,
+            source_chat_id=source_chat_id,
+            source_message_id=source_message_id,
+            is_test=only_user_ids is not None,
+        )
         session.add(job)
         await session.flush()
-        await session.execute(
-            insert(BroadcastRecipient).from_select(
-                ["job_id", "user_id"], select(job.id, User.id).where(User.is_blocked.is_(False))
-            )
-        )
+        audience = self._audience(only_user_ids).add_columns().with_only_columns(literal(job.id), User.id)
+        await session.execute(insert(BroadcastRecipient).from_select(["job_id", "user_id"], audience))
         job.total = await session.scalar(
             select(func.count()).select_from(BroadcastRecipient).where(BroadcastRecipient.job_id == job.id)
         )
@@ -91,7 +118,7 @@ class BroadcastService:
             if job.status == JobStatus.QUEUED.value:
                 job.status = JobStatus.RUNNING.value
                 job.started_at = job.started_at or func.now()
-            chat_id, message_id = job.source_chat_id, job.source_message_id
+            text, chat_id, message_id = job.text, job.source_chat_id, job.source_message_id
             await session.commit()
 
         while True:
@@ -125,7 +152,12 @@ class BroadcastService:
 
                 outcome: dict[int, SendResult] = {}
                 for user_id in user_ids:
-                    outcome[user_id] = await self._sender.copy_message(bot, user_id, chat_id, message_id)
+                    if text is not None:
+                        outcome[user_id] = await self._sender.send_text(bot, user_id, text)
+                    else:
+                        outcome[user_id] = await self._sender.copy_message(
+                            bot, user_id, chat_id or self._content_channel, message_id
+                        )
                 await self._save_batch(session, job_id, outcome)
                 await session.commit()
 

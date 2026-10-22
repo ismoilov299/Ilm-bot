@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Broadcast #{{ job.id }}{% endblock %}
+{% block content %}
+<h1>Broadcast #{{ job.id }}{% if job.is_test %} <span class="badge">sinov</span>{% endif %}</h1>
+<p class="muted">{{ job.created_at | localtime }} · {{ job.created_by }} · {{ 'matn' if job.text is not none else 'kanal posti #' ~ job.source_message_id }}</p>
+
+{% if job.text is not none %}
+  <div class="card"><div class="preview">{{ job.text | safe }}</div></div>
+{% endif %}
+
+<div id="progress" class="card" data-url="/broadcasts/{{ job.id }}/progress" data-final="{{ '1' if job.status in ('done', 'cancelled') else '0' }}">
+  {% include "_progress_body.html" %}
+</div>
+<p><a href="/broadcasts">← Barcha broadcastlar</a></p>
+{% endblock %}

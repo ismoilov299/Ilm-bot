@@ -24,6 +24,9 @@ uv run alembic upgrade head               # sxemani yaratish
 uv run python -m ilmbot.cli seed          # regionlar, masjidlar va menyu daraxtini yuklash (qayta ishga tushirsa ham xavfsiz)
 ```
 
+Admin panel: `.env` ga `ADMIN_PASSWORD_HASH` (`uv run python -m ilmbot.cli hash-password`) va `SESSION_SECRET` yozing, keyin
+`uv run python -m ilmbot.web` va http://127.0.0.1:8000 ni oching. Bot: `uv run python -m ilmbot.bot`, worker: `uv run python -m ilmbot.worker`.
+
 Hammasini Docker orqali: `docker compose run --rm migrate` (sxema + boshlang'ich ma'lumot).
 
 ## Testlar va tekshiruvlar

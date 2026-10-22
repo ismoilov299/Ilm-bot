@@ -93,15 +93,21 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 - [x] **Jonli sinov** `@yaqin_masjidlarbot` da o'tkazildi: egasi menyu, postlar, sahifalash va "Orqaga" ishlashini tasdiqladi.
       Botdagi eski webhook (`ismoilov299.uz`) egasining ruxsati bilan o'chirildi
 
-## 5. Bosqich 2: Admin panel
+## 5. Bosqich 2: Admin panel (boshlandi 2026-10-22)
 
-- [ ] Kirish (hash'langan parol, imzolangan sessiya cookie, CSRF, urinishlar cheklovi), `admin_audit`
-- [ ] Bosh sahifa: foydalanuvchilar, obunachilar, bloklanganlar, regionlar bo'yicha
+Ishga tushirish: `uv run python -m ilmbot.web` (http://127.0.0.1:8000). `.env` da `ADMIN_PASSWORD_HASH`
+(`uv run python -m ilmbot.cli hash-password`) va `SESSION_SECRET` (>= 32 belgi) kerak.
+
+- [x] Kirish: imzolangan HttpOnly + SameSite=Strict cookie, har bir POST uchun CSRF, 5 ta xato urinishdan keyin 15 daqiqa blok (Redis),
+      xavfsizlik sarlavhalari (CSP: tashqi skript yo'q), API hujjatlari yopiq, audit jurnali
+- [x] Boshqaruv paneli: foydalanuvchilar, faol, bloklagan, obunachilar (shaharlar bo'yicha), menyu tugunlari, oxirgi broadcast
+- [x] **Broadcast** (veb orqali): matn (xavfsiz HTML tozalovchi) yoki kanal posti (rasm/video/fayl bilan), tasdiqlash sahifasi va
+      preview, "faqat o'zimga sinov", jonli progress (har 2 s), pauza / davom / bekor, tarix
 - [ ] Menyu daraxti: qo'shish, tahrirlash, tartiblash, o'chirish, postlarni biriktirish
 - [ ] Kanal inventari: biriktirilmagan postlarni ko'rish va bir bosishda tugmaga biriktirish
+- [ ] 15 ta `review` tugunini panel orqali tasdiqlash/tuzatish
 - [ ] Foydalanuvchilar (qidiruv), regionlar va namoz vaqtlari (qo'lda tuzatish), masjidlar
-- [ ] Menyu o'zgarganda keshni tozalash
-- [ ] **Tayyorlik:** `review` tugunlarini panel orqali tuzatish mumkin; xavfsizlik testlari yashil
+- [ ] Menyu o'zgarganda keshni tozalash (hozir botda 60 s kechikish)
 
 ## 6. Bosqich 3: Namoz vaqtlari va eslatmalar (kod tayyor 2026-10-22)
 
@@ -126,7 +132,7 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 - [x] Botda faqat `ADMINS` uchun: `/stats`, `/broadcast` (xabar -> tasdiq -> navbat), `/broadcast_status` (pauza/davom/bekor tugmalari),
       `/cancel`. Har qanday turdagi xabar (matn, rasm, video, fayl) nusxalanadi. Hamma admin handlerlari `IsAdmin` bilan himoyalangan
 - [x] `/myid`: har kim o'z Telegram ID sini ko'ra oladi (`ADMINS` ni sozlash uchun)
-- [ ] Veb paneldagi broadcast sahifasi (progress, tarix): Bosqich 2 (admin panel) bilan birga
+- [x] Veb paneldagi broadcast sahifasi (progress, tarix): Bosqich 2 da qilindi
 - [ ] Jonli sinov: `.env` da `ADMINS=<sizning ID>`, `/broadcast` (diqqat: lokal bazada eski webhook paytida yozgan begona foydalanuvchilar
       bo'lishi mumkin, sinovdan oldin tekshiring)
 - [ ] 10 000 qabul qiluvchi bilan yuk testi
