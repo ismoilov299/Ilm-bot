@@ -31,6 +31,8 @@
     <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
     <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 1 4 4h6v7l-4 4v6h-6l-4-4H2v-6l4-4V2h6Z"/></symbol>
     <symbol id="i-logo" viewBox="0 0 32 32"><rect x="5" y="5" width="22" height="22"/><rect x="5" y="5" width="22" height="22" transform="rotate(45 16 16)"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4M11 19h2"/></symbol>
+    <symbol id="i-fullscreen" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
   </svg>
 
   <div class="app-wrap">
@@ -44,6 +46,13 @@
 
     <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
     <div id="loading" class="loading-screen"><span class="loading-mark" aria-hidden="true">۞</span><p>Ilm sari bir qadam…</p></div>
+    <section id="phone-only" class="panel welcome-gate" hidden>
+      <span class="round-icon"><svg><use href="#i-phone"/></svg></span>
+      <h1>Telefondan oching</h1>
+      <p>Ilm yo‘lida Mini App’idan foydalanish uchun Android yoki iPhone’dagi Telegram ilovasidan kiring.</p>
+      <p>Telefoningizda shu botni oching va <strong>“Ilovani ochish”</strong> tugmasini bosing.</p>
+      <small>Laptop, kompyuter va planshetlar uchun telefoningizdan foydalaning.</small>
+    </section>
     <section id="auth-error" class="panel welcome-gate" hidden>
       <svg class="large-icon"><use href="#i-book"/></svg>
       <h1>Ilm yo‘lida</h1><p id="auth-message">Ilovani Telegram botidagi “Ilovani ochish” tugmasi orqali oching.</p>

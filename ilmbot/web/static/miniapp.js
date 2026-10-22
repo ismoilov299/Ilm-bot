@@ -54,6 +54,13 @@
     $("auth-error").hidden = false;
     $("auth-message").textContent = message || "Ilovani Telegram botidagi “Ilovani ochish” tugmasi orqali oching.";
   }
+  function isPhone() {
+    const agent = navigator.userAgent || "";
+    // Telegram Desktop'ning tor oynasi telefon hisoblanmaydi. iPad desktop UA'si ham rad etiladi.
+    if (/iPad|Macintosh/i.test(agent)) return false;
+    return /iPhone/i.test(agent) || (/Android/i.test(agent) &&
+      (/Mobile/i.test(agent) || navigator.userAgentData?.mobile === true));
+  }
   function shiftedDay(day, offset) {
     const date = new Date(`${day}T12:00:00Z`);
     date.setUTCDate(date.getUTCDate() + offset);
@@ -337,7 +344,19 @@
     if (starting) return;
     starting = true;
     $("loading").hidden = false; $("auth-error").hidden = true;
-    if (!tg?.initData) { showAuthError(); starting = false; return; }
+    $("phone-only").hidden = true;
+    if (!isPhone()) {
+      $("loading").hidden = true;
+      $("app-main").hidden = true;
+      $("bottom-nav").hidden = true;
+      $("phone-only").hidden = false;
+      tg?.ready();
+      starting = false;
+      return;
+    }
+    if (!tg?.initData || !["android", "android_x", "ios"].includes(tg.platform)) {
+      showAuthError(); starting = false; return;
+    }
     try {
       tg.ready(); tg.expand();
       if (tg.isVersionAtLeast?.("6.1")) { tg.setHeaderColor("#f7f6ed"); tg.setBackgroundColor("#f7f6ed"); }
