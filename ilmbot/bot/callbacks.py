@@ -20,3 +20,10 @@ class ReminderCb(CallbackData, prefix="rm"):
 
     region_id: int
     on: bool
+
+
+class BroadcastCb(CallbackData, prefix="bc"):
+    """Admin: tasdiqlash (go), rad etish (no), to'xtatish, davom ettirish, bekor qilish yoki holatni yangilash."""
+
+    act: str
+    id: int = 0

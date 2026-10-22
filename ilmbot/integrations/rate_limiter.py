@@ -1,7 +1,9 @@
-"""Telegramga yuborish tezligini cheklash: bot va worker o'rtasida umumiy (Redis).
+"""Telegramga yuborish tezligini cheklash: jarayonlar va oqimlar o'rtasida umumiy (Redis).
 
 Telegram umumiy limiti ~30 xabar/s. Vaqt qisqa oynalarga (0,2 s) bo'linadi va har bir oynada ruxsat etilgan sondan ko'p
-xabar yuborilmaydi; shu tufayli istalgan 1 soniyada limitdan kam yoki biroz ko'p (bitta oyna hajmicha) yuboriladi.
+xabar yuborilmaydi. Bir xil `key` li, lekin turli `per_second` li limiterlar umumiy hisoblagichni baham ko'radi:
+katta limitli oqim (eslatma) kichik limitli oqimdan (broadcast) ustun turadi. Shu tufayli istalgan 1 soniyada
+limitdan kam yoki biroz ko'p (bitta oyna hajmicha) yuboriladi.
 """
 
 import asyncio
@@ -35,9 +37,12 @@ class RateLimiter:
             now = self._clock()
             slot = int(now / self._window)
             key = f"{self._key}:{slot}"
-            count = await self._redis.incr(key)
-            if count == 1:
-                await self._redis.expire(key, 2)
-            if count <= self._per_window:
-                return
+            # Avval o'qiymiz: oyna to'lgan bo'lsa hisoblagichni oshirmaymiz, shunda kutayotgan past ustuvorlikli
+            # oqim (broadcast) yuqori ustuvorlikli oqim (eslatma) uchun joyni egallab qo'ymaydi.
+            if int(await self._redis.get(key) or 0) < self._per_window:
+                count = await self._redis.incr(key)
+                if count == 1:
+                    await self._redis.expire(key, 2)
+                if count <= self._per_window:
+                    return
             await self._sleep((slot + 1) * self._window - now + 0.001)

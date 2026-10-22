@@ -38,10 +38,17 @@ class TelegramSender:
         self._sleep = sleep
 
     async def send_text(self, bot: Bot, chat_id: int, text: str) -> SendResult:
+        return await self._deliver(chat_id, lambda: bot.send_message(chat_id, text))
+
+    async def copy_message(self, bot: Bot, chat_id: int, from_chat_id: int, message_id: int) -> SendResult:
+        """Mavjud xabarni (matn, rasm, video...) o'zgartirmasdan nusxalaydi (broadcast uchun)."""
+        return await self._deliver(chat_id, lambda: bot.copy_message(chat_id, from_chat_id, message_id))
+
+    async def _deliver(self, chat_id: int, call: Callable[[], Awaitable[object]]) -> SendResult:
         for attempt in range(1, self._max_attempts + 1):
             await self._limiter.acquire()
             try:
-                await bot.send_message(chat_id, text)
+                await call()
                 return SendResult.SENT
             except TelegramRetryAfter as exc:
                 log.warning("Telegram limiti: %s soniya kutiladi", exc.retry_after)

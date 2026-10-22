@@ -1,8 +1,10 @@
 """Yagona konfiguratsiya manbasi: muhit o'zgaruvchilari va `.env` fayli."""
 
 from functools import lru_cache
+from typing import Annotated
 
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import field_validator
+from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -17,8 +19,17 @@ class Settings(BaseSettings):
     admin_username: str = "admin"
     admin_password_hash: str = ""
     session_secret: str = ""
-    send_rate_per_sec: int = 25
+    send_rate_per_sec: int = 25  # eslatmalar uchun umumiy Telegram limitidan ajratilgan ulush
+    broadcast_rate_per_sec: int = 10  # broadcast eslatmalardan past ustuvorlikda (umumiy hisoblagich)
+    admins: Annotated[list[int], NoDecode] = []  # bot ichidagi admin buyruqlari uchun Telegram ID lar (ADMINS=1,2)
     log_level: str = "INFO"
+
+    @field_validator("admins", mode="before")
+    @classmethod
+    def _split_admins(cls, value):
+        if isinstance(value, str):
+            return [int(part) for part in value.replace(";", ",").split(",") if part.strip()]
+        return value
 
     def require_bot_token(self) -> str:
         """Bot va worker ishga tushganda chaqiriladi: token yo'q bo'lsa aniq xato beradi."""

@@ -1,6 +1,6 @@
 from aiogram import Router
 
-from ilmbot.bot.handlers import errors, menu, mosques, prayer, start
+from ilmbot.bot.handlers import admin, errors, menu, mosques, prayer, start
 
 
 def create_routers() -> list[Router]:
@@ -11,6 +11,7 @@ def create_routers() -> list[Router]:
     return [
         errors.create_router(),
         start.create_router(),
+        admin.create_router(),
         prayer.create_router(),
         mosques.create_router(),
         menu.create_router(),

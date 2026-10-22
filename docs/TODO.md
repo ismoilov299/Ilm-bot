@@ -117,11 +117,19 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 - [ ] 10 000 obunachi bilan yuk testi (hozir 1500 soxta qabul qiluvchi bilan sinalgan)
 - [ ] Joriy (2026) rasmiy jadval bilan qo'lda solishtirish (siz)
 
-## 7. Bosqich 4: Masjidlar va broadcast
+## 7. Bosqich 4: Masjidlar va broadcast (kod tayyor 2026-10-22)
 
 - [x] Yaqin masjidlar: lokatsiya so'raladi, eng yaqin 2 ta masjid (havola va xarita), Toshkentdan uzoqdan yuborilsa halol javob
-- [ ] Broadcast: ish yaratish, qabul qiluvchilar jadvali, `FOR UPDATE SKIP LOCKED`, progress (HTMX), pauza, bekor qilish
-- [ ] **Tayyorlik:** broadcast o'rtasida worker qayta ishga tushsa, takrorlamasdan davom etadi
+- [x] Broadcast servisi: ish va qabul qiluvchilar PostgreSQL da (bloklaganlarsiz suratga olinadi), 50 tadan bo'laklab yuborish,
+      pauza / davom / bekor qilish, uzilgandan keyin qolgan joydan davom etish, bloklaganlar `is_blocked` bo'ladi
+- [x] Worker'da alohida vazifa; umumiy Redis hisoblagichida eslatma (25/s) broadcastdan (10/s) ustun turadi
+- [x] Botda faqat `ADMINS` uchun: `/stats`, `/broadcast` (xabar -> tasdiq -> navbat), `/broadcast_status` (pauza/davom/bekor tugmalari),
+      `/cancel`. Har qanday turdagi xabar (matn, rasm, video, fayl) nusxalanadi. Hamma admin handlerlari `IsAdmin` bilan himoyalangan
+- [x] `/myid`: har kim o'z Telegram ID sini ko'ra oladi (`ADMINS` ni sozlash uchun)
+- [ ] Veb paneldagi broadcast sahifasi (progress, tarix): Bosqich 2 (admin panel) bilan birga
+- [ ] Jonli sinov: `.env` da `ADMINS=<sizning ID>`, `/broadcast` (diqqat: lokal bazada eski webhook paytida yozgan begona foydalanuvchilar
+      bo'lishi mumkin, sinovdan oldin tekshiring)
+- [ ] 10 000 qabul qiluvchi bilan yuk testi
 
 ## 8. Bosqich 5: Mustahkamlash va tozalash
 

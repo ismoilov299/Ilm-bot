@@ -31,8 +31,14 @@ async def help_command(message: Message):
     await message.answer(texts.HELP)
 
 
+async def my_id(message: Message):
+    """Foydalanuvchi o'z Telegram ID sini bilishi uchun (ADMINS ni sozlashda kerak)."""
+    await message.answer(f"Sizning Telegram ID: <code>{message.from_user.id}</code>")
+
+
 def create_router() -> Router:
     router = Router(name="start")
     router.message.register(start, CommandStart())
     router.message.register(help_command, Command("help"))
+    router.message.register(my_id, Command("myid"))
     return router

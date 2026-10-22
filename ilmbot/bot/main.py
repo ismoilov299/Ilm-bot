@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
+from aiogram.fsm.storage.redis import RedisStorage
 from aiogram.types import BotCommand
 from redis.asyncio import Redis
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
@@ -18,6 +19,7 @@ from ilmbot.config import Settings, get_settings
 from ilmbot.db import make_engine, make_sessionmaker
 from ilmbot.db.models import ButtonAction
 from ilmbot.integrations.telegram_content import ContentSender
+from ilmbot.services.broadcast import BroadcastService
 from ilmbot.services.menu import MenuService
 from ilmbot.services.mosques import MosqueService
 from ilmbot.services.navigation import NavigationState
@@ -39,7 +41,7 @@ def create_dispatcher(
     clock: Callable[[], dt.datetime] | None = None,
 ) -> Dispatcher:
     """Global holatsiz: har bir bog'liqlik shu yerda beriladi (testlarda ham shu funksiya ishlatiladi)."""
-    dp = Dispatcher()
+    dp = Dispatcher(storage=RedisStorage(redis))  # admin formalari holati qayta ishga tushganda yo'qolmaydi
     # Sessiya ochishdan oldin: tashlangan so'rovlar bazaga tegmaydi
     dp.update.outer_middleware(ThrottlingMiddleware(redis, interval=throttle_interval))
     dp.update.outer_middleware(DbSessionMiddleware(sessionmaker))
@@ -52,6 +54,8 @@ def create_dispatcher(
         users=users,
         prayers=prayers,
         mosques=MosqueService(),
+        broadcasts=BroadcastService(),
+        settings=settings,
         clock=clock,
         content=ContentSender(settings.content_channel, settings.protect_content),
         actions={
