@@ -37,7 +37,7 @@ async def seed_mosques(session: AsyncSession) -> int:
             lon=row["lon"],
             review_note=row.get("review"),
         )
-        for row in load_seed("mosques.json")
+        for row in [*load_seed("mosques.json"), *load_seed("mosques_osm.json")]
         if (row["lat"], row["lon"]) not in existing
     ]
     session.add_all(new)

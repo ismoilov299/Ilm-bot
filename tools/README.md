@@ -26,3 +26,10 @@ python -I -X utf8 build_seed.py    <json'lar papkasi> <repo>/seeds/menu_seed.jso
 python -I -X utf8 build_seed2.py   <repo>                          # result.json bilan boyitadi, inventarni yozadi
 ```
 `extract_labels.py` yordamchi (tugma matnlari). `build_seed2.py` `result.json` va `seeds/menu_seed.json` ni o'qiydi, ikkala seed faylni qayta yozadi.
+
+## osm_mosques
+
+`python tools/osm_mosques/fetch_osm_mosques.py` OpenStreetMap'dan (Overpass) O'zbekiston masjidlarini oladi va
+`seeds/mosques_osm.json` ga yozadi (~2100 ta). OSM faqat koordinata manbai. Takrorlar (nuqta + bino) birlashtiriladi,
+qo'lda tekshirilgan `seeds/mosques.json` ga 100 m dan yaqinlari tashlanadi, kirill nomlar lotinga o'giriladi.
+Nomi yo'qlari "Masjid" deb qoladi. Ma'lumot © OpenStreetMap contributors (ODbL).
