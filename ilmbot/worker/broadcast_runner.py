@@ -21,6 +21,7 @@ async def run_broadcasts(
     """Abadiy sikl: navbatdagi ish bo'lsa bajaradi, bo'lmasa kutadi. To'xtatilgan ishlar o'tkazib yuborilmaydi (ular
     `paused` holatida turadi va navbatga kirmaydi)."""
     while True:
+        job_id = None
         try:
             async with sessionmaker() as session:
                 job_id = await service.next_job_id(session)
@@ -31,6 +32,8 @@ async def run_broadcasts(
             await service.process(sessionmaker, bot, job_id)
         except asyncio.CancelledError:
             raise
-        except Exception:
+        except Exception as exc:
             log.exception("Broadcast siklida xatolik")
+            if job_id is not None:  # ish cheksiz qayta urinmasin: to'xtatiladi, sababi panelda ko'rinadi
+                await service.record_failure(sessionmaker, job_id, f"{type(exc).__name__}: {exc}")
             await asyncio.sleep(poll_seconds)

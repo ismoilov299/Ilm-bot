@@ -7,7 +7,7 @@
   <h2 style="margin-top:0">Xabar</h2>
   {% if mode == 'text' %}
     {# `text` sanitize() orqali qayta qurilgan: faqat ruxsat etilgan teglar, boshqa hammasi escape qilingan #}
-    <div class="preview">{{ text | safe }}</div>
+    <div class="preview">{{ text | tghtml }}</div>
   {% else %}
     <p>{{ settings.content_channel }} kanalidagi <b>#{{ message_id }}</b>-post foydalanuvchilarga nusxalanadi.</p>
     <p class="hint">Postning ko'rinishini avval «Faqat o'zimga sinov» orqali tekshirib oling.</p>

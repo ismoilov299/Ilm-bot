@@ -94,6 +94,7 @@ class BroadcastService:
             job.status = JobStatus.PAUSED.value
         elif action is JobAction.RESUME and job.status == JobStatus.PAUSED.value:
             job.status = JobStatus.QUEUED.value
+            job.error = None
         elif action is JobAction.CANCEL:
             job.status = JobStatus.CANCELLED.value
             job.finished_at = func.now()
@@ -101,6 +102,16 @@ class BroadcastService:
         return job
 
     # --- worker tomoni ------------------------------------------------------------------------------------
+
+    async def record_failure(self, sessionmaker: async_sessionmaker[AsyncSession], job_id: int, message: str) -> None:
+        """Kutilmagan xatoda ishni to'xtatadi va sababini saqlaydi (admin panelda ko'rinadi, davom ettiriladi)."""
+        async with sessionmaker() as session:
+            await session.execute(
+                update(BroadcastJob)
+                .where(BroadcastJob.id == job_id, BroadcastJob.status.in_(ACTIVE))
+                .values(status=JobStatus.PAUSED.value, error=message[:500])
+            )
+            await session.commit()
 
     async def next_job_id(self, session: AsyncSession) -> int | None:
         """Navbatdagi (yoki worker uzilishidan qolgan) ish."""

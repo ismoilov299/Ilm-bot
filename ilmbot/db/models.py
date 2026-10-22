@@ -177,6 +177,7 @@ class BroadcastJob(Base):
     source_chat_id: Mapped[int | None] = mapped_column(BigInteger)
     source_message_id: Mapped[int | None] = mapped_column(BigInteger)
     is_test: Mapped[bool] = mapped_column(Boolean, default=False, server_default="false")
+    error: Mapped[str | None] = mapped_column(Text)  # worker xatosi sababi (ish to'xtatiladi)
     total: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
     sent: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
     failed: Mapped[int] = mapped_column(Integer, default=0, server_default="0")

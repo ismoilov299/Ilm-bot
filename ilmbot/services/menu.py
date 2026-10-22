@@ -3,13 +3,21 @@
 import asyncio
 import re
 import time
-from collections.abc import Callable, Sequence
+from collections.abc import Awaitable, Callable, Sequence
 from dataclasses import dataclass
 
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ilmbot.db.models import Button, ButtonPost
+
+MENU_VERSION_KEY = "menu:version"
+
+
+async def bump_menu_version(redis) -> None:
+    """Admin menyuni o'zgartirgach chaqiradi: bot keyingi so'rovda daraxtni darhol qayta yuklaydi."""
+    await redis.incr(MENU_VERSION_KEY)
+
 
 _APOSTROPHES = re.compile("[‘’ʻʼ`´]")
 
@@ -58,9 +66,16 @@ class MenuSnapshot:
 
 
 class MenuService:
-    def __init__(self, ttl: float = 60.0, clock: Callable[[], float] = time.monotonic):
+    def __init__(
+        self,
+        ttl: float = 60.0,
+        clock: Callable[[], float] = time.monotonic,
+        version: Callable[[], Awaitable[object]] | None = None,
+    ):
         self._ttl = ttl
         self._clock = clock
+        self._version = version  # o'zgarish belgisi (masalan, Redis dagi hisoblagich); o'zgarsa kesh bekor bo'ladi
+        self._loaded_version: object = None
         self._snapshot: MenuSnapshot | None = None
         self._loaded_at = 0.0
         self._lock = asyncio.Lock()
@@ -69,13 +84,22 @@ class MenuService:
         self._snapshot = None
 
     async def snapshot(self, session: AsyncSession) -> MenuSnapshot:
-        if self._snapshot is not None and self._clock() - self._loaded_at < self._ttl:
+        version = await self._version() if self._version else None
+        if self._is_fresh(version):
             return self._snapshot
         async with self._lock:
-            if self._snapshot is None or self._clock() - self._loaded_at >= self._ttl:
+            if not self._is_fresh(version):
                 self._snapshot = await self._load(session)
                 self._loaded_at = self._clock()
+                self._loaded_version = version
             return self._snapshot
+
+    def _is_fresh(self, version: object) -> bool:
+        return (
+            self._snapshot is not None
+            and version == self._loaded_version
+            and self._clock() - self._loaded_at < self._ttl
+        )
 
     @staticmethod
     async def _load(session: AsyncSession) -> MenuSnapshot:

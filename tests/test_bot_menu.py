@@ -234,12 +234,12 @@ async def test_unknown_text_shows_hint_and_menu(bot):
     assert keyboard_texts(reply) == ROOT_NAMES
 
 
-async def test_action_sections_are_placeholders_until_implemented(bot):
+async def test_mosque_section_asks_for_a_location(bot):
     await bot.say("/start")
 
     [reply] = await bot.say("Yaqin Masjid🕌")
 
-    assert reply.text == texts.COMING_SOON
+    assert reply.text == texts.MOSQUES_PROMPT
 
 
 async def test_stale_inline_button_is_answered_with_an_alert(bot):

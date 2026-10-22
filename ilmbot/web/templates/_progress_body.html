@@ -3,6 +3,7 @@
 <p><span class="badge {{ job.status }}">{{ job.status }}</span>
   {% if job.status == 'queued' %}<span class="muted"> · worker olishini kutmoqda</span>{% endif %}
   {% if job.finished_at %}<span class="muted"> · tugadi {{ job.finished_at | localtime }}</span>{% endif %}</p>
+{% if job.error %}<div class="alert" role="alert">Worker xatosi: {{ job.error }}<br><span class="muted">Ish to'xtatildi. Sababini tuzatgach «Davom ettirish» ni bosing.</span></div>{% endif %}
 <div class="bar" role="progressbar" aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100"><i style="width: {{ percent }}%"></i></div>
 <div class="counts">
   <div><b>{{ job.total }}</b><br><span class="muted">Jami</span></div>

@@ -8,7 +8,15 @@ from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
 from ilmbot.config import Settings
 from ilmbot.services.broadcast import BroadcastService
-from ilmbot.web import routes_auth, routes_broadcast
+from ilmbot.web import (
+    routes_auth,
+    routes_broadcast,
+    routes_inventory,
+    routes_menu,
+    routes_places,
+    routes_prayer,
+    routes_users,
+)
 from ilmbot.web.deps import LoginRequired, make_templates, render
 from ilmbot.web.sessions import SessionManager
 
@@ -56,5 +64,6 @@ def create_app(
 
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
     app.include_router(routes_auth.router)
-    app.include_router(routes_broadcast.router)
+    for module in (routes_broadcast, routes_menu, routes_inventory, routes_users, routes_prayer, routes_places):
+        app.include_router(module.router)
     return app

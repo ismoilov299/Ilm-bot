@@ -93,7 +93,7 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 - [x] **Jonli sinov** `@yaqin_masjidlarbot` da o'tkazildi: egasi menyu, postlar, sahifalash va "Orqaga" ishlashini tasdiqladi.
       Botdagi eski webhook (`ismoilov299.uz`) egasining ruxsati bilan o'chirildi
 
-## 5. Bosqich 2: Admin panel (boshlandi 2026-10-22)
+## 5. Bosqich 2: Admin panel (kod tayyor 2026-10-22)
 
 Ishga tushirish: `uv run python -m ilmbot.web` (http://127.0.0.1:8000). `.env` da `ADMIN_PASSWORD_HASH`
 (`uv run python -m ilmbot.cli hash-password`) va `SESSION_SECRET` (>= 32 belgi) kerak.
@@ -101,13 +101,20 @@ Ishga tushirish: `uv run python -m ilmbot.web` (http://127.0.0.1:8000). `.env` d
 - [x] Kirish: imzolangan HttpOnly + SameSite=Strict cookie, har bir POST uchun CSRF, 5 ta xato urinishdan keyin 15 daqiqa blok (Redis),
       xavfsizlik sarlavhalari (CSP: tashqi skript yo'q), API hujjatlari yopiq, audit jurnali
 - [x] Boshqaruv paneli: foydalanuvchilar, faol, bloklagan, obunachilar (shaharlar bo'yicha), menyu tugunlari, oxirgi broadcast
-- [x] **Broadcast** (veb orqali): matn (xavfsiz HTML tozalovchi) yoki kanal posti (rasm/video/fayl bilan), tasdiqlash sahifasi va
-      preview, "faqat o'zimga sinov", jonli progress (har 2 s), pauza / davom / bekor, tarix
-- [ ] Menyu daraxti: qo'shish, tahrirlash, tartiblash, o'chirish, postlarni biriktirish
-- [ ] Kanal inventari: biriktirilmagan postlarni ko'rish va bir bosishda tugmaga biriktirish
-- [ ] 15 ta `review` tugunini panel orqali tasdiqlash/tuzatish
-- [ ] Foydalanuvchilar (qidiruv), regionlar va namoz vaqtlari (qo'lda tuzatish), masjidlar
-- [ ] Menyu o'zgarganda keshni tozalash (hozir botda 60 s kechikish)
+- [x] Broadcast: matn (xavfsiz HTML tozalovchi) yoki kanal posti, preview, "faqat o'zimga sinov", jonli progress, pauza / davom / bekor,
+      tarix, worker xatosi sababi panelda ko'rinadi (ish to'xtatiladi, davom ettirish mumkin)
+- [x] **Menyu daraxti**: bosqichma-bosqich ko'rish, qo'shish, tahrirlash (nom, tur, matn, sahifa hajmi, postlar), ko'chirish
+      (o'z ichiga ko'chirib bo'lmaydi), tartiblash (yuqoriga/pastga), yashirish, o'chirish (ichidagilari bilan, tasdiq sahifasi bilan).
+      Har bir o'zgarishdan keyin botdagi menyu keshi darhol yangilanadi (Redis versiyasi)
+- [x] **Tasdiqlash kerak** tugunlar sahifasi (`/menu/review`): tahrirlash yoki bir bosishda tasdiqlash
+- [x] **Kanal postlari** (`/inventory`): holat/tur/qidiruv filtrlari, Telegramda ochish havolasi, postni mavjud tugunga qo'shish yoki
+      yangi tugma sifatida biriktirish
+- [x] Foydalanuvchilar: qidiruv (ism yoki ID), filtrlar, sahifalash
+- [x] Namoz vaqtlari: kunlik jadval, qo'lda tuzatish (`manual`: hisoblash bosmaydi), hisoblangan qiymatga qaytarish
+- [x] Masjidlar: qo'shish, tahrirlash, yashirish, o'chirish, tekshirish belgisini olib tashlash
+- [x] Shaharlar: koordinata va faollik (o'zgarsa, vaqtlar qayta hisoblanadi)
+- [ ] Parolni almashtirish sahifasi (hozir `.env` orqali)
+- [ ] Bir nechta admin (hozir bitta)
 
 ## 6. Bosqich 3: Namoz vaqtlari va eslatmalar (kod tayyor 2026-10-22)
 

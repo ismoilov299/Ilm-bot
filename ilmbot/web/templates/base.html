@@ -12,8 +12,14 @@
   <header class="top">
     <a class="brand" href="/">Ilm yo'lida</a>
     <nav>
-      <a href="/" class="{{ 'on' if nav == 'dashboard' }}">Boshqaruv paneli</a>
+      <a href="/" class="{{ 'on' if nav == 'dashboard' }}">Panel</a>
+      <a href="/menu" class="{{ 'on' if nav == 'menu' }}">Menyu</a>
+      <a href="/inventory" class="{{ 'on' if nav == 'inventory' }}">Kanal postlari</a>
       <a href="/broadcasts" class="{{ 'on' if nav == 'broadcasts' }}">Broadcast</a>
+      <a href="/users" class="{{ 'on' if nav == 'users' }}">Foydalanuvchilar</a>
+      <a href="/prayer-times" class="{{ 'on' if nav == 'prayer' }}">Namoz vaqtlari</a>
+      <a href="/mosques" class="{{ 'on' if nav == 'mosques' }}">Masjidlar</a>
+      <a href="/regions" class="{{ 'on' if nav == 'regions' }}">Shaharlar</a>
     </nav>
     <form method="post" action="/logout">
       <input type="hidden" name="csrf" value="{{ admin.csrf }}">
@@ -22,6 +28,7 @@
   </header>
 {% endif %}
   <main>
+    {% if ok %}<div class="notice ok" role="status">{{ ok }}</div>{% endif %}
     {% block content %}{% endblock %}
   </main>
   <script src="/static/app.js" defer></script>

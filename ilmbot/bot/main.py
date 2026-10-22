@@ -20,7 +20,7 @@ from ilmbot.db import make_engine, make_sessionmaker
 from ilmbot.db.models import ButtonAction
 from ilmbot.integrations.telegram_content import ContentSender
 from ilmbot.services.broadcast import BroadcastService
-from ilmbot.services.menu import MenuService
+from ilmbot.services.menu import MENU_VERSION_KEY, MenuService
 from ilmbot.services.mosques import MosqueService
 from ilmbot.services.navigation import NavigationState
 from ilmbot.services.prayers import PrayerService
@@ -49,7 +49,7 @@ def create_dispatcher(
     clock = clock or (lambda: dt.datetime.now(tz))
     users, prayers = UserService(), PrayerService()
     dp.workflow_data.update(
-        menu=MenuService(),
+        menu=MenuService(version=lambda: redis.get(MENU_VERSION_KEY)),
         nav=NavigationState(redis),
         users=users,
         prayers=prayers,

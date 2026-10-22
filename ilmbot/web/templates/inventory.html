@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% from "_macros.html" import csrf, pager %}
+{% block title %}Kanal postlari{% endblock %}
+{% block content %}
+<h1>Kanal postlari</h1>
+<p class="muted">{{ settings.content_channel }} kanalidagi postlar ro'yxati (eksport asosida). Biriktirilmagan postlarni menyudagi tugmalarga qo'shing.</p>
+
+<form method="get" class="card toolbar">
+  <div>
+    <label for="status">Holat</label>
+    <select id="status" name="status">
+      {% for value, label in statuses.items() %}<option value="{{ value }}" {{ 'selected' if status == value }}>{{ label }}</option>{% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="type">Tur</label>
+    <select id="type" name="type">
+      <option value="">Hammasi</option>
+      {% for t in types %}<option value="{{ t }}" {{ 'selected' if kind == t }}>{{ t }}</option>{% endfor %}
+    </select>
+  </div>
+  <div><label for="q">Qidirish (sarlavha yoki ID)</label><input id="q" name="q" type="text" value="{{ q }}"></div>
+  <button type="submit">Filtrlash</button>
+</form>
+
+<p class="muted">Topildi: {{ total }}</p>
+<div class="card">
+  {% if items %}
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>ID</th><th>Sana</th><th>Tur</th><th>Sarlavha</th><th></th></tr></thead>
+      <tbody>
+      {% for post, assigned in items %}
+        <tr>
+          <td class="num">#{{ post.id }}</td>
+          <td>{{ post.date }}</td>
+          <td>{{ post.type }}</td>
+          <td>{{ post.title }} {% if assigned %}<span class="badge">biriktirilgan</span>{% elif post.ignored %}<span class="badge off">axlat</span>{% endif %}</td>
+          <td>
+            <div class="row-actions">
+              {% set url = link(post.id) %}
+              {% if url %}<a class="btn small secondary" href="{{ url }}" target="_blank" rel="noopener noreferrer">Telegramda ochish</a>{% endif %}
+              <a class="btn small" href="/inventory/{{ post.id }}/assign">Biriktirish</a>
+            </div>
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+    <p class="muted">Bu filtr bo'yicha post topilmadi.</p>
+  {% endif %}
+</div>
+{{ pager(page, pages, "/inventory?status=" ~ status ~ "&type=" ~ (kind | urlencode) ~ "&q=" ~ (q | urlencode) ~ "&") }}
+{% endblock %}
