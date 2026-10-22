@@ -5,6 +5,11 @@ Yangi migratsiya kerak emas: menyu, foydalanuvchilar, shaharlar, masjidlar va na
 
 ## Imkoniyatlar
 
+- Faqat Android telefon yoki iPhone'dagi native Telegram ilovasida ochiladi. Laptop, desktop, planshet va iPad'da
+  «Telefondan oching» sahifasi chiqadi. Telefonda oddiy browserdan kirilsa Telegram orqali ochish so'raladi.
+- Telegram 8.0+ mijozlarida `requestFullscreen()` bilan haqiqiy fullscreen so'raladi. Eski mijozlarda maksimal
+  balandlikka kengayadi va Telegramni yangilash so'raladi. Fullscreen'dan chiqilganda qaytish tugmasi paydo bo'ladi.
+  Telefon safe area'lari va Telegramning yopish/boshqarish tugmalari uchun joy ajratiladi.
 - Bosh sahifa: Telegramdagi ism, Toshkent vaqti bo'yicha sana, keyingi namoz va qolgan vaqt.
 - Namoz: shahar tanlash, bugundan oldingi/keyingi 7 kun jadvali, oltita vaqt.
 - Eslatmalar: tanlangan shahar va obuna bot bilan bir xil `users` yozuvida saqlanadi. Xabarlarni worker yuboradi.
@@ -85,6 +90,6 @@ uv run ruff check ilmbot tests/test_miniapp.py
 uv run ruff format --check ilmbot tests/test_miniapp.py
 ```
 
-Telegramda qo'lda tekshiring: iOS/Android/Desktop'da ochish; eski tugmalar; shahar va obunani bot bilan navbatma-navbat
+Telegramda qo'lda tekshiring: iOS/Android'da fullscreen, Desktop/iPad'da telefon talabi; eski tugmalar; shahar va obunani bot bilan navbatma-navbat
 o'zgartirish; joylashuvga ruxsat/rad etish; kontentni botda olish; muddati o'tgan sessiya; haqiqiy vaqtda eslatma kelishi.
 HTTPS domen va haqiqiy Telegram mijozi kerak bo'lgan bu tekshiruvlar avtomatik ASGI testining o'rnini bosmaydi.
