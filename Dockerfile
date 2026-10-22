@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
@@ -15,12 +15,12 @@ WORKDIR /app
 COPY pyproject.toml uv.lock .python-version ./
 RUN uv sync --locked --no-dev
 
-COPY . .
+COPY alembic.ini ./
+COPY migrations ./migrations
+COPY seeds ./seeds
+COPY ilmbot ./ilmbot
 
-# Bot va Django bir xil SQLite faylni ishlatadi (yo'l kodda qattiq yozilgan:
-# backend/ilmbot/db.sqlite3). Haqiqiy fayl /data volume'ida turadi.
-RUN mkdir -p /data && ln -sf /data/db.sqlite3 /app/backend/ilmbot/db.sqlite3
+RUN useradd --create-home --uid 10001 app && chown -R app:app /app
+USER app
 
-RUN chmod +x docker/entrypoint.sh
-ENTRYPOINT ["docker/entrypoint.sh"]
-CMD ["bot"]
+CMD ["python", "-m", "ilmbot.cli", "--help"]

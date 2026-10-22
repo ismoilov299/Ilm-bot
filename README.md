@@ -1,63 +1,54 @@
 # Ilm yo'lida
-Assalomu alaykum botni mavjud funksiyalari
-- Quron (audio varintda)
-- Namoz turlari, Namozni barcha turlarini o'rganish 
-- Kunlik Namoz vaqtlarini olish mumkin
-- Duo va Zikirlar
-- Asmaul Husna(Allohning ismlari)
-- Sahobalar haqida ma'lumotlar
-- Kitoblar (pdf ko'rinishda)
-- Yaqin masjidlar (Toshkent va Toshkent viloyatlari uchun)
-- Filmlar (islomiy filmlar)
-- Darsliklar (Mullimiy Soniy va Quron tartili)
 
+Islomiy Telegram bot: Qur'on audiosi, namoz turlari va o'rganish videolari, duo va zikrlar, Asmaul Husna, sahobalar, kitoblar,
+filmlar, darsliklar, kunlik namoz vaqti eslatmalari va eng yaqin masjidlar (Toshkent).
 
+Kontent Telegram kanalida (`@testislomyolida`) turadi, menyu esa bazadagi daraxt sifatida admin paneldan boshqariladi.
 
+> **Holat:** loyiha butunlay qayta qurilmoqda (relaunch). Hozir tayyor: poydevor (ma'lumotlar bazasi, migratsiyalar, boshlang'ich
+> ma'lumot). Bot, admin panel va eslatmalar keyingi bosqichlarda. Reja: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md),
+> qolgan ishlar: [docs/TODO.md](docs/TODO.md). Eski versiya `main` branchida.
 
-## Ishlatilgan kutbxonalar 
-- Aiogram botni asosi 
-- Sqlite3 baza uchun
-- Namoz vaqtlari uchun islomapi.uz api sidan foydalanildi
+## Texnologiyalar
 
-## Environment 
+Python 3.12, aiogram 3, SQLAlchemy 2 (async) + asyncpg + Alembic, PostgreSQL, Redis, FastAPI (admin panel, keyingi bosqich).
+Bog'liqliklar [uv](https://docs.astral.sh/uv/) bilan boshqariladi (`pyproject.toml`, `uv.lock`).
 
-Botni ishga tushurish uchun `.env` faylni yarating va unga ADMINS va bot tokenini yozing!
-
-`ADMINS`
-
-`BOT_TOKEN`
-
-## Ishlab chiqish
-
-Loyiha [uv](https://docs.astral.sh/uv/) bilan boshqariladi (Python 3.9–3.11, `.python-version` da 3.11).
+## Lokal ishga tushirish
 
 ```bash
-uv sync                      # muhit va bog'liqliklarni o'rnatish
-uv run python app.py         # botni ishga tushirish (.env kerak)
-uv run pytest                # testlar
-uv run ruff check            # lint
-uv run ruff format           # formatlash
+uv sync                                   # muhit va bog'liqliklar (Python 3.12 ni uv o'zi yuklaydi)
+cp .env.example .env                      # keyin BOT_TOKEN ni to'ldiring (bot ishga tushganda kerak bo'ladi)
+docker compose up -d postgres redis       # ma'lumotlar bazasi va Redis
+uv run alembic upgrade head               # sxemani yaratish
+uv run python -m ilmbot.cli seed          # regionlar, masjidlar va menyu daraxtini yuklash (qayta ishga tushirsa ham xavfsiz)
 ```
 
-Bog'liqliklar `pyproject.toml` da, aniq versiyalar `uv.lock` da. `requirements.txt` pip bilan
-o'rnatish uchun lock fayldan yaratiladi, uni qo'lda tahrirlamang:
+Hammasini Docker orqali: `docker compose run --rm migrate` (sxema + boshlang'ich ma'lumot).
+
+## Testlar va tekshiruvlar
+
+Testlar **haqiqiy PostgreSQL** da ishlaydi (`docker compose up -d postgres` kerak):
 
 ```bash
-uv lock
-uv export --frozen --no-dev --no-hashes --output-file requirements.txt
+uv run pytest
+uv run ruff check
+uv run ruff format --check
 ```
 
-CI har bir push va PR da lint, formatlash, `requirements.txt` mosligi va testlarni tekshiradi.
-Yangilash rejasi: [docs/MIGRATION_2026.md](docs/MIGRATION_2026.md).
+CI (`.github/workflows/ci.yml`) shularni, `uv lock --check` ni va Docker image yig'ilishini har bir push da tekshiradi.
 
-## Authors
+## Tuzilma
+
+| Papka | Mazmuni |
+|---|---|
+| `ilmbot/` | Ilova kodi: `config`, `db/` (modellar), `seed`, `security`, `cli` (bot, worker, web keyingi bosqichlarda) |
+| `migrations/` | Alembic migratsiyalari |
+| `seeds/` | Boshlang'ich ma'lumot: menyu (`menu_seed.json`), kanal inventari, masjidlar, regionlar |
+| `tools/` | Bir martalik tahlil skriptlari (seed va namoz vaqti hisoblashni qayta tiklash), qarang: `tools/README.md` |
+| `docs/` | Arxitektura va ishlar ro'yxati |
+
+## Muallif
 
 - [@ismoilov299](https://www.github.com/ismoilov299)
-- [@davlatovv](https://github.com/davlatovv)
-
-
-## Takliflar va Savollar uchun 
-
-- telegram [@ismoilov299](https://t.me/ismoilov299) 
-[telegram kanal](https://t.me/ilm_islom_yolida)
-
+- Telegram: [@ismoilov299](https://t.me/ismoilov299), kanal: [Ilm yo'lida](https://t.me/ilm_islom_yolida)

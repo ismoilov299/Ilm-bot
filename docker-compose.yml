@@ -1,30 +1,48 @@
-name: my-bot
+name: ilm-bot
 
 services:
-  bot:
-    build: .
-    container_name: my-bot
-    command: ["bot"]
-    env_file: .env
+  postgres:
+    image: postgres:17
     environment:
-      TZ: Asia/Tashkent
+      POSTGRES_USER: ilmbot
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ilmbot}
+      POSTGRES_DB: ilmbot
+    ports:
+      - "127.0.0.1:5432:5432"
     volumes:
-      - db-data:/data
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ilmbot -d ilmbot"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
     restart: unless-stopped
 
-  admin:
-    build: .
-    container_name: my-bot-admin
-    command: ["admin"]
-    environment:
-      TZ: Asia/Tashkent
+  redis:
+    image: redis:7
+    command: ["redis-server", "--appendonly", "yes"]
     ports:
-      - "127.0.0.1:8000:8000"
+      - "127.0.0.1:6379:6379"
     volumes:
-      - db-data:/data
-    depends_on:
-      - bot
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
     restart: unless-stopped
+
+  # Bir martalik: sxemani yangilaydi va boshlang'ich ma'lumotni qo'shadi (idempotent)
+  migrate:
+    build: .
+    command: ["sh", "-c", "alembic upgrade head && python -m ilmbot.cli seed"]
+    environment:
+      DATABASE_URL: postgresql+asyncpg://ilmbot:${POSTGRES_PASSWORD:-ilmbot}@postgres:5432/ilmbot
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
 
 volumes:
-  db-data:
+  postgres-data:
+  redis-data:
