@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100">
+ <defs>
+  <linearGradient id="fade" x2="0" y2="1"><stop stop-color="#a6b69a" stop-opacity=".45"/><stop offset="1" stop-color="#dae0c8" stop-opacity=".02"/></linearGradient>
+  <linearGradient id="leaf"><stop stop-color="#7f9060"/><stop offset="1" stop-color="#294d31"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="2.5"/></filter>
+  <pattern id="pattern" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M24 0 31 17 48 24 31 31 24 48 17 31 0 24 17 17ZM0 0 48 48M48 0 0 48" fill="none" stroke="#fdfbf0" stroke-width=".8"/></pattern>
+  <path id="leaf-shape" d="M0 0C-28-12-25-37-14-44 4-30 6-10 0 0Z" fill="url(#leaf)"/>
+  <g id="branch"><path d="M0 0Q18 80 64 147" fill="none" stroke="#607347" stroke-width="2"/><use href="#leaf-shape" transform="translate(9 36) rotate(-36)"/><use href="#leaf-shape" transform="translate(24 70) rotate(75)"/><use href="#leaf-shape" transform="translate(34 93) rotate(-30)"/><use href="#leaf-shape" transform="translate(53 128) rotate(82)"/><use href="#leaf-shape" transform="translate(64 147) rotate(160)"/></g>
+  <g id="minaret"><path d="M-7 0V-110h14V0ZM-10-110h20v-7H-10ZM-6-117v-17q6-12 12 0v17ZM0-139v-10" fill="currentColor"/><path d="M3-153a5 5 0 1 1-5-7 4 4 0 0 0 5 7" fill="currentColor"/></g>
+ </defs>
+ <g opacity=".43"><path d="M600 0H395q-48 20-63 64-67 2-88 70-55 10-57 78v133h413Z" fill="#dbe0cd"/><path d="M600 0H415q-49 15-65 76-72 7-87 69-62 19-60 84v126" fill="none" stroke="#c5a25f" stroke-width="1.3"/><path d="M600 25H437q-50 22-61 78-75 8-92 67-53 13-55 71v111h371Z" fill="url(#fade)"/><path d="M600 0H395q-48 20-63 64-67 2-88 70-55 10-57 78v133h413Z" fill="url(#pattern)" opacity=".9"/>
+  <g transform="translate(452 294)" color="#8ca27e" opacity=".68"><use href="#minaret" transform="translate(-83 0) scale(.85)"/><use href="#minaret" transform="translate(37 0) scale(1.3)"/><use href="#minaret" transform="translate(115 0) scale(.7)"/><path d="M-62 30v-48H82v48ZM-62-18c0-49 36-43 70-85 34 42 74 37 74 85Z" fill="currentColor"/><path d="M8-103v-15M-84 30h200" stroke="currentColor" stroke-width="2"/><path d="M-33 30V0q9-17 18 0v30m30 0V0q9-17 18 0v30m30 0V0q9-17 18 0v30" fill="#f7f6ed"/></g>
+ </g>
+ <g filter="url(#blur)" opacity=".63"><use href="#branch" transform="translate(21 -12) rotate(30)"/><use href="#branch" transform="translate(-17 240) rotate(160)"/><use href="#branch" transform="translate(150 -16) rotate(70) scale(.8)"/><use href="#branch" transform="translate(613 350) rotate(65)"/><use href="#branch" transform="translate(-40 705) rotate(-24)"/><use href="#branch" transform="translate(622 870) rotate(44)"/><use href="#branch" transform="translate(12 1070) rotate(165)"/></g>
+</svg>
