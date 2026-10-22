@@ -11,6 +11,7 @@ from redis.asyncio import Redis
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 
 from ilmbot.bot.handlers import create_routers
+from ilmbot.bot.handlers.mosques import prompt_for_location
 from ilmbot.bot.handlers.prayer import make_prayer_action
 from ilmbot.bot.middlewares import DbSessionMiddleware, ThrottlingMiddleware
 from ilmbot.config import Settings, get_settings
@@ -18,6 +19,7 @@ from ilmbot.db import make_engine, make_sessionmaker
 from ilmbot.db.models import ButtonAction
 from ilmbot.integrations.telegram_content import ContentSender
 from ilmbot.services.menu import MenuService
+from ilmbot.services.mosques import MosqueService
 from ilmbot.services.navigation import NavigationState
 from ilmbot.services.prayers import PrayerService
 from ilmbot.services.users import UserService
@@ -49,9 +51,13 @@ def create_dispatcher(
         nav=NavigationState(redis),
         users=users,
         prayers=prayers,
+        mosques=MosqueService(),
         clock=clock,
         content=ContentSender(settings.content_channel, settings.protect_content),
-        actions={ButtonAction.PRAYER_TIMES.value: make_prayer_action(prayers, users, clock)},
+        actions={
+            ButtonAction.PRAYER_TIMES.value: make_prayer_action(prayers, users, clock),
+            ButtonAction.NEAREST_MOSQUES.value: prompt_for_location,
+        },
     )
     dp.include_routers(*create_routers())
     return dp

@@ -119,7 +119,7 @@ uv sync                   # Python 3.12 ni uv o'zi yuklaydi
 
 ## 7. Bosqich 4: Masjidlar va broadcast
 
-- [ ] Yaqin masjidlar (lokatsiya → 2 ta, havola va xarita), `mosques` keshi
+- [x] Yaqin masjidlar: lokatsiya so'raladi, eng yaqin 2 ta masjid (havola va xarita), Toshkentdan uzoqdan yuborilsa halol javob
 - [ ] Broadcast: ish yaratish, qabul qiluvchilar jadvali, `FOR UPDATE SKIP LOCKED`, progress (HTMX), pauza, bekor qilish
 - [ ] **Tayyorlik:** broadcast o'rtasida worker qayta ishga tushsa, takrorlamasdan davom etadi
 

@@ -9,7 +9,7 @@ from aiogram.client.session.base import BaseSession
 from aiogram.enums import ParseMode
 from aiogram.filters.callback_data import CallbackData
 from aiogram.methods import AnswerCallbackQuery, CopyMessage, EditMessageText, SendMessage, TelegramMethod
-from aiogram.types import CallbackQuery, Chat, Message, MessageEntity, MessageId, Update, User
+from aiogram.types import CallbackQuery, Chat, Location, Message, MessageEntity, MessageId, Update, User
 
 NOW = dt.datetime(2026, 10, 22, 12, 0, tzinfo=dt.UTC)
 
@@ -93,6 +93,16 @@ class Harness:
 
     async def say(self, text: str, user_id: int = 111) -> list[TelegramMethod]:
         return await self._feed(message=_message(user_id, text))
+
+    async def send_location(self, lat: float, lon: float, user_id: int = 111) -> list[TelegramMethod]:
+        message = Message(
+            message_id=1,
+            date=NOW,
+            chat=Chat(id=user_id, type="private"),
+            from_user=_user(user_id),
+            location=Location(latitude=lat, longitude=lon),
+        )
+        return await self._feed(message=message)
 
     async def press(self, data: str | CallbackData, user_id: int = 111) -> list[TelegramMethod]:
         packed = data.pack() if isinstance(data, CallbackData) else data

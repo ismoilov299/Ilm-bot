@@ -31,3 +31,11 @@ REMINDER_OFF = "🔕 Eslatma o'chirildi"
 TIMES_FOOTER = "Vaqtlar Toshkent vaqti bilan, Hanafiy mazhabi bo'yicha hisoblangan."
 STALE_BUTTON = "Menyu yangilangan. Iltimos, /start ni bosing."
 ERROR = "Kutilmagan xatolik yuz berdi. Iltimos, keyinroq urinib ko'ring."
+SEND_LOCATION = "📍 Manzilingizni yuboring"
+MOSQUES_PROMPT = (
+    "Sizga eng yaqin masjidlarni topish uchun manzilingizni yuboring.\nHozircha faqat Toshkent shahri uchun."
+)
+MOSQUES_FAR = (
+    "Yaqin atrofda masjid topilmadi (ma'lumot hozircha faqat Toshkent shahri uchun). Eng yaqin ma'lum masjidlar:"
+)
+MOSQUES_NONE = "Kechirasiz, masjidlar ro'yxati hozircha bo'sh."
