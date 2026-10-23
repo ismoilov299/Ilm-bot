@@ -4,11 +4,13 @@ import argparse
 import asyncio
 import getpass
 import sys
+from pathlib import Path
 
 from ilmbot.config import get_settings
 from ilmbot.db import make_engine, make_sessionmaker
 from ilmbot.security import hash_password
 from ilmbot.seed import seed_all
+from ilmbot.services.content_store import import_export
 
 
 async def _seed() -> dict[str, int]:
@@ -23,6 +25,23 @@ async def _seed() -> dict[str, int]:
 def _cmd_seed(_: argparse.Namespace) -> int:
     counts = asyncio.run(_seed())
     print("Qo'shildi:", ", ".join(f"{name}={count}" for name, count in counts.items()))
+    return 0
+
+
+async def _import_content(path: Path) -> dict[str, int]:
+    settings = get_settings()
+    engine = make_engine(settings.database_url)
+    try:
+        async with make_sessionmaker(engine)() as session, session.begin():
+            path = await asyncio.to_thread(path.resolve)
+            return await import_export(session, path, settings.content_channel, settings.media_root)
+    finally:
+        await engine.dispose()
+
+
+def _cmd_import_content(args: argparse.Namespace) -> int:
+    counts = asyncio.run(_import_content(args.path))
+    print("Kontent:", ", ".join(f"{key}={value}" for key, value in counts.items()))
     return 0
 
 
@@ -45,6 +64,9 @@ def main(argv: list[str] | None = None) -> int:
         func=_cmd_seed
     )
     sub.add_parser("hash-password", help="admin paroli uchun xesh yaratadi").set_defaults(func=_cmd_hash_password)
+    content = sub.add_parser("import-content", help="Telegram Desktop JSON va mediani yopiq omborga import qiladi")
+    content.add_argument("path", type=Path, help="Eksportdagi result.json manzili")
+    content.set_defaults(func=_cmd_import_content)
     args = parser.parse_args(argv)
     return args.func(args)
 

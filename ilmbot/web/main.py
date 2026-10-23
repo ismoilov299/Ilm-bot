@@ -49,8 +49,17 @@ def build_mini_app() -> FastAPI:
         if (
             path in ("/app", "/app/")
             or path.startswith("/app/api/")
+            or path.startswith("/app/media/")
             or path
-            in {"/static/miniapp.css", "/static/miniapp.js", "/static/miniapp-art.svg", "/static/miniapp-pattern.svg"}
+            in {
+                "/static/miniapp.css",
+                "/static/miniapp.js",
+                "/static/miniapp-reader.js",
+                "/static/miniapp-art.svg",
+                "/static/miniapp-pattern.svg",
+                "/static/vendor/pdfjs/pdf.min.mjs",
+                "/static/vendor/pdfjs/pdf.worker.min.mjs",
+            }
         ):
             return await call_next(request)
         return JSONResponse({"detail": "Not found"}, status_code=404)

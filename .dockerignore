@@ -10,6 +10,7 @@ __pycache__
 *.sqlite3
 *.db
 result.json
+var/media
 docs
 tests
 tools

@@ -1,6 +1,7 @@
 """Yagona konfiguratsiya manbasi: muhit o'zgaruvchilari va `.env` fayli."""
 
 from functools import lru_cache
+from pathlib import Path
 from typing import Annotated
 from urllib.parse import urlsplit
 
@@ -15,6 +16,7 @@ class Settings(BaseSettings):
     mini_app_url: str = ""  # ochiq HTTPS manzil, masalan https://ilm.example/app
     mini_app_auth_max_age: int = 3600
     content_channel: str = "@testislomyolida"
+    media_root: Path = Path("var/media")  # yopiq fayllar: hech qachon StaticFiles sifatida ochilmaydi
     protect_content: bool = True  # yuborilgan postlarni qayta yuborish/saqlashni cheklash
     database_url: str = "postgresql+asyncpg://ilmbot:ilmbot@localhost:5432/ilmbot"
     redis_url: str = "redis://localhost:6379/0"

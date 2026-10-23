@@ -137,3 +137,4 @@ dmypy.json
 *.sqlite3
 *.db
 result.json
+var/media/

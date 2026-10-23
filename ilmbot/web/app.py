@@ -12,6 +12,7 @@ from ilmbot.services.menu import MENU_VERSION_KEY, MenuService
 from ilmbot.web import (
     routes_auth,
     routes_broadcast,
+    routes_content,
     routes_inventory,
     routes_menu,
     routes_miniapp,
@@ -55,11 +56,12 @@ def create_app(
     async def security_headers(request: Request, call_next):
         response = await call_next(request)
         headers = dict(SECURITY_HEADERS)
-        if request.url.path in ("/app", "/app/") or request.url.path.startswith("/app/api/"):
+        if request.url.path in ("/app", "/app/") or request.url.path.startswith(("/app/api/", "/app/media/")):
             headers.pop("X-Frame-Options")
             headers["Content-Security-Policy"] = (
                 "default-src 'self'; script-src 'self' https://telegram.org; "
-                "style-src 'self' 'unsafe-inline'; img-src 'self' data:; "
+                "style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; "
+                "media-src 'self' blob:; worker-src 'self' blob:; "
                 "frame-ancestors https://web.telegram.org https://*.telegram.org https://telegram.org; "
                 "form-action 'self'; object-src 'none'; base-uri 'self'"
             )
@@ -74,13 +76,14 @@ def create_app(
 
     @app.exception_handler(HTTPException)
     async def http_error(request: Request, exc: HTTPException) -> HTMLResponse | JSONResponse:
-        if request.url.path.startswith("/app/api/"):
+        if request.url.path.startswith(("/app/api/", "/app/media/")):
             return JSONResponse({"detail": exc.detail}, status_code=exc.status_code, headers=exc.headers)
         return render(request, "error.html", status_code=exc.status_code, message=exc.detail)
 
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
     app.include_router(routes_auth.router)
     app.include_router(routes_miniapp.router)
+    app.include_router(routes_content.router)
     for module in (routes_broadcast, routes_menu, routes_inventory, routes_users, routes_prayer, routes_places):
         app.include_router(module.router)
     return app

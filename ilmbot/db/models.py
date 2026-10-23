@@ -150,6 +150,27 @@ class ButtonPost(Base):
     button: Mapped[Button] = relationship(back_populates="posts")
 
 
+class ContentPost(Base):
+    """Telegram postining web nusxasi. Katta fayllar bazada emas, yopiq media omborida."""
+
+    __tablename__ = "content_posts"
+    __table_args__ = (UniqueConstraint("channel", "message_id"),)
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    channel: Mapped[str] = mapped_column(String(255))
+    message_id: Mapped[int] = mapped_column(BigInteger)
+    title: Mapped[str] = mapped_column(Text, default="", server_default="")
+    body: Mapped[str] = mapped_column(Text, default="", server_default="")  # plain text
+    kind: Mapped[str] = mapped_column(String(16))  # text, photo, audio, video, pdf, document
+    mime_type: Mapped[str | None] = mapped_column(String(127))
+    file_name: Mapped[str | None] = mapped_column(Text)
+    file_size: Mapped[int | None] = mapped_column(BigInteger)
+    duration: Mapped[int | None] = mapped_column(Integer)
+    storage_key: Mapped[str | None] = mapped_column(String(64))  # SHA256, hech qachon foydalanuvchi yo'li emas
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True, server_default="true")
+    imported_at: Mapped[dt.datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+
+
 class Mosque(Base):
     __tablename__ = "mosques"
 

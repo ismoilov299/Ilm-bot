@@ -53,6 +53,14 @@ def make_client() -> TelegramClient:
     return TelegramClient(str(SESSION), int(env["TG_API_ID"]), env["TG_API_HASH"], flood_sleep_threshold=600)
 
 
+def cryptg_installed() -> bool:
+    try:
+        import cryptg  # noqa: F401
+    except ImportError:
+        return False
+    return True
+
+
 def human(size: float) -> str:
     return f"{size / 1024**3:.2f} GB" if size >= 1024**3 else f"{size / 1024**2:.1f} MB"
 
@@ -152,8 +160,10 @@ def save_manifest(manifest: dict[str, dict]) -> None:
     os.replace(temporary, DUMP / "manifest.json")
 
 
-async def download(channel: str, limit: int | None, workers: int = 4) -> int:
+async def download(channel: str, limit: int | None, workers: int = 8) -> int:
     """`workers` ta faylni bir vaqtda yuklaydi (Telegram bitta fayl tezligini cheklaydi, parallel esa tezlashtiradi)."""
+    if not cryptg_installed():
+        print("OGOHLANTIRISH: cryptg o'rnatilmagan, shifrlash sof Pythonda va juda sekin (pip install cryptg).")
     media_dir = DUMP / "media"
     media_dir.mkdir(parents=True, exist_ok=True)
     manifest: dict[str, dict] = {}
@@ -212,7 +222,8 @@ async def download(channel: str, limit: int | None, workers: int = 4) -> int:
 
                 try:
                     await client.download_media(message, file=str(partial), progress_callback=on_chunk)
-                    shutil.move(str(partial), str(path))  # TMP boshqa diskda bo'lishi mumkin
+                    # TMP boshqa diskda (Drive) bo'lishi mumkin; ko'chirish event loopni bloklamasin
+                    await asyncio.to_thread(shutil.move, str(partial), str(path))
                     progress.done_bytes += row.get("size", 0)
                     manifest[str(message.id)] = row
                 except Exception as error:  # noqa: BLE001  (bitta fayl butun jarayonni to'xtatmasin)
@@ -248,7 +259,7 @@ def main() -> int:
     run = sub.add_parser("download", help="kanalni yuklash")
     run.add_argument("--channel", default=DEFAULT_CHANNEL)
     run.add_argument("--limit", type=int, help="faqat dastlabki N ta post (sinov uchun)")
-    run.add_argument("--workers", type=int, default=4, help="bir vaqtda nechta fayl (standart 4)")
+    run.add_argument("--workers", type=int, default=8, help="bir vaqtda nechta fayl (standart 8)")
     args = parser.parse_args()
     if args.command == "login":
         return asyncio.run(login())
