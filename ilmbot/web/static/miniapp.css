@@ -21,3 +21,10 @@
 .welcome-gate>.round-icon{width:70px;height:70px;margin-bottom:20px}
 .welcome-gate>small{color:var(--muted);display:block;margin-top:20px;line-height:1.6}
 @media(orientation:landscape){.app-wrap{padding-left:max(20px,var(--app-safe-left));padding-right:max(20px,var(--app-safe-right))}}
+.material-list{display:grid;gap:12px;margin-top:18px;text-align:left}
+.material{padding:14px 16px}
+.material h3{margin:0 0 10px;font-size:15px;line-height:1.35}
+.material audio{display:block;width:100%}
+.material video{display:block;width:100%;max-height:62vh;border-radius:12px;background:#000}
+.material img{display:block;width:100%;height:auto;border-radius:12px}
+.material-text{margin:0;white-space:pre-line;line-height:1.55;font-size:14px}

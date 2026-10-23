@@ -292,12 +292,56 @@
     if (!node.post_count) {
       box.append(element("p", "", "Ushbu kontent tayyorlanmoqda. Boshqa bo‘limlarni ko‘rib chiqing.")); return;
     }
-    box.append(element("p", "", `${node.post_count} ta material. Audio, video yoki fayllarni Telegram suhbatida oling.`));
+    const list = element("div", "material-list");
+    box.append(list);
+    loadMaterials(node, list);
+  }
+  function telegramFallback(node, list, count) {
     const button = element("button", "primary", "Telegramda olish");
     button.prepend(icon("send"));
     button.disabled = !state.botUrl;
     button.addEventListener("click", () => openTelegram(`${state.botUrl}?start=content_${node.id}`));
-    box.append(button, element("p", "footnote", state.botUrl ? "Tanlangan material bot orqali yuboriladi." : "Botga havola hali sozlanmagan. Materialni bot menyusidan oching."));
+    const hint = count ? `${count} ta materialni bu yerda ijro etib bo‘lmaydi.` : "Materiallarni bu yerda ochib bo‘lmadi.";
+    list.append(element("p", "footnote", `${hint} Ularni bot orqali oling.`), button);
+  }
+  function materialCard(item) {
+    if (item.kind === "text") {
+      if (!item.body) return null;
+      const note = element("article", "material panel");
+      note.append(element("p", "material-text", item.body));
+      return note;
+    }
+    if (!item.available || !item.media_url || !["audio", "video", "photo"].includes(item.kind)) return null;
+    const card = element("article", "material panel");
+    if (item.title) card.append(element("h3", "", item.title));
+    const media = element(item.kind === "photo" ? "img" : item.kind);
+    if (item.kind === "photo") { media.alt = item.title || ""; media.loading = "lazy"; }
+    else {
+      media.controls = true;
+      media.preload = item.kind === "video" ? "metadata" : "none";
+      if (item.kind === "video") media.playsInline = true;
+      // Bir vaqtda faqat bittasi ijro etiladi
+      media.addEventListener("play", () => document.querySelectorAll("audio, video").forEach((other) => { if (other !== media) other.pause(); }));
+      media.addEventListener("error", () => {
+        if (!card.querySelector(".footnote")) card.append(element("p", "footnote", "Ijro etilmadi. Materialni Telegram orqali oching."));
+      });
+    }
+    media.src = item.media_url;
+    card.append(media);
+    return card;
+  }
+  async function loadMaterials(node, list) {
+    list.append(element("p", "status-copy", "Materiallar yuklanmoqda…"));
+    let data;
+    try { data = await api(`content/${node.id}`); }
+    catch (error) { list.replaceChildren(); telegramFallback(node, list); fail(error); return; }
+    list.replaceChildren();
+    let missing = data.pending;
+    data.items.forEach((item) => {
+      const card = materialCard(item);
+      if (card) list.append(card); else missing += 1;
+    });
+    if (!list.children.length || missing) telegramFallback(node, list, missing);
   }
   function catalogBack() {
     if ($("catalog-search").value) $("catalog-search").value = "";
